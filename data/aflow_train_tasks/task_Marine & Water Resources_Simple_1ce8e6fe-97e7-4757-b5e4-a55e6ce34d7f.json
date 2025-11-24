@@ -1,0 +1,18 @@
+{
+  "task_id": "1ce8e6fe-97e7-4757-b5e4-a55e6ce34d7f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_a4ce6537-ed3d-4346-bb5d-f317cc0c4be2.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the extent of coastal erosion by quantifying shoreline changes within the geographic area from 10.0°E, 45.0°N to 20.0°E, 50.0°N during 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

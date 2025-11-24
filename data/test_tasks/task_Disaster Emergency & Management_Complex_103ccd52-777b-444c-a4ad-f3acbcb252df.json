@@ -1,0 +1,26 @@
+{
+  "task_id": "103ccd52-777b-444c-a4ad-f3acbcb252df",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_0bf07441-9a24-49dc-9889-2aa893faa2fb.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a quantitative damage assessment for buildings and infrastructure in Lower Manhattan following the mid-January 2023 earthquake, using conditions from December 2022 as a comparative baseline.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_urban_areas",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "summarize_text",
+    "format_data"
+  ]
+}

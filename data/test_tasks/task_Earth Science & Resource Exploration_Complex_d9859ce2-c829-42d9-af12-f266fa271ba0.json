@@ -1,0 +1,24 @@
+{
+  "task_id": "d9859ce2-c829-42d9-af12-f266fa271ba0",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_7b6a71a7-4956-45dc-9fd3-d36e7661821e.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Using recent observations, generate a detailed report identifying the surface-level expressions of tectonic stress within a 5km radius of downtown Los Angeles and evaluate their alignment with known fault systems.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

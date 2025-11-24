@@ -1,0 +1,19 @@
+{
+  "task_id": "0bc5e0e4-a14a-4ec3-b2e0-3514bcd513d2",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_0bf4e4e5-25ff-47e0-8374-fad31a1f03f6.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Identify the most significant new congregation points and corridors for unauthorized vehicular activity that have emerged within a 50km radius of the Sasabe, Arizona border crossing during September 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

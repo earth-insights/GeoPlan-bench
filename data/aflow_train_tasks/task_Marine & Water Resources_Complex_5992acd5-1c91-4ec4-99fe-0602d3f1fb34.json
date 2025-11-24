@@ -1,0 +1,24 @@
+{
+  "task_id": "5992acd5-1c91-4ec4-99fe-0602d3f1fb34",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_ab7b45ca-2641-4211-9503-691162288272.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Characterize the transformation of the Southern California coastline between Malibu and Santa Barbara since 2010, quantifying the changes in coastal water bodies and assessing the subsequent impact on adjacent terrestrial habitats.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "enhance_image_resolution",
+    "segment_water_bodies",
+    "assess_coastal_erosion",
+    "assess_environmental_impact",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

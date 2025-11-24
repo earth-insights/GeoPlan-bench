@@ -1,0 +1,14 @@
+{
+  "task_id": "3f9e47b9-c33e-4887-acff-6ed4f2b3001c",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_609cfd08-50bb-4979-a455-9cebfb7bb394.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Determine the full extent of ecological harm to Santa Monica Bay's biodiversity and water quality resulting from pollutant transport during the storm systems of early October 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_marine_pollution",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

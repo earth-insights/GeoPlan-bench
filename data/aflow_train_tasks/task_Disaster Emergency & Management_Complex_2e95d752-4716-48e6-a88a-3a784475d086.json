@@ -1,0 +1,20 @@
+{
+  "task_id": "2e95d752-4716-48e6-a88a-3a784475d086",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_db538c77-28d3-4bb6-88ba-67ddc545deae.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess the structural impact on bridges, roads, and buildings within a 10km radius of downtown Los Angeles following the seismic event on October 10th, 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "calculate_time_difference",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_strategic_infrastructure"
+  ]
+}

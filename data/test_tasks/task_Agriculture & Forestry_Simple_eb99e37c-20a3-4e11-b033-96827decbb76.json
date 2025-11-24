@@ -1,0 +1,18 @@
+{
+  "task_id": "eb99e37c-20a3-4e11-b033-96827decbb76",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_b88333d7-b0a9-4051-861c-84842635ee71.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Given the environmental conditions observed across the California Central Coast during June 2023, generate a high-confidence yield forecast for the individual agricultural parcels in the area.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_agricultural_fields",
+    "assess_soil_moisture",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

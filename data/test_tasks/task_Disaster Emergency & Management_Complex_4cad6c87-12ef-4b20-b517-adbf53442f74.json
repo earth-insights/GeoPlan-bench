@@ -1,0 +1,22 @@
+{
+  "task_id": "4cad6c87-12ef-4b20-b517-adbf53442f74",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_f568ab10-be5c-4e4f-998c-b04bb47dcfaf.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a detailed statistical report on building damage in central Los Angeles caused by the January 2023 atmospheric river events.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

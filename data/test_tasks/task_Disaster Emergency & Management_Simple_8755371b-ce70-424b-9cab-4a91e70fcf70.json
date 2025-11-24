@@ -1,0 +1,19 @@
+{
+  "task_id": "8755371b-ce70-424b-9cab-4a91e70fcf70",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_09d27e3d-c30a-46b2-bc7f-3e0708625af6.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the severe January 2023 storms near Pollock Pines, California, generate the safest possible evacuation route from the isolated residential area at 38.55°N, -120.45°W to the emergency shelter at 38.7°N, -120.5°W, accounting for all recent environmental damage and lingering ground instability.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

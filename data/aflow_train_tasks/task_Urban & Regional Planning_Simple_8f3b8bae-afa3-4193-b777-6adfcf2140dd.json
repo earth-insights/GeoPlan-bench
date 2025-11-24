@@ -1,0 +1,18 @@
+{
+  "task_id": "8f3b8bae-afa3-4193-b777-6adfcf2140dd",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_70dbaa0d-5344-4917-a2e3-ec962737aa05.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "What was the predominant spatial pattern of urban expansion across the Phoenix metropolitan area during the decade from 2010 to 2020?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_urban_areas",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

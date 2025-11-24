@@ -1,0 +1,15 @@
+{
+  "task_id": "c887b52b-e4c9-4a39-9ca5-15b8c04f9ac0",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_72332544-4839-4d34-a14c-3661518036fd.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Characterize the transition from hardscaped urban channel to natural vegetation along the Los Angeles River segment bordering Elysian Park during early 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination"
+  ]
+}

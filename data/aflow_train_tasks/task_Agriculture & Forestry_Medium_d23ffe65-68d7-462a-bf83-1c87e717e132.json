@@ -1,0 +1,24 @@
+{
+  "task_id": "d23ffe65-68d7-462a-bf83-1c87e717e132",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_ea9da67e-baf1-4308-89c0-4b9429f4cef0.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on crop performance during the summer of 2023, what is the forecasted final yield with a statistical confidence summary for the farmland located just west of Southampton?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

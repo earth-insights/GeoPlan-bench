@@ -1,0 +1,25 @@
+{
+  "task_id": "ab7481ae-367e-4f83-8a45-c589fadb191d",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_eae67a08-8f52-41cf-8ad8-49946b07302e.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Assess the strategic posture and operational readiness of military assets near the Port of Los Angeles in response to heightened regional tensions over the past year.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_military_facilities",
+    "convert_coordinates",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "evaluate_operational_readiness",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

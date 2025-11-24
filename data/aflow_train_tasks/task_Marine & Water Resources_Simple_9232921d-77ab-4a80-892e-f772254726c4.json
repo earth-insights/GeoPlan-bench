@@ -1,0 +1,18 @@
+{
+  "task_id": "9232921d-77ab-4a80-892e-f772254726c4",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_53fe5335-5adc-4197-bc58-e03284487e95.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Identify the specific months and corresponding locations within Lake Tahoe that experienced the most significant deviations from normal water purity throughout 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

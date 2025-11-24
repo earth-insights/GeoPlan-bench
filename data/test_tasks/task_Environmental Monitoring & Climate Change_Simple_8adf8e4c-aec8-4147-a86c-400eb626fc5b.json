@@ -1,0 +1,18 @@
+{
+  "task_id": "8adf8e4c-aec8-4147-a86c-400eb626fc5b",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_9c9d659d-3b1a-482e-ae33-7443fd4c79a3.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Investigate the water quality of reservoirs and lakes within the Los Angeles metropolitan area during January 2023 to determine if elevated water cloudiness is a significant indicator of algal bloom presence.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "crop_image",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

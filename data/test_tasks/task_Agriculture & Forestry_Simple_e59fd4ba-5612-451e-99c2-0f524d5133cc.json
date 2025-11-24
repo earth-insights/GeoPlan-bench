@@ -1,0 +1,16 @@
+{
+  "task_id": "e59fd4ba-5612-451e-99c2-0f524d5133cc",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_3378e19c-8693-4f59-aabd-a59b6970279a.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Identify which peri-urban agricultural fields experienced significant crop stress this past January and diagnose the presence of blight, rust, or powdery mildew within them.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

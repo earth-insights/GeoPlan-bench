@@ -1,0 +1,18 @@
+{
+  "task_id": "3b3fcdf9-7683-40f7-ad80-7b9d9b373c80",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_30e57432-0748-4387-8a31-6463e21211e8.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Considering the heavy rainfall over Los Angeles during the first half of October 2023, produce a detailed flood risk zone analysis for the urban corridor along the LA River, focusing specifically on the area between the Cesar Chavez Avenue and 1st Street bridges.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_flood_risk_zones"
+  ]
+}

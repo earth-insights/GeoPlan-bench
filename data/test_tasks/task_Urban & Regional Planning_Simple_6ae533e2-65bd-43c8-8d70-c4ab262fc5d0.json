@@ -1,0 +1,13 @@
+{
+  "task_id": "6ae533e2-65bd-43c8-8d70-c4ab262fc5d0",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_b1c45461-2c36-4393-ac34-30387edc9222.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "To inform future climate resilience policies for San Francisco, quantify the significant temperature disparities between the city's urban core and its surrounding non-urban areas throughout 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "evaluate_urban_heat_island",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

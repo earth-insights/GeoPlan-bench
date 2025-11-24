@@ -1,0 +1,18 @@
+{
+  "task_id": "7a8e0071-5a79-4069-a30f-7c2bf5d0a64d",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_9c9d659d-3b1a-482e-ae33-7443fd4c79a3.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "To inform Los Angeles's urban greening initiative, what was the mean carbon storage contribution of key vegetated land types within the central city core during 2021?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "crop_image",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "assess_carbon_sequestration",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

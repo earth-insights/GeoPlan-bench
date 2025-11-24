@@ -1,0 +1,23 @@
+{
+  "task_id": "9c3191ea-ca12-41bb-93bd-9b15ffc64385",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_000b4c3c-6556-4440-8d55-f3d7ce67d31d.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Quantify the shift in the balance between built-up areas and green spaces within downtown Los Angeles versus its suburban zones during 2022, and determine if this recent development aligns with the city's growth patterns from the previous decade.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_land_use_efficiency",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

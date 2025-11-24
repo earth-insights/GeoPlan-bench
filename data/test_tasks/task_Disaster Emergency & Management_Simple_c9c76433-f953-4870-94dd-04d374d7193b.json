@@ -1,0 +1,14 @@
+{
+  "task_id": "c9c76433-f953-4870-94dd-04d374d7193b",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_dcdf85e9-dcf3-40dd-80dc-98095e661217.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Evaluate the severity of the early October 2023 flooding event in New Orleans and assess the initial effectiveness of the community's recovery efforts by October 15th.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

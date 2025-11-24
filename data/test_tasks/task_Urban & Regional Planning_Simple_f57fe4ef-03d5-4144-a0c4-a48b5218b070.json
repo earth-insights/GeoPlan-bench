@@ -1,0 +1,19 @@
+{
+  "task_id": "f57fe4ef-03d5-4144-a0c4-a48b5218b070",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_eed215a2-b178-492f-b28b-b310db29ffa0.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the spatial dynamics of urban expansion around downtown Los Angeles from 2018 to 2023 and determine if this development led to a statistically significant shift in local population density.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "4e991054-13b7-46df-9ddb-f5e399ab5b82",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_ca8727d2-a9f4-42a8-86ac-dc6e4697d40e.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the risk of significant algal blooms in the Amazonian river section from longitude -60.5 to -60.0 and latitude -3.0 to -2.5 for June 2023 by analyzing the interplay between eutrophication and other key water quality indicators.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

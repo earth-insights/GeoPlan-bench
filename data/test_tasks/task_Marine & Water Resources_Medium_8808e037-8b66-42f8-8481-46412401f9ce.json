@@ -1,0 +1,23 @@
+{
+  "task_id": "8808e037-8b66-42f8-8481-46412401f9ce",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_338843a5-826c-4624-8f88-ed1aedb5e5d0.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "To what extent did last year's heatwaves influence the severity and timing of algae blooms in the reservoirs near Los Angeles?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

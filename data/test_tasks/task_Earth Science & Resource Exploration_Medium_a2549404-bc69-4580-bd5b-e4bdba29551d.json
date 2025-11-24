@@ -1,0 +1,24 @@
+{
+  "task_id": "a2549404-bc69-4580-bd5b-e4bdba29551d",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_99a83c1c-f6ad-430e-804e-0b409b78ab3f.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Generate a prioritized list of exploration targets for gold, copper, and zinc within the geologically complex and underexplored Northern Puna Plateau, justifying the site rankings with an assessment of their structural favorability.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "summarize_text",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

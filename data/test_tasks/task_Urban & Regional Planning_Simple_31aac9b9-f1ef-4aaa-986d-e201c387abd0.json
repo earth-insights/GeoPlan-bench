@@ -1,0 +1,17 @@
+{
+  "task_id": "31aac9b9-f1ef-4aaa-986d-e201c387abd0",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_5f138bb3-2f97-469b-9d9c-c59f59a86b24.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Which sizable, non-developed land parcels within the greater Los Angeles area showed the least ecological utility in January 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "assess_land_use_efficiency",
+    "generate_analysis_reports"
+  ]
+}

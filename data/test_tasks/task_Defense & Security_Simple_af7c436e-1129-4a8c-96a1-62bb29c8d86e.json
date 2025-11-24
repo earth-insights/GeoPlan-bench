@@ -1,0 +1,20 @@
+{
+  "task_id": "af7c436e-1129-4a8c-96a1-62bb29c8d86e",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_b960db22-fdc1-420d-8b8f-b5ae7a1a0e12.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Identify any significant modifications to the layout and accessibility of strategic military facilities in the Tokyo region during 2023 that suggest a change in their operational readiness or strategic posture.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "detect_roads",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

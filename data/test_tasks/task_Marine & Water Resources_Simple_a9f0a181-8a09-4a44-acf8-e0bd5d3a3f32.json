@@ -1,0 +1,19 @@
+{
+  "task_id": "a9f0a181-8a09-4a44-acf8-e0bd5d3a3f32",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_b1efa882-af8a-40b3-8ff0-b288b1500b33.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "How did shipping traffic congestion and vessel movement speeds fluctuate on a monthly basis within the Port of Los Angeles throughout 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "task_id": "bf28062c-d83c-451c-a959-1ee6876e549e",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_eaa9eb3f-cfb3-4894-ba5f-7c51b0490368.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify new, economically viable gold prospects within the Fraser Valley for 2023, and assess the environmental impact of current mining operations on the region's habitats and water quality.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "enhance_image_resolution",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

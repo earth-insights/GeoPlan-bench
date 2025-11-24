@@ -1,0 +1,16 @@
+{
+  "task_id": "f2f00959-e7b0-4442-92f6-ccef1dd87c42",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_16435682-19e9-4990-b3e9-a21a06d5485e.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Which agricultural areas in the Midwestern United States experienced the most severe vegetation stress due to drought conditions during the primary growing months of 2023?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_drought_conditions"
+  ]
+}

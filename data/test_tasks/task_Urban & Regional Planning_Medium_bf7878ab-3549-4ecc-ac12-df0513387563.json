@@ -1,0 +1,21 @@
+{
+  "task_id": "bf7878ab-3549-4ecc-ac12-df0513387563",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_ac12e74c-4954-4d1d-8084-972ba73614fc.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Determine the correlation between the growth of new urbanized surfaces and population density patterns in downtown Los Angeles throughout 2021.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "assess_urbanization_level",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

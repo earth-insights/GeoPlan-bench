@@ -1,0 +1,19 @@
+{
+  "task_id": "57fcd70f-25e4-426a-a40d-ac494a1abb5b",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_cef19cfb-8fb6-44e5-bf9d-3e0c158ff1cb.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate the ecological condition of the wetland habitats surrounding Lake Merced by analyzing the vegetation health throughout 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "segment_water_bodies",
+    "assess_wetland_conditions"
+  ]
+}

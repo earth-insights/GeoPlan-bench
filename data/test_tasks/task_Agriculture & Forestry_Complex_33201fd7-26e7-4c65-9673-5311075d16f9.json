@@ -1,0 +1,19 @@
+{
+  "task_id": "33201fd7-26e7-4c65-9673-5311075d16f9",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_bc6e2249-a70d-4e95-8399-4d28d8d36cda.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint the precise agricultural parcels in Italy's Po Valley affected by a suspected blight outbreak and assess its impact on vegetation health throughout the summer 2023 growing season.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

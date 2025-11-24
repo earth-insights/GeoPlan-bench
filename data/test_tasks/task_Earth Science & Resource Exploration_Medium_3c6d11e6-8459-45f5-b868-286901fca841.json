@@ -1,0 +1,18 @@
+{
+  "task_id": "3c6d11e6-8459-45f5-b868-286901fca841",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_65f50b69-1178-4d95-97d2-9e83a942b897.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "What was the precise composition of urban, agricultural, and forested land cover across the downtown Victoria, BC peninsula in September 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover"
+  ]
+}

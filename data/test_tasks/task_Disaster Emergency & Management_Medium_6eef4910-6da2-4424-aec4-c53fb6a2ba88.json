@@ -1,0 +1,20 @@
+{
+  "task_id": "6eef4910-6da2-4424-aec4-c53fb6a2ba88",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_3b75aaf1-844f-4144-889d-49a2d36f56cc.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the January 2023 atmospheric river event in California, which hillside communities suffered the most significant landslide impacts, and how did their six-month recovery progress relate to the initial level of damage?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_terrain_type",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "assess_recovery_progress"
+  ]
+}

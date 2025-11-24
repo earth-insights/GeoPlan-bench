@@ -1,0 +1,19 @@
+{
+  "task_id": "edde536a-8d7d-44e2-83c4-1542f9db4f5f",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_316ea283-64b9-44e3-b65f-ad0c5104094b.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "What is the projected yield and potential range of outcomes for the 2023 corn harvest in the Santa Barbara coastal agricultural zone, based on an analysis of early summer soil conditions?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "assess_soil_moisture",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

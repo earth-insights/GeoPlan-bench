@@ -1,0 +1,15 @@
+{
+  "task_id": "963cc131-7c9f-4de3-b418-89ca46181526",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_8009b006-28b4-44ff-b4be-3d8768cc3912.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the precise extent of all stable water bodies and river channels in the vicinity of Kyiv's northern reservoir for June 2023 to verify our civil infrastructure water-exposure models.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies"
+  ]
+}

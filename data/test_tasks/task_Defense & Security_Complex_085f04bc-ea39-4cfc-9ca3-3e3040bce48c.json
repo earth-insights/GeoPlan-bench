@@ -1,0 +1,23 @@
+{
+  "task_id": "085f04bc-ea39-4cfc-9ca3-3e3040bce48c",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_12e13113-ecb5-422c-ba9c-fa56d2a5c21b.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Evaluate the threat level posed by the recent emergence of fortified positions and increased vehicle concentrations along key logistical routes in the Middle East, based on activity from January 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "resize_image",
+    "detect_roads",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "summarize_text",
+    "extract_keywords",
+    "generate_analysis_reports"
+  ]
+}

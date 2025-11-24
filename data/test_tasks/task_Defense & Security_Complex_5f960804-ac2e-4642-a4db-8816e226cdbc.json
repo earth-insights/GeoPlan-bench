@@ -1,0 +1,24 @@
+{
+  "task_id": "5f960804-ac2e-4642-a4db-8816e226cdbc",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_c381b484-193c-470e-ac71-19d067d3f245.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "What is the emergent threat level in lower Manhattan based on an analysis of force deployment configurations observed in September 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_urban_areas",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

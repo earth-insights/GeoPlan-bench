@@ -1,0 +1,19 @@
+{
+  "task_id": "b1a307b6-d9a8-49f4-9971-9089c2bb2d29",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_2cb0e5cd-aeb9-47ff-976e-15bc58250782.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Produce a quantitative report on the spatial characteristics of urban development that occurred within the central Los Angeles corridor during 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

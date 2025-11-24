@@ -1,0 +1,19 @@
+{
+  "task_id": "f60c4f63-6fc7-48e8-83a6-0c35abe5e7c9",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_8a9b2fd6-f4d3-4596-a633-2120f8ac85b9.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Evaluate our 50 sq km exploration block near the Chad-Sudan border to identify and rank the highest-grade gold, copper, and iron deposits based on last year's surface alterations and initial field sampling results.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "evaluate_ore_quality"
+  ]
+}

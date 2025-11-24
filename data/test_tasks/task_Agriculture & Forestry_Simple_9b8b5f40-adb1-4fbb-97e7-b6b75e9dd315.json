@@ -1,0 +1,13 @@
+{
+  "task_id": "9b8b5f40-adb1-4fbb-97e7-b6b75e9dd315",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_316ea283-64b9-44e3-b65f-ad0c5104094b.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Quantify how this season's weather patterns impacted the final predicted maize yield for Field_A_12N, considering it was planted on May 15th with 150 units of fertilizer and drip irrigation, and generate the final analysis report.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "873cb611-1adf-40ca-be84-60c028f2114e",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_de86fc4b-4f38-4c4f-b32a-2bf169948afe.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "What was the combined structural and agricultural impact of the August 2023 Los Angeles fire on the central urban corridor?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "track_wildfire_progression",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

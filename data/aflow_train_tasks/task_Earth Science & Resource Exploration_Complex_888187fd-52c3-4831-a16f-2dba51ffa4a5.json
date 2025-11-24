@@ -1,0 +1,23 @@
+{
+  "task_id": "888187fd-52c3-4831-a16f-2dba51ffa4a5",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_e6c52607-449f-46c1-8c6f-84588588eb03.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the comprehensive geological and environmental risks, including ground instability and potential watershed contamination, for a proposed mining operation targeting lithium deposits along the fault systems north of Los Angeles.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "monitor_mining_operations",
+    "assess_mining_safety"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "5e9b78c3-7392-4ed0-9d39-c64a030cb2b2",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_9c9d659d-3b1a-482e-ae33-7443fd4c79a3.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Quantify the land cover transformation in the Shaver Lake watershed between 2020 and January 2023, specifically detailing the change in area for forests, water bodies, and developed land.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "crop_image",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "calculate_time_difference",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

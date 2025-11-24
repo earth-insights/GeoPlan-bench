@@ -1,0 +1,18 @@
+{
+  "task_id": "24e3d443-0370-4a90-b21f-e11dd886466b",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_52d7a27e-ec81-4983-a20b-1c0e43f69e55.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the geographic patterns of urban expansion across California from 2019 to 2020, and analyze how this growth aligns with changes in local population density.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

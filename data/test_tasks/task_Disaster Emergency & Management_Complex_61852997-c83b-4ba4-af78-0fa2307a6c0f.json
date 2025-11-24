@@ -1,0 +1,21 @@
+{
+  "task_id": "61852997-c83b-4ba4-af78-0fa2307a6c0f",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_d5560132-9b8a-4ca8-b7e1-19d25d073a3a.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent seismic event in lower Manhattan, quantify the structural damage to individual buildings and assess the initial environmental recovery status by late January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

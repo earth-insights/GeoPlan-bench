@@ -1,0 +1,18 @@
+{
+  "task_id": "8b348c63-f3d3-4c9e-a4aa-30d537c1695b",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_103951aa-032d-406b-9628-c354ba5744ec.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "For our May 2023 water resource assessment in the Central Valley, what is the specific land cover and total acreage of each individual agricultural field in the region west of Fresno?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

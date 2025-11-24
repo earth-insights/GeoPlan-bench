@@ -1,0 +1,16 @@
+{
+  "task_id": "6dd527b7-80ab-49c2-94fd-8e48aa32d601",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_0584dc4a-8a5a-4c1f-8ab8-f163ec7efb24.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Following the severe atmospheric river storms in January 2023, evaluate the resulting geological instability of the slopes in the San Gabriel Mountains directly north of the Los Angeles basin.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "predict_landslide_risk",
+    "assess_slope_stability"
+  ]
+}

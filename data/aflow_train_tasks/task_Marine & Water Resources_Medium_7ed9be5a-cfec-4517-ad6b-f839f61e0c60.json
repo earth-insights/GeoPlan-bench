@@ -1,0 +1,23 @@
+{
+  "task_id": "7ed9be5a-cfec-4517-ad6b-f839f61e0c60",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_6dcbc617-cfd1-4fc0-82bb-035c5d2d7fbe.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Generate a statistical report on the density and frequency of commercial versus fishing vessel activities in the Santa Barbara Channel for the year 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

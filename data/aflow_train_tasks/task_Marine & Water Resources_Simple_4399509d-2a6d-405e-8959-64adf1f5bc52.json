@@ -1,0 +1,17 @@
+{
+  "task_id": "4399509d-2a6d-405e-8959-64adf1f5bc52",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_aed07c14-c3ab-48a7-bb4e-fd2133dc9c8f.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "To prioritize shoreline protection efforts for the South Philadelphia waterfront, determine if a quantifiable pattern exists between the rate of recent land erosion and the distance from the current Delaware River bank.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

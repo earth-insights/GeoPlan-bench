@@ -1,0 +1,19 @@
+{
+  "task_id": "4281a7d3-1fab-47d4-a030-23b223d0d189",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_c93f73bb-c592-4fc2-bc8d-7843ee617d89.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Based on observed activity levels during the final month of 2023, what was the inferred operational readiness of military forces deployed within the greater New York City area?",
+  "ground_truth_tool_flow": [
+    "convert_coordinates",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "evaluate_operational_readiness"
+  ]
+}

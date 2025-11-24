@@ -1,0 +1,27 @@
+{
+  "task_id": "f05d1ffa-033e-4cf1-ac0c-242d01ae317a",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_3efa74cd-5672-4c95-a793-4bde0c283109.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Evaluate the 2023 operational footprint and land reclamation progress of the XYZ Mine on the California Central Coast, while also identifying any remaining valuable mineral deposits in the immediate area.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "track_land_reclamation",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

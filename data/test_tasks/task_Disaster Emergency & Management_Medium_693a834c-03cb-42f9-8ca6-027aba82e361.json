@@ -1,0 +1,17 @@
+{
+  "task_id": "693a834c-03cb-42f9-8ca6-027aba82e361",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_373a6084-0715-4f45-9839-0c673f83ebee.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Visually identify any discernible surface disruptions within Shinjuku Gyoen National Garden and its surrounding urban area caused by the major storm system that affected Tokyo during the first week of October 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

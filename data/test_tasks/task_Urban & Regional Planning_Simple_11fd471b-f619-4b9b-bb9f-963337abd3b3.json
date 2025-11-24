@@ -1,0 +1,18 @@
+{
+  "task_id": "11fd471b-f619-4b9b-bb9f-963337abd3b3",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_36c1c1e8-6211-4ce9-9ed6-161d6962eab1.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "What was the precise annualized growth rate of new urban development along the East River corridor connecting Lower Manhattan and Queens during 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "task_id": "385c597c-da22-45cf-9525-0def9cb84909",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_696e2522-eec0-4d54-b8ec-8fc358bbba17.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the seismic event in late September 2023, quantify the structural damage to critical infrastructure within the urban core of downtown Los Angeles.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_urban_areas",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

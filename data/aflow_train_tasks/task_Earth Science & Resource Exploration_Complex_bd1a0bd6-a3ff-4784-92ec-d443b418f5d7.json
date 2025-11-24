@@ -1,0 +1,22 @@
+{
+  "task_id": "bd1a0bd6-a3ff-4784-92ec-d443b418f5d7",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_558333b2-9db7-4a67-8963-88be3c68dc16.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on geological and surface conditions from 2023, produce a detailed landslide risk forecast for the mountainous area enclosed by coordinates [[-119.4179, 36.7783], [-118.4179, 36.7783], [-118.4179, 37.7783], [-119.4179, 37.7783]].",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

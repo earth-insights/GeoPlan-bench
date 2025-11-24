@@ -1,0 +1,15 @@
+{
+  "task_id": "fcd98bf5-1f73-409c-99f3-fdda7cf2f485",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_573a7db8-5efb-4159-9402-de340c8af0c3.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Produce a single, cloud-free visualization from 2023 that highlights the contrast between vegetated areas and built environments within the Lake Nokomis and Minnehaha Park corridor.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

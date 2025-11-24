@@ -1,0 +1,19 @@
+{
+  "task_id": "b38093fa-0fea-4c8b-acca-6607f349aff5",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_ba5d6d14-72ad-4101-9396-c1927f42a0b8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint which of our agricultural fields near downtown Los Angeles experienced declining health this past June and July, and determine if the stress is from a mildew outbreak or an aphid infestation.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

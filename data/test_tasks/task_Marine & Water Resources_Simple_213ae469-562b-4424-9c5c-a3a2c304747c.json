@@ -1,0 +1,19 @@
+{
+  "task_id": "213ae469-562b-4424-9c5c-a3a2c304747c",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_bafdc4c2-8cc1-4b7e-85a2-037ebf53495b.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Determine the influence of the surrounding urban and agricultural land cover on the ecological health of water bodies near downtown Los Angeles during mid-April 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "assess_water_quality",
+    "statistical_analysis",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

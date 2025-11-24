@@ -1,0 +1,19 @@
+{
+  "task_id": "6e2e7033-3d61-401b-a3a9-fdef64cd1354",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_66703207-14dc-4e50-8f81-effe81335d9a.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Produce a strategic threat analysis for Eastern Europe by identifying new military installations from 2023 and assessing their logistical integration with the surrounding road network.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_roads",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

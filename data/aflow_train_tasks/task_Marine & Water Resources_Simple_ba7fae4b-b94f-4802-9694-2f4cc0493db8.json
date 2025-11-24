@@ -1,0 +1,16 @@
+{
+  "task_id": "ba7fae4b-b94f-4802-9694-2f4cc0493db8",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_21f16c49-ef0c-4585-aa48-439e993c68a7.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the impact of 2023's surface landscape composition in central Tokyo on the underlying groundwater recharge capacity.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "evaluate_groundwater_resources"
+  ]
+}

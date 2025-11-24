@@ -1,0 +1,13 @@
+{
+  "task_id": "df3f1b90-d929-4b52-810b-9fdbf8205442",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_ea9da67e-baf1-4308-89c0-4b9429f4cef0.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Identify all locations in the Amazon rainforest with substantial new clearings between January and October 1st, 2023, that strongly indicate high-priority illegal logging activity.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "monitor_deforestation",
+    "detect_illegal_logging"
+  ]
+}

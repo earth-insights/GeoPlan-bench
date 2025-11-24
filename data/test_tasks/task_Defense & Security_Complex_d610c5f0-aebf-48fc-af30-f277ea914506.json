@@ -1,0 +1,23 @@
+{
+  "task_id": "d610c5f0-aebf-48fc-af30-f277ea914506",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_a2e8ae5e-71f7-4a93-a632-974d1d554ff7.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Evaluate the operational readiness of central San Francisco's emergency services to secure critical infrastructure, such as schools and hospitals, against potential urban warfare threats based on the city's layout in January 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "evaluate_operational_readiness",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

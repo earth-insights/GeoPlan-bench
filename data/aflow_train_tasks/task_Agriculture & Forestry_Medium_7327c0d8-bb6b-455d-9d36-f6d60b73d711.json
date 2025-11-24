@@ -1,0 +1,16 @@
+{
+  "task_id": "7327c0d8-bb6b-455d-9d36-f6d60b73d711",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_7f0e227c-1ded-4ae2-b19f-af17f04a1c5e.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint the specific orchards within central Washington's agricultural zone that showed the earliest signs of significant disease stress during the 2023 growing season.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_plant_diseases"
+  ]
+}

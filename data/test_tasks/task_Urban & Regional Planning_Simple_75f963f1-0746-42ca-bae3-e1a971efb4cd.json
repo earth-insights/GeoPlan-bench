@@ -1,0 +1,19 @@
+{
+  "task_id": "75f963f1-0746-42ca-bae3-e1a971efb4cd",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_a121db34-953b-490a-9157-47e2aa5f8e40.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Pinpoint the hotspots and quantify the spatial intensity of urban expansion in Lower Manhattan from 2010 to 2020.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

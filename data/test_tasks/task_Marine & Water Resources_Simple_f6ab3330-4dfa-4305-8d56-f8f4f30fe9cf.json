@@ -1,0 +1,19 @@
+{
+  "task_id": "f6ab3330-4dfa-4305-8d56-f8f4f30fe9cf",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_90820a34-b95e-42f8-b936-c901e68ffeec.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Identify the principal water quality drivers, such as nutrient and sediment concentrations, that statistically influenced the severity of algal bloom events in the San Francisco Bay throughout 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

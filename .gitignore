@@ -38,7 +38,7 @@ ENV/
 .env.local
 
 # Data directories
-data/
+# data/
 agent_logs/
 
 

@@ -1,0 +1,19 @@
+{
+  "task_id": "6c3bdd99-456b-48ba-8795-e128d7d39711",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_79e3751e-ec75-4ff3-a379-565dc0c8f6fd.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the conversion of non-agricultural land to active farmland within the western Sacramento-San Joaquin Delta from January to July 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "classify_land_cover",
+    "track_land_reclamation"
+  ]
+}

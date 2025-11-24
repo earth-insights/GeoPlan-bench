@@ -1,0 +1,19 @@
+{
+  "task_id": "55967fb4-6da4-4b98-b025-7a66db75bdeb",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_0f737841-a2a2-4e6c-b4f3-9f2890112962.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify the most geologically plausible locations for untapped copper, gold, and silver deposits within the Los Angeles metropolitan area based on surface indicators from early 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

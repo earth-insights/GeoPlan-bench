@@ -1,0 +1,17 @@
+{
+  "task_id": "cc813d1a-8cae-4758-aa65-823e81eace4d",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_3c46eb9d-feae-43de-b8ea-b1a24654fa97.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "For a major river system in January 2023, did the primary tributaries contribute significantly different levels of sediment and algae compared to the main river channel?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "d2f05f54-ade8-44b9-a0c9-3b816bdca1e7",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_14beff32-37d4-498e-be19-b54fbbc749f8.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "After last October's storms in San Francisco, identify the most critical areas of hillside failure, assess the full scope of the damage, and map out the safest evacuation corridors for affected neighborhoods.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "b5fb4ad6-2490-4948-8971-876fc1fb2312",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_54494664-a0e7-46a1-959a-583ca1145516.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Analyze the interplay between topography, vegetation, and potential gold mineralization in the region south of Sydney from late 2023 to pinpoint the most promising exploration targets.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "task_id": "299abae6-e465-4d64-bb55-3fc00e95c72c",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_dd6533ef-3e41-48c3-a39b-a43380f3c43c.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on vegetative development from June through August 2023, generate a final yield forecast and comparative health analysis for the five primary agricultural parcels in the Conejo Valley, California.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

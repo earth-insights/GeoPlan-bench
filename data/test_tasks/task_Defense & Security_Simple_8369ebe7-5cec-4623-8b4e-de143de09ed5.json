@@ -1,0 +1,20 @@
+{
+  "task_id": "8369ebe7-5cec-4623-8b4e-de143de09ed5",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_7ca21faf-8af6-43b0-a7b5-517b8e3813d6.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Based on the recent development of logistical and strategic infrastructure near the Aridian border valley in the first three quarters of 2023, what is the most probable strategic objective and associated threat vector for a potential cross-border incursion?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

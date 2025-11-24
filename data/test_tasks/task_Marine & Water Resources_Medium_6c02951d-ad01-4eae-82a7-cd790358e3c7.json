@@ -1,0 +1,17 @@
+{
+  "task_id": "6c02951d-ad01-4eae-82a7-cd790358e3c7",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_1018b46e-fe3d-49b7-911d-3d7b376a22ea.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Provide a tiered assessment of soil moisture conditions across the public green spaces of San Francisco's Mission Bay district during June 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_soil_moisture"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "task_id": "4d2b661e-7f43-44d9-9b37-fd1dce825296",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_bb1ed3e1-2fc2-4afc-987d-917494163fc7.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "To what extent did sea surface temperature variations in September 2023 influence the concentration of marine plastics and the frequency of oil slicks in the Pacific Ocean at 30°N, -120°W?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_marine_pollution",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

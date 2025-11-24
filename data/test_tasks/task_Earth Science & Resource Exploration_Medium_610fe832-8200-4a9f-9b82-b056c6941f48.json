@@ -1,0 +1,24 @@
+{
+  "task_id": "610fe832-8200-4a9f-9b82-b056c6941f48",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_5b8df805-25d9-490b-8034-9e2d9421c172.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the correlation between the locations of major geological faults and folds and the potential presence of gold, copper, and silver deposits in the hills immediately north of downtown Los Angeles based on recent observations.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "resize_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "f1c7bfae-03a4-4ca9-9481-428cf400b733",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_12dba204-4be4-49d9-a3fb-a366b98e240a.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Investigate the primary agricultural parcels of the Green Valley Farmers' Cooperative to identify and map all instances of significant crop stress, evidenced by yellowing and wilting, throughout the 2023 growing season.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_vegetation",
+    "classify_land_cover",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

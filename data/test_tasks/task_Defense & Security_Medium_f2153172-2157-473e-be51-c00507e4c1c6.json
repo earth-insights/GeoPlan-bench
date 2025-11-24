@@ -1,0 +1,24 @@
+{
+  "task_id": "f2153172-2157-473e-be51-c00507e4c1c6",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_a599667b-0909-45e0-a345-4c3b4b678fc5.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Produce a maritime threat assessment for the shipping lanes in the central Indian Ocean covering the first nine months of 2023, identifying specific vessel activities that deviate significantly from established commercial patterns to indicate potential illicit operations.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "analyze_threat_patterns",
+    "summarize_text",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

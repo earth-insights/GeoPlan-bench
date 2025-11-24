@@ -1,0 +1,19 @@
+{
+  "task_id": "e3c702ee-e6fa-4b77-9fa5-650aa4894df3",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_900e8472-91a3-40ff-9ce3-b79668db036c.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Based on the observed surface water distribution in the Los Angeles area during April 2022, provide a quantitative assessment of the health and stability of the underlying groundwater tables.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "evaluate_groundwater_resources",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

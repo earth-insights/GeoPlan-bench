@@ -1,0 +1,23 @@
+{
+  "task_id": "6faa0469-e909-4c1c-9b36-ab54cc2a0bea",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_80de54a3-90a8-42cb-b4b3-dbff20c98376.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Analyze geological formations from the last year within a 50km radius of the Grasberg Mine to identify and statistically assess new prospective zones for copper and gold, correlating your findings with the known deposit characteristics of the primary mine.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "correlation_analysis",
+    "identify_mineral_deposits",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

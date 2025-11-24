@@ -1,0 +1,18 @@
+{
+  "task_id": "7965ce3e-b565-43d2-b88c-7c577bd0652a",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_a4ce6537-ed3d-4346-bb5d-f317cc0c4be2.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "How did the presence of algae blooms affect water turbidity in the waters surrounding Alcatraz Island throughout June 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

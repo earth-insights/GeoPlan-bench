@@ -1,0 +1,16 @@
+{
+  "task_id": "6c5c4bd9-1e96-40d9-affc-90be83e15406",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_000b4c3c-6556-4440-8d55-f3d7ce67d31d.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Determine the relationship between pre-existing infrastructure levels, proximity to green spaces, and the resulting population density of new urban developments that emerged across the metropolitan area between 2022 and 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

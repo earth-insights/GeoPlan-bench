@@ -1,0 +1,22 @@
+{
+  "task_id": "7c42fc66-11ae-493f-aefe-9fa6ffb2dfdc",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_258b5487-8b0f-4f2c-beb9-87192bb8eff9.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent catastrophic landslide in the San Gabriel Mountains, determine the most viable and secure evacuation route for residents from the impacted foothills down to the Los Angeles basin.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_terrain_type",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

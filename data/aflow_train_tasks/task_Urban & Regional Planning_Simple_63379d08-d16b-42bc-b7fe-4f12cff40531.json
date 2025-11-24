@@ -1,0 +1,17 @@
+{
+  "task_id": "63379d08-d16b-42bc-b7fe-4f12cff40531",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_4adfa15b-13c7-49a1-9d78-663b7d536eb3.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the primary mode of urban development over the past year on the outskirts of the capital, distinguishing between contiguous expansion along existing city edges and the emergence of new, isolated settlement clusters.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "segment_urban_areas",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "generate_analysis_reports"
+  ]
+}

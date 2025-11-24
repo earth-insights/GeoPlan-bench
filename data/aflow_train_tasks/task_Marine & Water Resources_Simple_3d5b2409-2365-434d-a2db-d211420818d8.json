@@ -1,0 +1,18 @@
+{
+  "task_id": "3d5b2409-2365-434d-a2db-d211420818d8",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_1287e873-af5a-46f3-af7b-b0d57eb9e326.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the statistical relationship between water turbidity and areas of high algal concentration within Santa Monica Bay for January 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

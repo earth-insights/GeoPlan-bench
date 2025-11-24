@@ -1,0 +1,22 @@
+{
+  "task_id": "2564bd54-5faf-4759-a475-0a672310791a",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_717a596c-3c13-4ff7-839d-48515d2dde37.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the spatial patterns and variability of urban expansion within the core of City A between 2013 and 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "format_data",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

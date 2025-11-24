@@ -1,0 +1,22 @@
+{
+  "task_id": "14e8c33c-6101-43b3-aaf2-82660f0632c3",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_132a0eea-1359-4926-9948-a43aa6911b9c.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess how the primary geological lineaments in the San Fernando Valley area influenced the distribution of groundwater resources throughout 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

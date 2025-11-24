@@ -1,0 +1,13 @@
+{
+  "task_id": "1088f55f-700f-4f05-8285-d169df1981c1",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d5e8a4b3-6908-401e-b198-edfe54da8840.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess the flood impact from the heavy rainfall in New Orleans during the first week of October 2023 and determine the safest evacuation routes from City Hall to the designated shelters in Uptown and Mid City.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_flood_extent",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

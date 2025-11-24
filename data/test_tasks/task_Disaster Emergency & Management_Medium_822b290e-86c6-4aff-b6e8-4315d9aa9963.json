@@ -1,0 +1,17 @@
+{
+  "task_id": "822b290e-86c6-4aff-b6e8-4315d9aa9963",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_707efe5e-070d-4ba5-b945-0af8407ef333.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the coastal storm in late September 2023, identify the areas along the Delaware Bay that experienced the most significant flood expansion and classify them by severity to prioritize emergency response efforts.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_flood_risk_zones"
+  ]
+}

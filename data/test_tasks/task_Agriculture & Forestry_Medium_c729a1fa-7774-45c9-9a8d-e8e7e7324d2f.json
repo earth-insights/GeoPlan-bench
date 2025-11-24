@@ -1,0 +1,22 @@
+{
+  "task_id": "c729a1fa-7774-45c9-9a8d-e8e7e7324d2f",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_a4d008fd-2f5a-4ec6-a35e-00ec4d83d263.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Forecast our Nebraska corn farm's final yield by analyzing its complete growth cycle from last summer and incorporating next season's anticipated weather patterns.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

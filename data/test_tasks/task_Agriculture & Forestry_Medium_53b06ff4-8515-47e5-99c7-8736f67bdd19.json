@@ -1,0 +1,24 @@
+{
+  "task_id": "53b06ff4-8515-47e5-99c7-8736f67bdd19",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_06f27f36-1647-4266-bc65-3b62bbfbebdc.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Forecast the end-of-season crop yields for individual agricultural parcels in the Chiyoda district based on their development in May 2023, and determine if there are statistically significant differences in the expected productivity between these parcels.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

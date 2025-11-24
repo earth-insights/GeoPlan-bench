@@ -1,0 +1,21 @@
+{
+  "task_id": "c9ac6d50-d363-47d8-93c3-95228d67f5d1",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_94dbdb33-7906-4f29-9b54-dcb5dabe875a.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the recent deployment of military assets and activity around key facilities at the compound near 34.0522° N, 118.2437° W to determine if it constitutes an emergent threat deviating from established operational norms.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "detect_vehicles",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

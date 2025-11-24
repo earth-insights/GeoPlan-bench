@@ -1,0 +1,20 @@
+{
+  "task_id": "da0daee0-a2be-49f2-ac29-2af17503e2f8",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_09cc2c4b-4d84-44e2-b1a4-088651bd437a.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Analyze the structural influence of the primary fault systems on groundwater potential within the urban core of Los Angeles based on the most current observational data.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "map_fault_systems",
+    "analyze_geological_structures",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "c7a11b99-8dcf-4518-8aee-d25907a5542b",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_d10d4643-a775-445c-90e8-2c5b0f909281.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "To inform a new housing density study for the Los Angeles Civic Center, generate a high-resolution image visualizing the estimated population distribution relative to individual buildings for January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "analyze_population_density",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

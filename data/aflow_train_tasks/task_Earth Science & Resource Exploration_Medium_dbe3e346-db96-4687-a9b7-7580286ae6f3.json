@@ -1,0 +1,23 @@
+{
+  "task_id": "dbe3e346-db96-4687-a9b7-7580286ae6f3",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_dcffc866-1dd7-4233-bca6-2e803077ede4.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Evaluate the spatial relationship between different types of known faults and the corresponding surface lineaments observed during 2023 across the mountainous terrain directly west of Denver.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "summarize_text"
+  ]
+}

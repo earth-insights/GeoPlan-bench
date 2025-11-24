@@ -1,0 +1,19 @@
+{
+  "task_id": "547c95b2-ac08-469c-9c49-ac33628d79c8",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_20db7bd9-4a88-4441-bc67-09e9f018bfb5.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Evaluate the groundwater prospects for 2023 in the Eastern Sierra Nevada region, focusing on how the area's underlying fault systems control water resource distribution.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

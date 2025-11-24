@@ -1,0 +1,23 @@
+{
+  "task_id": "6f34ac09-a935-43cf-b232-3eaf0ce474aa",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_292a8544-41c7-4da9-849c-8de3c585848d.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "To what extent can the spatial patterns of New York City's urban development between 2010 and 2022 be statistically explained by concurrent shifts in population density?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

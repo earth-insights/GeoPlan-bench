@@ -1,0 +1,19 @@
+{
+  "task_id": "14512fba-a346-4f09-9252-760cbed5dbf1",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_d5cfe4d0-2bef-4842-bf05-0aff92f98ed4.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the early October 2023 landslide event in the Tyrolean Alps, identify the safest and most direct evacuation corridors from the affected mountain villages to the designated community shelters, considering widespread infrastructure damage.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_roads",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes"
+  ]
+}

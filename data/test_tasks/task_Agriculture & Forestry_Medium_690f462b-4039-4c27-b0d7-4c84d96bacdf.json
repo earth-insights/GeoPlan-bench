@@ -1,0 +1,24 @@
+{
+  "task_id": "690f462b-4039-4c27-b0d7-4c84d96bacdf",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_4aaefffa-ce79-4fde-a74b-f420fafa37bf.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "For agricultural parcels in central Oklahoma, what is the projected end-of-season crop yield for the 2023 growing season, and how significantly did local weather variations contribute to this outcome?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

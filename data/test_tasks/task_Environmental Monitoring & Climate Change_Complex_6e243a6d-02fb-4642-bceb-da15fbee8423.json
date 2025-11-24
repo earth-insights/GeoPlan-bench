@@ -1,0 +1,22 @@
+{
+  "task_id": "6e243a6d-02fb-4642-bceb-da15fbee8423",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Complex_f84bfadd-d62a-47af-bdf2-5d6bd5d8be37.json",
+  "complexity": "Complex",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Characterize the extent and severity of potential algal blooms in the reservoirs of the Santa Barbara coastal area for January 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "resize_image",
+    "enhance_image_resolution",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "monitor_algae_blooms"
+  ]
+}

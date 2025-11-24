@@ -1,0 +1,25 @@
+{
+  "task_id": "316cb4d3-50c6-48ce-a48b-e98c3ba46e70",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_65f50b69-1178-4d95-97d2-9e83a942b897.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Determine if the distribution of geological lineaments in the region bounded by [-119.5, 35.5] and [-119.2, 35.8] can predict the locations of high-yield gold and copper deposits.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "band_combination",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

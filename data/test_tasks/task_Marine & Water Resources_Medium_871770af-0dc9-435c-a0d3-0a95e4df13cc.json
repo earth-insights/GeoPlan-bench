@@ -1,0 +1,22 @@
+{
+  "task_id": "871770af-0dc9-435c-a0d3-0a95e4df13cc",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_a54120c7-2aac-4be0-98d2-3f8b528b0f4f.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Investigate anomalous vessel activity in the western Caribbean between 12°N-20°N and 75°W-80°W during January 2023 to determine its potential link to any observed oil spills.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

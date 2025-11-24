@@ -1,0 +1,13 @@
+{
+  "task_id": "b281f4d8-30af-4732-85d1-3000e20555df",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_99a83c1c-f6ad-430e-804e-0b409b78ab3f.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Examine the water near the urban shoreline of South Lake Tahoe for fine-scale anomalies indicative of nutrient loading during September 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution"
+  ]
+}

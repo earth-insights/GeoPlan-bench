@@ -1,0 +1,25 @@
+{
+  "task_id": "44a7c6f3-c25c-4bc7-a89b-18b5ded60168",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Complex_af4e2cd5-ca0c-4163-87a1-879e401487a1.json",
+  "complexity": "Complex",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Quantify the loss in carbon storage and water regulation services due to the conversion of forested lands for urban development in the San Francisco Bay Area throughout 2023 for a policy review.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "classify_land_cover",
+    "calculate_time_difference",
+    "monitor_deforestation",
+    "assess_carbon_sequestration",
+    "evaluate_ecosystem_services",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

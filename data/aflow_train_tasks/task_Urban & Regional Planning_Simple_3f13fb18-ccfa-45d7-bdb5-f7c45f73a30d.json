@@ -1,0 +1,17 @@
+{
+  "task_id": "3f13fb18-ccfa-45d7-bdb5-f7c45f73a30d",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_6b4ce7b5-653d-4454-8dc1-5a8e26bcdb74.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Is there a discernible link between the distribution of significant vegetation patches and patterns of residential affluence across Tokyo for the year 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "segment_vegetation",
+    "evaluate_green_space_distribution",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

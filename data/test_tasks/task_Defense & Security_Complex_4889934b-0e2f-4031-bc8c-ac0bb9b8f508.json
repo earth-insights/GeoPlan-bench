@@ -1,0 +1,21 @@
+{
+  "task_id": "4889934b-0e2f-4031-bc8c-ac0bb9b8f508",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_5a922705-a96e-4ae1-8a9f-edc4d5afae7a.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Characterize the primary anomalous vessel activity patterns observed near key security zones in Washington D.C. in October 2023, by comparing them against the established movement trends from the past two years.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "e3ce9d9b-919a-4c4a-8288-cd9ef5ad8d44",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_b88333d7-b0a9-4051-861c-84842635ee71.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "To inform urban agriculture policy, what was the estimated total crop yield in 2023 from agricultural lands within the Los Angeles metropolitan area?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

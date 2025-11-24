@@ -1,0 +1,22 @@
+{
+  "task_id": "b741d7a3-3cd4-4031-82dd-041d23e6f52d",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_09c5ebf3-36a9-4a00-b449-aa8a00196d69.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Evaluate the extent to which water quality degradation throughout 2023 has impacted the ecological health and service provision of the lake and wetland systems within California's Laguna Grande Watershed.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "assess_environmental_impact",
+    "evaluate_ecosystem_services",
+    "generate_analysis_reports",
+    "summarize_text"
+  ]
+}

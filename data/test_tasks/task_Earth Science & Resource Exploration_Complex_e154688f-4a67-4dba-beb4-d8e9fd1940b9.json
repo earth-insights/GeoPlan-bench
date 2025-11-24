@@ -1,0 +1,24 @@
+{
+  "task_id": "e154688f-4a67-4dba-beb4-d8e9fd1940b9",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_c96235ac-6c16-454f-a38d-093118f36811.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on recent surface conditions from early 2022, identify and statistically validate the most promising new gold exploration targets within the eastern Congo Craton by analyzing their relationship with underlying geological structures.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

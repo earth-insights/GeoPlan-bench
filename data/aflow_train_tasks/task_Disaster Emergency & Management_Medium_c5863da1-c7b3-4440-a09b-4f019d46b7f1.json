@@ -1,0 +1,23 @@
+{
+  "task_id": "c5863da1-c7b3-4440-a09b-4f019d46b7f1",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_24b508b6-a541-4caa-8b0c-d634e2baac3d.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Provide a detailed summary of structural damage and initial reconstruction progress in downtown Los Angeles following the early September 2023 earthquake, focusing on the area immediately surrounding City Hall.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports",
+    "summarize_text"
+  ]
+}

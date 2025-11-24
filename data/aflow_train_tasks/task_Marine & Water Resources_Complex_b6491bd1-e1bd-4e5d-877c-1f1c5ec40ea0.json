@@ -1,0 +1,19 @@
+{
+  "task_id": "b6491bd1-e1bd-4e5d-877c-1f1c5ec40ea0",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_38170f51-386a-4b1f-985c-a4b3911967b9.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate the severity of agricultural water stress in the croplands of the Sichuan Basin during the first week of August 2021.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "classify_land_cover",
+    "assess_soil_moisture"
+  ]
+}

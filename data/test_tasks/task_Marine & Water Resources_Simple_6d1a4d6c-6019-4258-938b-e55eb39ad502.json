@@ -1,0 +1,17 @@
+{
+  "task_id": "6d1a4d6c-6019-4258-938b-e55eb39ad502",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_aed07c14-c3ab-48a7-bb4e-fd2133dc9c8f.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "What were the principal maritime traffic routes and their corresponding average vessel speeds in the coastal area surrounding Los Angeles for the month following mid-August 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "detect_ships",
+    "track_ship_movements",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

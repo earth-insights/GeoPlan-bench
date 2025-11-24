@@ -1,0 +1,22 @@
+{
+  "task_id": "d8c5813d-bbcf-4cfe-ac40-31aa3c825b56",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_132a0eea-1359-4926-9948-a43aa6911b9c.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on the Mineral Exploration Project, assess the mineral prospectivity of the Shinjuku district in Tokyo by investigating the spatial relationship between its dominant geological fault systems and potential surface occurrences of gold and copper.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

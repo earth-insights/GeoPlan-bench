@@ -1,0 +1,25 @@
+{
+  "task_id": "16103f18-aad2-4961-8dda-809e283a1a49",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_e01622ed-b04b-4d9f-9b59-909797923b93.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on the region's underlying tectonic weaknesses, determine the primary areas of landslide susceptibility in the coastal mountains east of the San Andreas Fault between Bodega Bay and San Jose for January 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports",
+    "provide_technical_guidance"
+  ]
+}

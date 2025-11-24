@@ -1,0 +1,17 @@
+{
+  "task_id": "92153ef4-e528-457b-8ff5-d89de3891647",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_3c46eb9d-feae-43de-b8ea-b1a24654fa97.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Determine if the rate of shoreline erosion along the Portsea coastal front accelerated in 2022 compared to the established trend since 2018.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

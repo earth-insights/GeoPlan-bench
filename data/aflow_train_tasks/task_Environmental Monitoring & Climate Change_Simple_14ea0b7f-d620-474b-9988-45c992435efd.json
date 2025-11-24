@@ -1,0 +1,22 @@
+{
+  "task_id": "14ea0b7f-d620-474b-9988-45c992435efd",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_80fc8e40-8b50-42a7-a464-06ce88a7987c.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Analyze the seasonal progression of algal blooms in New York's East River during 2023 and determine their consequential impact on the area's ecological health and recreational usability.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

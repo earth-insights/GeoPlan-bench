@@ -1,0 +1,21 @@
+{
+  "task_id": "bf7b8286-82d5-4ec3-aca4-b29e34e4e955",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_d3e070cd-7e64-4154-a99e-ae42a4ebc2f6.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Assess the security risk posed by anomalous vehicle congregations and movements observed around the Tokyo Metropolitan Government complex throughout January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "statistical_analysis",
+    "correlation_analysis",
+    "analyze_threat_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

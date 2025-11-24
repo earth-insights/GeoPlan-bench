@@ -1,0 +1,16 @@
+{
+  "task_id": "4eb818e5-79f9-4261-abd8-cdfefc20e5cc",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_de86fc4b-4f38-4c4f-b32a-2bf169948afe.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "To support an urban biodiversity assessment for Tokyo, generate a precise map of all vegetated areas within the Shinjuku Gyoen National Garden based on its state in 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation"
+  ]
+}

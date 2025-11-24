@@ -1,0 +1,24 @@
+{
+  "task_id": "ef7e5405-47be-45f5-9a82-d973cb6af625",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_e7fd0370-d92f-4b85-b1dc-9b0a82afb6bb.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the early September 2023 seismic event, produce a comprehensive report quantifying the structural damage to buildings and primary infrastructure within the Marin Headlands district.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

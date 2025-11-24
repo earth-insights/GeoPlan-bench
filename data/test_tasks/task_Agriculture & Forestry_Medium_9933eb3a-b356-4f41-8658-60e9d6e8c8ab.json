@@ -1,0 +1,18 @@
+{
+  "task_id": "9933eb3a-b356-4f41-8658-60e9d6e8c8ab",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_8f36fd83-432b-4da3-a5af-94490ca78b2a.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint the agricultural parcels north of Los Angeles that exhibited the most severe vegetation stress during the summer of 2023, in the context of the region's prolonged water deficit.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_crop_health",
+    "monitor_drought_conditions"
+  ]
+}

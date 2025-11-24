@@ -1,0 +1,22 @@
+{
+  "task_id": "9a6d2b05-8063-4157-9a09-a477ae8f9fb6",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_8f36fd83-432b-4da3-a5af-94490ca78b2a.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Given the performance of our corn acreage in central Illinois throughout the summer of 2023, what is the projected final yield per acre for the upcoming harvest?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

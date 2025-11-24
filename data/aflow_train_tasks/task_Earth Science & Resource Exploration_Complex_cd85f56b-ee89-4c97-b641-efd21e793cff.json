@@ -1,0 +1,20 @@
+{
+  "task_id": "cd85f56b-ee89-4c97-b641-efd21e793cff",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_660c8791-8940-427b-b1ea-e2678cf1ca87.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Given the terrain and current land use, what is the risk profile for converting a specific agricultural parcel in central California to a surface mining operation, based on an analysis of the entire 2023 calendar year?",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "resize_image",
+    "classify_land_cover",
+    "assess_slope_stability",
+    "assess_mining_safety"
+  ]
+}

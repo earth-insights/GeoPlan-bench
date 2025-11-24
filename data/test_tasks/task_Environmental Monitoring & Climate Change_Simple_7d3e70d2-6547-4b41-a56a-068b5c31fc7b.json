@@ -1,0 +1,20 @@
+{
+  "task_id": "7d3e70d2-6547-4b41-a56a-068b5c31fc7b",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_fa35c3cf-7b58-4f4c-98c3-166ee27bdb05.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Determine if the seasonal algae blooms in Lake X during 2023 caused a statistically significant degradation in its water quality, and identify the key environmental factors correlated with the most severe bloom events.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "statistical_analysis",
+    "correlation_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "f750dfc2-35f9-4866-a5c1-e4dbb8ffb4ac",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_e170a215-d26b-4359-8cbe-c1a41a9d21c2.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Quantify the peak surface area, in square kilometers, of the flooding that occurred in the Los Angeles basin as a result of the major atmospheric river events in 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

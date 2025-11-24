@@ -1,0 +1,18 @@
+{
+  "task_id": "1dfa7186-5117-4408-a664-bdcd44371b29",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_cedb1c5b-1f13-4290-b8c0-1360e5488927.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "For California, identify areas where significant seismic fault systems might influence groundwater storage and availability, considering the hydrological conditions of 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "d34ca7d5-863a-4734-9ac0-e5817a395339",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_753f7918-69e4-4089-96b3-d2a5e54ba8b3.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Characterize the seasonal dynamics and identify the primary hotspots of algal bloom intensity across the Chesapeake Bay for the year 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "d126d211-58b5-4157-95aa-4cfee3d3f3eb",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_a6a868a8-e3c1-4df8-aba8-47b5994d0e03.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Evaluate the progress of infrastructure repair and vegetation regrowth around the Roman Colosseum by September 1st, 2023, following the significant flooding that took place in early August.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "44bd123a-73fd-4012-9bff-0ef76c76a8c5",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_75782901-2e03-42b6-9fc0-17231482f8ac.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Based on infrastructure and activity patterns in January 2023, evaluate the security vulnerabilities of a key government asset in central Washington D.C. and its supporting logistical network.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "crop_image",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

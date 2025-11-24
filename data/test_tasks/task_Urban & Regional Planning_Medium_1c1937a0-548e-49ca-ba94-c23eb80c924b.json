@@ -1,0 +1,20 @@
+{
+  "task_id": "1c1937a0-548e-49ca-ba94-c23eb80c924b",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_50cd59d6-183a-4109-837b-e79e38dfbd76.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "How has recent urban sprawl into the hillsides of the Sepulveda Pass affected habitat connectivity and air quality in the adjacent San Fernando Valley neighborhoods?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

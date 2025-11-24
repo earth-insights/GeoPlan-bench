@@ -1,0 +1,17 @@
+{
+  "task_id": "04cd39b0-4ce0-4af0-a824-a33c2e461c1c",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_24b508b6-a541-4caa-8b0c-d634e2baac3d.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Given the on-the-ground conditions in central California following the emergency events in early September 2023, determine the most viable driving route to evacuate from a remote property at 36.7°N, 120.5°W to the nearest major highway access point at 36.9°N, 121.0°W.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_roads",
+    "plan_evacuation_routes"
+  ]
+}

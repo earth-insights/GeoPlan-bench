@@ -1,0 +1,21 @@
+{
+  "task_id": "e391dfb7-d6fe-44e4-a592-bc864eb4bc03",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_8c1e460c-a9b7-478f-ab64-5e7e7481a20c.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "For the agricultural parcels within the western San Fernando Valley, identify the primary local environmental factors that governed the variability in corn yield during the 2022 growing season.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "classify_land_cover",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

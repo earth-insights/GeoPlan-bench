@@ -1,0 +1,21 @@
+{
+  "task_id": "83f1a91d-52e2-40a8-967f-d440f567941d",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_06b76650-0ca3-47ed-9391-6cefdeb940d6.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "How severe was the soil moisture deficit across central Los Angeles during January 2022, and what are the essential statistical insights for urban water policy?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "assess_soil_moisture",
+    "monitor_drought_conditions",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

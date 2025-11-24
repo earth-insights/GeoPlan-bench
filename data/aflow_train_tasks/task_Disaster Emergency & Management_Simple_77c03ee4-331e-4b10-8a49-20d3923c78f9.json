@@ -1,0 +1,14 @@
+{
+  "task_id": "77c03ee4-331e-4b10-8a49-20d3923c78f9",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_544d6aa6-b991-477d-80ae-26a95cbf4c23.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "What was the total financial cost of the mid-October 2023 flood on Nashville's infrastructure and agriculture, and how did the intensity of the event influence the scale of these damages?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

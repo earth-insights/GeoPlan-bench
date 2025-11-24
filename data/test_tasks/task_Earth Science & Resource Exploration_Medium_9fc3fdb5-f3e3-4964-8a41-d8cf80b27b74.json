@@ -1,0 +1,27 @@
+{
+  "task_id": "9fc3fdb5-f3e3-4964-8a41-d8cf80b27b74",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_bde895c8-c54e-43c7-8b5e-bbff7b107310.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Determine the optimal location for a potential new copper and gold mine in the Grand Canyon region by balancing resource availability against key environmental risks, and synthesize these findings into a comprehensive suitability report.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "resize_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_environmental_impact",
+    "format_data",
+    "generate_analysis_reports",
+    "provide_technical_guidance"
+  ]
+}

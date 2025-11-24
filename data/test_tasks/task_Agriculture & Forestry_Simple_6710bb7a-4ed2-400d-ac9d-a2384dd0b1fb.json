@@ -1,0 +1,17 @@
+{
+  "task_id": "6710bb7a-4ed2-400d-ac9d-a2384dd0b1fb",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_e8bbe577-6dc7-470e-8b96-f5dd6a32149b.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on mid-season growing conditions from June 2023, what is the projected crop yield in tons per hectare for the primary agricultural zone in southern New Jersey?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "23e2a63e-c2e7-4384-b125-e225caf58879",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_a4d008fd-2f5a-4ec6-a35e-00ec4d83d263.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Evaluate the success of the 2023 crop rotation initiative for the experimental cereal fields near the Santa Monica coastline by comparing last year's output and land utilization.",
+  "ground_truth_tool_flow": [
+    "read_database",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "analyze_farming_patterns"
+  ]
+}

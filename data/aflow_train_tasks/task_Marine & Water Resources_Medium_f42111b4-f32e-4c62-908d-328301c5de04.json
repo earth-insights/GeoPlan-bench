@@ -1,0 +1,15 @@
+{
+  "task_id": "f42111b4-f32e-4c62-908d-328301c5de04",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_609cfd08-50bb-4979-a455-9cebfb7bb394.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "To prioritize coastal protection efforts for communities along the US Gulf Coast, what are the key environmental factors that have driven the most significant shoreline changes over the last five years?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "assess_coastal_erosion",
+    "linear_regression",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

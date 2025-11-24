@@ -1,0 +1,13 @@
+{
+  "task_id": "29e585a2-a12e-43d0-a767-4a46208a1cd2",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_e4b7fb23-0d82-4296-b968-5b09936fb1aa.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "To inform a new flood resilience strategy for downtown Los Angeles, what was the detailed composition of impervious surfaces, urban green spaces, and water bodies within the area immediately surrounding the Civic Center in January 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover"
+  ]
+}

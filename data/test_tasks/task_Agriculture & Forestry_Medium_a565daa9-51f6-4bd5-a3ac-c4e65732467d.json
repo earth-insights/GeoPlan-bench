@@ -1,0 +1,18 @@
+{
+  "task_id": "a565daa9-51f6-4bd5-a3ac-c4e65732467d",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_2321bcf4-5172-4b72-9b61-85c32011c4e8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Which specific agricultural parcels in the Carpinteria valley showed significant signs of Powdery Mildew, Blight, or Rust outbreaks during June 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "88265b17-ffec-43fa-a843-fe09a9c479ef",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_707efe5e-070d-4ba5-b945-0af8407ef333.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a comprehensive post-disaster report detailing structural damage and outlining optimal evacuation strategies for the area south of Santa Cruz following the recent earthquake.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "plan_evacuation_routes",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

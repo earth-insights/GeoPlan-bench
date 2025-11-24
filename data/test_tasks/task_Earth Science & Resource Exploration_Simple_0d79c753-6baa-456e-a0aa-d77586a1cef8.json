@@ -1,0 +1,21 @@
+{
+  "task_id": "0d79c753-6baa-456e-a0aa-d77586a1cef8",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_67c2a22b-2419-4fd6-bc43-6b89098834dc.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on the surface expression of geological structures in downtown Los Angeles, what is the likely distribution of groundwater resources for the summer of 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

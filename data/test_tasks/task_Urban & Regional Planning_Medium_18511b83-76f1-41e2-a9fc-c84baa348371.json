@@ -1,0 +1,20 @@
+{
+  "task_id": "18511b83-76f1-41e2-a9fc-c84baa348371",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_a5200252-5f1f-4a22-81c4-f86ee9f932d3.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Determine the statistical relationship between the density of new urban development across southern Manhattan in 2023 and key local socioeconomic indicators.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_urban_areas",
+    "detect_urban_expansion",
+    "statistical_analysis",
+    "correlation_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

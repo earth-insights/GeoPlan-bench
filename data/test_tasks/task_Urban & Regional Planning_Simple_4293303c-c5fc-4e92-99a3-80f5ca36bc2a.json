@@ -1,0 +1,19 @@
+{
+  "task_id": "4293303c-c5fc-4e92-99a3-80f5ca36bc2a",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_8009b006-28b4-44ff-b4be-3d8768cc3912.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the spatial morphology and fragmentation of new urban developments that emerged within the central San Fernando Valley between 2010 and the end of 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_urban_areas",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "e07d346a-8513-4c05-a364-d1d6b737e730",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_dcffc866-1dd7-4233-bca6-2e803077ede4.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on surface mineral signatures from October 2023, identify potential gold and copper deposits in the San Francisco Bay Area and generate a map-ready list of locations with their estimated grades.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "format_data",
+    "convert_coordinates"
+  ]
+}

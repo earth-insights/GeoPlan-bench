@@ -1,0 +1,15 @@
+{
+  "task_id": "41de782c-388e-4193-8866-e22a9b14123f",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_33604cd7-902a-49ed-872b-0e98010ba7bd.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "How significantly did the weather from July to October impact the final yield for our corn crops planted last April in the Central Valley?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_drought_conditions",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

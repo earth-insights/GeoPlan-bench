@@ -1,0 +1,18 @@
+{
+  "task_id": "c2519865-7f4c-42c3-9851-35fca88554b4",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_caa137c1-d9b3-46a9-9974-66b3aca9fbd7.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Quantify the inundation extent and assess the overall damage to communities in Assam's Majuli district resulting from the major flood event of August 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "analyze_population_density",
+    "generate_analysis_reports"
+  ]
+}

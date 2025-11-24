@@ -1,0 +1,24 @@
+{
+  "task_id": "28fc0b9a-80be-4db8-9f98-5c843a4a6711",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_5b8df805-25d9-490b-8034-9e2d9421c172.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "For the region between 10-15°N and 20-25°E, quantify the extent of deforestation and water pollution from 2010 to 2022 that can be directly attributed to the exploration and extraction of copper, gold, and silver.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "resize_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

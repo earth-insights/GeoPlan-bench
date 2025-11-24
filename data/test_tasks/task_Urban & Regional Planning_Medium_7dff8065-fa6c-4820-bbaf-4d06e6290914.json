@@ -1,0 +1,22 @@
+{
+  "task_id": "7dff8065-fa6c-4820-bbaf-4d06e6290914",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_071c3979-296d-4353-9492-3520396dfb39.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the mitigating effect of large urban green spaces on airborne pollutant concentrations across specific San Francisco neighborhoods during last September's peak dry season.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "evaluate_green_space_distribution",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

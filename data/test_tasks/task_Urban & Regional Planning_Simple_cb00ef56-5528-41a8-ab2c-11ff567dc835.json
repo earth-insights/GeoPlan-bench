@@ -1,0 +1,16 @@
+{
+  "task_id": "cb00ef56-5528-41a8-ab2c-11ff567dc835",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_172f464f-06d8-486b-9079-88c7041db87c.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Based on a full analysis of 2023, determine the level of urban dominance within a 10km radius of downtown Los Angeles.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "assess_urbanization_level",
+    "generate_analysis_reports"
+  ]
+}

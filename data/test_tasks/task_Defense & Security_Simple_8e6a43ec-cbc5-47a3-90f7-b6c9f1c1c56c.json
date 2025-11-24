@@ -1,0 +1,19 @@
+{
+  "task_id": "8e6a43ec-cbc5-47a3-90f7-b6c9f1c1c56c",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_c6477530-815a-4fc2-a5f7-63e535c4171c.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the operational integrity and accessibility of primary transportation corridors in central Los Angeles, considering their exposure to potential disruptions from nearby industrial, touristic, and military activities.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "crop_image",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_roads",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

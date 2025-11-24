@@ -1,0 +1,18 @@
+{
+  "task_id": "45564a2d-add1-4085-9529-0e5876776a32",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d5e8a4b3-6908-401e-b198-edfe54da8840.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the early October 2023 earthquake in Los Angeles, determine the most viable evacuation corridors from the downtown Civic Center to designated emergency centers, accounting for significant damage to the road network.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_roads",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

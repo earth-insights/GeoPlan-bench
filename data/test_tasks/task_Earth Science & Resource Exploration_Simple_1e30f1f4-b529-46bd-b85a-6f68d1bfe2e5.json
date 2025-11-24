@@ -1,0 +1,21 @@
+{
+  "task_id": "1e30f1f4-b529-46bd-b85a-6f68d1bfe2e5",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_9dc17961-c6c1-4bbc-a4b2-829b373eaa05.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Quantify the influence of distinct geological fault systems on groundwater resource potential within a designated watershed in the western USA.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

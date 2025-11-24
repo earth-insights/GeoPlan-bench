@@ -1,0 +1,27 @@
+{
+  "task_id": "3a00480c-7f7a-408e-98e7-bf78f8bde4ef",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_2a8b2c95-4963-46f5-ac18-c30235d6a9fb.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Evaluate the strategic redeployment of security assets in lower Manhattan during 2023 as a response to shifting regional threat patterns.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "evaluate_operational_readiness",
+    "statistical_analysis",
+    "analyze_threat_patterns",
+    "format_data",
+    "convert_coordinates",
+    "generate_analysis_reports"
+  ]
+}

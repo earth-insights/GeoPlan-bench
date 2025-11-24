@@ -1,0 +1,20 @@
+{
+  "task_id": "a25840b8-6190-46d2-89ee-70857a3bb6e5",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_7ca21faf-8af6-43b0-a7b5-517b8e3813d6.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Characterize the evolution of military posture and critical infrastructure near the northern border since early last year to assess the heightened risk of a new offensive campaign.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

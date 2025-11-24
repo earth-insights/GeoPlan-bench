@@ -1,0 +1,18 @@
+{
+  "task_id": "bdc408d7-e2fd-46ba-a0e0-8ddc8d039976",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_958b314c-820f-444a-8705-b24b15465d4e.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "To support regional water allocation modeling, calculate the total acreage of high-water-demand crops, like corn, versus lower-demand crops, such as soybeans, within the primary agricultural parcels surrounding Kerr Lake for June 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_agricultural_fields",
+    "classify_land_cover",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

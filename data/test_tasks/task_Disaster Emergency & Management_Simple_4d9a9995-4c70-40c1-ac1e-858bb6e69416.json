@@ -1,0 +1,13 @@
+{
+  "task_id": "4d9a9995-4c70-40c1-ac1e-858bb6e69416",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_dceefd9f-0a14-4764-88bc-97666e6494b2.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess the primary drivers influencing the scale and financial impact of wildfires across California during the first two weeks of October 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "task_id": "0add549b-b9d0-4986-9c76-e71d67090710",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_fe4eb596-4c61-4b53-a36a-fa728cfba8d7.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Based on recent structural changes and historical threat activity in lower Manhattan, identify the top five buildings suitable for establishing new reconnaissance outposts.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "extract_keywords",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

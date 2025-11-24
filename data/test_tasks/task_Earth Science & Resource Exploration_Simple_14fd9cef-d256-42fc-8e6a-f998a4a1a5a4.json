@@ -1,0 +1,21 @@
+{
+  "task_id": "14fd9cef-d256-42fc-8e6a-f998a4a1a5a4",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_295b48df-1800-438a-bdec-30e84a251bf8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Investigate the correlation between observable surficial tectonic structures and indicators of lithium brine concentration within the Great Basin.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "analyze_geological_structures",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "task_id": "3f10e9c2-db3e-40ab-9608-3a1b0203bcb1",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_ba5d6d14-72ad-4101-9396-c1927f42a0b8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on the complete vegetation growth cycle observed during 2023 on my coastal agricultural property, provide a final yield prediction for a specific internal field.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "segment_vegetation",
+    "monitor_deforestation",
+    "statistical_analysis",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

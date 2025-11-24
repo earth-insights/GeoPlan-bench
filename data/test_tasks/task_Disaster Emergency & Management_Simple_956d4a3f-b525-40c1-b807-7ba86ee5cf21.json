@@ -1,0 +1,19 @@
+{
+  "task_id": "956d4a3f-b525-40c1-b807-7ba86ee5cf21",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_ebd33fd0-33da-4aea-b338-380375e49ced.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a full lifecycle assessment of the early 2023 landslide events in the mountains east of Los Angeles, covering the initial terrain susceptibility, the immediate storm-triggered damage, and the landscape's recovery status after six months.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "classify_terrain_type",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

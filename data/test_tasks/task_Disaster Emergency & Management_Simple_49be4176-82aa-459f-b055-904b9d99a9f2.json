@@ -1,0 +1,17 @@
+{
+  "task_id": "49be4176-82aa-459f-b055-904b9d99a9f2",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_dcdf85e9-dcf3-40dd-80dc-98095e661217.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Given the history of slope failures in the Serpent's Pass region, assess the damage and recovery from the last major event and generate a new risk map for the entire area ahead of the monsoon season.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "crop_image",
+    "classify_terrain_type",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

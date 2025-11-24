@@ -1,0 +1,13 @@
+{
+  "task_id": "7ffe5077-84d8-421b-91c8-9b9d37cc0b70",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_fd2042a9-5088-40a7-89c9-c3fb5ba922b2.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify and map the imperviousness gradient from the dense urban core to the suburban periphery of Paris for September 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata"
+  ]
+}

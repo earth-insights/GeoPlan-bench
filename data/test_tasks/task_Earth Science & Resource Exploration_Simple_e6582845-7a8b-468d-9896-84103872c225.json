@@ -1,0 +1,21 @@
+{
+  "task_id": "e6582845-7a8b-468d-9896-84103872c225",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_37a8b993-f09c-4b31-b214-82b7925126e8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Characterize the influence of deep-seated geological lineaments on the overlying soil composition across the tectonically active region north of the Los Angeles metropolitan area.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

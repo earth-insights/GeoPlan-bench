@@ -1,0 +1,13 @@
+{
+  "task_id": "6d35f8c7-c6c9-451a-bfa3-5420aa5a920d",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_023fa7a7-9b06-489d-bf62-57b133537d63.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Considering the peak growing season in mid-June 2023, which residential neighborhoods in Manhattan exhibit the most significant deficit in public green space accessibility?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata"
+  ]
+}

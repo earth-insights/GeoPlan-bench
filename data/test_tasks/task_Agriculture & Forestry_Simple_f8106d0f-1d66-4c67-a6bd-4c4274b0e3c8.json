@@ -1,0 +1,17 @@
+{
+  "task_id": "f8106d0f-1d66-4c67-a6bd-4c4274b0e3c8",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_ac937685-dac5-4ff4-8bf3-dcd78fa03519.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint and quantify all significant new deforestation events that occurred in the California coastal range east of Santa Maria between the beginning of 2021 and the end of January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "generate_analysis_reports"
+  ]
+}

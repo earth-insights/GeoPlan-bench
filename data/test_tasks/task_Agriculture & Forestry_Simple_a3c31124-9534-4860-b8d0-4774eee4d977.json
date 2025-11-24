@@ -1,0 +1,19 @@
+{
+  "task_id": "a3c31124-9534-4860-b8d0-4774eee4d977",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_c7460210-f2e6-4bd8-9c6e-065639c86f98.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "For the coastal maize fields in our agricultural cooperative, what is the projected yield from the June 2023 growing season, and what are the key biophysical factors influencing this forecast?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

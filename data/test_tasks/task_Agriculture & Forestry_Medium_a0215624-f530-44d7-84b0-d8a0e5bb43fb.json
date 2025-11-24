@@ -1,0 +1,22 @@
+{
+  "task_id": "a0215624-f530-44d7-84b0-d8a0e5bb43fb",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_994d15cb-c5d1-400b-8c40-42c275ae0c5b.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on the complete 2023 growing cycle, generate a final yield prediction and identify the peak harvest date for the high-value specialty crops being cultivated in the agricultural research plots near downtown Los Angeles.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "predict_harvest_timing"
+  ]
+}

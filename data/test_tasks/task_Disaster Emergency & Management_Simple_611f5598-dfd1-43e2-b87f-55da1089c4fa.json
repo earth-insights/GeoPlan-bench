@@ -1,0 +1,18 @@
+{
+  "task_id": "611f5598-dfd1-43e2-b87f-55da1089c4fa",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_551468b0-993b-424c-9f75-5e14d0c627d9.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the severe coastal storm in early October 2023, identify the most viable evacuation routes for residents in lower Manhattan by assessing the flood's impact on critical infrastructure.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "39349580-f8b3-4571-8496-66c1a8b696f0",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_0f1b0485-890a-477d-a1d8-1e70e5065284.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Evaluate the correlation between population density and infrastructure adequacy for the suburban area southwest of Minneapolis as of April 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "analyze_population_density",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

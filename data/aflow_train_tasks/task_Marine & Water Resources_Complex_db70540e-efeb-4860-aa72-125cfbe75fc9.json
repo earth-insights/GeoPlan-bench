@@ -1,0 +1,21 @@
+{
+  "task_id": "db70540e-efeb-4860-aa72-125cfbe75fc9",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_06b76650-0ca3-47ed-9391-6cefdeb940d6.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Identify if specific upstream land use activities were the primary driver for the location and severity of algae blooms in the Los Angeles River outlet during October 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

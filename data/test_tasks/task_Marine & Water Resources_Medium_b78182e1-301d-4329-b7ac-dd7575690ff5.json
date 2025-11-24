@@ -1,0 +1,22 @@
+{
+  "task_id": "b78182e1-301d-4329-b7ac-dd7575690ff5",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_0d416146-42d1-4642-af8b-22ed5b043358.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "What was the ecological impact of significant water quality degradation events in Lake Tahoe throughout 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "correlation_analysis",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

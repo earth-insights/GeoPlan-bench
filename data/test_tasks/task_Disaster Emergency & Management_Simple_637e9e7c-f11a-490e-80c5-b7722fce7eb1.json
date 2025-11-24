@@ -1,0 +1,15 @@
+{
+  "task_id": "637e9e7c-f11a-490e-80c5-b7722fce7eb1",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_258b5487-8b0f-4f2c-beb9-87192bb8eff9.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Given the impact of the hurricane in Miami during the first week of October, determine the safest and most efficient evacuation corridors from densely populated zones, accounting for widespread infrastructure impairment.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "01d46cf6-01bd-4a93-81c1-69008592e517",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_7c719b28-3094-4161-9517-ab3d35507316.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the month-over-month change in total cultivated area for urban farming initiatives within Manhattan's East Village and Lower East Side throughout the 2023 growing season.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "segment_agricultural_fields",
+    "statistical_analysis",
+    "analyze_farming_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

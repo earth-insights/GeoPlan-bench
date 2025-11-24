@@ -1,0 +1,16 @@
+{
+  "task_id": "cf05501b-03d1-4050-9bdc-bcd72c926081",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_b7fd4998-5cc7-48be-86df-7c8d055966fd.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a high-fidelity, natural-color image to visually assess reported inconsistent crop germination in the specific field at 49.355°N, 123.045°W during the first week of May 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination"
+  ]
+}

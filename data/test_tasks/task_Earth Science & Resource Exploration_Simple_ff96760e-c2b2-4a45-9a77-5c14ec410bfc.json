@@ -1,0 +1,21 @@
+{
+  "task_id": "ff96760e-c2b2-4a45-9a77-5c14ec410bfc",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_295b48df-1800-438a-bdec-30e84a251bf8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Within the newly acquired 100 km² El Dorado exploration permit, assess the likelihood and concentration patterns of co-occurring gold and copper deposits to determine the viability of a poly-metallic mining operation.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "explore_mineral_resources",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

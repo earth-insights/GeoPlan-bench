@@ -1,0 +1,19 @@
+{
+  "task_id": "5d2a9b67-913f-4644-ae9b-6172584fd789",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_502daaf3-8148-4dbc-833e-d7a186dc11d8.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Identify which specific lakes in the Minnetonka watershed displayed significantly heightened concentrations of chlorophyll-a, turbidity, and nutrients relative to adjacent water bodies during January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

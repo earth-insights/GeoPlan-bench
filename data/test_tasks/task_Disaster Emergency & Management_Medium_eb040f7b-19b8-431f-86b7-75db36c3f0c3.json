@@ -1,0 +1,24 @@
+{
+  "task_id": "eb040f7b-19b8-431f-86b7-75db36c3f0c3",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_8761e650-2c28-4573-af54-6d24810a5f95.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a detailed damage assessment, quantifying the structural impact on buildings and critical infrastructure within Los Angeles County after the mid-April 2023 seismic event.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "convert_coordinates",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

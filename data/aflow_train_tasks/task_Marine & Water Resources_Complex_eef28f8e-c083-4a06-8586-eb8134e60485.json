@@ -1,0 +1,20 @@
+{
+  "task_id": "eef28f8e-c083-4a06-8586-eb8134e60485",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_3720d735-2f0b-4106-843c-023b15f58aab.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Determine if landscape alterations in New York City from 2020 through 2023 caused a statistically significant change in the area's carbon sequestration, water purification, and pollination capabilities.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "classify_land_cover",
+    "track_biodiversity_changes",
+    "evaluate_ecosystem_services",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

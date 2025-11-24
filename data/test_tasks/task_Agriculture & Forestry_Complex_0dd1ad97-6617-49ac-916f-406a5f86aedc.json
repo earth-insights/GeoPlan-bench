@@ -1,0 +1,20 @@
+{
+  "task_id": "0dd1ad97-6617-49ac-916f-406a5f86aedc",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_bf9109a0-21f1-47ed-84a5-aa9e310da563.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Determine the total inundated area and assess the severity of damage to both built-up areas and local vegetation following the severe flooding event in the Ganges River Basin during the first week of October 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "resize_image",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_environmental_impact"
+  ]
+}

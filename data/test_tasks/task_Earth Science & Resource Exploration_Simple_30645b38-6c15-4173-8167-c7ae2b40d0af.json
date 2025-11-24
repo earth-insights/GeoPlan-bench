@@ -1,0 +1,21 @@
+{
+  "task_id": "30645b38-6c15-4173-8167-c7ae2b40d0af",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_c582217f-4d06-4cae-b23d-ce17aaa81f0c.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the geological fracture network of the central East African Rift to identify the most promising locations for sustainable groundwater resource development.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

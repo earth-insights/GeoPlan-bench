@@ -1,0 +1,22 @@
+{
+  "task_id": "26a547ad-ac07-428e-b1cf-2c87f97b5c44",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_069d406d-ee6c-4893-8418-e7e6c4c2ad6b.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Generate a mineral prospectivity map for the Gulf Coast region, highlighting promising exploration targets based on the intersection of significant geological structures and the existing transportation network.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "provide_technical_guidance",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "convert_coordinates",
+    "detect_roads",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_mining_safety"
+  ]
+}

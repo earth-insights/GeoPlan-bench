@@ -1,0 +1,18 @@
+{
+  "task_id": "c6dedf00-ed86-4b81-9957-74e3b857a7c2",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_d4647ba1-d4b4-4b08-b7ed-c1e01ec43ac3.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "What was the predicted final crop yield for the 2023 growing season across all agricultural lands in the immediate vicinity of San Francisco?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

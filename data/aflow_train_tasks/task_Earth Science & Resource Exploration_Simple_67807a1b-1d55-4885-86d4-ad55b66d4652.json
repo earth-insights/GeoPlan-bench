@@ -1,0 +1,20 @@
+{
+  "task_id": "67807a1b-1d55-4885-86d4-ad55b66d4652",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_d00c34fa-11ad-4975-9b6b-fc0b896479bf.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the potential for seismically-induced hydrogeological changes within a specific downtown Los Angeles corridor to inform the design of a new subterranean infrastructure project.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

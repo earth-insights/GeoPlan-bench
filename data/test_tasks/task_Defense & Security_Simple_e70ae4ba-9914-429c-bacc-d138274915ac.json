@@ -1,0 +1,13 @@
+{
+  "task_id": "e70ae4ba-9914-429c-bacc-d138274915ac",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_b960db22-fdc1-420d-8b8f-b5ae7a1a0e12.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Identify the most significant emerging strategic threats to humanitarian access and regional stability in the Aridan Strait, based on subtle shifts in activity and infrastructure over the last six months.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

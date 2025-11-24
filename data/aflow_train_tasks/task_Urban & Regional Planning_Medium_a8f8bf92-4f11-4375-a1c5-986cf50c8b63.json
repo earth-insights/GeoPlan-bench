@@ -1,0 +1,15 @@
+{
+  "task_id": "a8f8bf92-4f11-4375-a1c5-986cf50c8b63",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_a9661b83-d8f8-445f-8e4c-3016bb2939d0.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Visually assess sediment plumes and water turbidity levels in the Los Angeles River near downtown following the major storm systems of January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination"
+  ]
+}

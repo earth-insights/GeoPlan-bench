@@ -1,0 +1,22 @@
+{
+  "task_id": "f1f35ed6-64fc-423a-a83e-c673aa6efea1",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_94ba249e-7f51-4714-8511-f9bee6c169dc.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Determine the extent to which major fault systems in the Los Angeles Basin influenced the distribution of potential near-surface gold deposits throughout 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

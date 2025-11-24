@@ -1,0 +1,19 @@
+{
+  "task_id": "6ec180eb-2667-4878-a2cc-80985c6bbebc",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_aedbca2f-912e-4ff2-8306-2c0e289a434d.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess building damage from the January 2023 floods in Los Angeles, identify remaining structures most vulnerable to seismic events, and chart the safest evacuation paths to the downtown civic center.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

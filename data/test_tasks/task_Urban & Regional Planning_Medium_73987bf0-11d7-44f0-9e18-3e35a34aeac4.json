@@ -1,0 +1,21 @@
+{
+  "task_id": "73987bf0-11d7-44f0-9e18-3e35a34aeac4",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_b8a0b153-b670-4f00-981f-d5576d7f754c.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Determine the statistical relationship between the expansion of built-up environments and population growth in the New York metropolitan area from 2018 to 2022.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_urban_areas",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "linear_regression",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

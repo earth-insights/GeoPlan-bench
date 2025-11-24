@@ -1,0 +1,18 @@
+{
+  "task_id": "1a92f22a-d95e-44bd-9c85-cc168e538ab2",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_16435682-19e9-4990-b3e9-a21a06d5485e.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "What was the spatial pattern of disease outbreak and spread within the agricultural parcels just west of the Imperial Palace during the 2023 growing season?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_agricultural_fields",
+    "detect_plant_diseases"
+  ]
+}

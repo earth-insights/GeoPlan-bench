@@ -1,0 +1,13 @@
+{
+  "task_id": "634befb7-2786-4788-a3dd-860b1023f24d",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_12ef9b23-12b4-446d-9d19-c3dbd846aae7.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Considering the unique weather conditions across California in 2023, what is the projected yield for the state's corn and wheat crops over the next five years?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "correlation_analysis",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

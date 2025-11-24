@@ -1,0 +1,17 @@
+{
+  "task_id": "b5ba193c-5017-490a-98e6-f82b630030bf",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_f5373fe0-f064-4768-a312-1f88b76c1b00.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "How has the pattern of urban expansion around New York's city center since 2010 influenced the measured intensity of land utilization by the end of 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "classify_land_cover",
+    "assess_land_use_efficiency",
+    "analyze_urban_growth_patterns",
+    "generate_analysis_reports"
+  ]
+}

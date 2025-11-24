@@ -1,0 +1,16 @@
+{
+  "task_id": "c2394771-4e82-46ea-90bf-8a5c99385e50",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_33604cd7-902a-49ed-872b-0e98010ba7bd.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on anecdotal reports of crop stress, which specific agricultural plots near Los Angeles exhibited evidence of Leaf Blight, Mildew, or Rust infections during April 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "detect_plant_diseases"
+  ]
+}

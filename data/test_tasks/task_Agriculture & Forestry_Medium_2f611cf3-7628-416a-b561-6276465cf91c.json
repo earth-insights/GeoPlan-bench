@@ -1,0 +1,17 @@
+{
+  "task_id": "2f611cf3-7628-416a-b561-6276465cf91c",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_27cb0498-53a6-41c6-927e-568bb90f88ac.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the seasonal health dynamics of the forests within the Golden Gate National Recreation Area for the 2023 calendar year.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_forest_health"
+  ]
+}

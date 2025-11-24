@@ -1,0 +1,17 @@
+{
+  "task_id": "0b2385b9-21ff-4290-89ce-aaef00790954",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_0f737841-a2a2-4e6c-b4f3-9f2890112962.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "For the downtown Los Angeles area, identify the prime locations for potential new groundwater wells by analyzing how the region's geological fractures and surface topography from 2023 influence water accumulation.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "analyze_geological_structures",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

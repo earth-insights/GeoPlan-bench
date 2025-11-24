@@ -1,0 +1,19 @@
+{
+  "task_id": "81427f39-1dce-43d3-83e7-df9a4453fa2b",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_20db7bd9-4a88-4441-bc67-09e9f018bfb5.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Generate a map of likely fault systems in the western Santa Monica Mountains for a seismic hazard analysis, based on topographical features visible in September 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "ee741c0d-1ae2-471a-91f5-df19166c1267",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_e684ced4-e912-4e48-bb14-1f4997d5d077.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the impact of 2023 commercial shipping activities on the marine habitat health and biodiversity within the protected waters surrounding California's Channel Islands.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "assess_marine_pollution",
+    "assess_environmental_impact",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

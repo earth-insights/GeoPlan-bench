@@ -1,0 +1,13 @@
+{
+  "task_id": "1ad02075-22c7-437f-92c0-a8899f3d0d00",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_caa137c1-d9b3-46a9-9974-66b3aca9fbd7.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Which counties in Hurricane Zone 5 require the most immediate and comprehensive aid following the severe weather event of mid-October 2023?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_disaster_damage",
+    "analyze_population_density",
+    "generate_analysis_reports"
+  ]
+}

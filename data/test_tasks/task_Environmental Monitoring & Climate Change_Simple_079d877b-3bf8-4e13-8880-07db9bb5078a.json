@@ -1,0 +1,19 @@
+{
+  "task_id": "079d877b-3bf8-4e13-8880-07db9bb5078a",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_f62b69a9-e6b3-4deb-a9ee-1596109fb82e.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Characterize the accelerated deforestation trend since 2015 within a specific, vulnerable Amazonian tributary, and assess the corresponding impact on its biodiversity and carbon sequestration capacity.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

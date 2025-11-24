@@ -1,0 +1,21 @@
+{
+  "task_id": "01ea7395-1724-4cff-a4cb-2614984deed9",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_cc0be3ce-fcc1-4ccc-8717-d5c7771c1fe8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify specific locations within the coastal arid zone centered at UTM 33N (505000E, 4202500N) where underlying rock fractures are most likely to enhance groundwater storage for future agricultural use.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

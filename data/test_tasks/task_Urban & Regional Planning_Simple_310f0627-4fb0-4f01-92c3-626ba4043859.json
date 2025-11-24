@@ -1,0 +1,20 @@
+{
+  "task_id": "310f0627-4fb0-4f01-92c3-626ba4043859",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_d10d4643-a775-445c-90e8-2c5b0f909281.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Analyze the spatial dynamics of urban expansion within a specific coastal California area between 2015 and 2020, culminating in a quantitative assessment of the current urbanization level.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

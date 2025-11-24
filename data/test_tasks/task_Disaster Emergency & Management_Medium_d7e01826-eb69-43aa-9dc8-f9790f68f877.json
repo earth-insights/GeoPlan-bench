@@ -1,0 +1,25 @@
+{
+  "task_id": "d7e01826-eb69-43aa-9dc8-f9790f68f877",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_a20c98b0-648b-41ff-a743-6155e3badae3.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Quantify the structural impact on different building types within a specific New York City waterfront community following a simulated earthquake in mid-2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "convert_coordinates",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

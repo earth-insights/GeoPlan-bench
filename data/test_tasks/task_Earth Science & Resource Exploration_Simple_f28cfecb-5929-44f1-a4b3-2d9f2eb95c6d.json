@@ -1,0 +1,20 @@
+{
+  "task_id": "f28cfecb-5929-44f1-a4b3-2d9f2eb95c6d",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_76869ee1-5df4-439d-b442-20bbc19fb3fe.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "For our designated exploration block, identify the most promising new gold deposits from 2022 and create an illustrated report assessing their viability based on their association with the region's underlying geological features.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

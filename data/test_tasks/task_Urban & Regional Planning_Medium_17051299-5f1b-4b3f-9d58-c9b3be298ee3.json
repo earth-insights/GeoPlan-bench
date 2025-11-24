@@ -1,0 +1,24 @@
+{
+  "task_id": "17051299-5f1b-4b3f-9d58-c9b3be298ee3",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_17543237-f3be-47e3-ad79-550fe6b82c86.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the patterns of urban expansion in the Philadelphia metropolitan area from 2010 to 2022 and assess the resulting environmental impacts on local air quality, water resources, and biodiversity.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "convert_coordinates",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

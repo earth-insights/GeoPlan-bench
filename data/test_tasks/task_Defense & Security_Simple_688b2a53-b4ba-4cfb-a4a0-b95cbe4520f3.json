@@ -1,0 +1,19 @@
+{
+  "task_id": "688b2a53-b4ba-4cfb-a4a0-b95cbe4520f3",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_c6477530-815a-4fc2-a5f7-63e535c4171c.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Evaluate how recent urban expansion within a specific downtown Los Angeles corridor in 2023 has altered the risk profile for critical transportation and energy infrastructure.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "crop_image",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

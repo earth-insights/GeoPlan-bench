@@ -1,0 +1,18 @@
+{
+  "task_id": "6714608d-b2bc-407d-b8f1-fcea34ced69b",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_edbb588d-482c-4a84-be2f-236e95be679e.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the peak intensity and overall coverage of the algal bloom that occurred in the northern portion of the Salton Sea in January 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "4ce26f13-b27e-4884-8a50-17f2811c681a",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_30d560df-b273-4ef3-899e-13f12c628a52.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "How prepared is the critical civic infrastructure in central San Francisco to maintain operational continuity in the face of significant security and natural disaster threats based on an assessment from early 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "evaluate_operational_readiness",
+    "analyze_threat_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

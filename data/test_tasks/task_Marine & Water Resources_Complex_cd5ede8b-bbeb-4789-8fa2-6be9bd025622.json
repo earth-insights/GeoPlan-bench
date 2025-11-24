@@ -1,0 +1,23 @@
+{
+  "task_id": "cd5ede8b-bbeb-4789-8fa2-6be9bd025622",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_3720d735-2f0b-4106-843c-023b15f58aab.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the frequency and location of vessels exhibiting irregular loitering and non-standard transit patterns offshore from Cape Hatteras during the first nine months of 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

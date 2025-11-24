@@ -1,0 +1,25 @@
+{
+  "task_id": "0a6aa70d-c4e1-4b51-ac73-cfb038c20dea",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_34274b44-61ba-4db8-a5ee-3ebeb1f9a04f.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Quantify the extent of damage to strategic assets in downtown Los Angeles after the October 2023 disruption, focusing specifically on tall buildings and those near primary roadways.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_urban_areas",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "evaluate_infrastructure_damage",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

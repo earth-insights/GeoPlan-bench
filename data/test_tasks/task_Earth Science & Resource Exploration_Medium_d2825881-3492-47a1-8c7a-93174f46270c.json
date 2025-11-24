@@ -1,0 +1,26 @@
+{
+  "task_id": "d2825881-3492-47a1-8c7a-93174f46270c",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_162f864f-2a6f-4ab2-a71f-15174602430c.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify and rank the most promising sites for gold, silver, and copper exploration in the San Rafael Hills near Los Angeles, assessing the potential economic viability of each location based on a comprehensive analysis of the past year.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "evaluate_ore_quality",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

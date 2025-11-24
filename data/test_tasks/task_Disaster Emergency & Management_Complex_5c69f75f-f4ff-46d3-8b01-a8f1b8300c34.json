@@ -1,0 +1,20 @@
+{
+  "task_id": "5c69f75f-f4ff-46d3-8b01-a8f1b8300c34",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_db538c77-28d3-4bb6-88ba-67ddc545deae.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the seismic event in San Francisco during the first ten days of October 2023, determine the operational status of the primary road and utility networks connecting the western districts to the downtown core.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "calculate_time_difference",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "assess_strategic_infrastructure"
+  ]
+}

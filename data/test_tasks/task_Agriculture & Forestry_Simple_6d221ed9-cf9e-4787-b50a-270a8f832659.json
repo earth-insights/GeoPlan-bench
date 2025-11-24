@@ -1,0 +1,21 @@
+{
+  "task_id": "6d221ed9-cf9e-4787-b50a-270a8f832659",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_3bacf3b9-87e2-4d3b-812f-dfa2b21295fb.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Quantify the projected end-of-season yield for each agricultural field near Sacramento, CA, by analyzing the variations in crop health observed during May of last year.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

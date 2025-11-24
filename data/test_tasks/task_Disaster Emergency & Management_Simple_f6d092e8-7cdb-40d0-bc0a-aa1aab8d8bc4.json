@@ -1,0 +1,18 @@
+{
+  "task_id": "f6d092e8-7cdb-40d0-bc0a-aa1aab8d8bc4",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_544d6aa6-b991-477d-80ae-26a95cbf4c23.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the major inundation event in the Cedar River Valley during August 2022, determine the peak flood extent and assess the subsequent recovery of the region's agricultural landscape.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

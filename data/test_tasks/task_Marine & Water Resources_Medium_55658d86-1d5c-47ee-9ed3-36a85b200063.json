@@ -1,0 +1,16 @@
+{
+  "task_id": "55658d86-1d5c-47ee-9ed3-36a85b200063",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_f0addcfb-7be3-4d4c-abd0-6416cde1bec0.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the relative impact of key environmental and human activities on the acceleration of coastal erosion along the California coast during the last five years.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "assess_coastal_erosion",
+    "linear_regression",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

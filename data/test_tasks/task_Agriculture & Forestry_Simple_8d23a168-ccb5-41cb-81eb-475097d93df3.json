@@ -1,0 +1,14 @@
+{
+  "task_id": "8d23a168-ccb5-41cb-81eb-475097d93df3",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_970b92c6-d812-4f8a-83a9-19b117b47f7a.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Following an unusually harsh dry season, quantify the resulting change in forest health across the Amazon basin by comparing its condition in mid-September 2023 to that of six months prior.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "monitor_forest_health"
+  ]
+}

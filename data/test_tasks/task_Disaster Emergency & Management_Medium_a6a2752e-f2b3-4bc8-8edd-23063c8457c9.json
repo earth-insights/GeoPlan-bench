@@ -1,0 +1,18 @@
+{
+  "task_id": "a6a2752e-f2b3-4bc8-8edd-23063c8457c9",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_24b508b6-a541-4caa-8b0c-d634e2baac3d.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the severe coastal flooding near Virginia Beach around October 15th, 2023, what are the most viable evacuation routes from the newly inundated zones to the nearest operational shelters?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "plan_evacuation_routes"
+  ]
+}

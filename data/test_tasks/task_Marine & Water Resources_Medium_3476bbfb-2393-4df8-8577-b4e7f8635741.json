@@ -1,0 +1,17 @@
+{
+  "task_id": "3476bbfb-2393-4df8-8577-b4e7f8635741",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_25a0bdcb-00e6-459a-9c55-1b1002cf519c.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Considering recent climate-driven hydrological shifts, characterize the habitat fragmentation of the re-established freshwater wetlands within California's historic Tulare Lake basin during 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_wetland_conditions"
+  ]
+}

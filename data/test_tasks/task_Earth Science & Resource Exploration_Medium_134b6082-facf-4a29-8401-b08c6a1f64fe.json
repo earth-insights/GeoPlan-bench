@@ -1,0 +1,18 @@
+{
+  "task_id": "134b6082-facf-4a29-8401-b08c6a1f64fe",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_65f50b69-1178-4d95-97d2-9e83a942b897.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the feasibility of a new green infrastructure ordinance in San Francisco's Mission District by quantifying the existing ratio of impervious urban structures to vegetated and bare soil areas as of January 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "90f6a46d-c38d-4870-b905-7fa463591b81",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_46279d91-3ff1-4eea-80c8-fe9717e152de.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Determine the statistical significance of urban runoff and thermal pollution on the severity of algal blooms in the southern basin of Lake Michigan during 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

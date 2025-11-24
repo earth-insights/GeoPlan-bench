@@ -1,0 +1,22 @@
+{
+  "task_id": "264d7e93-5109-409e-8f98-6928deee6223",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_0b07e375-43fe-4b28-a384-66886c6b374e.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a statistical summary and detailed report on the structural damage to buildings in the hardest-hit area following the seismic events in California during September 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

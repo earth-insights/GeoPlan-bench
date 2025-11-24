@@ -1,0 +1,18 @@
+{
+  "task_id": "c2485bdf-4cb8-44df-be47-58835b3120c8",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_48048a06-c9fe-48d0-91fe-521351f25a3b.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Quantify the recent intensification of urban land use within the Long Island City waterfront district, using mid-August 2023 as the primary assessment period.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "assess_urbanization_level"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "d93a7060-64d7-4338-a5fa-cc655adbb9e9",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_22704768-02f9-4fa4-bea9-c2cef2631d56.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "By analyzing the relationship between corn vigor and soil conditions on my Iowa farm (40.5°N, -92.5°W) during the 2023 summer, can you forecast the final crop yield?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "641c5a80-410c-4d45-a21d-d17c94c25dfc",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_5f138bb3-2f97-469b-9d9c-c59f59a86b24.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Analyze the relationship between urbanized land cover and elevated surface temperatures to generate a report on the urban heat island effect in the western Los Angeles area for the year 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "evaluate_urban_heat_island",
+    "generate_analysis_reports"
+  ]
+}

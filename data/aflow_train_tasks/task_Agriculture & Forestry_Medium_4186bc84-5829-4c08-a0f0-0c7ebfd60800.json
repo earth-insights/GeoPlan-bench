@@ -1,0 +1,13 @@
+{
+  "task_id": "4186bc84-5829-4c08-a0f0-0c7ebfd60800",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_a4d008fd-2f5a-4ec6-a35e-00ec4d83d263.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the spatial patterns of irrigation and crop rotation in California's Central Valley throughout 2022.",
+  "ground_truth_tool_flow": [
+    "read_database",
+    "crop_image",
+    "classify_land_cover",
+    "analyze_farming_patterns"
+  ]
+}

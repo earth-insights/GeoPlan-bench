@@ -1,0 +1,23 @@
+{
+  "task_id": "95c0a313-a666-4d21-8c1c-37f133a9a68c",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_8f1e536f-7645-4abd-8516-74f349d6c405.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "How did anomalous thermal events in the Gulf of Cadiz affect its water quality throughout 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "segment_water_bodies",
+    "monitor_sea_surface_temperature",
+    "assess_water_quality",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

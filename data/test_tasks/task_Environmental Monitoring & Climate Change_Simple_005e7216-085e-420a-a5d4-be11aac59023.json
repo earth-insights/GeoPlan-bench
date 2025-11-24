@@ -1,0 +1,19 @@
+{
+  "task_id": "005e7216-085e-420a-a5d4-be11aac59023",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_bf759f50-977a-4535-88ae-677da552679f.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Does increased water turbidity in the Mwanza Gulf, driven by recent land development, correlate with more severe algal blooms as seen in mid-September 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

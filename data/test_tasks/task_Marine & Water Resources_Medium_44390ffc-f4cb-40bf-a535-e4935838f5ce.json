@@ -1,0 +1,23 @@
+{
+  "task_id": "44390ffc-f4cb-40bf-a535-e4935838f5ce",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_5c4f2ec8-a017-441c-bb32-97bb711fffaf.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the combined influence of marine biological productivity and near-shore bathymetry on sea surface temperature fluctuations within the Southern California Bight during 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_sea_surface_temperature",
+    "correlation_analysis",
+    "linear_regression",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

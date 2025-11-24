@@ -1,0 +1,13 @@
+{
+  "task_id": "5c9c993a-153d-4bf1-9981-2db1e7f7f412",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_fa35c3cf-7b58-4f4c-98c3-166ee27bdb05.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "What was the quantifiable relationship between atmospheric temperature fluctuations and the overall water health at Lake Tahoe during 2023?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "correlation_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

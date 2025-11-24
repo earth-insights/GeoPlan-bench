@@ -1,0 +1,19 @@
+{
+  "task_id": "e0ff18a1-0ff2-4c7c-9880-1e6c4b45022b",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_67aba428-b28f-45eb-964b-8c41bb832ddd.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "To inform a regional water quality management plan, generate a high-resolution analysis of the San Francisco Bay Area's landscape from 2023, delineating the boundaries between urban infrastructure, agricultural lands, forests, and wetland ecosystems.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "convert_coordinates",
+    "crop_image",
+    "classify_land_cover"
+  ]
+}

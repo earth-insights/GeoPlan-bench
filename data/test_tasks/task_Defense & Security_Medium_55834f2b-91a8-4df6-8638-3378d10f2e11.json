@@ -1,0 +1,14 @@
+{
+  "task_id": "55834f2b-91a8-4df6-8638-3378d10f2e11",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_a599667b-0909-45e0-a345-4c3b4b678fc5.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Based on last month's aerial incursions in the North-East Sector, is there evidence of a coordinated operational pattern, and what are its defining characteristics?",
+  "ground_truth_tool_flow": [
+    "monitor_airspace_violations",
+    "analyze_threat_patterns",
+    "summarize_text",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

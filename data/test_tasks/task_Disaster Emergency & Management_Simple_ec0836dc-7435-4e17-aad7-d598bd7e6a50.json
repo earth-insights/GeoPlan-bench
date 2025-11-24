@@ -1,0 +1,16 @@
+{
+  "task_id": "ec0836dc-7435-4e17-aad7-d598bd7e6a50",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_dcdf85e9-dcf3-40dd-80dc-98095e661217.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Evaluate the state of housing and infrastructure restoration in the lower Mekong basin by the end of October 2023, following the severe flooding event that occurred mid-month.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

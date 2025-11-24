@@ -1,0 +1,24 @@
+{
+  "task_id": "219fdd69-f658-4233-bd2a-4a6c4c8a6d47",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_5b0cc8e6-2ab0-4c13-8660-825e6aacc403.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent seismic activity in Southern California, generate a damage report for the area east of Los Angeles, correlating the severity of structural impact with building usage types to identify any disproportionately affected categories.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

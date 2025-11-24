@@ -1,0 +1,19 @@
+{
+  "task_id": "5b9b9ed8-c0e2-4d01-93ce-cd74edfc03be",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_dd6533ef-3e41-48c3-a39b-a43380f3c43c.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a detailed analysis of pasture quality for my livestock operation in Eastern Ontario for May 2023, differentiating fields by both available forage amount and vegetation variety.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "assess_pasture_quality"
+  ]
+}

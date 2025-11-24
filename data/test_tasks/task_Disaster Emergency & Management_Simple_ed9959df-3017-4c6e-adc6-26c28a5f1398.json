@@ -1,0 +1,18 @@
+{
+  "task_id": "ed9959df-3017-4c6e-adc6-26c28a5f1398",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_54ba08e1-2a80-47d0-b7c1-860288e00e2f.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the January 2023 seismic event in central Los Angeles, to what degree have buildings, roads, and bridges been restored by September 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "9b755fe4-fa40-4f6c-b2d2-25512a3721be",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_1e90472e-9246-4210-8155-58de603fb153.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Quantify the agricultural damage in Greece's Thessaly region from the early September 2023 flooding and subsequently track the area's vegetation recovery progress through the end of the year.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "format_data",
+    "generate_analysis_reports",
+    "suggest_processing_workflows"
+  ]
+}

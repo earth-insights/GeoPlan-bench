@@ -1,0 +1,13 @@
+{
+  "task_id": "5957104f-b1be-46e3-8624-9b14d94f82b1",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_99a83c1c-f6ad-430e-804e-0b409b78ab3f.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "What was the spatial pattern of vegetation stress across agricultural fields in the Los Angeles basin during June 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata"
+  ]
+}

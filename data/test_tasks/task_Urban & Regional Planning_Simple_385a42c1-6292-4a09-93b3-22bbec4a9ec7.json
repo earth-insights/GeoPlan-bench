@@ -1,0 +1,18 @@
+{
+  "task_id": "385a42c1-6292-4a09-93b3-22bbec4a9ec7",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_4fdf00de-b89a-4db0-a548-1afb4c1bdc5e.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "For the Presidio Trust's 2023 land use assessment, provide a detailed architectural footprint analysis of structures between the Presidio Golf Course and eastern Golden Gate Park, including a statistical breakdown of building counts and average sizes categorized by type.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "crop_image",
+    "atmospheric_correction",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "cde1db76-6f51-4934-8da8-ce9e72ac3e11",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_fd2042a9-5088-40a7-89c9-c3fb5ba922b2.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "How does urban development encroach on the natural forested and chaparral-covered terrain within a 50-kilometer radius of downtown Los Angeles, based on an analysis of 2023 land composition?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "classify_land_cover"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "ac642874-a600-486a-8fd7-9d505c951cdd",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_7dabc8c6-0b83-47fe-a994-01c58afeac3c.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the degradation of water quality and its resulting impact on the ecological stability and services of Basin X following the initiation of Project A, based on conditions observed in June 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "evaluate_ecosystem_services",
+    "assess_environmental_impact",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

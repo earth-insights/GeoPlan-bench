@@ -1,0 +1,23 @@
+{
+  "task_id": "5ba7e954-dc8f-487b-a7e0-399bd7f1c7da",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_9681b72f-5dea-4c9e-af1d-b7dfe9dbcedb.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "What is the final predicted 2023 yield for the distinct crop parcels at the Grand Park urban farm, based on an analysis of their seasonal growth dynamics?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "e2dc9139-5ecf-4714-9b40-d1fbfbdb20dd",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_e09ecc43-fb16-4054-9e09-ad30be1b5cf5.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the shoreline retreat and resulting water surface area loss at Millerton Lake throughout 2023 by comparing it against its established historical high-water mark.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

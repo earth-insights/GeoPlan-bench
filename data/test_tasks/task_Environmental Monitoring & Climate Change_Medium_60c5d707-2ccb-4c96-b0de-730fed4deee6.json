@@ -1,0 +1,23 @@
+{
+  "task_id": "60c5d707-2ccb-4c96-b0de-730fed4deee6",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_b8f468af-c15f-44ae-ac39-3de10ccadf9f.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the impact of urban runoff and industrial discharge on algal bloom intensity and water clarity within key Los Angeles water bodies throughout 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

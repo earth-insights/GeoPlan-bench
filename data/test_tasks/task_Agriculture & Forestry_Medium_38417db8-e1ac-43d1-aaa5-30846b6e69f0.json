@@ -1,0 +1,22 @@
+{
+  "task_id": "38417db8-e1ac-43d1-aaa5-30846b6e69f0",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_b00839f0-3ebb-4e23-8ba4-24fa45c835dd.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Forecast the final yield and optimal harvest window for the 2023 corn crop within the agricultural region bounded by latitudes 40-42°N and longitudes 88-90°W.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "predict_harvest_timing",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

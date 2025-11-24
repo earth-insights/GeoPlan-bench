@@ -1,0 +1,22 @@
+{
+  "task_id": "83ece398-7da8-4828-ad3a-6da6b549af12",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_c8a23a28-307f-4bc0-808f-65b5b6add603.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Quantify the environmental repercussions on biodiversity and carbon storage from landscape changes within the Angeles and San Bernardino National Forests between the start of 2020 and the end of 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_ice_coverage",
+    "calculate_time_difference",
+    "monitor_deforestation",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

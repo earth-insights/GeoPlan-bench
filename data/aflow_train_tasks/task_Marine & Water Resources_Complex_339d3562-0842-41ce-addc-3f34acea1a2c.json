@@ -1,0 +1,27 @@
+{
+  "task_id": "339d3562-0842-41ce-addc-3f34acea1a2c",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_cef19cfb-8fb6-44e5-bf9d-3e0c158ff1cb.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Characterize any significant clusters of vessel loitering activity within the shipping lanes of the Santa Barbara Channel during January 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "statistical_analysis",
+    "format_data",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

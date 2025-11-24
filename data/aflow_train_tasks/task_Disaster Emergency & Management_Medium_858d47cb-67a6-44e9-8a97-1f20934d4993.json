@@ -1,0 +1,13 @@
+{
+  "task_id": "858d47cb-67a6-44e9-8a97-1f20934d4993",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_b354da0b-56fd-44eb-9f4d-8781665a9f41.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Investigate how the pattern of infrastructure damage from the September 1st, 2023 earthquake in Los Angeles, influenced by local geological structures, has been compounded by the September 10th flood, ultimately affecting the region's recent vegetation recovery.",
+  "ground_truth_tool_flow": [
+    "analyze_geological_structures",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

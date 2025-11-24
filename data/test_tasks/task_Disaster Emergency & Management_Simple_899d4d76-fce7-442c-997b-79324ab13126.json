@@ -1,0 +1,18 @@
+{
+  "task_id": "899d4d76-fce7-442c-997b-79324ab13126",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_1c32449c-7c1c-4c64-bcbc-0c7ce443fa8b.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the major infrastructure collapse in downtown Baltimore during January 2023, determine the safest and most viable vehicle evacuation route from the compromised zone near [-76.5994, 39.3004] to the designated recovery point at [-76.5694, 39.3104].",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "detect_roads",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

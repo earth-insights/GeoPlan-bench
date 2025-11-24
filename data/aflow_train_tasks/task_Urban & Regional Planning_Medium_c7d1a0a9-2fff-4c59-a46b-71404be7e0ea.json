@@ -1,0 +1,16 @@
+{
+  "task_id": "c7d1a0a9-2fff-4c59-a46b-71404be7e0ea",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_4fdb00ab-6d48-4c21-909c-f3aaac7a368e.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Generate a comprehensive analysis report, including charts, that identifies and quantifies the distinct patterns of urban expansion around Los Angeles from 2020 through 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "task_id": "826ae687-c0cd-417d-bb55-d72d604d609b",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_38170f51-386a-4b1f-985c-a4b3911967b9.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "What were the primary anchoring and mooring patterns for different classes of commercial vessels near the Strait of Gibraltar throughout May 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

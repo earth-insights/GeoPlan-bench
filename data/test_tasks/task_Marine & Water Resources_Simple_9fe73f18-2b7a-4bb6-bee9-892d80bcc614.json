@@ -1,0 +1,18 @@
+{
+  "task_id": "9fe73f18-2b7a-4bb6-bee9-892d80bcc614",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_c709fdc5-1649-4769-80bc-f689860fa8f4.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Characterize the monthly vessel traffic dynamics within the East River shipping channel east of Rikers Island throughout 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_ships",
+    "track_ship_movements",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

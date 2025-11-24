@@ -1,0 +1,22 @@
+{
+  "task_id": "36cdcd07-4efa-419a-82c7-f92f8c3b1a77",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_b7fd4998-5cc7-48be-86df-7c8d055966fd.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Forecast the 2022 corn yield for a designated agricultural zone in central Iowa by modeling the combined influence of seasonal vegetation health and local weather patterns.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

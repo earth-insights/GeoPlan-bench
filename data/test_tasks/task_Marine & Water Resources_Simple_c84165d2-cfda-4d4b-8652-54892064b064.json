@@ -1,0 +1,21 @@
+{
+  "task_id": "c84165d2-cfda-4d4b-8652-54892064b064",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_c9fca789-23a5-4e1b-8f7e-b53b94884a8a.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Given concerns about agricultural runoff impacting the Mwanza Gulf, quantify the monthly progression and severity of algal bloom events within this specific southern region of Lake Victoria from the start of 2023 through October.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "a1e2a4b8-679c-41d2-9b36-804d3adff0a4",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_94dbdb33-7906-4f29-9b54-dcb5dabe875a.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Based on strategic changes observed in the Los Angeles area during early January 2023, provide a predictive threat assessment for senior government officials.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

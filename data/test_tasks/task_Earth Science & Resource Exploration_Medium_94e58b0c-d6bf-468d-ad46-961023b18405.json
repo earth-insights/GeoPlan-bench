@@ -1,0 +1,17 @@
+{
+  "task_id": "94e58b0c-d6bf-468d-ad46-961023b18405",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_162f864f-2a6f-4ab2-a71f-15174602430c.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Which vegetation category—cropland, grassland, or forest—in the central Los Angeles basin showed the most significant stress in response to the local temperature and precipitation patterns of June 2023?",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation"
+  ]
+}

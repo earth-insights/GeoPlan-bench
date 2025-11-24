@@ -1,0 +1,24 @@
+{
+  "task_id": "c9aeeedf-8e2f-41ab-9b76-1e7a65a6092a",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_994d15cb-c5d1-400b-8c40-42c275ae0c5b.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on early growing season vigor in May 2023, what is the projected final corn yield on a field-by-field basis for agricultural holdings in California's Central Valley?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

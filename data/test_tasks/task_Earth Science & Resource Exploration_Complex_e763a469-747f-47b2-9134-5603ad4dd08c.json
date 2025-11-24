@@ -1,0 +1,23 @@
+{
+  "task_id": "e763a469-747f-47b2-9134-5603ad4dd08c",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_68ee9756-a752-4390-91a8-4d718896284b.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Delineate the zones of highest landslide potential for 2023 within the geologically active mountain ranges of Southern California by assessing the interplay between terrain slope and underlying structural features.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

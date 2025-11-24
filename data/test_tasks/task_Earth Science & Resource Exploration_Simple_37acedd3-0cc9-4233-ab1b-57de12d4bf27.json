@@ -1,0 +1,20 @@
+{
+  "task_id": "37acedd3-0cc9-4233-ab1b-57de12d4bf27",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_37a8b993-f09c-4b31-b214-82b7925126e8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the statistical significance of the spatial relationship between prominent geological fault systems and recent micro-seismic activity in the Cajon Pass region during January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

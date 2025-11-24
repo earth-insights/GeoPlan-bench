@@ -1,0 +1,14 @@
+{
+  "task_id": "1affd036-8c39-412c-bd48-88eefe43494a",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_a20c98b0-648b-41ff-a743-6155e3badae3.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "For a governmental disaster review in Bangladesh, determine the extent to which pre-flood population density influenced the financial cost of the 2023 flooding.",
+  "ground_truth_tool_flow": [
+    "analyze_population_density",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

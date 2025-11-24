@@ -1,0 +1,18 @@
+{
+  "task_id": "674ac95b-aaeb-4686-b4d0-5032352ab75c",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_4fdf00de-b89a-4db0-a548-1afb4c1bdc5e.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the dominant spatial patterns of urban growth in central Los Angeles by analyzing the landscape changes between 2010 and the end of 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "crop_image",
+    "atmospheric_correction",
+    "segment_urban_areas",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "generate_analysis_reports"
+  ]
+}

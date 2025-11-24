@@ -1,0 +1,21 @@
+{
+  "task_id": "2d24f66a-1736-4f6c-8008-2429c1769a22",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_9337b400-f27d-45c2-9781-678da65dfe9e.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Identify specific plots within Toronto's University campus agricultural research area that were likely experiencing fungal or bacterial outbreaks in mid-September 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "task_id": "e4ebc20b-f0b5-48ac-8b8d-02393cfb1426",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_8b85b71a-b213-4e43-b0a1-17d3dd87da39.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Is there a quantifiable link between the density of surface-level crustal fractures and the spatial distribution of recent seismic activity in the central Los Angeles area, based on observations from autumn 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

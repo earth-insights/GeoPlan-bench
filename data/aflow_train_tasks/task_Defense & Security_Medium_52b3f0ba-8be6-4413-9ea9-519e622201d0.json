@@ -1,0 +1,19 @@
+{
+  "task_id": "52b3f0ba-8be6-4413-9ea9-519e622201d0",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_eae67a08-8f52-41cf-8ad8-49946b07302e.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Following intelligence reports of unusual airspace activity, conduct a detailed analysis of imagery from mid-October 2023 to identify any unlisted or covert military-related infrastructure within the downtown Los Angeles area bounded by 34.06°N, 34.04°S, -118.25°W, and -118.23°E.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_military_facilities",
+    "monitor_airspace_violations"
+  ]
+}

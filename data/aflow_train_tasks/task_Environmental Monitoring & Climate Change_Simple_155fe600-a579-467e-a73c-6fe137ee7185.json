@@ -1,0 +1,20 @@
+{
+  "task_id": "155fe600-a579-467e-a73c-6fe137ee7185",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_94e4a3ef-967c-4bd4-a46c-bf0d24b128a1.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the quantifiable impact of last year's deforestation and urban expansion within the \"Green Valley\" development zone on local water turbidity and air-quality readings.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "calculate_time_difference",
+    "assess_environmental_impact",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

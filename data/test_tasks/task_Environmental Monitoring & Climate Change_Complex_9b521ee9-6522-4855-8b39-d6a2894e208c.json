@@ -1,0 +1,23 @@
+{
+  "task_id": "9b521ee9-6522-4855-8b39-d6a2894e208c",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Complex_f32dc2d1-c5b6-4eb3-9030-dc28f874397f.json",
+  "complexity": "Complex",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the comprehensive impact on carbon storage and water regulation resulting from forest cover changes in the northern Tigray highlands between January and December 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "assess_carbon_sequestration",
+    "evaluate_ecosystem_services",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

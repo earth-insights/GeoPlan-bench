@@ -1,0 +1,19 @@
+{
+  "task_id": "e54332fb-409e-405d-8169-bbb66d13ddff",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_06fe497f-ef31-44dc-af09-5666c5c462f4.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Investigate the relationship between major geological structures, particularly normal faults and intrusions, and anomalous surface mineral signatures recently identified across a specific region of the central South American shield.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

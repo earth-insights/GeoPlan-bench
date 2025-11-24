@@ -1,0 +1,16 @@
+{
+  "task_id": "a056c5e4-2ba0-4d18-a6a6-6092398afd4f",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_895ebfb0-6a13-414c-a2aa-e39fda457c06.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Pinpoint the precise locations of any new, small-scale clearings indicative of unauthorized resource extraction within the coordinates -3.5°S, -59.0°W and -2.0°S, -60.0°W during mid-2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution"
+  ]
+}

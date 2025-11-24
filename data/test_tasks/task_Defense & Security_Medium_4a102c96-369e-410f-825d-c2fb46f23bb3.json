@@ -1,0 +1,23 @@
+{
+  "task_id": "4a102c96-369e-410f-825d-c2fb46f23bb3",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_13f4ca60-9914-441a-ad3e-07718a76b857.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Characterize the primary threat patterns derived from anomalous vessel rendezvous activities within the Alaminos Canyon region throughout 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "analyze_threat_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

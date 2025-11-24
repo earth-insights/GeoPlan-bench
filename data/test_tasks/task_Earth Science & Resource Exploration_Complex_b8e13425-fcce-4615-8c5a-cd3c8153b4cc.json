@@ -1,0 +1,20 @@
+{
+  "task_id": "b8e13425-fcce-4615-8c5a-cd3c8153b4cc",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_9292fb59-1d6a-4ab1-86dc-531e21cbad1d.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Given the potential for precious metal deposits in the geologically active Los Angeles area, assess the key operational safety hazards, specifically slope stability and dust emissions, at 'Mining Site Alpha' during the first half of October 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_mining_safety"
+  ]
+}

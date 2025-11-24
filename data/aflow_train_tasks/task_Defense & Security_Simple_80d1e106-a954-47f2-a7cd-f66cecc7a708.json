@@ -1,0 +1,21 @@
+{
+  "task_id": "80d1e106-a954-47f2-a7cd-f66cecc7a708",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_94dbdb33-7906-4f29-9b54-dcb5dabe875a.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the military threat level in the Florida-Bahamas maritime corridor for January 2023 by analyzing force deployment and recent activity patterns.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "detect_roads",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

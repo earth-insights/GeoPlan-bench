@@ -1,0 +1,19 @@
+{
+  "task_id": "70301604-a95d-4f2d-8930-51e6944cc794",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_4a1b58b7-baa7-4018-8573-daa3bc1cb6b8.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent major earthquake in downtown Los Angeles, chart the most viable evacuation routes to the designated northern and southern safe zones, factoring in structural collapses and blocked transportation corridors.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

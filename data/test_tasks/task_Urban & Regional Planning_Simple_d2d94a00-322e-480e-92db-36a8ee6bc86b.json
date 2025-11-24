@@ -1,0 +1,19 @@
+{
+  "task_id": "d2d94a00-322e-480e-92db-36a8ee6bc86b",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_4441c007-e19d-49d0-8f26-af05e69cc36f.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "How does the physical layout of buildings in downtown Los Angeles correlate with localized population density patterns from September 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "analyze_population_density",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

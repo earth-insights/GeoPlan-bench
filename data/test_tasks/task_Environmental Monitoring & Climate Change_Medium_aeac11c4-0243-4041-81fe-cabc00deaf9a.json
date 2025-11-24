@@ -1,0 +1,14 @@
+{
+  "task_id": "aeac11c4-0243-4041-81fe-cabc00deaf9a",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_2d379418-4665-4265-b14d-f9dc25dc127d.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the water clarity and visible sediment plumes directly offshore from the westernmost tip of Pacific Spirit Regional Park in Vancouver during a clear day in mid-July 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

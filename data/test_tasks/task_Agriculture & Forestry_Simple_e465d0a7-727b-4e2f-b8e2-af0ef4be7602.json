@@ -1,0 +1,17 @@
+{
+  "task_id": "e465d0a7-727b-4e2f-b8e2-af0ef4be7602",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_1810f7b6-a65b-4278-b143-e1927ba3aec7.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "What is the predicted 2023 harvest yield for our corn fields in the Los Angeles basin, considering the crop's development and vigor during the critical March-July growth window?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "segment_vegetation",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

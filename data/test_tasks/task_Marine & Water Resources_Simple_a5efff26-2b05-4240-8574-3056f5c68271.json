@@ -1,0 +1,13 @@
+{
+  "task_id": "a5efff26-2b05-4240-8574-3056f5c68271",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_b1efa882-af8a-40b3-8ff0-b288b1500b33.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the strength of the relationship between urban expansion-driven vegetation loss and the degradation of both water quality and biodiversity in the greater Los Angeles area from 2020 to 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

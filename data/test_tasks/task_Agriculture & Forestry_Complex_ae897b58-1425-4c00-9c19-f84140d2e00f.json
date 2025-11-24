@@ -1,0 +1,24 @@
+{
+  "task_id": "ae897b58-1425-4c00-9c19-f84140d2e00f",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_e95dca8e-ef79-4b18-baea-5228f637658e.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Following the mid-January 2023 flooding in the Tiber River basin north of Rome, quantify the peak inundation and produce a detailed assessment of the impact on the region's agricultural health.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "convert_coordinates",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

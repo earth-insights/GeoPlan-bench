@@ -1,0 +1,18 @@
+{
+  "task_id": "2c1f221c-93ce-4dab-832c-0cf65387ddd0",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_3fa711a6-1ab3-49b2-b913-471fb84b565f.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Identify all unauthorized construction that emerged within Los Angeles during June 2023 and evaluate its potential threat to the integrity of regional strategic infrastructure.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

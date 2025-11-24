@@ -1,0 +1,13 @@
+{
+  "task_id": "e381eb1e-5a51-402e-be7c-7d606a6bfe0f",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_551468b0-993b-424c-9f75-5e14d0c627d9.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Considering the aftermath of the August 2023 hurricane in New Orleans, what is the optimal mandatory evacuation strategy from downtown, accounting for neighborhood-level disruptions?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

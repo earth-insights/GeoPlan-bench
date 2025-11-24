@@ -1,0 +1,23 @@
+{
+  "task_id": "3485d49d-d45a-41a7-ab59-feda84d21b5d",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_810a6780-8d87-46b1-9865-f0e2ad890102.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the ecological damage to biodiversity and water quality in the Baltic Sea resulting from suspicious cargo and fishing vessel activities during the first half of 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "assess_marine_pollution",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

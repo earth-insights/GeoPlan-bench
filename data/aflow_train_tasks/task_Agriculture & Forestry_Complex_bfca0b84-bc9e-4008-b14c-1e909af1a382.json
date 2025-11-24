@@ -1,0 +1,19 @@
+{
+  "task_id": "bfca0b84-bc9e-4008-b14c-1e909af1a382",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_257f7925-5663-4fa5-81b5-9d5f644e5531.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Quantify the total carbon stored by the primary vegetation within the geographic block from 10°E to 11°E and 50°N to 51°N during January 2023 for a regional environmental audit.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "resize_image",
+    "band_combination",
+    "classify_land_cover",
+    "assess_carbon_sequestration"
+  ]
+}

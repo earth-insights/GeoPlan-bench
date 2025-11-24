@@ -1,0 +1,24 @@
+{
+  "task_id": "2ffed7cd-bf98-4e0a-85e1-1ccf7bf86525",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_b77d1c60-2dec-4539-87d0-cdada3a2e995.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the hypothetical 5.8 magnitude earthquake that struck Los Angeles on October 17, 2023, identify the specific buildings in the downtown financial district that sustained the most significant structural changes and assess the resulting risk to the most densely populated blocks within that area.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "analyze_population_density",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

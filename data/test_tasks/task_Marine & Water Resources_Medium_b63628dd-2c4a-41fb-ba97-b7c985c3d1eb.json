@@ -1,0 +1,23 @@
+{
+  "task_id": "b63628dd-2c4a-41fb-ba97-b7c985c3d1eb",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_f0addcfb-7be3-4d4c-abd0-6416cde1bec0.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the combined influence of surrounding land cover and prevailing drought conditions on water turbidity and algal content for the southeastern San Francisco Bay during May 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "classify_land_cover",
+    "monitor_drought_conditions",
+    "assess_water_quality",
+    "linear_regression",
+    "statistical_analysis",
+    "convert_coordinates",
+    "format_data"
+  ]
+}

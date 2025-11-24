@@ -1,0 +1,19 @@
+{
+  "task_id": "cd01802e-db25-46e4-ab14-469bcb9d9204",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_7b6a71a7-4956-45dc-9fd3-d36e7661821e.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "What is the statistical significance of the spatial relationship between subtle linear ground features identified since 2021 and the known tectonic structure of the Los Angeles Basin?",
+  "ground_truth_tool_flow": [
+    "read_database",
+    "convert_coordinates",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

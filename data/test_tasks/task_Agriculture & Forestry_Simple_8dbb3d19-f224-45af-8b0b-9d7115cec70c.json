@@ -1,0 +1,18 @@
+{
+  "task_id": "8dbb3d19-f224-45af-8b0b-9d7115cec70c",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_103951aa-032d-406b-9628-c354ba5744ec.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "How did the prevailing moisture conditions in 2023 affect the predicted vegetation output for San Francisco's Alamo Square Park?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "assess_soil_moisture",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

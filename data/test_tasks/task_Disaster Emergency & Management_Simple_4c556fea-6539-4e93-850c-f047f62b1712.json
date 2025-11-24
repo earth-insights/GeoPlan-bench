@@ -1,0 +1,20 @@
+{
+  "task_id": "4c556fea-6539-4e93-850c-f047f62b1712",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d939acae-c9f0-44ca-96ec-f1a61f571bb6.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate an optimized evacuation route plan for downtown Los Angeles based on the building damage assessment following the August 2023 flood.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_individual_buildings",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

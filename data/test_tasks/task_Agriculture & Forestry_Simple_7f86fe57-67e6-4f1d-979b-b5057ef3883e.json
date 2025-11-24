@@ -1,0 +1,18 @@
+{
+  "task_id": "7f86fe57-67e6-4f1d-979b-b5057ef3883e",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_a072d716-b19b-4549-acf2-f230ba9af921.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Quantify the total carbon sequestration loss in metric tons from forest reduction within the area bounded by 45.0°N, 44.5°N, -73.0°E, and -73.5°W for the three-year period beginning January 1, 2020.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "assess_carbon_sequestration",
+    "generate_analysis_reports"
+  ]
+}

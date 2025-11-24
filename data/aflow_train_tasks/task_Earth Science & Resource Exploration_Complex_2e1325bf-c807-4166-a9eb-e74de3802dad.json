@@ -1,0 +1,25 @@
+{
+  "task_id": "2e1325bf-c807-4166-a9eb-e74de3802dad",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_660c8791-8940-427b-b1ea-e2678cf1ca87.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Quantify the statistical correlation between major tectonic lineaments and potential surficial mineral alteration zones within the 25-sq-km Alpine exploration block centered at UTM 502500 E, 4602500 N (Zone 32T), based on observations from last year.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "resize_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

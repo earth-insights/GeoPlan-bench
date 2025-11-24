@@ -1,0 +1,20 @@
+{
+  "task_id": "e5d47661-9f5c-43cc-9aa7-048ad7a947a3",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_dd8fa262-c9cd-4a74-a310-af302d07e889.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the seismic events and subsequent flooding in California during January 2023, assess the damage to buildings within a specific 10km by 1km corridor east of Fremont and quantify the progress of structural reconstruction through to the present.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

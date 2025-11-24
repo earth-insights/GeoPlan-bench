@@ -1,0 +1,19 @@
+{
+  "task_id": "23a6ff20-aff8-4e8e-9857-841a4f4a92d9",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_7699ab12-1763-4e66-899f-36b6f4e1f047.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "What is the forecasted final yield for each distinct agricultural field within Ventura County, based on an assessment of their growing conditions from this past June?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "task_id": "9b2be684-5886-4f99-86a4-ffdb50fb31cf",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_b8ab0ebd-fc86-4319-b0a6-b60245a7c6b7.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Characterize the anomalous vehicular activity observed near the Singapore Strait in January 2023 and evaluate its potential significance in relation to regional security incidents.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "statistical_analysis",
+    "correlation_analysis",
+    "analyze_threat_patterns",
+    "summarize_text",
+    "generate_analysis_reports",
+    "convert_coordinates"
+  ]
+}

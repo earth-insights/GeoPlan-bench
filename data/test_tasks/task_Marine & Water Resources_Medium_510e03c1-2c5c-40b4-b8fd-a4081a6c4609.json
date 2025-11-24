@@ -1,0 +1,13 @@
+{
+  "task_id": "510e03c1-2c5c-40b4-b8fd-a4081a6c4609",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_8581151f-6f45-457e-9cbf-392c0eda31e3.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the current crop stress levels within the newly established experimental plot in our primary cornfield.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_file",
+    "crop_image",
+    "convert_coordinates"
+  ]
+}

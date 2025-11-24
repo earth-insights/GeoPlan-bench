@@ -1,0 +1,18 @@
+{
+  "task_id": "d5e66d30-1043-4149-8e9e-cab694dd7c6a",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_c9a9945a-52a1-4cb9-8b64-659db0be8965.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "What were the primary environmental drivers behind the proliferation of algal blooms in water bodies located between 35-36°N latitude and 119-120°W longitude during the first half of 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "76f809eb-e2d8-45db-a1ec-bb5fab183333",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_010c462d-ea0d-4ba3-92d8-e72ae755ee29.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Investigate last week's activities along the Southern Border to determine if the timing of isolated illegal crossings is a reliable precursor to larger-scale smuggling operations.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

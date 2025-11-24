@@ -1,0 +1,23 @@
+{
+  "task_id": "052da351-533e-45b5-9ba3-3e5d8f227c7a",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_d71b270d-fd73-4ca9-97a0-a4bfe185ee93.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on landscape patterns from early 2023, what is the structural orientation of geological weakness in the Maipo River's upper basin in the Andes?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "02e54653-ed53-44ca-b05f-1f7554ef3fff",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_7fb49084-29a0-4582-8c14-810540078235.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "For our annual conservation grant report, deliver a comprehensive analysis of the ecological damage—specifically to biodiversity, carbon storage, and soil stability—resulting from forest loss within the Kayapo Indigenous Territory during 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_deforestation",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

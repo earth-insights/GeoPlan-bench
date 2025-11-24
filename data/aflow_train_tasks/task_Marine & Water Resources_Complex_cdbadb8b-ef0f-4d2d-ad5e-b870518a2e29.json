@@ -1,0 +1,19 @@
+{
+  "task_id": "cdbadb8b-ef0f-4d2d-ad5e-b870518a2e29",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_ab7b45ca-2641-4211-9503-691162288272.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Characterize the 2023 distribution of primary landscape types, distinguishing between industrial port facilities, dense urban zones, and vegetated coastal areas within the southern Los Angeles region.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "classify_landscape_type"
+  ]
+}

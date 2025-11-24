@@ -1,0 +1,21 @@
+{
+  "task_id": "edff2645-ed14-493c-a8fc-b2161616819f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_8581151f-6f45-457e-9cbf-392c0eda31e3.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate how daily commercial shipping activity in the San Pedro Bay throughout October 2023 influenced the patterns and concentration of surface oil and plastic pollution.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_ships",
+    "track_ship_movements",
+    "assess_marine_pollution",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

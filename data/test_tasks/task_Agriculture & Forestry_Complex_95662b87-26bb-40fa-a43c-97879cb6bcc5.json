@@ -1,0 +1,20 @@
+{
+  "task_id": "95662b87-26bb-40fa-a43c-97879cb6bcc5",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_bc6e2249-a70d-4e95-8399-4d28d8d36cda.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint the precise locations and assess the severity of any emergent crop diseases in the farmlands of California's Central Valley during June 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

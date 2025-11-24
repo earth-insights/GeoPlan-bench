@@ -1,0 +1,23 @@
+{
+  "task_id": "0a0ea217-0fc6-47e7-963a-b59d4da8e60b",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_cdbb1cef-89ad-497d-980f-8df51f910252.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a consolidated building damage report for the Santa Monica area, assessing the combined structural impact from the early October 2023 earthquake and the subsequent localized flooding.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

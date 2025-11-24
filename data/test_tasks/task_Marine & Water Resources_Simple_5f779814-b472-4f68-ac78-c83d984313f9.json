@@ -1,0 +1,17 @@
+{
+  "task_id": "5f779814-b472-4f68-ac78-c83d984313f9",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_fc7f083a-5819-4b12-bf5e-7ade94a473d8.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the impact of agricultural runoff on the county's primary reservoir by identifying all significant algal bloom events throughout 2023 and reporting on the corresponding periods of critical water quality degradation.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "generate_analysis_reports"
+  ]
+}

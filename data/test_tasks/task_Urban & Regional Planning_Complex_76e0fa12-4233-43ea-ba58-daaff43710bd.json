@@ -1,0 +1,24 @@
+{
+  "task_id": "76e0fa12-4233-43ea-ba58-daaff43710bd",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_20c5106f-9e23-46e6-9c50-1e978e584ade.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Evaluate the efficiency of urban density in the Shinjuku district of Tokyo for 2023 by analyzing the spatial relationship between individual building structures and population distribution.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "analyze_population_density",
+    "assess_land_use_efficiency",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

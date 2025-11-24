@@ -1,0 +1,13 @@
+{
+  "task_id": "1fca35e4-f0c7-4b77-a9e0-ff168cd1e811",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_7699ab12-1763-4e66-899f-36b6f4e1f047.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a seasonal analysis report on how climatic conditions throughout 2023 impacted the final wheat yield for California.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

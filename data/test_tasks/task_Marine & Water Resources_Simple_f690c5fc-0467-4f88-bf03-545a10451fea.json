@@ -1,0 +1,18 @@
+{
+  "task_id": "f690c5fc-0467-4f88-bf03-545a10451fea",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_cb7ee1e6-106c-4c38-b218-3ec527f7dea0.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate the coastal stability of the island formations along the Ninety East Ridge by quantifying the monthly variability in their sub-aerial landmass during 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_sea_surface_temperature",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

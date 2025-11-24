@@ -1,0 +1,17 @@
+{
+  "task_id": "fd5af0d9-6702-4611-ab5a-f8451066287b",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_c7833137-ab87-438a-9517-f026ffd35c53.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Identify and quantify the severity of recurring traffic congestion hotspots within the commercial district adjacent to the Tacony-Palmyra Bridge in Philadelphia throughout 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_vehicles",
+    "monitor_traffic_congestion"
+  ]
+}

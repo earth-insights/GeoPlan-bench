@@ -1,0 +1,16 @@
+{
+  "task_id": "25d1ad85-c20f-41b3-a67d-b32c39cdd499",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_bb88ff4a-b3d2-4cda-b4a1-ec8e91c70f86.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Quantify the loss in the Amazon's carbon sequestration capability resulting from deforestation that occurred through the third quarter of 2023, and contextualize this loss against the deforestation trends of the preceding five years.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "monitor_deforestation",
+    "assess_carbon_sequestration",
+    "assess_environmental_impact",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "9f379e16-3a5b-4db0-9766-3feb1d86fb10",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_e836a1ef-bf89-4b7a-bef3-8ce8ccaaf701.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Generate a habitat quality report for the eastern Everglades between latitudes 25.5°N and 26.0°N, analyzing the extent and interconnectedness of surface water and the health of adjacent vegetation for January 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_wetland_conditions"
+  ]
+}

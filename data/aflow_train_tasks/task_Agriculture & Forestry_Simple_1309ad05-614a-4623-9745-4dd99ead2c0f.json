@@ -1,0 +1,17 @@
+{
+  "task_id": "1309ad05-614a-4623-9745-4dd99ead2c0f",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_970b92c6-d812-4f8a-83a9-19b117b47f7a.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Report on the evolving distribution of corn and soybean cultivation within a key central California agricultural zone during the 2020 growing season.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "classify_land_cover",
+    "analyze_farming_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "c2584888-80b8-489a-85a9-49ef217c5e51",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_dd205997-dabe-461b-897a-0ec145211be8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Pinpoint high-confidence, drill-ready gold exploration targets in the Atacama region by characterizing the geological fracture network that controls the formation of known deposits.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

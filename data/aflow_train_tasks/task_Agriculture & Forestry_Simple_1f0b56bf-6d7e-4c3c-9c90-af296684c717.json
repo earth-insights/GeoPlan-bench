@@ -1,0 +1,18 @@
+{
+  "task_id": "1f0b56bf-6d7e-4c3c-9c90-af296684c717",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_7699ab12-1763-4e66-899f-36b6f4e1f047.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Identify the specific parcels within the Pine Ridge Nature Preserve that showed subpar canopy density and vitality during January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_vegetation",
+    "monitor_forest_health",
+    "generate_analysis_reports"
+  ]
+}

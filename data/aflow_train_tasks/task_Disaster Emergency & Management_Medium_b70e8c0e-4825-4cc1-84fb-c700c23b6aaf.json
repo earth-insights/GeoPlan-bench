@@ -1,0 +1,17 @@
+{
+  "task_id": "b70e8c0e-4825-4cc1-84fb-c700c23b6aaf",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_1ad89200-c2b4-4d47-9160-609120b61c2f.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the intense winter storms of early 2023, generate an updated flood risk zone map for the southern San Francisco peninsula by analyzing how recent changes in land cover interact with historically flood-prone areas.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "assess_flood_risk_zones"
+  ]
+}

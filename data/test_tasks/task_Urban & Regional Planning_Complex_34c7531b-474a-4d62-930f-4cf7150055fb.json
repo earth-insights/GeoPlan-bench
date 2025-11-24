@@ -1,0 +1,22 @@
+{
+  "task_id": "34c7531b-474a-4d62-930f-4cf7150055fb",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_235669bd-7b9d-4bdd-990a-8419b69ea657.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Produce a detailed report for city planners on the evolving urban density and growth patterns in San Francisco's northeast Mission District over the past decade, with a focus on recent accelerations.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_urban_areas",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

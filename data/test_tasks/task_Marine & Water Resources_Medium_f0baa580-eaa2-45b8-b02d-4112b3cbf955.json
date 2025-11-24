@@ -1,0 +1,21 @@
+{
+  "task_id": "f0baa580-eaa2-45b8-b02d-4112b3cbf955",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_0b8b12f5-25f9-434c-ac1e-d9bd905107ca.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Determine the primary oceanographic drivers influencing the distribution and intensity of the coastal algae bloom event off Southern California during January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_sea_surface_temperature",
+    "track_ocean_currents",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

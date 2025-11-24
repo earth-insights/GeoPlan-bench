@@ -1,0 +1,23 @@
+{
+  "task_id": "6ada4dc5-f6ec-46e0-bce9-e9d7d3a2d731",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_236db04a-bb9c-40ff-94ae-6ee666e2895f.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the impact of recent urban development on the landscape immediately surrounding the Colosseum, contextualizing the changes between 2018 and 2023 within the area's broader growth patterns since 2010.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "resize_image",
+    "convert_coordinates",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

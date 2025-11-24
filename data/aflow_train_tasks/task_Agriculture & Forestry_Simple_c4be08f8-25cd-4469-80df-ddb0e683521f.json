@@ -1,0 +1,14 @@
+{
+  "task_id": "c4be08f8-25cd-4469-80df-ddb0e683521f",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_316ea283-64b9-44e3-b65f-ad0c5104094b.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Quantify the projected reduction in California's 2023 almond yield attributable to the severe dry spell experienced from May through September.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

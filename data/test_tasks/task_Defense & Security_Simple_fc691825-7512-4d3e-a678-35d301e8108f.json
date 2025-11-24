@@ -1,0 +1,17 @@
+{
+  "task_id": "fc691825-7512-4d3e-a678-35d301e8108f",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_a95da1f4-d703-42af-95b0-bc4393f28730.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Analyze the direct road access to all strategic transportation hubs—airports, railways, and key bridges—within the Pearl River Delta to create a logistical vulnerability overview for 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_roads",
+    "assess_strategic_infrastructure",
+    "generate_analysis_reports"
+  ]
+}

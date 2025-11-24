@@ -1,0 +1,30 @@
+{
+  "task_id": "f36bac74-fd6c-4249-8ced-317e75b61c32",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_fe41e187-287b-4a36-ba88-e87803fbf568.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Produce a comprehensive post-disaster assessment for the city of Veridia following the January 8th, 2023 earthquake, detailing the extent of damage to buildings and critical infrastructure, and correlating the severity of the impact with proximity to the seismic event's epicenter.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "segment_urban_areas",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_strategic_infrastructure",
+    "assess_disaster_damage",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

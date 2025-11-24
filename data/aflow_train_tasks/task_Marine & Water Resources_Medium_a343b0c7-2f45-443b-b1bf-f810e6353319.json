@@ -1,0 +1,24 @@
+{
+  "task_id": "a343b0c7-2f45-443b-b1bf-f810e6353319",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_55cb5b0e-fe4d-4d4d-b71f-784062f3eb7d.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "How did surface temperature variations influence the interplay between water clarity and phytoplankton levels across the Great Lakes during 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "segment_water_bodies",
+    "monitor_sea_surface_temperature",
+    "assess_water_quality",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

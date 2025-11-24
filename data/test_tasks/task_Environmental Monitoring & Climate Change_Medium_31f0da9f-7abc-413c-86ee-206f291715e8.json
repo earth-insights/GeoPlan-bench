@@ -1,0 +1,22 @@
+{
+  "task_id": "31f0da9f-7abc-413c-86ee-206f291715e8",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_9bc27474-e975-473d-97f4-4feb337a2311.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Determine the extent to which nutrient levels influenced the severity of algal blooms in Lake Tahoe during May 2023 and assess the subsequent impact on the lake's biodiversity and fishery health.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

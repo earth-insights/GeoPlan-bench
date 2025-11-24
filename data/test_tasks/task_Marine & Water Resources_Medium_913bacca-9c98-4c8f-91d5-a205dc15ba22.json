@@ -1,0 +1,20 @@
+{
+  "task_id": "913bacca-9c98-4c8f-91d5-a205dc15ba22",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_8f1e536f-7645-4abd-8516-74f349d6c405.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Identify the most viable commercial fishing zones off the Los Angeles coast for January 2023, focusing on areas with surface temperatures between 20-25°C, depths of 10-50 meters, and medium salinity levels.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "segment_water_bodies",
+    "monitor_sea_surface_temperature",
+    "evaluate_fishing_grounds"
+  ]
+}

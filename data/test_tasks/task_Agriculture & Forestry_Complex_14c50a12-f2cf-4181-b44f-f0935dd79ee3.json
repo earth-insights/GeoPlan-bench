@@ -1,0 +1,20 @@
+{
+  "task_id": "14c50a12-f2cf-4181-b44f-f0935dd79ee3",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_3bdfa838-24d2-4b30-9913-6e50c7fad66c.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the health of corn, soybean, and wheat crops in the agricultural plots just east of downtown Los Angeles during January 2023, pinpointing any areas showing high-confidence indicators of specific plant diseases.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "classify_land_cover",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

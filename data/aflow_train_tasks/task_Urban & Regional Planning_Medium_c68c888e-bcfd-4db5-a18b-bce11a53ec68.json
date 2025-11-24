@@ -1,0 +1,17 @@
+{
+  "task_id": "c68c888e-bcfd-4db5-a18b-bce11a53ec68",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_50cd59d6-183a-4109-837b-e79e38dfbd76.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Determine the spatial density and total area coverage of urban development within the residential blocks immediately west of San Francisco's Presidio during 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "segment_urban_areas",
+    "assess_urbanization_level"
+  ]
+}

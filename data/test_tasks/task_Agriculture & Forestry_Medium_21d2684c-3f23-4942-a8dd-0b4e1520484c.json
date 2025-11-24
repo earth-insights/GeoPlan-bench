@@ -1,0 +1,18 @@
+{
+  "task_id": "21d2684c-3f23-4942-a8dd-0b4e1520484c",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_2321bcf4-5172-4b72-9b61-85c32011c4e8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint the individual agricultural fields near Irvine, California showing high-confidence evidence of plant disease in April 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

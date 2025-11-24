@@ -1,0 +1,21 @@
+{
+  "task_id": "06f98b6a-e72e-47d3-939a-71086c87c76b",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d9b8d823-6e96-46e7-b9d1-a90953804383.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Chart the most viable evacuation corridors from high-density residential areas in the San Gabriel Valley to designated safety assembly points, following the recent seismic event.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

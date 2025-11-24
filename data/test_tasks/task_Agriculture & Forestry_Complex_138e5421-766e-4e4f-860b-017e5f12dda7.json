@@ -1,0 +1,19 @@
+{
+  "task_id": "138e5421-766e-4e4f-860b-017e5f12dda7",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_43083963-bb8c-4209-ac78-855e31144c02.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "How did land use within individual farm plots in the agricultural district east of Fresno change between this past October and October of the previous year?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "analyze_farming_patterns"
+  ]
+}

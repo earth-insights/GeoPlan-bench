@@ -1,0 +1,21 @@
+{
+  "task_id": "714c4231-140e-4f2d-9556-307a1f057843",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_68714cdd-381f-4acb-a648-eb5385798720.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "How has the security threat landscape in downtown Manhattan shifted, based on an analysis of anomalous vehicle activity throughout January 2023 against our historical deployment baseline?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "correlation_analysis",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

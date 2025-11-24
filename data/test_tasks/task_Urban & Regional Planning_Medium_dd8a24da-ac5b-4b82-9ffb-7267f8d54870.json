@@ -1,0 +1,20 @@
+{
+  "task_id": "dd8a24da-ac5b-4b82-9ffb-7267f8d54870",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_071c3979-296d-4353-9492-3520396dfb39.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "How have the specific patterns of urban expansion in northern Manhattan over the past decade impacted the area's infrastructure density and the proportion of remaining green space?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_urban_areas",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level"
+  ]
+}

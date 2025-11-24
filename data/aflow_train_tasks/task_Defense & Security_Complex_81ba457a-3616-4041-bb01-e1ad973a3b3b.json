@@ -1,0 +1,25 @@
+{
+  "task_id": "81ba457a-3616-4041-bb01-e1ad973a3b3b",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_5a2e9813-d2ab-4aa0-9b35-528bd50f3f7c.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Evaluate the current asymmetric threat posed by force deployments at military installations in the San Francisco Bay Area by analyzing recent changes in activity against historical patterns.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "enhance_image_resolution",
+    "band_combination",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

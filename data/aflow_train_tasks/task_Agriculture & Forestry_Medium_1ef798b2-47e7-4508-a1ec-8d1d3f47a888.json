@@ -1,0 +1,20 @@
+{
+  "task_id": "1ef798b2-47e7-4508-a1ec-8d1d3f47a888",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_06f27f36-1647-4266-bc65-3b62bbfbebdc.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint the precise locations of all new clear-cut logging plots, at least half a hectare in size, that appeared within the maritime forests between 30-35°N and 10-15°W during the 2023 calendar year.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_deforestation",
+    "detect_illegal_logging"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "90e88841-fcfb-4712-bb98-6521dc418888",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_069d406d-ee6c-4893-8418-e7e6c4c2ad6b.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on last year's observations, determine the predictive relationship between geological faulting and potential precious metal deposits (gold, silver, copper) in the area immediately northeast of downtown Los Angeles, and delineate the most promising exploration targets.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "convert_coordinates",
+    "band_combination",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "linear_regression",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

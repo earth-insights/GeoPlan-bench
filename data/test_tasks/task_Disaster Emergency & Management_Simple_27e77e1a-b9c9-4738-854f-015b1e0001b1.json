@@ -1,0 +1,14 @@
+{
+  "task_id": "27e77e1a-b9c9-4738-854f-015b1e0001b1",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_54ba08e1-2a80-47d0-b7c1-860288e00e2f.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "For the Mountain Ridge local government, produce a complete analysis of the destructive event around October 5, 2023, covering the preceding environmental conditions, the scope of the damage, and the state of recovery efforts through the end of the month.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "d839b28b-c103-4086-9625-48d13e871ab8",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_ad94167d-d4c5-407a-8f26-8dd74f5a8967.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Following the major storms in mid-January 2023, identify the most significant traffic chokepoints on the transportation network connecting the Central Valley to the Los Angeles basin.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_roads",
+    "monitor_traffic_congestion",
+    "generate_analysis_reports"
+  ]
+}

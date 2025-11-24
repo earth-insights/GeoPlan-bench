@@ -1,0 +1,24 @@
+{
+  "task_id": "65a90d69-9eb0-489b-9e30-2cda2690a62b",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_7c1b3266-5651-44b5-bd04-cc09a756c0e2.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "What is the final projected crop yield and land productivity for the agricultural region bounded by 35-36°N and 96-97°W for the 2023 growing season?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "assess_soil_moisture",
+    "monitor_drought_conditions",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "assess_land_use_efficiency",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

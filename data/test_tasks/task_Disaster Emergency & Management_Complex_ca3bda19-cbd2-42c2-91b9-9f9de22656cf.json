@@ -1,0 +1,23 @@
+{
+  "task_id": "ca3bda19-cbd2-42c2-91b9-9f9de22656cf",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_d2762f98-00de-4a92-b658-0d985e663c2f.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess the structural integrity of the primary road networks, bridges, and public transport hubs in the industrial corridor between Brooklyn and Queens following the recent catastrophic flooding event.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_urban_areas",
+    "assess_strategic_infrastructure",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

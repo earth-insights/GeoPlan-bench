@@ -1,0 +1,16 @@
+{
+  "task_id": "ceddfb41-20cc-4f2c-944e-8e9121e32f0b",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_ac12e74c-4954-4d1d-8084-972ba73614fc.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Based on the urban footprint from early 2023, which specific developed zones within central Los Angeles County show the highest population concentrations?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_urban_areas",
+    "analyze_population_density"
+  ]
+}

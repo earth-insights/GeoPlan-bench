@@ -1,0 +1,19 @@
+{
+  "task_id": "a32a9e2d-a9c3-4436-be03-588abeca77a7",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_dd6533ef-3e41-48c3-a39b-a43380f3c43c.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Following reports of encroachment, identify all new forest clearings from the past year within the designated buffer zone of the Yasuní National Park and measure their contribution to the total deforestation rate since the start of 2020.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "detect_illegal_logging"
+  ]
+}

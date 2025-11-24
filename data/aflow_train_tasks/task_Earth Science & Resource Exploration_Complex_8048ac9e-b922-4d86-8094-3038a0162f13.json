@@ -1,0 +1,23 @@
+{
+  "task_id": "8048ac9e-b922-4d86-8094-3038a0162f13",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_e6c52607-449f-46c1-8c6f-84588588eb03.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on an integrated analysis of subsurface geological formations and surface stability, identify the optimal location for a new gold and copper mine in the central Appalachian region.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "monitor_mining_operations",
+    "assess_mining_safety"
+  ]
+}

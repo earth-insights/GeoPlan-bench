@@ -1,0 +1,16 @@
+{
+  "task_id": "4d59e01f-828c-482d-8163-88b3f2f3759c",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_c8aee1a7-ee63-42a4-a9a1-3c4ce5d012af.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "To update Tokyo's flood simulation models, delineate the precise boundaries of all rivers and open water bodies within the metropolitan area based on their state during the first two weeks of May 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies"
+  ]
+}

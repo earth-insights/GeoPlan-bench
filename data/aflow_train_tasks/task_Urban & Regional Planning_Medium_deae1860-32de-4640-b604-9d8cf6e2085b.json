@@ -1,0 +1,22 @@
+{
+  "task_id": "deae1860-32de-4640-b604-9d8cf6e2085b",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_3935b10a-cad5-4289-a591-ee5bf8a75d2f.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Generate a statistical summary detailing the changes in urban density and growth patterns from 2010 to 2020 in the region connecting the Los Angeles metropolitan area to the southern Central Valley.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "convert_coordinates",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

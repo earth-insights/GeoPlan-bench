@@ -1,0 +1,16 @@
+{
+  "task_id": "736da9b1-6436-4f1c-ae6f-9351e1b82b71",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_d7a9c796-f749-4653-960f-24a1a763f839.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on landscape instability and past incidents, delineate all zones in the southern mining region where proposed operational expansion would violate established geotechnical safety protocols.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "classify_terrain_type",
+    "assess_slope_stability",
+    "assess_mining_safety"
+  ]
+}

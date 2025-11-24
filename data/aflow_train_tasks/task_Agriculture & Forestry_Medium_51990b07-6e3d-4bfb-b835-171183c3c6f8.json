@@ -1,0 +1,23 @@
+{
+  "task_id": "51990b07-6e3d-4bfb-b835-171183c3c6f8",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_27cb0498-53a6-41c6-927e-568bb90f88ac.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "How did water stress throughout the 2023 growing season affect predicted crop yields across different agricultural fields in Ventura County?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_soil_moisture",
+    "monitor_drought_conditions",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

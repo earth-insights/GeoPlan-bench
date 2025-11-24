@@ -1,0 +1,22 @@
+{
+  "task_id": "def07aad-6d04-4c9b-8ac0-39435e9c295e",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_56bcc9a6-90f4-4796-9d52-13350d581d28.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "What are the precise locations and confidence-rated estimates for potential gold and copper deposits within the central Los Angeles urban core identified during 2023?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

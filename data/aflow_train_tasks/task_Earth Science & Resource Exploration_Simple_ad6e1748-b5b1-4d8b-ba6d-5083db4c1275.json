@@ -1,0 +1,20 @@
+{
+  "task_id": "ad6e1748-b5b1-4d8b-ba6d-5083db4c1275",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_76869ee1-5df4-439d-b442-20bbc19fb3fe.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "What is the spatial correlation between dominant fault lineaments and the orientation of known geological folds within the north-central Nevada region (40.5°N-41.5°N, 117°W-116°W) for the year 2022?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

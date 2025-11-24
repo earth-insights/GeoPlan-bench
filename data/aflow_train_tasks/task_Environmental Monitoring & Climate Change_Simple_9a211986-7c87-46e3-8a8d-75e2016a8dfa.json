@@ -1,0 +1,16 @@
+{
+  "task_id": "9a211986-7c87-46e3-8a8d-75e2016a8dfa",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_f39112bd-16e9-4c02-92f9-db3bbf03e01c.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Generate a map highlighting the concentration of any significant algal blooms within the coastal waters just off the Fraser River delta for January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms"
+  ]
+}

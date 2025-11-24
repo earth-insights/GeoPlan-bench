@@ -1,0 +1,16 @@
+{
+  "task_id": "ca4b781a-1c7b-482c-8294-f367925bc83c",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_707efe5e-070d-4ba5-b945-0af8407ef333.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Identify the specific urban and agricultural parcels within the Bimini Islands that are most vulnerable to a significant flood event, based on an analysis of last June's land and water conditions.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "assess_flood_risk_zones"
+  ]
+}

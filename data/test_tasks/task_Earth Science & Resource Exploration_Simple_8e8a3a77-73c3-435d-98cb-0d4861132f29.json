@@ -1,0 +1,22 @@
+{
+  "task_id": "8e8a3a77-73c3-435d-98cb-0d4861132f29",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_132a0eea-1359-4926-9948-a43aa6911b9c.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify the most viable exploration sites from 2022 within the 35-36°N, 120-119°W region by pinpointing where surface indicators of iron and clay show a strong spatial relationship with local normal faulting systems.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

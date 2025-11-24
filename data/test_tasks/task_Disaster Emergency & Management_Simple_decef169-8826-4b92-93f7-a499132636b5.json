@@ -1,0 +1,18 @@
+{
+  "task_id": "decef169-8826-4b92-93f7-a499132636b5",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_4a1b58b7-baa7-4018-8573-daa3bc1cb6b8.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate the safest possible evacuation routes for communities along the California coast, accounting for infrastructure damage and flooding from the September 2023 atmospheric river event.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "segment_water_bodies",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

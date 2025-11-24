@@ -1,0 +1,21 @@
+{
+  "task_id": "c06e60cd-d6d6-447a-ab92-f3968e44f33f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_62c251a9-fd84-4b0d-8ad2-a8dcb279a68a.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Identify potential unauthorized fishing hotspots by analyzing vessel congregation and behavior patterns within the marine protected areas off the Southern California coast for March 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "evaluate_fishing_grounds",
+    "generate_analysis_reports"
+  ]
+}

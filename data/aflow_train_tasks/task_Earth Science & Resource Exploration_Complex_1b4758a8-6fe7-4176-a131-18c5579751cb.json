@@ -1,0 +1,21 @@
+{
+  "task_id": "1b4758a8-6fe7-4176-a131-18c5579751cb",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_62517583-e67f-4bd0-af7e-02575e31f5a5.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify the most economically promising gold and copper deposits within the eastern Santa Monica Mountains, providing a detailed assessment of their potential ore quality and size.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "band_combination",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "evaluate_ore_quality"
+  ]
+}

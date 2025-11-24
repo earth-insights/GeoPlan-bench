@@ -1,0 +1,18 @@
+{
+  "task_id": "65c94d51-f792-42d1-83e8-f7b675d982f1",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_5114e859-e6ad-4534-9316-8f88d0c09830.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the relationship between urban land cover density and surface temperature anomalies within downtown Los Angeles throughout 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "evaluate_urban_heat_island",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

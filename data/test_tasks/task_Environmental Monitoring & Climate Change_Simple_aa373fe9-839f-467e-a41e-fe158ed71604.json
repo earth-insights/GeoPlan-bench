@@ -1,0 +1,15 @@
+{
+  "task_id": "aa373fe9-839f-467e-a41e-fe158ed71604",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_6203e7bd-b81c-4d64-9bd7-0a0f06731c5f.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the severity and spatial distribution of suspected algal blooms in the northwestern region of Lake Tahoe during September 2023, considering the prevailing weather patterns of that month.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms"
+  ]
+}

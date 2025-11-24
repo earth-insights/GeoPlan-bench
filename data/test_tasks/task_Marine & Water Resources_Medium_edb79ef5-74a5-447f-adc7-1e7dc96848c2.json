@@ -1,0 +1,22 @@
+{
+  "task_id": "edb79ef5-74a5-447f-adc7-1e7dc96848c2",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_4d1a0bba-c9c8-4939-8f6c-a091f28f00f9.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Analyze the evolution of the primary algal bloom and its impact on overall water health within the coastal bay system between 30-31°N and 96-97°W throughout January 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

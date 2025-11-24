@@ -1,0 +1,20 @@
+{
+  "task_id": "051c885f-7133-46ce-ac5c-6b6998898bc5",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_5d4e2f14-4dfa-4811-930c-69150ba5a855.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "What was the cumulative environmental impact of degraded water quality and subsequent algal blooms on the primary reservoirs east of Los Angeles throughout 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "assess_environmental_impact",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

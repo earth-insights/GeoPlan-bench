@@ -1,0 +1,25 @@
+{
+  "task_id": "a2d52a0e-3318-46fe-82f9-291f06922495",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_95c92a6e-70c0-41f9-86d0-b0e50395e534.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Provide a statistical summary of structural damage to individual buildings within the village at 34.055°N, 100.625°E following the late August 2023 earthquake in Qinghai.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "convert_coordinates",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

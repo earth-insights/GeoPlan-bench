@@ -1,0 +1,22 @@
+{
+  "task_id": "f3ae02ec-9b94-4f24-9950-541743571881",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_1018b46e-fe3d-49b7-911d-3d7b376a22ea.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Produce a CSV report summarizing daily maritime traffic density and flagging all suspicious vessel activities observed in the Eastern Mediterranean off the Levantine coast from October 1st to October 10th, 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

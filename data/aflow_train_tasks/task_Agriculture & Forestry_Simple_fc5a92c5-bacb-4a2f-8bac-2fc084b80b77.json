@@ -1,0 +1,15 @@
+{
+  "task_id": "fc5a92c5-bacb-4a2f-8bac-2fc084b80b77",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_f396b7ff-1292-4e88-b65c-f6ba0dc43c3a.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a detailed assessment of vegetation stress across San Francisco's Golden Gate Park for the month of January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_forest_health"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "19463c97-d0ba-4edc-833c-45d40949718f",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_e7fd0370-d92f-4b85-b1dc-9b0a82afb6bb.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Determine the accessibility and functional status of hospitals and primary evacuation routes within the specific California impact zone following the September 30, 2023 earthquake.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_strategic_infrastructure"
+  ]
+}

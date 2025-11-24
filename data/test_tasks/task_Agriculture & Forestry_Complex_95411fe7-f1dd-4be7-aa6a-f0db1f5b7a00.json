@@ -1,0 +1,26 @@
+{
+  "task_id": "95411fe7-f1dd-4be7-aa6a-f0db1f5b7a00",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_aa90b9b2-1a23-4267-87e6-35a5c2485f74.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Identify the agricultural fields that were significant performance outliers, either high or low, by forecasting their final 2023 yields within the area bounded by 34.0°N to 36.0°N and -118.5°W to -116.5°W.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "convert_coordinates",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_landscape_type",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

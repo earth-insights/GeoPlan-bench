@@ -1,0 +1,16 @@
+{
+  "task_id": "b1deb956-6707-4e33-afcf-fdd8afd21fd3",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_c7833137-ab87-438a-9517-f026ffd35c53.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Generate a detailed road network map of the Sherman Oaks and Van Nuys area of Los Angeles based on conditions in June 2023 to support a new transportation planning initiative.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_roads"
+  ]
+}

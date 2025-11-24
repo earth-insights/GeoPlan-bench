@@ -1,0 +1,15 @@
+{
+  "task_id": "e9e73ead-917f-4b64-9a7b-9b5af1995fba",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_958b314c-820f-444a-8705-b24b15465d4e.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Following the significant rainfall events in early 2023, provide a detailed assessment of vegetation health and identify any stress patterns within San Francisco's Golden Gate Park for the month of January.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "monitor_forest_health"
+  ]
+}

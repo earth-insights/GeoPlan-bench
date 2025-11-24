@@ -1,0 +1,23 @@
+{
+  "task_id": "0fb8c539-f01b-4a7f-89fd-7083a04a83b5",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_8ed5b4fd-cf11-41e0-86cb-e10fa1298af8.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Evaluate the positioning accuracy and temporal readiness of strategic assets deployed for the November 2023 security initiative within the specified coastal urban zone.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "correlation_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

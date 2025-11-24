@@ -1,0 +1,22 @@
+{
+  "task_id": "f5cd3367-51ad-44eb-a955-3103bcee4a1f",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_c93f73bb-c592-4fc2-bc8d-7843ee617d89.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Determine if the rapid construction surge in the South Bay area during January 2023 is linked to a shift in tactical force deployment at nearby military installations.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

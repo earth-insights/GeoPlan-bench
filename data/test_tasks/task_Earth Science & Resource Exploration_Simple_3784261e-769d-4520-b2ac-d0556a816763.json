@@ -1,0 +1,22 @@
+{
+  "task_id": "3784261e-769d-4520-b2ac-d0556a816763",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_7150a333-743c-4d2c-a262-0d1d58d8a99c.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Determine if a quantifiable correlation exists between the spatial distribution of potential gold and silver deposits and localized climate patterns across the non-vegetated surfaces of downtown Los Angeles.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "432770d9-8569-479c-89c4-aa3b3537a22d",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_aedbca2f-912e-4ff2-8306-2c0e289a434d.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess the full impact of the January 2023 atmospheric river event on the drought-stressed landscape of Los Angeles, mapping the resulting damage and charting safe evacuation routes from the most affected areas.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_drought_conditions",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

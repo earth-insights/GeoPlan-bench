@@ -1,0 +1,17 @@
+{
+  "task_id": "a882d9de-249a-4b85-89e2-914eb10c7636",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_b1c45461-2c36-4393-ac34-30387edc9222.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess which specific land cover types were the primary contributors to elevated surface temperatures within a 10km radius of downtown Los Angeles during June 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "classify_land_cover",
+    "evaluate_urban_heat_island",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

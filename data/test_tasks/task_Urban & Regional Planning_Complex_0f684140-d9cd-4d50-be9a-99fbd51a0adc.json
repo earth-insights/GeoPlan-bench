@@ -1,0 +1,21 @@
+{
+  "task_id": "0f684140-d9cd-4d50-be9a-99fbd51a0adc",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_08614c69-a3bc-4d14-a0d1-74a6bfb04e7a.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Analyze the spatial clustering and density of new urban development in downtown Los Angeles that has occurred between 2020 and 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

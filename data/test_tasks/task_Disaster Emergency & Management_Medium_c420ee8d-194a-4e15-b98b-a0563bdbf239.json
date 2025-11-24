@@ -1,0 +1,20 @@
+{
+  "task_id": "c420ee8d-194a-4e15-b98b-a0563bdbf239",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_d5cfe4d0-2bef-4842-bf05-0aff92f98ed4.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "After last month's major flood, map the safest and most direct routes for residents in the inundated river valley to reach the designated emergency shelter at 40.5°N, 74.5°W.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes"
+  ]
+}

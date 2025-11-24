@@ -1,0 +1,17 @@
+{
+  "task_id": "007c4a7c-2587-4391-bc17-7b20880d1e01",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_b624e5fa-12ca-485c-99e3-47416704891f.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Provide a definitive assessment of Downtown City's growth between 2020 and 2023, identifying the most significant spatial patterns of its urban expansion.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

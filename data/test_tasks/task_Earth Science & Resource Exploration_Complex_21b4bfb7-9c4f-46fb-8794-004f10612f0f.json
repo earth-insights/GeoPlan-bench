@@ -1,0 +1,25 @@
+{
+  "task_id": "21b4bfb7-9c4f-46fb-8794-004f10612f0f",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_7b6a71a7-4956-45dc-9fd3-d36e7661821e.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Delineate potential seismic hazard zones in the Tehachapi-Mojave transition zone by assessing the correspondence between 2023 surface land use patterns and underlying geostructural features.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

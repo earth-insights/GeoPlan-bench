@@ -1,0 +1,20 @@
+{
+  "task_id": "7b2dfac7-3b7a-40c4-b8fb-097e45340756",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_dd6533ef-3e41-48c3-a39b-a43380f3c43c.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Identify suspicious, small-scale forest clearings that emerged during 2023 within the region from 35°N to 36°N and 119°W to 120°W, distinguishing them from established patterns of land use change since 2020.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "detect_illegal_logging"
+  ]
+}

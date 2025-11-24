@@ -1,0 +1,17 @@
+{
+  "task_id": "f70ca193-5a2c-42dd-ae55-c9f62c687cf4",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_6b4ce7b5-653d-4454-8dc1-5a8e26bcdb74.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the shift in urban development dynamics within downtown Los Angeles between the 2010-2015 and 2016-2022 periods, and evaluate its 2022 urbanization level relative to the broader Los Angeles County.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "generate_analysis_reports"
+  ]
+}

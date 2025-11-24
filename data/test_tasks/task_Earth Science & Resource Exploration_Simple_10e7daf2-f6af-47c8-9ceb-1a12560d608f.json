@@ -1,0 +1,20 @@
+{
+  "task_id": "10e7daf2-f6af-47c8-9ceb-1a12560d608f",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_94ba249e-7f51-4714-8511-f9bee6c169dc.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Pinpoint promising near-surface prospects for gold, silver, and copper within the historic Tri-State mining district, focusing on identifying areas where deposits are likely aligned with regional fracture patterns.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "generate_analysis_reports"
+  ]
+}

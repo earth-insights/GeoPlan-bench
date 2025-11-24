@@ -1,0 +1,13 @@
+{
+  "task_id": "5a70a2c5-d3fe-4d7a-97f7-c6d1a50a78c3",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_c0649458-87c1-4fcf-afe2-5a22287b21c6.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "How did vegetation stress levels vary across San Francisco's urban core parks at the end of the 2023 dry season?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata"
+  ]
+}

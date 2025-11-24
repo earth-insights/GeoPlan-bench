@@ -1,0 +1,19 @@
+{
+  "task_id": "2897d6ca-83c5-42d0-a733-169fc649db4c",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_f5c16b61-d7c6-4ada-9814-07a5df8ca0e5.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Characterize the strategic patterns of vehicular activity near Quantico, Virginia, during January 2023, identifying any anomalous concentrations that suggest a shift in force deployment posture.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

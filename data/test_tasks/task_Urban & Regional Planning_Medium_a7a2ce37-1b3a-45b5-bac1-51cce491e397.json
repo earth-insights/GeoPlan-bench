@@ -1,0 +1,17 @@
+{
+  "task_id": "a7a2ce37-1b3a-45b5-bac1-51cce491e397",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_717a596c-3c13-4ff7-839d-48515d2dde37.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "What key relationships between population, infrastructure, and green space can explain the developmental changes observed in the downtown area from the beginning of last year through this October?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "format_data",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

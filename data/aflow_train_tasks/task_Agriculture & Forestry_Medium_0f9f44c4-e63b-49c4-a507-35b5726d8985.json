@@ -1,0 +1,21 @@
+{
+  "task_id": "0f9f44c4-e63b-49c4-a507-35b5726d8985",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_5d5fac30-0e3f-4ff0-a060-a4b40440183d.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Project the final maize yield for the 2023 harvest from our primary field near Marion, Kansas (38.033° N, 97.005° W), based on its complete seasonal growth performance.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

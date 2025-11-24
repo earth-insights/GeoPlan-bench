@@ -1,0 +1,17 @@
+{
+  "task_id": "b86bab1c-0ebb-4a75-9223-963ed32ab996",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_3bacf3b9-87e2-4d3b-812f-dfa2b21295fb.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on their condition in early 2023, what is the carbon storage contribution of each distinct vegetation community in the San Rafael Mountains?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_forest_health",
+    "assess_carbon_sequestration"
+  ]
+}

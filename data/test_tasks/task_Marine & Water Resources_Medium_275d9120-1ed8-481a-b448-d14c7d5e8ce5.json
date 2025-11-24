@@ -1,0 +1,24 @@
+{
+  "task_id": "275d9120-1ed8-481a-b448-d14c7d5e8ce5",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_55cb5b0e-fe4d-4d4d-b71f-784062f3eb7d.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate the 2023 seasonal changes in vegetation and water conditions for a targeted freshwater marsh zone in the Everglades, and determine the resulting impact on its capacity for carbon storage and water regulation.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "segment_vegetation",
+    "assess_wetland_conditions",
+    "evaluate_ecosystem_services",
+    "track_biodiversity_changes",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

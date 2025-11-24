@@ -1,0 +1,14 @@
+{
+  "task_id": "401b17db-3c07-477f-99d4-59ccc1e8f38a",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_2d379418-4665-4265-b14d-f9dc25dc127d.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the carbon storage capacity and biodiversity health of the coastal and mountainous wildlands adjacent to Los Angeles based on conditions in January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "evaluate_ecosystem_services"
+  ]
+}

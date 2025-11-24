@@ -1,0 +1,22 @@
+{
+  "task_id": "909136e1-592d-452e-bd77-d0bce98e912e",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_f140b3dd-196d-4b9a-93e0-523d0f5d9d38.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the structural characteristics and recent surface expressions of the fault networks in the eastern San Bernardino mountain range using 2023 data to identify areas of potential tectonic stress.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "7180850d-0710-47c5-a8b9-fbfa3aa47c48",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_0bf4e4e5-25ff-47e0-8374-fad31a1f03f6.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess whether the pattern of vehicular activity in the city's northern industrial district during February 2023 indicates a covert military buildup deviating from established humanitarian corridor traffic.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

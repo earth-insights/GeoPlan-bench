@@ -1,0 +1,18 @@
+{
+  "task_id": "20ad0907-2b86-4003-af09-d590b0c44ccd",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_d274445d-b9e3-4068-b0e0-9afd1b833f04.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Evaluate the force posture in the Kadoran Training Zone during January 2023 to determine if the vehicle formations indicate preparations for an offensive operation.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "correlation_analysis",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

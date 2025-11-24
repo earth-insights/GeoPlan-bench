@@ -1,0 +1,14 @@
+{
+  "task_id": "e15171c5-9546-4ae8-930d-878c55f3f20a",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_000b4c3c-6556-4440-8d55-f3d7ce67d31d.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Produce a comprehensive analysis detailing the amplification of surface heating in downtown Los Angeles compared to its suburbs during summer 2023, based on prevailing weather conditions.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "evaluate_urban_heat_island",
+    "correlation_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "192fec96-c03f-4ac3-aebc-209f8d271ab9",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_cb5fdeff-9879-47d1-a47d-adb583085480.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "How does the distribution of green space across the residential blocks of Manhattan's Upper East Side in 2022 relate to the area's population density?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "evaluate_green_space_distribution",
+    "correlation_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

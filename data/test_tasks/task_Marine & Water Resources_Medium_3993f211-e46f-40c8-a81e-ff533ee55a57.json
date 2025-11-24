@@ -1,0 +1,23 @@
+{
+  "task_id": "3993f211-e46f-40c8-a81e-ff533ee55a57",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_27155fdc-cf82-4550-9cd4-2acd32b274ac.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "To what extent did rising sea surface temperatures drive the development of algal blooms off the coast of Los Angeles through October 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_sea_surface_temperature",
+    "monitor_algae_blooms",
+    "correlation_analysis",
+    "statistical_analysis",
+    "summarize_text",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

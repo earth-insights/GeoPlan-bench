@@ -1,0 +1,20 @@
+{
+  "task_id": "0933c8cc-016e-4987-8036-7714665536be",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_ab0c913d-6f84-421b-92c0-33c00879b918.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Produce a detailed prospecting map for gold, copper, and silver in California's Transverse Ranges, identifying specific exploration targets where recent geological activity in early 2023 suggests a high likelihood of valuable mineral accumulation.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "identify_mineral_deposits",
+    "generate_analysis_reports"
+  ]
+}

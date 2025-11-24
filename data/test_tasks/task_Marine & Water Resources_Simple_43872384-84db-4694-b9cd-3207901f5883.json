@@ -1,0 +1,18 @@
+{
+  "task_id": "43872384-84db-4694-b9cd-3207901f5883",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_edbb588d-482c-4a84-be2f-236e95be679e.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Characterize the monthly sea surface temperature dynamics throughout 2023 within the coastal region immediately south of Point Arguello to identify potential thermal anomalies.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_sea_surface_temperature",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

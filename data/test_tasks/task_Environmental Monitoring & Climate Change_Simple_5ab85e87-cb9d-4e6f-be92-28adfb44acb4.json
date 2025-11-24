@@ -1,0 +1,18 @@
+{
+  "task_id": "5ab85e87-cb9d-4e6f-be92-28adfb44acb4",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_88da0e7d-99e0-4529-b1d3-8a5efc0464ba.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "To what extent did the environmental repercussions of vegetation loss during 2023, particularly on carbon emissions and biodiversity, vary between different districts of Los Angeles?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

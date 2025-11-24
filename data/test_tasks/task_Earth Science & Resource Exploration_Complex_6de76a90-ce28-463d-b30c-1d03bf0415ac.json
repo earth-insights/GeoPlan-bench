@@ -1,0 +1,25 @@
+{
+  "task_id": "6de76a90-ce28-463d-b30c-1d03bf0415ac",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_9292fb59-1d6a-4ab1-86dc-531e21cbad1d.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify the most promising undeveloped sites for copper and gold exploration near Los Angeles by evaluating the influence of regional geological structures on surface mineral expression throughout 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

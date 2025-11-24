@@ -1,0 +1,19 @@
+{
+  "task_id": "280877b1-9908-4713-b0a6-a232f4d861fd",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_0fcfb371-27cc-4428-afdd-b964f50a1cf8.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Evaluate the operational integrity of critical port and transportation infrastructure in downtown Los Angeles and identify any vessels impacted by the significant flooding that occurred before August 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_water_bodies",
+    "detect_ships",
+    "assess_strategic_infrastructure",
+    "assess_disaster_damage"
+  ]
+}

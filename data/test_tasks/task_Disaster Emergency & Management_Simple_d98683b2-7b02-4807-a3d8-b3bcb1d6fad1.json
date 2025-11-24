@@ -1,0 +1,15 @@
+{
+  "task_id": "d98683b2-7b02-4807-a3d8-b3bcb1d6fad1",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d939acae-c9f0-44ca-96ec-f1a61f571bb6.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a clear, natural-color baseline image of the shoreline and coastal infrastructure around Barnegat Inlet from 2023 for our annual erosion monitoring report.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

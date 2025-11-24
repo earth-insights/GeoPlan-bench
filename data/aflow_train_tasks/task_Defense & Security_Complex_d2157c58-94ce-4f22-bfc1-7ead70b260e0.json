@@ -1,0 +1,21 @@
+{
+  "task_id": "d2157c58-94ce-4f22-bfc1-7ead70b260e0",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_9ccf0c49-9179-452c-93fb-76f3c57f02f3.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Produce a maritime threat assessment by identifying all vessels that exhibited anomalous movement patterns within a 50km radius of the Port of Los Angeles during October 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "calculate_time_difference",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "analyze_threat_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

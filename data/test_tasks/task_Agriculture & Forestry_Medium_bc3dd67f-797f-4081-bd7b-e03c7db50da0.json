@@ -1,0 +1,20 @@
+{
+  "task_id": "bc3dd67f-797f-4081-bd7b-e03c7db50da0",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_ba5d6d14-72ad-4101-9396-c1927f42a0b8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Diagnose the root cause of anomalous underperformance in specific agricultural plots within the Hesperia farming region during the 2023 growing season.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

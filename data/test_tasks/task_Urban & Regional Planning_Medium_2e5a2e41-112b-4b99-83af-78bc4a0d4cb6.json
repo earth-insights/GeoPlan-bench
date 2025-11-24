@@ -1,0 +1,22 @@
+{
+  "task_id": "2e5a2e41-112b-4b99-83af-78bc4a0d4cb6",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_c8aee1a7-ee63-42a4-a9a1-3c4ce5d012af.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Summarize the primary spatial characteristics and concentration patterns of new urban development that occurred within the New York City metropolitan area between 2016 and 2021.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports",
+    "summarize_text"
+  ]
+}

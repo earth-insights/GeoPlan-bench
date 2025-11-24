@@ -1,0 +1,19 @@
+{
+  "task_id": "3da0adfc-5c04-48b0-95e9-3cd98a88ced3",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_e170a215-d26b-4359-8cbe-c1a41a9d21c2.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the mid-August 2023 storm system over southeastern Pennsylvania, determine the total area of land that was newly inundated by floodwaters.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "be296716-2f58-46fe-99e0-afbd9ae95bf0",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_a20c98b0-648b-41ff-a743-6155e3badae3.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess the full impact on populated areas from the major flood in the northern region on August 15, 2023, and evaluate the progress of infrastructural and community recovery six months after the event.",
+  "ground_truth_tool_flow": [
+    "analyze_population_density",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

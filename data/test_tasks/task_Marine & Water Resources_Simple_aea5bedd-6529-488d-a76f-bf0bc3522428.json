@@ -1,0 +1,15 @@
+{
+  "task_id": "aea5bedd-6529-488d-a76f-bf0bc3522428",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_8e8e921d-c33a-4b71-91a4-8a9f959f42ea.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Map the dominant weekly surface current pathways and their seasonal variability throughout 2023 for the coastal waters near 10.25°S, 34.25°E, to assess potential larval dispersal corridors.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "track_ocean_currents"
+  ]
+}

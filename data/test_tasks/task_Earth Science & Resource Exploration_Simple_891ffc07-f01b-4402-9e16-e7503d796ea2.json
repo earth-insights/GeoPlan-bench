@@ -1,0 +1,21 @@
+{
+  "task_id": "891ffc07-f01b-4402-9e16-e7503d796ea2",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_cc0be3ce-fcc1-4ccc-8717-d5c7771c1fe8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Map the primary fault systems in the Mississippi Sound area using recent imagery and quantify their spatial relationship to historical seismic events to assess regional tectonic stress.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

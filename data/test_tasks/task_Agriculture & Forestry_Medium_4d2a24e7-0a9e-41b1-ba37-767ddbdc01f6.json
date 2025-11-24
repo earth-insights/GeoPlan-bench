@@ -1,0 +1,24 @@
+{
+  "task_id": "4d2a24e7-0a9e-41b1-ba37-767ddbdc01f6",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_59162d7a-9252-46c3-980f-97fdb139e0ea.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "What is the projected crop yield for large farms east of Los Angeles for the upcoming harvest, based on their vitality during June of last year?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

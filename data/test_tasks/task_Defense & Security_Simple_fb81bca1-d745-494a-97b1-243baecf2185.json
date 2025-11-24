@@ -1,0 +1,20 @@
+{
+  "task_id": "fb81bca1-d745-494a-97b1-243baecf2185",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_9f00877b-54a8-42c7-a341-a3f00ee3e209.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the shift in strategic threat posture near the Kaliningrad Oblast by analyzing new military deployments and their potential impact on vulnerable civilian infrastructure from the beginning of 2023 through October.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

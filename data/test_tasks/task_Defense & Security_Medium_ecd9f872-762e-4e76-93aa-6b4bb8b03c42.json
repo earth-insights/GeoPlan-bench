@@ -1,0 +1,24 @@
+{
+  "task_id": "ecd9f872-762e-4e76-93aa-6b4bb8b03c42",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_6e7ba17e-3203-46c7-850e-a8af185b5077.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Assess the operational readiness of Tokyo's strategic port and bridge infrastructure to counter anomalous maritime activity observed in the bay area during January 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination",
+    "segment_water_bodies",
+    "detect_ships",
+    "assess_strategic_infrastructure",
+    "evaluate_operational_readiness",
+    "correlation_analysis",
+    "analyze_threat_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "9e35ebe4-c4f2-44fd-a888-f56b1663e513",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_c0649458-87c1-4fcf-afe2-5a22287b21c6.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Which winter crop fields in the agricultural plains west of Milan showed the poorest health and signs of potential waterlogging during January 2023?",
+  "ground_truth_tool_flow": [
+    "provide_technical_guidance",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata"
+  ]
+}

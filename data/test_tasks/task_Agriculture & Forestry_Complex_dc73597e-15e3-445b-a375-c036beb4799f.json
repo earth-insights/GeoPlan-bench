@@ -1,0 +1,24 @@
+{
+  "task_id": "dc73597e-15e3-445b-a375-c036beb4799f",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_e0493c6e-e204-4c71-ad91-fdb828c1642b.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "What was the full extent of the damage to infrastructure and agriculture from the early August 2023 flood in the Washington D.C. area, how has the region's ecosystem recovered, and what were the primary factors that influenced the financial cost of the disaster?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "assess_carbon_sequestration",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

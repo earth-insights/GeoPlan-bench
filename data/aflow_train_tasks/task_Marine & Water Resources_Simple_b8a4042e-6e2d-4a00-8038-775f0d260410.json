@@ -1,0 +1,16 @@
+{
+  "task_id": "b8a4042e-6e2d-4a00-8038-775f0d260410",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_21f16c49-ef0c-4585-aa48-439e993c68a7.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Determine the extent of groundwater depletion in the agricultural lands west of Bakersfield, California, by the middle of the 2022 drought season.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "evaluate_groundwater_resources"
+  ]
+}

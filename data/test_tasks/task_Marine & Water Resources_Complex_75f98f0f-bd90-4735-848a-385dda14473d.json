@@ -1,0 +1,23 @@
+{
+  "task_id": "75f98f0f-bd90-4735-848a-385dda14473d",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_c3812925-a07f-44d6-8753-45781f62543c.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "How did the local coupling between ocean surface temperature and phytoplankton concentration change over the course of 2023 in the marine region defined between 150°E-160°E and 5°S-5°N?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "monitor_sea_surface_temperature",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "18b0b7ae-59c2-417f-b113-15be9bd430f2",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_54ba08e1-2a80-47d0-b7c1-860288e00e2f.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the major storm in San Francisco in January 2023, create a comprehensive analysis contrasting the area's initial landslide risk profile with the actual environmental damage incurred and the subsequent ecological recovery.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_terrain_type",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

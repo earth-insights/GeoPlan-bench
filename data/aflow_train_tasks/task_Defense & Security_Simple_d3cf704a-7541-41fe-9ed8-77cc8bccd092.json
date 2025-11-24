@@ -1,0 +1,18 @@
+{
+  "task_id": "d3cf704a-7541-41fe-9ed8-77cc8bccd092",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_f84e221f-c1d6-42f7-a887-0435f99ea3ad.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the strategic force deployment in Region_X for 2023 by mapping all military airbases and barracks and analyzing their relationship to the surrounding transportation infrastructure.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_roads",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "generate_analysis_reports"
+  ]
+}

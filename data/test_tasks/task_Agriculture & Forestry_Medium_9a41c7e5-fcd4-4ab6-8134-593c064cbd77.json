@@ -1,0 +1,16 @@
+{
+  "task_id": "9a41c7e5-fcd4-4ab6-8134-593c064cbd77",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_2321bcf4-5172-4b72-9b61-85c32011c4e8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Evaluate the severity of agricultural stress within the primary irrigation district east of Coalinga, CA, by the second week of July 2023, based on the intensifying dry conditions observed throughout the preceding month.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_soil_moisture",
+    "monitor_drought_conditions"
+  ]
+}

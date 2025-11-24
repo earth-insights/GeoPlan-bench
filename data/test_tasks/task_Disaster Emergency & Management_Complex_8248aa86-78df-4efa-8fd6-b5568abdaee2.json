@@ -1,0 +1,23 @@
+{
+  "task_id": "8248aa86-78df-4efa-8fd6-b5568abdaee2",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_fe41e187-287b-4a36-ba88-e87803fbf568.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the late August earthquake on the San Francisco Peninsula, what is the operational status of the primary road network connecting to critical facilities, and what is the extent of initial repair efforts by the end of September?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "detect_roads",
+    "evaluate_infrastructure_damage",
+    "assess_strategic_infrastructure",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

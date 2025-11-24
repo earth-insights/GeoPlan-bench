@@ -1,0 +1,24 @@
+{
+  "task_id": "9f3d7ed8-c05f-48ee-8846-9170e38661a5",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_49c844fc-f74d-4bb9-8b18-a33f24970a8a.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Determine the most viable evacuation corridors from the heavily impacted northern residential zone of Amran to the central emergency shelter, following the major earthquake in late September 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "5bfaf007-69cf-4836-8b7e-f4b88bb12abb",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_ab0c913d-6f84-421b-92c0-33c00879b918.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "For the region between longitude -123.0 to -122.5 and latitude 37.5 to 38.0, identify the primary zones where subsurface fault systems are most likely to facilitate groundwater accumulation.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "4a50464c-c748-4d3f-896c-3a4cc3e151d4",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_bb1ed3e1-2fc2-4afc-987d-917494163fc7.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the overall health and volume of California's groundwater resources based on surface conditions observed in January 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "evaluate_groundwater_resources",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

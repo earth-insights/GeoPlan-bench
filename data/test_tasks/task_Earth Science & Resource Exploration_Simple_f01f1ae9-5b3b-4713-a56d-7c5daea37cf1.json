@@ -1,0 +1,20 @@
+{
+  "task_id": "f01f1ae9-5b3b-4713-a56d-7c5daea37cf1",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_d00c34fa-11ad-4975-9b6b-fc0b896479bf.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "To what extent do the surface-level geological lineaments identified around downtown Los Angeles in January 2023 correspond with the region's underlying lithological variations?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

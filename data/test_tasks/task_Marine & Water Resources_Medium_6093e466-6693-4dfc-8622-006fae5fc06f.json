@@ -1,0 +1,17 @@
+{
+  "task_id": "6093e466-6693-4dfc-8622-006fae5fc06f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_25a0bdcb-00e6-459a-9c55-1b1002cf519c.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the ecological condition by differentiating the vegetative vigor between the forested and herbaceous sections of the small wetland parcel at 34.8005° N, 84.1482° W for mid-September 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "assess_wetland_conditions"
+  ]
+}

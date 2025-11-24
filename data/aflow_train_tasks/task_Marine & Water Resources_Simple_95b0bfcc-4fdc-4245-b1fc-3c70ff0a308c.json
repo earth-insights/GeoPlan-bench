@@ -1,0 +1,13 @@
+{
+  "task_id": "95b0bfcc-4fdc-4245-b1fc-3c70ff0a308c",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_502daaf3-8148-4dbc-833e-d7a186dc11d8.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the influence of 2023's temperature patterns on agricultural productivity across the Los Angeles region.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

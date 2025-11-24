@@ -1,0 +1,23 @@
+{
+  "task_id": "03156a1c-57f5-4932-951d-c51152d13d09",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_861253fe-1112-4902-9dd7-2bd0ecb4e4b3.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Characterize recently expressed surface lineaments in the Andean foreland basin and determine their statistical correlation with the region's mapped thrust fault systems.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

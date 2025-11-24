@@ -1,0 +1,22 @@
+{
+  "task_id": "313e2499-ed05-457d-921a-cb76a965aae0",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_28b7ad9e-4660-4130-93e5-7950463b72bd.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the land use efficiency of new urban developments that appeared within the greater Washington D.C. area over the course of 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_land_use_efficiency",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

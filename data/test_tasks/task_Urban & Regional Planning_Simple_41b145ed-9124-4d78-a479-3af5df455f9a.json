@@ -1,0 +1,18 @@
+{
+  "task_id": "41b145ed-9124-4d78-a479-3af5df455f9a",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_4b982dad-7240-4b2f-b6cd-85272fff792e.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Produce a report analyzing the urban growth patterns that occurred in the northeast development tract of Springfield from 2020 through 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "generate_analysis_reports"
+  ]
+}

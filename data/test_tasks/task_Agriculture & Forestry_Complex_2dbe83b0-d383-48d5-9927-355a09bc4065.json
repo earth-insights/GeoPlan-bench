@@ -1,0 +1,24 @@
+{
+  "task_id": "2dbe83b0-d383-48d5-9927-355a09bc4065",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_43083963-bb8c-4209-ac78-855e31144c02.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on the 2023 growing season, quantify the statistical influence of seasonal vegetation health and precipitation on the final predicted harvest for individual agricultural parcels within the Santa Maria Valley basin.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "correlation_analysis",
+    "linear_regression",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "085c902f-2791-405f-b7a4-6622bbf4a1e7",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_3cb1a475-0a73-46c4-951f-2ea35396acd9.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Quantify the extent of agricultural land destroyed by the recent landslide in California's coastal foothills following the major winter storm events.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "crop_image",
+    "segment_vegetation",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

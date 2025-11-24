@@ -1,0 +1,25 @@
+{
+  "task_id": "702d6581-8e48-49f4-946d-8206f60d26bc",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_db6c4005-8690-42ef-bcbf-22d4a981be73.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "What patterns of anomalous vessel activity, indicative of potential border incursions, can be identified within the 50km coastal zone of Los Angeles between May and August 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

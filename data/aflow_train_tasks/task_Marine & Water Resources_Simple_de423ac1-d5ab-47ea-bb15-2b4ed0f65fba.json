@@ -1,0 +1,19 @@
+{
+  "task_id": "de423ac1-d5ab-47ea-bb15-2b4ed0f65fba",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_b1efa882-af8a-40b3-8ff0-b288b1500b33.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "To what extent did water temperature fluctuations drive the intensity of algal blooms in the Echo Park Lake throughout 2022?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

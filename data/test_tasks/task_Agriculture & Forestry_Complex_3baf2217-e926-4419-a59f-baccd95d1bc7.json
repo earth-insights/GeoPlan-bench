@@ -1,0 +1,20 @@
+{
+  "task_id": "3baf2217-e926-4419-a59f-baccd95d1bc7",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_257f7925-5663-4fa5-81b5-9d5f644e5531.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Considering the vegetative health trends observed in the forests of the Ozark Highlands conservation zone up to mid-October 2023, what is the current total carbon stock estimate for the area's aboveground biomass and soil?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "resize_image",
+    "band_combination",
+    "classify_land_cover",
+    "monitor_forest_health",
+    "assess_carbon_sequestration"
+  ]
+}

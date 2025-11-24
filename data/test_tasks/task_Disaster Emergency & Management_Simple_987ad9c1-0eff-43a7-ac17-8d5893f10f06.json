@@ -1,0 +1,20 @@
+{
+  "task_id": "987ad9c1-0eff-43a7-ac17-8d5893f10f06",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d9b8d823-6e96-46e7-b9d1-a90953804383.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent, severe monsoon flooding in central Kerala, identify the specific road and bridge segments that are likely compromised or impassable to prioritize routes for disaster relief convoys.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "task_id": "5e7746e7-fd42-469f-b514-bcee3100c90e",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_2e5ed70b-cb20-417e-90bc-d2b4f8481237.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "What is the projected agricultural yield for parcels near downtown Los Angeles, considering their observed vitality during the key growth phase in June 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "summarize_text",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "task_id": "224f2542-b5de-49f7-a39a-f663eaf4d65f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_5eb1bca1-afd4-4449-b3de-d61645322800.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Identify vessels exhibiting unusual loitering behavior off the Southern California coast during the latter half of January 2023, and determine if these activities correlate with any localized marine pollution events affecting coastal habitats.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "assess_marine_pollution",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

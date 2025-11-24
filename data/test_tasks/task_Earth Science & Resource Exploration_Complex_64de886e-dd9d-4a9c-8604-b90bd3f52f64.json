@@ -1,0 +1,23 @@
+{
+  "task_id": "64de886e-dd9d-4a9c-8604-b90bd3f52f64",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_9292fb59-1d6a-4ab1-86dc-531e21cbad1d.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "To guide our next exploration campaign in California's Cuyama Badlands, identify the single most promising, previously unmapped fault intersection to drill for a new sedimentary-hosted gold deposit.",
+  "ground_truth_tool_flow": [
+    "provide_technical_guidance",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_mining_safety"
+  ]
+}

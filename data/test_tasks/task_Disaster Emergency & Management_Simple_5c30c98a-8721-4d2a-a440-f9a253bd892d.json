@@ -1,0 +1,20 @@
+{
+  "task_id": "5c30c98a-8721-4d2a-a440-f9a253bd892d",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_6c69d604-4d8c-4170-892a-e556ebc005dd.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess the current state of recovery for urban centers and transportation networks in Brazil's Rio Grande do Sul state following the widespread flooding in May 2024.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "822ad07f-c31f-4dc1-9bd2-eb992a10bf56",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_55843966-725a-4506-9eaf-90bc1bcef808.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Quantify the relationship between the density of recent urban development and prior land use types in the central Los Angeles area.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

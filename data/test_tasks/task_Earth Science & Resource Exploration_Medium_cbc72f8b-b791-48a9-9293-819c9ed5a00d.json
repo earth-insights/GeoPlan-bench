@@ -1,0 +1,17 @@
+{
+  "task_id": "cbc72f8b-b791-48a9-9293-819c9ed5a00d",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_dcffc866-1dd7-4233-bca6-2e803077ede4.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Generate a standardized geospatial file mapping the principal geological lineaments indicative of fault systems across the San Francisco Bay Area for January 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "format_data",
+    "convert_coordinates"
+  ]
+}

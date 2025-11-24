@@ -1,0 +1,20 @@
+{
+  "task_id": "656d0e65-1e02-45ef-b7bb-3ff34c94de40",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_228016cf-78e5-4f2e-82c0-5abc74fc307a.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "How has the intensity and spatial pattern of urbanization evolved in the central Los Angeles area between the years 2000 and 2020?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_urban_areas",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level"
+  ]
+}

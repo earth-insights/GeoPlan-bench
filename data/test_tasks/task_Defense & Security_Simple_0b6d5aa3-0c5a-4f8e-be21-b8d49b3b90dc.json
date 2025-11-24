@@ -1,0 +1,19 @@
+{
+  "task_id": "0b6d5aa3-0c5a-4f8e-be21-b8d49b3b90dc",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_61240d46-c402-4ea5-8633-7fef2cd71753.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the current vulnerability of strategic infrastructure near the Karymskoye District given the evolving threat landscape observed since the beginning of October 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "assess_strategic_infrastructure",
+    "correlation_analysis",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

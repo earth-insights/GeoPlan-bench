@@ -1,0 +1,19 @@
+{
+  "task_id": "6a1af16b-1f3e-428b-8390-ce6da98f5309",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_14592cf3-77d5-4082-8426-524fdf061869.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the strategic threat posed by recent unplanned construction within a 10km buffer of the Syrian-Jordanian border, identifying clusters of activity indicative of organized illegal crossings.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "detect_buildings",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "eaeb29e2-5935-4be8-9552-98ac97e7bf8e",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_db538c77-28d3-4bb6-88ba-67ddc545deae.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent seismic event in the San Valeriano river valley, assess the integrity of the primary transportation artery and the power transmission network that services the downstream coastal communities.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "analyze_geological_structures",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_strategic_infrastructure"
+  ]
+}

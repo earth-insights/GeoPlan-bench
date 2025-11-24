@@ -1,0 +1,19 @@
+{
+  "task_id": "20dd13f8-f111-4784-be19-d943ee743d26",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_5114e859-e6ad-4534-9316-8f88d0c09830.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Following last year's new municipal zoning policy, determine if urban growth in the designated suburban development corridor primarily occurred as compact infill or as expansive sprawl into new territories.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_urban_areas",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

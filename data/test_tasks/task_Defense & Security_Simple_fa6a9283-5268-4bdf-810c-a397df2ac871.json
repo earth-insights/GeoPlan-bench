@@ -1,0 +1,20 @@
+{
+  "task_id": "fa6a9283-5268-4bdf-810c-a397df2ac871",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_8239055f-39de-4b4c-946b-735842d23713.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Report on all unauthorized construction and environmental hazards from 2023 that pose a direct threat to strategic government and civic infrastructure within the Los Angeles Civic Center.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

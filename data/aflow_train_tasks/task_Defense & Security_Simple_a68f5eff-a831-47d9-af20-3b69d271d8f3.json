@@ -1,0 +1,18 @@
+{
+  "task_id": "a68f5eff-a831-47d9-af20-3b69d271d8f3",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_f84e221f-c1d6-42f7-a887-0435f99ea3ad.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the strategic layout of newly established military positions within the Zaria border region during January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "generate_analysis_reports"
+  ]
+}

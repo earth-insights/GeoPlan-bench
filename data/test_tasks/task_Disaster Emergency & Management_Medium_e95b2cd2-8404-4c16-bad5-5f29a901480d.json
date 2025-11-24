@@ -1,0 +1,22 @@
+{
+  "task_id": "e95b2cd2-8404-4c16-bad5-5f29a901480d",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_8761e650-2c28-4573-af54-6d24810a5f95.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "After the early October 2023 earthquake in Los Angeles, what is the extent of damage to buildings and critical infrastructure in the city center, and how has the area's restoration progressed over the subsequent two weeks?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "convert_coordinates",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

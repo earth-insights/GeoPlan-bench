@@ -1,0 +1,21 @@
+{
+  "task_id": "12440d3d-6da2-439d-9348-8045f49ee81b",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_95c92a6e-70c0-41f9-86d0-b0e50395e534.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the major storm system in the first week of October 2023, produce a flood risk assessment for the eastern Georgian Bay shoreline, categorizing the affected areas into low, medium, and high-risk zones.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "convert_coordinates",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_flood_risk_zones"
+  ]
+}

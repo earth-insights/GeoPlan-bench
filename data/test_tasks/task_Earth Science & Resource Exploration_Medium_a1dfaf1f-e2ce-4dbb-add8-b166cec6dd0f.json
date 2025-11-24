@@ -1,0 +1,25 @@
+{
+  "task_id": "a1dfaf1f-e2ce-4dbb-add8-b166cec6dd0f",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_8b85b71a-b213-4e43-b0a1-17d3dd87da39.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Focusing on the region between Tupper Lake and Saranac Lake, assess how the severe winter weather events in January 2023 may have accentuated the visibility of underlying geological fault networks.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "convert_coordinates",
+    "correlation_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

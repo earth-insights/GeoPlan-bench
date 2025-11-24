@@ -1,0 +1,17 @@
+{
+  "task_id": "6cda591b-c498-4953-ab89-f42202a42dc6",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_5c4f2ec8-a017-441c-bb32-97bb711fffaf.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the total area of newly disturbed forest and associated river sedimentation from suspected illegal gold mining activities near the 'Garimpo Novo' site between January and October 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "e0006f5b-c80f-4fab-b1b6-9b4be3251873",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d9b8d823-6e96-46e7-b9d1-a90953804383.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "In response to the recent catastrophic flooding in Brazil's Rio Grande do Sul, identify viable evacuation corridors from the most impacted urban zones to the nearest operational shelters.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

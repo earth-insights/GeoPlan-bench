@@ -1,0 +1,14 @@
+{
+  "task_id": "f704e40f-e184-4d4e-98d8-cf008cb290f8",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_5d4e2f14-4dfa-4811-930c-69150ba5a855.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Determine how the summer 2023 weather in the Los Angeles area influenced agricultural yields while also impacting the region's overall environmental health.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "correlation_analysis",
+    "assess_environmental_impact",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

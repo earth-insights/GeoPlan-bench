@@ -1,0 +1,19 @@
+{
+  "task_id": "4d7dce28-9604-488f-9bfc-e467e0faf1fc",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_f1e3fc78-25e4-4840-80e2-fea67de918e8.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "What was the expected yield and production variability among different crop types in the agricultural parcels directly south of downtown Los Angeles for the harvest season of August 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

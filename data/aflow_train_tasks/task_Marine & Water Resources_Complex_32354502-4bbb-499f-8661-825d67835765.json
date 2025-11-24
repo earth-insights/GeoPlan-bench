@@ -1,0 +1,24 @@
+{
+  "task_id": "32354502-4bbb-499f-8661-825d67835765",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_1a3b6b58-67d8-4984-84c0-aaaecf64b162.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the correlation between vessels exhibiting high-speed, erratic movements and the state of marine biodiversity within the Somali Basin throughout 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

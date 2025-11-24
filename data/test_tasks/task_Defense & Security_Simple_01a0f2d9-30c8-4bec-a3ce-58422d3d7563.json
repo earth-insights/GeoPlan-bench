@@ -1,0 +1,20 @@
+{
+  "task_id": "01a0f2d9-30c8-4bec-a3ce-58422d3d7563",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_75782901-2e03-42b6-9fc0-17231482f8ac.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "What was the strategic disposition of military forces and associated threat patterns across the Los Angeles basin during January 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "crop_image",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

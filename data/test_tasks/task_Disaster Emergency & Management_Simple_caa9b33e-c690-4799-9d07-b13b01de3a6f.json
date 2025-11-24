@@ -1,0 +1,14 @@
+{
+  "task_id": "caa9b33e-c690-4799-9d07-b13b01de3a6f",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_14beff32-37d4-498e-be19-b54fbbc749f8.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Based on the severe flooding in New Orleans during the first week of October 2023, determine how the resulting damage to critical infrastructure has impacted the viability of the city's planned evacuation routes for emergency response.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

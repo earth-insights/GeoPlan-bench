@@ -1,0 +1,17 @@
+{
+  "task_id": "56a6cc26-220a-4575-b637-390f3e3239e4",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_900e8472-91a3-40ff-9ce3-b79668db036c.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the total shoreline retreat within the main inlet of Coastal Area A by comparing the 2023 year-end position to the 2010 baseline.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

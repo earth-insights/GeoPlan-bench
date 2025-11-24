@@ -1,0 +1,17 @@
+{
+  "task_id": "dd79318c-c80e-4a95-8529-dca310b73f6a",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_050a55e3-a5ec-4a22-b474-2acb10147589.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "After the recent major earthquake, identify all viable road paths from Los Angeles City Hall to the nearest freeway entrance, accounting for potential infrastructure blockages.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_roads",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes"
+  ]
+}

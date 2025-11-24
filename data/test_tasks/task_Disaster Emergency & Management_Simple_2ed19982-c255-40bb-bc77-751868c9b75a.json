@@ -1,0 +1,14 @@
+{
+  "task_id": "2ed19982-c255-40bb-bc77-751868c9b75a",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_a1266ca8-9246-45a1-9d9a-cd02038a3d05.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the severe weather in New Orleans during early October 2023, provide a comprehensive assessment of the resulting flood damage and the subsequent progress of community recovery by the end of the month.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

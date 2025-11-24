@@ -1,0 +1,22 @@
+{
+  "task_id": "5149f462-ca2c-423b-9b7d-91dc5c2b6cb6",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_069d406d-ee6c-4893-8418-e7e6c4c2ad6b.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify the most viable and geologically stable location for a new copper mine within a 50 km radius of central Los Angeles.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "provide_technical_guidance",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "convert_coordinates",
+    "band_combination",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_mining_safety"
+  ]
+}

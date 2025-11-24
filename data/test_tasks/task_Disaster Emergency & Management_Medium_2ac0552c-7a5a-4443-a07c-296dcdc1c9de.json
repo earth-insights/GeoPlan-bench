@@ -1,0 +1,25 @@
+{
+  "task_id": "2ac0552c-7a5a-4443-a07c-296dcdc1c9de",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_b77d1c60-2dec-4539-87d0-cdada3a2e995.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a detailed, building-level structural damage report for downtown Los Angeles following the seismic event in the first half of January 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

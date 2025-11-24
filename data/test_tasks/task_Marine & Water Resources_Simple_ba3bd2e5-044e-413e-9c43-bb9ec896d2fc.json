@@ -1,0 +1,19 @@
+{
+  "task_id": "ba3bd2e5-044e-413e-9c43-bb9ec896d2fc",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_e09ecc43-fb16-4054-9e09-ad30be1b5cf5.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "How significantly did water temperature variations affect the severity of algal blooms in the desert water body near 35°N, -117°W during 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_algae_blooms",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

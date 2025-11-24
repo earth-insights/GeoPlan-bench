@@ -1,0 +1,22 @@
+{
+  "task_id": "bc7d5185-5835-4b67-81b4-7ff60c7181d9",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_863a3467-19a6-419e-95ba-285ecc8cefb7.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Analyze the influence of the significant biophysical event within the water systems on adjacent crop vitality in California's Central Valley during June 2023.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "track_ocean_currents",
+    "monitor_algae_blooms",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "summarize_text"
+  ]
+}

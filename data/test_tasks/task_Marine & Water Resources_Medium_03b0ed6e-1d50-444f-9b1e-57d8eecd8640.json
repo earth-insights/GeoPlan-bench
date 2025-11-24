@@ -1,0 +1,17 @@
+{
+  "task_id": "03b0ed6e-1d50-444f-9b1e-57d8eecd8640",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_63117a57-eaef-4d33-a0d9-dbeb985084c1.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Investigate the extent of marine surface contamination in Tokyo Bay's primary shipping lanes following a rumored vessel incident in January 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_marine_pollution"
+  ]
+}

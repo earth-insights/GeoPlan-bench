@@ -1,0 +1,23 @@
+{
+  "task_id": "becdc9bb-584e-4323-b607-456430a9ea94",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_46120bb6-222d-48c2-8d4c-88645f27c743.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Evaluate the adequacy of our current security posture in response to anomalous vehicle concentrations observed near critical infrastructure in Lower Manhattan during September 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "detect_vehicles",
+    "statistical_analysis",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "b89fb577-2c4f-4a0f-b125-9acf4899e7df",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_e741101e-cd88-4327-a7e1-c035b8b3fedd.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Produce a building-by-building structural damage assessment for downtown Los Angeles after the early October 2023 seismic event, identifying any correlation between damage severity and building size.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

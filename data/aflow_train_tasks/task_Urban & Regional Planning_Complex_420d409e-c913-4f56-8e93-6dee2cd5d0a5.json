@@ -1,0 +1,24 @@
+{
+  "task_id": "420d409e-c913-4f56-8e93-6dee2cd5d0a5",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_63c24c29-0a4e-43ba-b6fb-5920a327e6a9.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "How did traffic patterns in Lower Manhattan throughout 2023 influence local air quality, and what specific interventions could be implemented to mitigate recurring pollution hotspots?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "convert_coordinates",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_roads",
+    "detect_vehicles",
+    "monitor_traffic_congestion",
+    "assess_air_quality_patterns",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

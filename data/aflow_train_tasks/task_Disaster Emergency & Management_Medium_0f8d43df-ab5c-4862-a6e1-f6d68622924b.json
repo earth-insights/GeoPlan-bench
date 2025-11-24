@@ -1,0 +1,18 @@
+{
+  "task_id": "0f8d43df-ab5c-4862-a6e1-f6d68622924b",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_050a55e3-a5ec-4a22-b474-2acb10147589.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the major atmospheric river storms that struck Los Angeles in early January 2023, chart the safest and most direct evacuation path from the city's flood-damaged urban core to the designated primary evacuation center, accounting for compromised roads and critical infrastructure failures.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_roads",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "fc17dac3-e82c-4dc0-8f91-a0143ff62da4",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_ca1017ca-13e7-49ec-ab28-12da42384067.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the primary patterns of urban expansion in downtown Los Angeles between 2017 and 2022, providing a statistical summary of the growth and a corresponding geospatial data file.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

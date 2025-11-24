@@ -1,0 +1,14 @@
+{
+  "task_id": "6c6ecd99-0709-41e8-9d4e-5bf8d997acc9",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_e741101e-cd88-4327-a7e1-c035b8b3fedd.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Evaluate the state of infrastructure recovery in Mountainside Valley, CA, by October 20th, following the landslide on October 10th, 2023, considering the area's known environmental vulnerabilities.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

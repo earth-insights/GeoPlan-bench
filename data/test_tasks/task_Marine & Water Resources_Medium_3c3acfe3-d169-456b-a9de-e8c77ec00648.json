@@ -1,0 +1,17 @@
+{
+  "task_id": "3c3acfe3-d169-456b-a9de-e8c77ec00648",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_a54120c7-2aac-4be0-98d2-3f8b528b0f4f.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Generate a groundwater resource assessment for a critical irrigation area within California's Central Valley based on surface water conditions during the first two weeks of May 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "evaluate_groundwater_resources"
+  ]
+}

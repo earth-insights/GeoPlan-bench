@@ -1,0 +1,25 @@
+{
+  "task_id": "17f7c6f0-6437-42f8-bffc-251c46ad4e91",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_b77d1c60-2dec-4539-87d0-cdada3a2e995.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the January 2023 earthquake in San Francisco, assess the structural damage to individual buildings near 37.77°N, -122.42°W and map the safest evacuation routes to nearby shelters.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

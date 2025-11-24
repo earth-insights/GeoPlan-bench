@@ -1,0 +1,21 @@
+{
+  "task_id": "6570e05d-6ff7-41be-99a0-9ba379b39fc5",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_dda2b643-8413-45aa-9cba-570745dcc725.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Evaluate the operational readiness of key infrastructure in downtown Los Angeles to provide critical support functions, based on the city's state in September 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "evaluate_operational_readiness",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

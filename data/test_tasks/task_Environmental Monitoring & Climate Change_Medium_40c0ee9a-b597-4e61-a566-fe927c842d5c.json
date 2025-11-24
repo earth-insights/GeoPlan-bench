@@ -1,0 +1,20 @@
+{
+  "task_id": "40c0ee9a-b597-4e61-a566-fe927c842d5c",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_2d379418-4665-4265-b14d-f9dc25dc127d.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Investigate the statistical relationship between key water quality drivers and the severity of the mid-July 2023 algal bloom event within the Los Angeles River corridor.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

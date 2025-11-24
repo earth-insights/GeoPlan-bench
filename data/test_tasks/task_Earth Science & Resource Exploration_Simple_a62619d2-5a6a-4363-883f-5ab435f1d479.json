@@ -1,0 +1,21 @@
+{
+  "task_id": "a62619d2-5a6a-4363-883f-5ab435f1d479",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_67c2a22b-2419-4fd6-bc43-6b89098834dc.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on recent tectonic activity in California's Temblor Range, delineate the primary fault systems and assess their influence on subterranean water accumulation to identify promising locations for new groundwater exploration.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

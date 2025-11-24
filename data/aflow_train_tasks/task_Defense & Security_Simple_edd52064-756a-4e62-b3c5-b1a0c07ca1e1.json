@@ -1,0 +1,19 @@
+{
+  "task_id": "edd52064-756a-4e62-b3c5-b1a0c07ca1e1",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_61240d46-c402-4ea5-8633-7fef2cd71753.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Identify the most strategically vulnerable segments of San Francisco's road network from mid-September 2023 by integrating an analysis of critical infrastructure, traffic congestion patterns, and concentrated security risks.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_roads",
+    "assess_strategic_infrastructure",
+    "correlation_analysis",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

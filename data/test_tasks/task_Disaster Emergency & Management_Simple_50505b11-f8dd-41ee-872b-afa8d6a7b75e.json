@@ -1,0 +1,15 @@
+{
+  "task_id": "50505b11-f8dd-41ee-872b-afa8d6a7b75e",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d939acae-c9f0-44ca-96ec-f1a61f571bb6.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "For the populated canyons around Los Angeles, generate a prioritized action plan detailing immediate evacuation advisories based on the current landslide threat.",
+  "ground_truth_tool_flow": [
+    "download_file",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "plan_evacuation_routes",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

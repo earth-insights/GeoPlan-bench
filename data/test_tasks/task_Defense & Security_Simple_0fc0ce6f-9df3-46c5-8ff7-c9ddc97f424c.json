@@ -1,0 +1,19 @@
+{
+  "task_id": "0fc0ce6f-9df3-46c5-8ff7-c9ddc97f424c",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_810b3c70-1376-4929-a937-8eaef5fab3e7.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Based on an analysis of regional force disposition and supporting logistical networks, what was the security readiness posture in the San Francisco Bay Area on October 1, 2023, ahead of the major international summit?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_roads",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "generate_analysis_reports"
+  ]
+}

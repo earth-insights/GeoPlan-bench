@@ -1,0 +1,13 @@
+{
+  "task_id": "d95da39a-9e37-428c-8ce2-0d7f636c9d4d",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_7a1467a6-7218-41a9-b0cf-b24f8cef9486.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "To what extent has Central Texas rebuilt its infrastructure and recovered its agricultural land following the severe flooding event in mid-September 2023?",
+  "ground_truth_tool_flow": [
+    "assess_flood_risk_zones",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

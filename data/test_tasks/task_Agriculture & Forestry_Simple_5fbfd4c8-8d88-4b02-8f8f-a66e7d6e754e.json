@@ -1,0 +1,16 @@
+{
+  "task_id": "5fbfd4c8-8d88-4b02-8f8f-a66e7d6e754e",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_5bacdea1-5419-4c8c-af42-898f487554e5.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "To inform a new urban heat island mitigation strategy, determine the proportional land cover distribution of impervious surfaces, vegetation, and water bodies within the city's jurisdiction for January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "db1c72f0-bc69-4ede-b685-27010dc8f74f",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_f38822a7-3c98-4098-9836-1dec3325f830.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Pinpoint the precise areas of stressed vegetation within the agricultural field block at [[-120.3, 35.2], [-120.4, 35.3]] to investigate potential irrigation system malfunctions during mid-June 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

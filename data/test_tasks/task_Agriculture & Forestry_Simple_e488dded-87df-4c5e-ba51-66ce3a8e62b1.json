@@ -1,0 +1,19 @@
+{
+  "task_id": "e488dded-87df-4c5e-ba51-66ce3a8e62b1",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_a072d716-b19b-4549-acf2-f230ba9af921.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a field-by-field performance report, including health assessments and yield forecasts, for the agricultural parcels in the La Grange district for April 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

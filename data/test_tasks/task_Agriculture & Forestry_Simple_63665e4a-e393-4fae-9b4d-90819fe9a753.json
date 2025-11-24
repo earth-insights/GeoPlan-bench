@@ -1,0 +1,19 @@
+{
+  "task_id": "63665e4a-e393-4fae-9b4d-90819fe9a753",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_a853df83-02e0-458c-92c6-038be5bc526f.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Calculate the precise area of forest converted to non-forest land within the Sierra Nevada management zone located east of Yosemite National Park during 2023, comparing the change against the prior year's baseline.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_vegetation",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

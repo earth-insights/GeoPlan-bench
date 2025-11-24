@@ -1,0 +1,17 @@
+{
+  "task_id": "8a54d143-1bf5-4768-ad38-459805c5d1bc",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_b39bc6c3-7fa2-4927-bb4e-3379067e534c.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "To establish a baseline for a new urban green-space initiative, quantify in hectares the distribution of developed land versus natural ecosystems like forests and wetlands across the New York metropolitan region for June 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

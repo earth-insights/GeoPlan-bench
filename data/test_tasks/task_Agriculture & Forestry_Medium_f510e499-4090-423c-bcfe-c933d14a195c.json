@@ -1,0 +1,16 @@
+{
+  "task_id": "f510e499-4090-423c-bcfe-c933d14a195c",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_2e5ed70b-cb20-417e-90bc-d2b4f8481237.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "For the designated agricultural plot in California's Central Valley, precisely delineate the areas exhibiting sub-optimal growth and stress during the peak growing month of July 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

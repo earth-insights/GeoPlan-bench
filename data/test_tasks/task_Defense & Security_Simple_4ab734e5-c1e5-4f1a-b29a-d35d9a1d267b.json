@@ -1,0 +1,19 @@
+{
+  "task_id": "4ab734e5-c1e5-4f1a-b29a-d35d9a1d267b",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_5088f974-b2c8-43e8-a250-f44c69795399.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Characterize the quarterly shifts in military operational footprint and emergent strategic threats within a 50km radius of central Los Angeles from January to October 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "d2aef19a-7637-4c9b-be11-8be8e9b29008",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_00c6fd42-0e25-4a65-bb3a-ddf0d7ce0dff.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "As an environmental analyst for the Greater Farallones National Marine Sanctuary, produce a final report summarizing the water clarity conditions within the sanctuary's nearshore waters for June 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

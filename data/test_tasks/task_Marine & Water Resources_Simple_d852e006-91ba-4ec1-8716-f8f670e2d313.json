@@ -1,0 +1,17 @@
+{
+  "task_id": "d852e006-91ba-4ec1-8716-f8f670e2d313",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_414ff4b6-555b-4221-b758-7d458bc89545.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "To what extent did the health of the Ballona Wetlands' vegetation depend on the size of its open water areas during the 2023 growing season?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "assess_wetland_conditions",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

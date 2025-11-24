@@ -1,0 +1,19 @@
+{
+  "task_id": "d68949e4-5beb-4bef-87cd-51bb69498d4c",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_51e9e785-e573-42db-92a1-94f7a61130a8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a fine-scale quantitative assessment of forest canopy vitality for a specific research plot in the tropics, using imagery from January 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_forest_health"
+  ]
+}

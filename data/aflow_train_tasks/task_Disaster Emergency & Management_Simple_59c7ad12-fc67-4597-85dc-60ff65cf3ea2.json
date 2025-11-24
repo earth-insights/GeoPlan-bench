@@ -1,0 +1,20 @@
+{
+  "task_id": "59c7ad12-fc67-4597-85dc-60ff65cf3ea2",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_09d27e3d-c30a-46b2-bc7f-3e0708625af6.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent wildfire that swept through the Cedar Creek basin, determine the full extent of its impact on the surrounding environment and infrastructure to generate safe access routes for emergency response teams to reach the isolated town of Pine Ridge.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "segment_vegetation",
+    "assess_soil_moisture",
+    "monitor_drought_conditions",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

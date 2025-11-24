@@ -1,0 +1,21 @@
+{
+  "task_id": "80b24aaf-91b6-4009-9a6e-3fbeebc51bb0",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_a7416cde-5940-4a25-805c-ed7dac7e6467.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on its performance through the 2023 growing season, what is the final predicted yield for the primary maize plot located at our ranch near Lost Hills, California?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

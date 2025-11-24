@@ -1,0 +1,18 @@
+{
+  "task_id": "bca0deb9-515d-4a50-a873-51d8a9aaa6ef",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_c7ad9204-35a1-4ee1-ade8-826d08d19473.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Evaluate the net change in vegetated land and the corresponding effect on biodiversity within the urban periphery east of downtown Los Angeles by comparing the current environment to its state in 2020.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "track_biodiversity_changes"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "23ef662a-9329-4786-93ff-1635d04c8a67",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_eed215a2-b178-492f-b28b-b310db29ffa0.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess whether the central business district exhibited a statistically significant elevation in surface temperature compared to adjacent rural landscapes throughout 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_individual_buildings",
+    "evaluate_urban_heat_island",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

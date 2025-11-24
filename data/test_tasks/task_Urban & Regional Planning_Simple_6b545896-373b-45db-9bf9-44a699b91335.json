@@ -1,0 +1,17 @@
+{
+  "task_id": "6b545896-373b-45db-9bf9-44a699b91335",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_70dbaa0d-5344-4917-a2e3-ec962737aa05.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Based on the 2023 Regional Development Plan for Los Angeles, how did the productivity and resource consumption of the area's agricultural versus urban land uses compare against the plan's stated efficiency objectives?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "assess_land_use_efficiency",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

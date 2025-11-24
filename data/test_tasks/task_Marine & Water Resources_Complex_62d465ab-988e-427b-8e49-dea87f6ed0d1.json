@@ -1,0 +1,19 @@
+{
+  "task_id": "62d465ab-988e-427b-8e49-dea87f6ed0d1",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_305f7bd1-b38f-4f15-b176-b027775a1508.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Determine the total area and assess the ecological condition of the wetlands within the Tulare Basin region of California for the peak 2023 summer season.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "assess_wetland_conditions"
+  ]
+}

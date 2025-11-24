@@ -1,0 +1,18 @@
+{
+  "task_id": "91b4bb65-d91a-4ed1-8efa-4b98fba62097",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_b1c45461-2c36-4393-ac34-30387edc9222.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess how the spatial configuration and population density of urban development in the Los Angeles metropolitan area evolved between the beginning of 2020 and the end of 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

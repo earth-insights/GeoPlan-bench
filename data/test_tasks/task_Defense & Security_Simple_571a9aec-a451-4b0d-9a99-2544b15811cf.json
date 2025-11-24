@@ -1,0 +1,19 @@
+{
+  "task_id": "571a9aec-a451-4b0d-9a99-2544b15811cf",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_fda4b508-7fe8-42dc-8c54-813196d564a2.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Analyze the spatial correlation between military force deployment patterns and the distribution of urban infrastructure within a 50km radius of downtown Los Angeles during the first nine months of 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

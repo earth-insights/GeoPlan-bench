@@ -1,0 +1,24 @@
+{
+  "task_id": "90695ecb-1bb2-49c9-8d91-ced2297f845c",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_5b8df805-25d9-490b-8034-9e2d9421c172.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "For our new exploration venture in the Andes, provide a spreadsheet identifying high-potential gold and copper deposits based on last month's data, while also detailing recent changes in nearby operational footprints and outlining the primary environmental risks to local habitats and water sources.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "resize_image",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "2a927d5d-558b-45cd-b5bf-3b0237ce5d14",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_09cc2c4b-4d84-44e2-b1a4-088651bd437a.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the spatial correlation between surface geological lineaments and recorded microseismic activity from January 2023 within the Diablo Range of central California.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "map_fault_systems",
+    "analyze_geological_structures",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

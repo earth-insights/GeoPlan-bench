@@ -1,0 +1,17 @@
+{
+  "task_id": "64a27ad1-4a61-45d7-9c37-2ab3bb845698",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_41859c73-3c62-4e52-8314-e26f669f3e47.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint the specific fields on Henderson Farm that were the source of a rust fungus outbreak in their wheat crop during June of last year.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

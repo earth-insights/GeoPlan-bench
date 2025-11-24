@@ -1,0 +1,18 @@
+{
+  "task_id": "ae9108cf-50a2-461a-a648-d02b27752635",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_753f7918-69e4-4089-96b3-d2a5e54ba8b3.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Determine the rate of shoreline change for the main reservoir system near Fresno throughout 2023 to quantify the impact of that year's extreme weather on water containment.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

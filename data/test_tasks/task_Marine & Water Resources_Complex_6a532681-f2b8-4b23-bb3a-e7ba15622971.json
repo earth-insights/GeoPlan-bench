@@ -1,0 +1,21 @@
+{
+  "task_id": "6a532681-f2b8-4b23-bb3a-e7ba15622971",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_38170f51-386a-4b1f-985c-a4b3911967b9.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate the full impact on coastal biodiversity and water quality off the central California coast stemming from agricultural pollutant transport after the major atmospheric river events of early 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "track_ocean_currents",
+    "assess_marine_pollution",
+    "assess_environmental_impact",
+    "assess_disaster_damage"
+  ]
+}

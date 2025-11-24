@@ -1,0 +1,18 @@
+{
+  "task_id": "8b002280-21d9-4579-906c-e9aa28857a02",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_551468b0-993b-424c-9f75-5e14d0c627d9.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Based on the severe drought conditions in California last July, assess the full damage of the recent Sierra Nevada wildfire and immediately map the safest evacuation routes for all affected residential areas.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "assess_soil_moisture",
+    "monitor_drought_conditions",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

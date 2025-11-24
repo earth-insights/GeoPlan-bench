@@ -1,0 +1,15 @@
+{
+  "task_id": "a1d0ceed-62d0-49cf-83df-ea1e4aac60e6",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d9b8d823-6e96-46e7-b9d1-a90953804383.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "In the wake of the severe flooding in New Orleans, what are the safest and most efficient routes from City Hall to our primary safety zones, considering the widespread damage to the city's roads and bridges?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

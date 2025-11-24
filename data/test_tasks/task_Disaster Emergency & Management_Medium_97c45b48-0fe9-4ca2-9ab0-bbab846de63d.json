@@ -1,0 +1,20 @@
+{
+  "task_id": "97c45b48-0fe9-4ca2-9ab0-bbab846de63d",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_8761e650-2c28-4573-af54-6d24810a5f95.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Evaluate the flood damage and subsequent vegetation recovery within the Arroyo Seco corridor following the major storms of early 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "convert_coordinates",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

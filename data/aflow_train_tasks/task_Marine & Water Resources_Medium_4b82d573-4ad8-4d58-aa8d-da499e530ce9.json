@@ -1,0 +1,26 @@
+{
+  "task_id": "4b82d573-4ad8-4d58-aa8d-da499e530ce9",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_55cb5b0e-fe4d-4d4d-b71f-784062f3eb7d.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate the impact of recent shifts in water quality and temperature on the habitat suitability for key bird and fish populations within the southern Florida coastal wetlands, contrasting the current state with conditions from 2020.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "segment_water_bodies",
+    "monitor_sea_surface_temperature",
+    "assess_water_quality",
+    "assess_wetland_conditions",
+    "evaluate_ecosystem_services",
+    "track_biodiversity_changes",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

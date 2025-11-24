@@ -1,0 +1,24 @@
+{
+  "task_id": "659caf0a-b852-47d3-9847-ada55ddb6ed2",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_f791e9cc-3cfa-41a3-b5e3-64ac8c8d900f.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Evaluate how the underlying geological structure in the region between Riverside and San Bernardino influences groundwater vulnerability to nitrate and phosphorus contamination from adjacent agricultural and urban areas for January 2023.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "assess_water_quality",
+    "assess_environmental_impact",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

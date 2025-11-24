@@ -1,0 +1,16 @@
+{
+  "task_id": "9c2f0031-ae88-45dc-b79a-3d74bdecb8f9",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_dcdf85e9-dcf3-40dd-80dc-98095e661217.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Evaluate the reconstruction progress for buildings and infrastructure in downtown Los Angeles over the three months since the recent earthquake, relative to the initial severity of the damage.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "crop_image",
+    "detect_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

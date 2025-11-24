@@ -1,0 +1,20 @@
+{
+  "task_id": "e4d7b3d0-d855-4a54-9904-5563645d1c88",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_14007b1d-034f-4693-bb78-344a4afb9660.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "To what extent can the most significant shoreline erosion hot-spots observed along Georgia's Tybee Island in 2023 be attributed to specific storm events versus persistent background wave action?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "881092ba-3b29-470d-b9b6-ec2b3c52cfe7",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_4fdb00ab-6d48-4c21-909c-f3aaac7a368e.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "How closely is the heat intensity of individual buildings in the San Fernando Valley during June 2023 related to the population density of their immediate neighborhoods?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "evaluate_urban_heat_island",
+    "correlation_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

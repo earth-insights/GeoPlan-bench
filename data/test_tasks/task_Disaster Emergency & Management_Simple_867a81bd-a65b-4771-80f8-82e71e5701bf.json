@@ -1,0 +1,19 @@
+{
+  "task_id": "867a81bd-a65b-4771-80f8-82e71e5701bf",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_143e5f9d-ffe2-434c-b07e-717bad59fe98.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Quantify the extent of road network damage and related environmental devastation in the agricultural valleys of Monterey County following the winter 2023 storm season.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_roads",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

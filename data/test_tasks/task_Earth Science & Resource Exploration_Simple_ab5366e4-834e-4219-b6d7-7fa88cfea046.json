@@ -1,0 +1,22 @@
+{
+  "task_id": "ab5366e4-834e-4219-b6d7-7fa88cfea046",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_54494664-a0e7-46a1-959a-583ca1145516.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Determine the statistical correlation between the recently active fault system and the distribution of soil types within the designated eastern development corridor of the metropolitan area.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

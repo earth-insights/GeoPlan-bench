@@ -1,0 +1,22 @@
+{
+  "task_id": "f6db2d64-1cc0-47dc-a3b9-7931fb542a5f",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_d5cfe4d0-2bef-4842-bf05-0aff92f98ed4.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the early September 2023 seismic event in the Al-Hamra province, map the safest evacuation routes from structurally compromised buildings to the designated central city stadium.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes"
+  ]
+}

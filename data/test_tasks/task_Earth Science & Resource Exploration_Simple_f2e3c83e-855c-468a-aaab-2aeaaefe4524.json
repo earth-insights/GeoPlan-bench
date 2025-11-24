@@ -1,0 +1,20 @@
+{
+  "task_id": "f2e3c83e-855c-468a-aaab-2aeaaefe4524",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_09cc2c4b-4d84-44e2-b1a4-088651bd437a.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Quantify the statistical correlation between the lengths of major fault systems and their proximity to surface water bodies within the tectonically active coastal region of Southern California.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "map_fault_systems",
+    "analyze_geological_structures",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

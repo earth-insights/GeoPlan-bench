@@ -1,0 +1,19 @@
+{
+  "task_id": "90956953-13e7-4aac-a31e-98428558419f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_8f1e536f-7645-4abd-8516-74f349d6c405.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "How much new land, in square kilometers, has been created from infilling activities in the western Singapore Strait between early 2022 and August 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "segment_water_bodies",
+    "track_land_reclamation"
+  ]
+}

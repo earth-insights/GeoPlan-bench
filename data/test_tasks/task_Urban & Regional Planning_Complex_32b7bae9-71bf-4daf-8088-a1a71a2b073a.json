@@ -1,0 +1,23 @@
+{
+  "task_id": "32b7bae9-71bf-4daf-8088-a1a71a2b073a",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_0c778b04-d86c-4b54-805b-e2764293bb4e.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "For urban planning purposes in the eastern San Gabriel Valley, identify the most significant clusters of high-density residential development based on early 2023 conditions.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "analyze_population_density",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "dbd3e4fc-7dbd-4879-968c-0223bcb8450a",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_e95dca8e-ef79-4b18-baea-5228f637658e.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a detailed quality report on my primary grazing pastures located between Hollister and Panoche Valley for the entire 2023 season.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "convert_coordinates",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "assess_pasture_quality"
+  ]
+}

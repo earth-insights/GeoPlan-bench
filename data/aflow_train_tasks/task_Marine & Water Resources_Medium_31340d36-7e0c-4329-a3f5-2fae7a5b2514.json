@@ -1,0 +1,22 @@
+{
+  "task_id": "31340d36-7e0c-4329-a3f5-2fae7a5b2514",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_a54120c7-2aac-4be0-98d2-3f8b528b0f4f.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Determine the annual rate of shoreline displacement and the net statistical change in water surface area for the coast of North Carolina just south of the Virginia border, by comparing conditions in May 2023 to the previous year.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "calculate_time_difference",
+    "assess_coastal_erosion",
+    "linear_regression",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

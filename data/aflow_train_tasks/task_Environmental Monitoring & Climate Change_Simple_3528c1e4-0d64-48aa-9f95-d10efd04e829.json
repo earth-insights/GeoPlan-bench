@@ -1,0 +1,18 @@
+{
+  "task_id": "3528c1e4-0d64-48aa-9f95-d10efd04e829",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_bf759f50-977a-4535-88ae-677da552679f.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the environmental impact of deforestation in the tropical region near 9.2°N, 11.8°E during 2023 for a report to local conservation authorities.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

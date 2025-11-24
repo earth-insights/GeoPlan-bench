@@ -1,0 +1,19 @@
+{
+  "task_id": "90bc2ca9-4137-4761-8326-e3f3eb7e2a06",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_8f1e536f-7645-4abd-8516-74f349d6c405.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Based on the unique oceanic thermal signatures off the San Pedro coast in January 2023, delineate the most viable zones for commercial fishing by correlating these conditions with historically high-yield locations.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "segment_water_bodies",
+    "monitor_sea_surface_temperature",
+    "evaluate_fishing_grounds"
+  ]
+}

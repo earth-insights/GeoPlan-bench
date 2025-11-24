@@ -1,0 +1,14 @@
+{
+  "task_id": "63e429a6-4d9d-4f3d-b31d-51167294214c",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_258b5487-8b0f-4f2c-beb9-87192bb8eff9.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "How did the specific patterns of infrastructure and environmental damage from the October 10, 2023 event in California influence the subsequent pace and equity of community recovery efforts?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

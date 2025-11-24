@@ -1,0 +1,15 @@
+{
+  "task_id": "a382123a-91a8-4644-bdd1-234b7d55c797",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_5d5fac30-0e3f-4ff0-a060-a4b40440183d.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the variation in crop vigor across agricultural fields within the polygon [[-105.0, 40.0], [-104.5, 40.0], [-104.5, 39.5], [-105.0, 39.5]] to identify areas of potential water stress during June 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "convert_coordinates"
+  ]
+}

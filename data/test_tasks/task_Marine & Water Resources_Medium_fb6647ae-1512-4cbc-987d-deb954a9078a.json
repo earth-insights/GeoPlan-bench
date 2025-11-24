@@ -1,0 +1,23 @@
+{
+  "task_id": "fb6647ae-1512-4cbc-987d-deb954a9078a",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_f0addcfb-7be3-4d4c-abd0-6416cde1bec0.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "To what extent did the health of different coastal watersheds in Southern California influence the quality of adjacent marine waters during the environmental shifts of 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "classify_land_cover",
+    "monitor_drought_conditions",
+    "assess_water_quality",
+    "linear_regression",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

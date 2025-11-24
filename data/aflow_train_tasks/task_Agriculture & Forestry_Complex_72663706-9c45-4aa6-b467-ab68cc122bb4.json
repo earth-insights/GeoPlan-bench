@@ -1,0 +1,21 @@
+{
+  "task_id": "72663706-9c45-4aa6-b467-ab68cc122bb4",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_d494a888-f783-4194-b0a9-7509c3ac9d8d.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "How did the severity of the July 2023 flooding across California's Central Valley influence the subsequent rate of agricultural and infrastructural recovery in the most affected areas?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

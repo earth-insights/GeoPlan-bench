@@ -1,0 +1,25 @@
+{
+  "task_id": "0278821c-5bc9-4589-8fbd-abfdf85c337a",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_db538c77-28d3-4bb6-88ba-67ddc545deae.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the early September 2023 earthquake and subsequent flooding in downtown Los Angeles, analyze the combined damage and correlate its severity with local infrastructure and ground conditions to assess recovery progress three months after the event.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "analyze_geological_structures",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports",
+    "provide_technical_guidance"
+  ]
+}

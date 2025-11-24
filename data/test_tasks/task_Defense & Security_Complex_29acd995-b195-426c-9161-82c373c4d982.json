@@ -1,0 +1,23 @@
+{
+  "task_id": "29acd995-b195-426c-9161-82c373c4d982",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_d09fc785-943b-4ae4-ac39-0e1090ef014c.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Report on emerging security threats in Border Region A by analyzing anomalous vehicle patterns and concentrations observed over the last 30 days.",
+  "ground_truth_tool_flow": [
+    "download_file",
+    "read_database",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

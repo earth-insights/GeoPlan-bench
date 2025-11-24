@@ -1,0 +1,20 @@
+{
+  "task_id": "7603f928-24af-4266-926d-cd84d6e650de",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_b960db22-fdc1-420d-8b8f-b5ae7a1a0e12.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Analyze construction patterns throughout 2023 to identify and report on potential new strategic vulnerabilities to military facilities and critical infrastructure in the Antelope Valley.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

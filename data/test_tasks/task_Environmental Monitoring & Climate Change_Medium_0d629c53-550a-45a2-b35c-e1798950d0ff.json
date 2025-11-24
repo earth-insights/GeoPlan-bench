@@ -1,0 +1,14 @@
+{
+  "task_id": "0d629c53-550a-45a2-b35c-e1798950d0ff",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_87e079a2-d580-48e2-9eab-7404cf244a97.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Generate a high-clarity image to identify potential ground-level pollution sources in San Francisco's SoMa district during the poor air quality event of the first week of October 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "31ed9772-1b63-4e67-bbfc-140f37fa8cff",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_599ee286-bdbd-4f48-8118-cc0718826738.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "How did the 2023 maize yield forecast for primary fields in central Nebraska deviate from historical averages?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_agricultural_fields",
+    "statistical_analysis",
+    "predict_crop_yield",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

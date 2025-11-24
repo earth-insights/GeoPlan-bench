@@ -1,0 +1,18 @@
+{
+  "task_id": "5a74dcd5-308a-4599-920f-3f6c79a2746a",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_e9b11d02-0b36-476c-bcfa-ef342bd974fb.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Compile a safety assessment for the 'Site A' mining operation in Southern California, focusing on landform stability and environmental disturbances that occurred over the course of 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_mining_operations",
+    "assess_mining_safety"
+  ]
+}

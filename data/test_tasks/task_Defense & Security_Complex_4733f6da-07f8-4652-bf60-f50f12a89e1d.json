@@ -1,0 +1,24 @@
+{
+  "task_id": "4733f6da-07f8-4652-bf60-f50f12a89e1d",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_addd0ad6-cc4b-4084-ab0b-c0dc45e13f49.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Characterize the dominant vessel movement patterns and operational hotspots indicative of illegal fishing and smuggling near California's Channel Islands between January 1st and October 1st, 2023.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "analyze_threat_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

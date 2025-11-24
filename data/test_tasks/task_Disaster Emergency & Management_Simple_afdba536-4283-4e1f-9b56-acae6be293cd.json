@@ -1,0 +1,20 @@
+{
+  "task_id": "afdba536-4283-4e1f-9b56-acae6be293cd",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_6c69d604-4d8c-4170-892a-e556ebc005dd.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "For the immediate response to the September 15th seismic event in the western San Fernando Valley, provide a detailed analysis of structural damage to individual buildings and identify the most viable evacuation routes for residents in the hardest-hit neighborhoods.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

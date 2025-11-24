@@ -1,0 +1,19 @@
+{
+  "task_id": "5d824b47-05bf-41f0-8c77-03abb22dd1e5",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_717a596c-3c13-4ff7-839d-48515d2dde37.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "How has urban expansion in the Los Angeles metropolitan area since 2018 impacted the city's land use efficiency and the balance between new developments and existing green spaces?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_land_use_efficiency"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "6601e388-d027-4a8a-941f-48b5ae3bd514",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_5114e859-e6ad-4534-9316-8f88d0c09830.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Identify the most severe traffic bottlenecks around the Santa Monica and Malibu region during the morning rush hour of January 15th, 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_roads",
+    "monitor_traffic_congestion"
+  ]
+}

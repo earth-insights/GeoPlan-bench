@@ -1,0 +1,15 @@
+{
+  "task_id": "8920064d-393f-4043-b68d-a679da908b91",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_4eb5acf7-5b85-4d3b-b07c-d806d42f5589.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Given the soil erosion potential and weather in early October 2023, what was the landslide risk for the slopes directly adjacent to San Francisco's Alamo Square Park?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "assess_slope_stability"
+  ]
+}

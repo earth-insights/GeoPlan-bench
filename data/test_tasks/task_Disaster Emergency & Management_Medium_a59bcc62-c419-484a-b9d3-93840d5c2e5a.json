@@ -1,0 +1,21 @@
+{
+  "task_id": "a59bcc62-c419-484a-b9d3-93840d5c2e5a",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_e741101e-cd88-4327-a7e1-c035b8b3fedd.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Evaluate the quantitative rebuilding progress of residential and commercial infrastructure in the Busia region's urban centers six months after the major seismic event.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

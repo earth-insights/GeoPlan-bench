@@ -1,0 +1,20 @@
+{
+  "task_id": "97a22933-302b-48ea-bb11-738ec1f483d8",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_1ad89200-c2b4-4d47-9160-609120b61c2f.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "What is the extent of structural damage to individual buildings in Montreal's Saint-Léonard borough following the early January 2023 seismic event?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

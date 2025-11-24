@@ -1,0 +1,19 @@
+{
+  "task_id": "ed53c5f5-7f88-4ceb-b3e9-9cd34aef853e",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_cb7ee1e6-106c-4c38-b218-3ec527f7dea0.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "For the proposed Port St. Elias coastal development zone, determine the 2022 shoreline erosion rate and identify the primary environmental variables driving this change.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "calculate_time_difference",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

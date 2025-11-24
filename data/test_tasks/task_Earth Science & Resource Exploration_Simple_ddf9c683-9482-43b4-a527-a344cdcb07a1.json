@@ -1,0 +1,22 @@
+{
+  "task_id": "ddf9c683-9482-43b4-a527-a344cdcb07a1",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_cc0be3ce-fcc1-4ccc-8717-d5c7771c1fe8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Evaluate the extent to which underlying geological fault systems influenced the spatial distribution of land use and terrain classifications in the Ozark Plateau region near Springfield, Missouri, for the year 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

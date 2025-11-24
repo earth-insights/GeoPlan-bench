@@ -1,0 +1,19 @@
+{
+  "task_id": "d02cd690-a496-4f4b-9128-f7a3bc443d7f",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_75782901-2e03-42b6-9fc0-17231482f8ac.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Based on an analysis of new construction in early 2023, what is the assessed threat level from emergent clandestine infrastructure within the sensitive corridor south of Los Angeles?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "crop_image",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

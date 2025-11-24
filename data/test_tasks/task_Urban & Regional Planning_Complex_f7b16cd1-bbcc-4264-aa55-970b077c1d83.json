@@ -1,0 +1,22 @@
+{
+  "task_id": "f7b16cd1-bbcc-4264-aa55-970b077c1d83",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_3bf37be3-241f-4ab2-a3d4-5c4ea4db5976.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Evaluate how recent land use modifications within the central business district have altered key environmental metrics like green space and water runoff, and determine if these changes correlate with the area's shifting socio-economic landscape.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_environmental_impact",
+    "correlation_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "1561993f-3cb7-491e-a0cd-231bb42ee76b",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_fc00cd10-a6fc-465f-a09b-e8ab2f852b81.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Analyze how a potential oil discharge off the coast of western Louisiana in mid-August 2023 influenced the surrounding water's turbidity and phytoplankton concentrations.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_marine_pollution",
+    "assess_water_quality",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

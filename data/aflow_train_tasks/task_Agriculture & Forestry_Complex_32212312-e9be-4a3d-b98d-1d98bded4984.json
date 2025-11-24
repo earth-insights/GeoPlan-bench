@@ -1,0 +1,22 @@
+{
+  "task_id": "32212312-e9be-4a3d-b98d-1d98bded4984",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_fba5e3f0-9c98-4693-b828-f730b540cd45.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Project the September corn yield for my fields in the Arkansas Delta and identify which specific irrigation and fertilizer strategies from June led to the most productive outcomes.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "crop_image",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

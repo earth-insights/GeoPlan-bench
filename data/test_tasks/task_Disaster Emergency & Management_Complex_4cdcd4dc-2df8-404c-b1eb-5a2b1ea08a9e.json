@@ -1,0 +1,25 @@
+{
+  "task_id": "4cdcd4dc-2df8-404c-b1eb-5a2b1ea08a9e",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_cba3d86e-fd1f-4b61-8a9f-59fab4b75554.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the early October 2023 seismic event in the vicinity of Napa, California, how does the severity of damage to individual buildings correlate with the operational status of the surrounding roads and utility infrastructure?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

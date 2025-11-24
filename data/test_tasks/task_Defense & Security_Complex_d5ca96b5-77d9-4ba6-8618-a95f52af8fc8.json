@@ -1,0 +1,23 @@
+{
+  "task_id": "d5ca96b5-77d9-4ba6-8618-a95f52af8fc8",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_42742095-63a0-4cee-8bda-9c7f4c33d707.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Produce an executive summary identifying vessels that demonstrated anomalous travel patterns indicative of potential security threats within the maritime corridor between 11°N, 111°E and 14°N, 114°E during 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

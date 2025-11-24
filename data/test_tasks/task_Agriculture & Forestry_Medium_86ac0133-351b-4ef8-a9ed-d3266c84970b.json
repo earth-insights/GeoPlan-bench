@@ -1,0 +1,23 @@
+{
+  "task_id": "86ac0133-351b-4ef8-a9ed-d3266c84970b",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_51e9e785-e573-42db-92a1-94f7a61130a8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "How did regional weather variations impact the health and projected final yield of corn crops in Southern California's coastal agricultural zones during the 2022 growing season?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

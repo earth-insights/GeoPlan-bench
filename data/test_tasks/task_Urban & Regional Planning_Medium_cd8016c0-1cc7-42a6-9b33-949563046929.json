@@ -1,0 +1,21 @@
+{
+  "task_id": "cd8016c0-1cc7-42a6-9b33-949563046929",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_48048a06-c9fe-48d0-91fe-521351f25a3b.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Evaluate the extent of ecological degradation in the wildland-urban interface surrounding Calabasas, California, as a consequence of urban expansion between 2010 and 2020.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

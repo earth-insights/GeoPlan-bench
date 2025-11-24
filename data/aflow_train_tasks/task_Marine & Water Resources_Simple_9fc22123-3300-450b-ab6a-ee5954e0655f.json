@@ -1,0 +1,17 @@
+{
+  "task_id": "9fc22123-3300-450b-ab6a-ee5954e0655f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_ed1deac0-1501-4cb4-b575-d198b9a94812.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "To support the Cypress Lake Environmental Council's public health advisories, statistically evaluate the monthly relationship between algae bloom severity and water turbidity from January through September 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

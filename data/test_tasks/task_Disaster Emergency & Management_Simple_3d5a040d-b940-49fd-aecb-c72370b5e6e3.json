@@ -1,0 +1,19 @@
+{
+  "task_id": "3d5a040d-b940-49fd-aecb-c72370b5e6e3",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_aedbca2f-912e-4ff2-8306-2c0e289a434d.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a comprehensive impact report on the early October flood in the City Center, detailing the extent of the damage and outlining the safest walking evacuation routes to the designated Community Center and School.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

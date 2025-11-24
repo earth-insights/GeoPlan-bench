@@ -1,0 +1,25 @@
+{
+  "task_id": "84d6a908-2d27-4d0f-9ffc-93db73b724dc",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_5ef5ae5d-0577-4adc-a7e2-8c25c99e02e2.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a field-by-field forecast of crop yield and optimal harvest dates for the 2023 season in the agricultural area near Merced, California.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "predict_harvest_timing",
+    "format_data",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

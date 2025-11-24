@@ -1,0 +1,18 @@
+{
+  "task_id": "ec351638-d08d-498f-b065-f1c50469fb1c",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_1287e873-af5a-46f3-af7b-b0d57eb9e326.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "For the coastal area at 15.5°N, 100.5°E, determine if the changes to water bodies observed throughout 2022 represent a statistically significant departure from the coastal erosion trends established over the preceding decade.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

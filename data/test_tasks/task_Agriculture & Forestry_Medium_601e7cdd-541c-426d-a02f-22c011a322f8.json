@@ -1,0 +1,17 @@
+{
+  "task_id": "601e7cdd-541c-426d-a02f-22c011a322f8",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_65cc0597-e91e-4a26-b46a-f15707678d0f.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Within the specified agricultural zone near Los Angeles, which fields were exhibiting signs of acute drought stress versus natural seasonal decline in mid-September 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "band_combination"
+  ]
+}

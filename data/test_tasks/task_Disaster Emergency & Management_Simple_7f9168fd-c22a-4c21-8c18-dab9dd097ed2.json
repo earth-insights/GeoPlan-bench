@@ -1,0 +1,19 @@
+{
+  "task_id": "7f9168fd-c22a-4c21-8c18-dab9dd097ed2",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_e170a215-d26b-4359-8cbe-c1a41a9d21c2.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "For the central Los Angeles area affected by the early October 2023 seismic event, what is the relationship between a building's height, its distance from the event's center, and the resulting structural damage it sustained?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

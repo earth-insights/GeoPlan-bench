@@ -1,0 +1,19 @@
+{
+  "task_id": "02547eaf-a54d-4102-97a4-58778f965655",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_204187b9-efe2-4e3b-a811-7ea86a1ecc25.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Identify the most concentrated hotspots of urban expansion that occurred within the suburban corridor south of the Fraser River between 2015 and 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "f224de91-8315-436a-b7f3-2870a848e79b",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_3bdfa838-24d2-4b30-9913-6e50c7fad66c.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Identify the precise locations of emergent plant disease outbreaks on apparently healthy agricultural plots within a specific downtown Los Angeles block during the 2023 growing season.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_agricultural_fields",
+    "classify_land_cover",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

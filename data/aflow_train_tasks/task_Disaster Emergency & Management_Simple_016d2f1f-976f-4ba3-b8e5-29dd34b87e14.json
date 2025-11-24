@@ -1,0 +1,20 @@
+{
+  "task_id": "016d2f1f-976f-4ba3-b8e5-29dd34b87e14",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_6a5644c8-be16-49a1-86c0-c8abf960455b.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Produce a detailed impact analysis report for downtown Los Angeles, including maps, that quantifies the structural damage to individual buildings and key infrastructure following the major earthquake in January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

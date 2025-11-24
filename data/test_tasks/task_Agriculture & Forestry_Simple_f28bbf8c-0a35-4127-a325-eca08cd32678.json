@@ -1,0 +1,20 @@
+{
+  "task_id": "f28bbf8c-0a35-4127-a325-eca08cd32678",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_41859c73-3c62-4e52-8314-e26f669f3e47.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on conditions in July 2023, what is the comparative yield prediction for the distinct urban agricultural parcels located between Echo Park and the Arts District in Los Angeles?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

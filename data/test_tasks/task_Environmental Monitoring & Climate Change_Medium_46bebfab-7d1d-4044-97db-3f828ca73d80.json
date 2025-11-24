@@ -1,0 +1,23 @@
+{
+  "task_id": "46bebfab-7d1d-4044-97db-3f828ca73d80",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_b8f468af-c15f-44ae-ac39-3de10ccadf9f.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Quantify the ecological toll of deforestation on biodiversity and carbon reserves in the corridor between San Francisco and Los Angeles from 2010 through 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "calculate_time_difference",
+    "linear_regression",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

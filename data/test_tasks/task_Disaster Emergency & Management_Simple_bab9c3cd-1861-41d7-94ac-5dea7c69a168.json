@@ -1,0 +1,20 @@
+{
+  "task_id": "bab9c3cd-1861-41d7-94ac-5dea7c69a168",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_381c378a-19d6-4fbc-9e11-6aa5948aed38.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the major flood event in the Midwest last month, identify the most viable evacuation routes for densely populated communities now situated within the inundation zone.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "analyze_population_density",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

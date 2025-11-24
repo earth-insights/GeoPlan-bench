@@ -1,0 +1,20 @@
+{
+  "task_id": "00e68cb0-0c2d-4e1e-8f9f-b56ff95add91",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_8f1e536f-7645-4abd-8516-74f349d6c405.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "How did the progression of algae blooms in the Bay of Quinte from January to October 2023 impact the health of its traditional cod and herring fishing grounds?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "evaluate_fishing_grounds"
+  ]
+}

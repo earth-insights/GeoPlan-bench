@@ -1,0 +1,17 @@
+{
+  "task_id": "951bbd87-a422-4bce-b269-a56cab4702cc",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_b88333d7-b0a9-4051-861c-84842635ee71.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on land use analysis from early last summer, what was the likely corn output for the agricultural parcels managed by the San Francisco Urban Agriculture Program?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "statistical_analysis",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

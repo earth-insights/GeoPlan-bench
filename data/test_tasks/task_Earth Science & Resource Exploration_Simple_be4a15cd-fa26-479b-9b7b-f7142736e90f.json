@@ -1,0 +1,20 @@
+{
+  "task_id": "be4a15cd-fa26-479b-9b7b-f7142736e90f",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_37a8b993-f09c-4b31-b214-82b7925126e8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Correlate surface mineral signatures observed in the Patagonian Volcanic Arc during January 2023 with known geological compositions to identify high-potential deposit sites, and generate a final analysis report and a corresponding map data file.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "task_id": "4694ccbc-346a-4c30-bcde-3e766f798628",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_023fa7a7-9b06-489d-bf62-57b133537d63.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "How did population density and the distribution of green spaces affect the intensity of urban heat across different areas of Los Angeles during the summer of 2023?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "evaluate_urban_heat_island",
+    "correlation_analysis",
+    "linear_regression",
+    "generate_analysis_reports",
+    "summarize_text"
+  ]
+}

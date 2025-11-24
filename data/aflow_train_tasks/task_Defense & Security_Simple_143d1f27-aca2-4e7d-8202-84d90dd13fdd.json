@@ -1,0 +1,19 @@
+{
+  "task_id": "143d1f27-aca2-4e7d-8202-84d90dd13fdd",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_0bf4e4e5-25ff-47e0-8374-fad31a1f03f6.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the tactical vulnerabilities of critical transportation infrastructure within the volatile Krovnik border region and identify any significant shifts in strategic posture over the last six months.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

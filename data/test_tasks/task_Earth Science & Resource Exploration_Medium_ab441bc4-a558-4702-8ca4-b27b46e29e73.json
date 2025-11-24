@@ -1,0 +1,24 @@
+{
+  "task_id": "ab441bc4-a558-4702-8ca4-b27b46e29e73",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_910849e8-d61c-4bdf-86ba-42a55c2c67cc.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on recent tectonic activity in the mountainous region west of the San Andreas Fault near the Carrizo Plain, identify specific slope segments where underlying geological weaknesses create a high probability of future landslide events.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "map_fault_systems",
+    "analyze_geological_structures",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

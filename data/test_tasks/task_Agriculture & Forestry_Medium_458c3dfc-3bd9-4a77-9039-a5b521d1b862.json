@@ -1,0 +1,20 @@
+{
+  "task_id": "458c3dfc-3bd9-4a77-9039-a5b521d1b862",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_9337b400-f27d-45c2-9781-678da65dfe9e.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Identify specific areas of new, suspected illegal logging within the Brazilian rainforest near -3.4653° S, -62.2159° W that appeared between January and August 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "calculate_time_difference",
+    "monitor_deforestation",
+    "detect_illegal_logging"
+  ]
+}

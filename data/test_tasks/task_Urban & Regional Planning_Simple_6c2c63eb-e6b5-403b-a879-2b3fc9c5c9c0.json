@@ -1,0 +1,18 @@
+{
+  "task_id": "6c2c63eb-e6b5-403b-a879-2b3fc9c5c9c0",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_8009b006-28b4-44ff-b4be-3d8768cc3912.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "How did the balance of green space versus built-up area influence land use efficiency across the commercial and agricultural zones of the western redevelopment corridor in April 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "assess_land_use_efficiency",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

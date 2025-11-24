@@ -1,0 +1,23 @@
+{
+  "task_id": "446d09af-6a2a-4a01-8faf-8aa0ebc0c671",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_7458eb95-318d-4433-9f99-16dd5a6275bc.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "What is the projected final wheat yield for the primary agricultural field within a 10km radius of 35.123°N, 97.456°W, based on its complete 2023 growing season performance from April to September and its relationship to historical harvests?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

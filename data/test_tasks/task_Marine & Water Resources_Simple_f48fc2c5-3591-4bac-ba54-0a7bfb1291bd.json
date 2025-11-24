@@ -1,0 +1,18 @@
+{
+  "task_id": "f48fc2c5-3591-4bac-ba54-0a7bfb1291bd",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_8e8e921d-c33a-4b71-91a4-8a9f959f42ea.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "How strongly did fluctuations in sea temperature affect the occurrence of significant water discoloration in the coastal lagoons around Los Angeles during the summer of 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "monitor_sea_surface_temperature",
+    "correlation_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

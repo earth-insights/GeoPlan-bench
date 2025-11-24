@@ -1,0 +1,14 @@
+{
+  "task_id": "e4e0a2c1-ae00-4773-afac-04643581680a",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_f1e3fc78-25e4-4840-80e2-fea67de918e8.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "How significantly did the sequence of 2023 temperature and precipitation events impact the final corn yield forecast for California's Central Valley?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

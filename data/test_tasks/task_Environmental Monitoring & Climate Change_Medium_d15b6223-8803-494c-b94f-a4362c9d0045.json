@@ -1,0 +1,20 @@
+{
+  "task_id": "d15b6223-8803-494c-b94f-a4362c9d0045",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_7a3fe0c0-2cf4-4eca-b708-97755b24b1ad.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Characterize the spatiotemporal evolution of algal bloom severity in the inner Saginaw Bay throughout the summer of 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "monitor_algae_blooms"
+  ]
+}

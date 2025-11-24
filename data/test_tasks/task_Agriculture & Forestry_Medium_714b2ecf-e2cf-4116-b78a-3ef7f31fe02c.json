@@ -1,0 +1,15 @@
+{
+  "task_id": "714b2ecf-e2cf-4116-b78a-3ef7f31fe02c",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_5748b30f-cff3-42da-8f16-44bc7b7abaa3.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "How does the landscape around Fresno, California, visually reflect agricultural stress, specifically the pattern of fallowed fields, during the early summer of 2022?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

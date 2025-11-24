@@ -1,0 +1,19 @@
+{
+  "task_id": "510b97bc-0332-4871-bd28-a278540baa25",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_c2c2edbb-b7bd-48b4-aa9f-9dcfc2fc3d77.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the strategic vulnerabilities of US military infrastructure by identifying all bases and ammunition depots located in high-density urban areas during January 2023 and analyzing their risk profiles.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "crop_image",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "detect_military_facilities",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

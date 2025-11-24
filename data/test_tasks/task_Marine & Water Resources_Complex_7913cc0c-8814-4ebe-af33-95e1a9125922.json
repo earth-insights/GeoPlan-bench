@@ -1,0 +1,23 @@
+{
+  "task_id": "7913cc0c-8814-4ebe-af33-95e1a9125922",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_62842c96-48d6-433e-8301-31e2dc4a60ed.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the ecological health of the coastal estuary at the mouth of the Grand River for January 2023 by investigating the severity of aquatic biomass proliferation and its likely connection to upstream nutrient discharge.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

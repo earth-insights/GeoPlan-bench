@@ -1,0 +1,21 @@
+{
+  "task_id": "9c236f57-fef5-4e05-9317-dac1c588fe2c",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_717a596c-3c13-4ff7-839d-48515d2dde37.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the influence of land cover composition on the intensity of the urban heat island effect across downtown Los Angeles for 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "evaluate_urban_heat_island",
+    "correlation_analysis",
+    "format_data",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

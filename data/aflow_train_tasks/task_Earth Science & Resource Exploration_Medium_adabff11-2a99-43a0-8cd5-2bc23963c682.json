@@ -1,0 +1,22 @@
+{
+  "task_id": "adabff11-2a99-43a0-8cd5-2bc23963c682",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_56bcc9a6-90f4-4796-9d52-13350d581d28.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "For the geologically complex and steep terrain within the specified coastal zone of southeastern Africa, produce a detailed landslide susceptibility map for 2023, delineating zones of high, medium, and low risk based on an analysis of underlying fault systems and surface stability.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

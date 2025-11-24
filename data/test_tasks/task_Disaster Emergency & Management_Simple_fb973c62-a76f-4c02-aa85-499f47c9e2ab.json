@@ -1,0 +1,18 @@
+{
+  "task_id": "fb973c62-a76f-4c02-aa85-499f47c9e2ab",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d5e8a4b3-6908-401e-b198-edfe54da8840.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the extreme weather events in January 2023, determine the safest evacuation paths for residents in the low-lying areas around coordinates 34.5°E, -4.5°S to reach designated emergency shelters.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

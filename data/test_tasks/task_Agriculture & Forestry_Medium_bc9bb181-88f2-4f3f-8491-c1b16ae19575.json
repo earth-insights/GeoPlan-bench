@@ -1,0 +1,16 @@
+{
+  "task_id": "bc9bb181-88f2-4f3f-8491-c1b16ae19575",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_2321bcf4-5172-4b72-9b61-85c32011c4e8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "For May 2023, generate a health assessment for the vegetation in San Francisco's central community garden, distinguishing between general plant stress and specific infections from common fungal pathogens.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

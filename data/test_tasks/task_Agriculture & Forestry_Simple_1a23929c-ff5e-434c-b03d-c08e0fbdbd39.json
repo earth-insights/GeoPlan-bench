@@ -1,0 +1,19 @@
+{
+  "task_id": "1a23929c-ff5e-434c-b03d-c08e0fbdbd39",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_ceb571b3-1383-4a7b-b549-908320d78cb2.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Project the final October harvest yield in tons per hectare for the distinct agricultural parcels within California's southern Central Valley, based on their vitality and development throughout the 2023 growing season.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

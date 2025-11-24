@@ -1,0 +1,21 @@
+{
+  "task_id": "069b7516-d4b4-4696-92ae-49707288fb3a",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_b3e2cc37-94ee-4c5b-8fa3-b63a294e8206.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the ecological damage to biodiversity and the carbon cycle from deforestation that occurred in the central Amazon throughout 2022, and identify the primary human activities driving this loss.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "calculate_time_difference",
+    "monitor_deforestation",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

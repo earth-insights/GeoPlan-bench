@@ -1,0 +1,23 @@
+{
+  "task_id": "b9d14eb2-77f0-42a9-96b3-f49acaecafbb",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_dd8fa262-c9cd-4a74-a310-af302d07e889.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a detailed statistical report and a corresponding geospatial file for response teams, quantifying the structural damage to individual buildings in Los Angeles County following the mid-September 2023 earthquake.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

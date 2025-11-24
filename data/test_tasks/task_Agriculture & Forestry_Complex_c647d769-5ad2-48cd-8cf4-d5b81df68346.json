@@ -1,0 +1,22 @@
+{
+  "task_id": "c647d769-5ad2-48cd-8cf4-d5b81df68346",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_21f8eaea-16c6-4c6e-8b52-380716206360.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a final yield prediction for our corn farm in northern Illinois by analyzing its health throughout the entire 2023 growing season and accounting for the impact of local weather patterns.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

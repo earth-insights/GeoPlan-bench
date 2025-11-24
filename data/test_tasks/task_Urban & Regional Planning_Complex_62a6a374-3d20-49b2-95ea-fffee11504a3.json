@@ -1,0 +1,22 @@
+{
+  "task_id": "62a6a374-3d20-49b2-95ea-fffee11504a3",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_cfb8a56e-a4b4-4a88-8b0e-a00485644a7a.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Based on development patterns observed between 2022 and 2023, quantify how population shifts and new infrastructure have influenced the physical growth of Downtown Metropolis.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_urban_areas",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "linear_regression",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

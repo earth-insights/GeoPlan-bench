@@ -1,0 +1,22 @@
+{
+  "task_id": "8210ea08-488e-48f4-a9d1-6bca97d3708c",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_050a55e3-a5ec-4a22-b474-2acb10147589.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Quantify the extent of severe structural damage to individual buildings across the New York City metropolitan area following a significant seismic event in August 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

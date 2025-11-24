@@ -1,0 +1,19 @@
+{
+  "task_id": "8bfd654d-efdc-4ac2-9b19-e19337e670f1",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_e09ecc43-fb16-4054-9e09-ad30be1b5cf5.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "To what extent did localized human activities influence sea surface temperature variations in the shipping channels near Long Beach, California, throughout June 2022?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_sea_surface_temperature",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

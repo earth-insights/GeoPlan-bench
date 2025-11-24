@@ -1,0 +1,18 @@
+{
+  "task_id": "55e5a38e-af4d-4a0a-9942-9a52ae039929",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_363cbb93-3e3f-441f-8ad4-afd767c34d8f.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Based on current land use patterns and historical inundation data, delineate the most critical flood risk zones across central and southern California as of July 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_terrain_type",
+    "assess_flood_risk_zones"
+  ]
+}

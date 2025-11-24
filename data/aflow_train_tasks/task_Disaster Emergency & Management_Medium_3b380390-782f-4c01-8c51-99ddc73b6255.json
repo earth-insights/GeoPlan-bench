@@ -1,0 +1,17 @@
+{
+  "task_id": "3b380390-782f-4c01-8c51-99ddc73b6255",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_050a55e3-a5ec-4a22-b474-2acb10147589.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "For emergency planning purposes, map the most efficient routes from the critical infrastructure point at 40.73061°N, 73.935242°W to the designated shelters at 40.74061°N, 73.945242°W and 40.72061°N, 73.925242°W, using the actual road layout from 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_roads",
+    "plan_evacuation_routes"
+  ]
+}

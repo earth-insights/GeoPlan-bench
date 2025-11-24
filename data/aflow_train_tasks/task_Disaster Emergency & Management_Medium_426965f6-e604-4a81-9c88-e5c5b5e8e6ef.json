@@ -1,0 +1,16 @@
+{
+  "task_id": "426965f6-e604-4a81-9c88-e5c5b5e8e6ef",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_24b508b6-a541-4caa-8b0c-d634e2baac3d.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a clear, recent visual of the Northwood district to assess the impact of the industrial fire from last week.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "113cb00e-fcfd-401a-ae6c-1885458783ab",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_3378e19c-8693-4f59-aabd-a59b6970279a.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Identify the exact locations of unauthorized, small-scale logging activities that occurred within the protected boundaries of the Sierra del Lacandón National Park during the year 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "detect_illegal_logging"
+  ]
+}

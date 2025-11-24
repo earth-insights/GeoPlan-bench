@@ -1,0 +1,13 @@
+{
+  "task_id": "deb63c12-4d4b-4b5c-a01f-0c5beefe3f08",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_177546e0-211a-4d4b-b084-4009784351bb.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Distinguishing from the broad deforestation patterns mapped in the Amazon since January, pinpoint the exact locations of new, isolated clearings that have appeared in the last 30 days.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "monitor_deforestation",
+    "detect_illegal_logging"
+  ]
+}

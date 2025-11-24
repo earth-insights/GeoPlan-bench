@@ -1,0 +1,17 @@
+{
+  "task_id": "75a02ce3-3440-4dfb-bc6c-031d18c46756",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_ed1deac0-1501-4cb4-b575-d198b9a94812.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Based on the recent volumetric changes, can you determine the statistically significant trends of coastal erosion along the Cape Hatteras National Seashore for the year 2023 and compile a final report?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

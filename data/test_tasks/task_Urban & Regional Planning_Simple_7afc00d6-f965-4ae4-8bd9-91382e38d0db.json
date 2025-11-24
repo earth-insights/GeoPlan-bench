@@ -1,0 +1,17 @@
+{
+  "task_id": "7afc00d6-f965-4ae4-8bd9-91382e38d0db",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_172f464f-06d8-486b-9079-88c7041db87c.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Based on conditions in early 2023, analyze the fragmentation of natural habitats within California's urban areas and evaluate the resulting impact on local biodiversity.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_vegetation",
+    "evaluate_green_space_distribution",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

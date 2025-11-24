@@ -1,0 +1,25 @@
+{
+  "task_id": "cc4ac666-891a-42cd-9ecf-d0736a2ac6a2",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_bf9109a0-21f1-47ed-84a5-aa9e310da563.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Project the 2023 harvest yield for the three primary crop parcels in a coastal agricultural zone and determine how strongly their vitality correlates with the production forecast.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "resize_image",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "detect_plant_diseases",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "correlation_analysis",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

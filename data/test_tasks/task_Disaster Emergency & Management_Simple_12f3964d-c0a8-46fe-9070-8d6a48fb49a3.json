@@ -1,0 +1,13 @@
+{
+  "task_id": "12f3964d-c0a8-46fe-9070-8d6a48fb49a3",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_4a1b58b7-baa7-4018-8573-daa3bc1cb6b8.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Considering the current environmental risks and population distribution in Mountain View, what is the safest vehicle evacuation route from the vulnerable residential area at 45.3839, -122.4836 to the designated emergency shelter at 45.3941, -122.4930?",
+  "ground_truth_tool_flow": [
+    "analyze_population_density",
+    "predict_landslide_risk",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

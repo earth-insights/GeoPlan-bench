@@ -1,0 +1,19 @@
+{
+  "task_id": "3e81b387-3619-4174-9bd5-ed9b50201524",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_e95dca8e-ef79-4b18-baea-5228f637658e.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on the vitality of the forest tract west of Atlantic City in early 2023, project its potential for tree biomass carbon accumulation over the next ten years.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "convert_coordinates",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_forest_health",
+    "assess_carbon_sequestration"
+  ]
+}

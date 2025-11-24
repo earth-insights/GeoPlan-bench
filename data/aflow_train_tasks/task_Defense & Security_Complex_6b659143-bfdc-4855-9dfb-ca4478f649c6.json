@@ -1,0 +1,23 @@
+{
+  "task_id": "6b659143-bfdc-4855-9dfb-ca4478f649c6",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_5a2e9813-d2ab-4aa0-9b35-528bd50f3f7c.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Determine the operational readiness of the coastal military installation for a rapid deployment mission by assessing its force concentration and air support capabilities during the first half of October 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "enhance_image_resolution",
+    "band_combination",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "evaluate_operational_readiness",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

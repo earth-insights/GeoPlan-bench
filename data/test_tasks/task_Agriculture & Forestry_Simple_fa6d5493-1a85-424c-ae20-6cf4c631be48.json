@@ -1,0 +1,20 @@
+{
+  "task_id": "fa6d5493-1a85-424c-ae20-6cf4c631be48",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_f1e3fc78-25e4-4840-80e2-fea67de918e8.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "What is the projected fall harvest yield for our corn test plot in District A, accounting for the crop's health variance during this summer's stressful growing season?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_crop_health",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

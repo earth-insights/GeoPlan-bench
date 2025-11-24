@@ -1,0 +1,19 @@
+{
+  "task_id": "4e91e381-ff25-494a-97d3-8d0cb0ea7141",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_20db7bd9-4a88-4441-bc67-09e9f018bfb5.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify promising, economically viable copper and gold deposits in the Cuyama Valley area from early 2023 and determine how these potential sites align with the region's underlying geological structures.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

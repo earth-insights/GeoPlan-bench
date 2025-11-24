@@ -1,0 +1,26 @@
+{
+  "task_id": "03cc0d20-35aa-4f3d-87df-497635d43f6f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_37a24713-054a-4d04-9cad-d365c515e65b.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the relationship between irregular vessel transits and subsequent marine ecosystem degradation within the Santa Barbara Channel during 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "convert_coordinates",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "assess_marine_pollution",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

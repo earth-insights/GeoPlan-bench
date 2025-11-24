@@ -1,0 +1,20 @@
+{
+  "task_id": "8e328b48-8332-4eb5-921a-f14ffc2caac7",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_9dc17961-c6c1-4bbc-a4b2-829b373eaa05.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the influence of major fault systems within the eastern Transverse Ranges on the integrity and capacity of local groundwater basins.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

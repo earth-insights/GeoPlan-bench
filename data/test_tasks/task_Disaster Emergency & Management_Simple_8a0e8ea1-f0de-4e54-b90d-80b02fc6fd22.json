@@ -1,0 +1,18 @@
+{
+  "task_id": "8a0e8ea1-f0de-4e54-b90d-80b02fc6fd22",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_1c32449c-7c1c-4c64-bcbc-0c7ce443fa8b.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess the flood inundation across central Tokyo after the severe weather event in the first half of October 2023 and generate the most viable evacuation routes from affected areas to designated shelters.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

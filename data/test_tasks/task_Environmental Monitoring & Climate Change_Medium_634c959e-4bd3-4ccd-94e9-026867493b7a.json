@@ -1,0 +1,17 @@
+{
+  "task_id": "634c959e-4bd3-4ccd-94e9-026867493b7a",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_0584dc4a-8a5a-4c1f-8ab8-f163ec7efb24.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Based on the terrain and environmental conditions during 2022, generate a high-resolution slope stability report for the hillsides within the Temblor Range, identifying specific zones with critical landslide potential.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "predict_landslide_risk",
+    "assess_slope_stability"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "c4c2a93a-031f-4491-ad24-fee933381097",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_895ebfb0-6a13-414c-a2aa-e39fda457c06.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify and delineate the most promising new exploration targets for gold-copper mineralization within our designated concession by analyzing last year's geobotanical anomalies.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

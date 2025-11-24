@@ -1,0 +1,23 @@
+{
+  "task_id": "3648f89e-9783-425b-9e4d-4ef6f18dcbbc",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_643a6494-4563-45de-bc50-54db601075f6.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "After the intense rainfall in early January 2023, identify the most critically unstable slopes within the California coastal range, pinpointing exact locations where geological weaknesses create an imminent risk of failure.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

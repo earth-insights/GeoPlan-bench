@@ -1,0 +1,21 @@
+{
+  "task_id": "93a18b3b-e664-4a22-b111-1999f3ae2bea",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_08614c69-a3bc-4d14-a0d1-74a6bfb04e7a.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "How does the spatial pattern of new urban development from 2020 to 2023 relate to population density distribution across the census tracts of Los Angeles' Westlake and Koreatown areas?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "2cfc82ad-bae8-45f7-a96b-b9a160ce442c",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_c8aee1a7-ee63-42a4-a9a1-3c4ce5d012af.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Visually distinguish the agricultural parcels that exhibited the most robust and sustained growth throughout the 2023 season within the coastal valleys of Southern California between 34°N and 36°N latitude.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

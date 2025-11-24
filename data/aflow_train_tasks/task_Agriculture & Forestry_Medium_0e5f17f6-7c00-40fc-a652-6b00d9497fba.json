@@ -1,0 +1,22 @@
+{
+  "task_id": "0e5f17f6-7c00-40fc-a652-6b00d9497fba",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_7f0e227c-1ded-4ae2-b19f-af17f04a1c5e.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Forecast the final 2023 yield for my corn farm near Ames, Iowa, and analyze the impact of seasonal weather on the crop's vitality.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

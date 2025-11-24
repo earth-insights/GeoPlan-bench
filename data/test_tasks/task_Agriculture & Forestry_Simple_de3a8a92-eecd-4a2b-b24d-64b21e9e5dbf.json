@@ -1,0 +1,16 @@
+{
+  "task_id": "de3a8a92-eecd-4a2b-b24d-64b21e9e5dbf",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_12dba204-4be4-49d9-a3fb-a366b98e240a.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "What was the extent of vegetation stress due to low soil moisture in the agricultural lands of the southern San Joaquin Valley for January 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "assess_soil_moisture",
+    "monitor_drought_conditions"
+  ]
+}

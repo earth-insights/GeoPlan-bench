@@ -1,0 +1,19 @@
+{
+  "task_id": "c811af77-f7d9-4348-bad4-4d2d02c326cb",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_dceefd9f-0a14-4764-88bc-97666e6494b2.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a detailed damage classification report for buildings in the Ventura area following the seismic event of early January 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

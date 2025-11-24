@@ -1,0 +1,13 @@
+{
+  "task_id": "6de82bd6-0262-438e-867f-f7f721315951",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_14beff32-37d4-498e-be19-b54fbbc749f8.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the mid-October landslide in Mountainside Village, CO, explain what combination of environmental conditions led to the event and provide a full accounting of the damage to the community's infrastructure and property.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "generate_analysis_reports"
+  ]
+}

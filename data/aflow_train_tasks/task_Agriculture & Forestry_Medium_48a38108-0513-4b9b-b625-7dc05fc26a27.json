@@ -1,0 +1,18 @@
+{
+  "task_id": "48a38108-0513-4b9b-b625-7dc05fc26a27",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_b63f5aa5-47a8-4571-9c3f-0c8ac121dc21.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint all agricultural fields showing signs of distress or disease within the region bounded by 35.5-36.0°N and 139.5-140.0°E during May 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

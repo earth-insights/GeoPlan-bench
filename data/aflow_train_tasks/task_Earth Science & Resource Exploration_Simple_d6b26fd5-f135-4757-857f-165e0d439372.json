@@ -1,0 +1,18 @@
+{
+  "task_id": "d6b26fd5-f135-4757-857f-165e0d439372",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_cedb1c5b-1f13-4290-b8c0-1360e5488927.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "What is the complete structural network of geological faults in the western Santa Monica Mountains, highlighting any systems that show significant surface expression?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "875aaab1-4383-4a77-8aa8-b890461deea5",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_09d27e3d-c30a-46b2-bc7f-3e0708625af6.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the severe cyclonic storm in the Bay of Bengal during September 2023, generate an immediate evacuation plan for coastal communities by identifying compromised primary roads and charting the safest alternative routes to designated inland shelters.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "task_id": "a6e99d1f-92d5-4130-bfc6-23559218bb21",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_ebd33fd0-33da-4aea-b338-380375e49ced.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess the six-month recovery progress in Coastal City's severely impacted Urban_Zone_1, focusing on the restoration of community viability following the recent hurricane.",
+  "ground_truth_tool_flow": [
+    "analyze_population_density",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

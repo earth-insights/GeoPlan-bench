@@ -1,0 +1,22 @@
+{
+  "task_id": "0aa4de35-fc0e-49d8-981d-ecc2bbb1bc4d",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_74f89c1f-4953-4222-bc2c-b63425d6c3fa.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following a hypothetical major earthquake in downtown Los Angeles, determine if the pattern of structural damage to individual buildings can be used to predict their vulnerability to a subsequent severe urban flooding event.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_urban_areas",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

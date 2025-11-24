@@ -1,0 +1,18 @@
+{
+  "task_id": "cce70060-6d92-4ce4-ab7c-961d9721068b",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_1287e873-af5a-46f3-af7b-b0d57eb9e326.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the severity and spatial variability of the water discoloration event observed within the Monterey Bay National Marine Sanctuary's coastal waters during the summer of 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

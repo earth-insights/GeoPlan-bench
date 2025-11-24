@@ -1,0 +1,17 @@
+{
+  "task_id": "fbe5fa8a-7fec-44e5-8d20-af76c4d2312d",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_ca1017ca-13e7-49ec-ab28-12da42384067.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Following the severe cold snap in early January 2023, produce a high-resolution building inventory for the Manhattan area bordering Central Park to assess structural density.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings"
+  ]
+}

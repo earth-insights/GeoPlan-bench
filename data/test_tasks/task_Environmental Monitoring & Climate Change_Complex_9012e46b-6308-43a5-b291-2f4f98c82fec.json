@@ -1,0 +1,21 @@
+{
+  "task_id": "9012e46b-6308-43a5-b291-2f4f98c82fec",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Complex_af026fcd-19ba-4692-ae78-cfec94b5ee7a.json",
+  "complexity": "Complex",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the total contribution to carbon storage and water regulation from the forest tract located between 48.6 and 48.8 degrees North latitude and -123.0 and -122.8 degrees West longitude during 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_forest_health",
+    "assess_carbon_sequestration",
+    "evaluate_ecosystem_services",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

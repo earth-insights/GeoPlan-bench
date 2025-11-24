@@ -1,0 +1,24 @@
+{
+  "task_id": "05fecf4b-2e01-4c92-87b7-213a9b60b702",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_363cbb93-3e3f-441f-8ad4-afd767c34d8f.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent extreme weather event that impacted the greater Los Angeles area, develop an actionable plan outlining the safest possible egress routes for residents, factoring in both existing infrastructure damage and the potential for subsequent geological instability.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "assess_soil_moisture",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

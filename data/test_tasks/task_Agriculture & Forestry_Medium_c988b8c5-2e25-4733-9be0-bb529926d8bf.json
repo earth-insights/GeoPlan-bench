@@ -1,0 +1,25 @@
+{
+  "task_id": "c988b8c5-2e25-4733-9be0-bb529926d8bf",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_9337b400-f27d-45c2-9781-678da65dfe9e.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Forecast the final corn yield for the 2023 harvest in Champaign County, Illinois, by analyzing crop health progression throughout the growing season.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

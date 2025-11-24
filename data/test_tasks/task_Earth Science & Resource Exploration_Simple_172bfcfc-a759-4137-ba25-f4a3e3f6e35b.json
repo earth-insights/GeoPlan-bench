@@ -1,0 +1,21 @@
+{
+  "task_id": "172bfcfc-a759-4137-ba25-f4a3e3f6e35b",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_67c2a22b-2419-4fd6-bc43-6b89098834dc.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "What is the statistical correlation between surface fault expressions observed in 2023 and the spatial distribution of historical seismicity in the Tehachapi-San Gabriel mountain transition zone?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

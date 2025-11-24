@@ -1,0 +1,19 @@
+{
+  "task_id": "7ed20e34-6b37-406f-83ec-c52ba87eb1a5",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_14592cf3-77d5-4082-8426-524fdf061869.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the vulnerability of strategic infrastructure within San Francisco's Civic Center to unauthorized urban expansion between 2022 and 2023, focusing on new constructions that could impede disaster response along key transportation routes.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "detect_buildings",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

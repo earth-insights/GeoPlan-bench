@@ -1,0 +1,23 @@
+{
+  "task_id": "8de00843-86eb-414f-a962-650fb305bdaa",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_4eb5acf7-5b85-4d3b-b07c-d806d42f5589.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Quantify the full ecological and economic consequences stemming from the mid-2023 water quality decline in the southeastern bay of Lake Victoria, and determine the primary environmental stressors responsible for this degradation.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "track_biodiversity_changes",
+    "evaluate_ecosystem_services",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

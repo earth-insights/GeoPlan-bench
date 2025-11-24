@@ -1,0 +1,19 @@
+{
+  "task_id": "00aba3cf-24ee-4165-bfd0-ce6aef4990ca",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_e7fd0370-d92f-4b85-b1dc-9b0a82afb6bb.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a comprehensive damage report for downtown Los Angeles following the early October 2023 earthquake, detailing structural failures in key infrastructure and assessing the resulting impact on the accessibility of emergency services.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "calculate_time_difference",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_strategic_infrastructure"
+  ]
+}

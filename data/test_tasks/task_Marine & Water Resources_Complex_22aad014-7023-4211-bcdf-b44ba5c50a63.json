@@ -1,0 +1,24 @@
+{
+  "task_id": "22aad014-7023-4211-bcdf-b44ba5c50a63",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_79e3751e-ec75-4ff3-a379-565dc0c8f6fd.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Based on aquatic and wetland conditions in the northern Chesapeake Bay during June 2023, what is the estimated value of the area's primary ecosystem services?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "assess_wetland_conditions",
+    "assess_environmental_impact",
+    "evaluate_ecosystem_services",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

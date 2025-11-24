@@ -1,0 +1,19 @@
+{
+  "task_id": "69cb9c45-6c0b-4a6b-a5c8-2bfabca8c715",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_0fcfb371-27cc-4428-afdd-b964f50a1cf8.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Following the major flooding in the Chino Hills area, identify which individual buildings were impacted and assess how the damage has compromised the accessibility of the region's primary transportation infrastructure.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "assess_disaster_damage"
+  ]
+}

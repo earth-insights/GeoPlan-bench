@@ -1,0 +1,19 @@
+{
+  "task_id": "fe0cc012-69b8-4bfa-a570-30bf0d0eaa69",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_7cfbf655-3ee6-463e-a6fa-32678479a45e.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Identify and report on suspicious, coordinated vehicle patterns within the secure zone of the downtown Los Angeles federal complex during January 2023 that could indicate a planned threat.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

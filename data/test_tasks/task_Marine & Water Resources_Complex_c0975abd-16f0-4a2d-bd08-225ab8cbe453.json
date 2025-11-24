@@ -1,0 +1,22 @@
+{
+  "task_id": "c0975abd-16f0-4a2d-bd08-225ab8cbe453",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_06b76650-0ca3-47ed-9391-6cefdeb940d6.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "How did the ecological health of the main water reservoir in central Los Angeles, particularly regarding algal activity, correlate with surrounding urban environmental pressures during 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_water_quality",
+    "monitor_algae_blooms",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

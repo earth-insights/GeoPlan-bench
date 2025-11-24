@@ -1,0 +1,25 @@
+{
+  "task_id": "16301888-3881-4185-8c1c-0e63eb018f03",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_3bd7dc3e-24d2-4683-b159-45a8cd739e03.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the landslide susceptibility across the northeastern urban hills of San Francisco for 2022, identifying and ranking the specific zones of highest potential failure based on underlying geological instabilities.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "format_data",
+    "generate_analysis_reports",
+    "provide_technical_guidance"
+  ]
+}

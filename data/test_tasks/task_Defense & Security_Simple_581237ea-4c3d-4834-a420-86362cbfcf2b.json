@@ -1,0 +1,18 @@
+{
+  "task_id": "581237ea-4c3d-4834-a420-86362cbfcf2b",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_1f0d4c39-2da5-4997-88ef-9fbb0272dfe7.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the evolution of operational readiness and force posture at military facilities within the Los Angeles region from the beginning of 2023 through September.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

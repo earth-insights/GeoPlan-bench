@@ -1,0 +1,25 @@
+{
+  "task_id": "2bb0403d-3039-46da-9264-5aabd86f6197",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_72332544-4839-4d34-a14c-3661518036fd.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Determine the statistical correlation between the 2023 operational readiness of military facilities in the high desert east of Los Angeles and emergent threat patterns observed over the preceding seven years.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_urban_areas",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "evaluate_operational_readiness",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

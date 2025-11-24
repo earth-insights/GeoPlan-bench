@@ -1,0 +1,16 @@
+{
+  "task_id": "82509b8f-8df1-446d-8d67-8b66d85d3df9",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_09d27e3d-c30a-46b2-bc7f-3e0708625af6.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent seismic event in the Sierra Verde mountain range, produce a unified recovery and preparedness report that assesses the full scope of infrastructure damage and charts out the safest evacuation routes from populated zones based on a new terrain instability forecast.",
+  "ground_truth_tool_flow": [
+    "download_file",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

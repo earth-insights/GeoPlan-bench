@@ -1,0 +1,22 @@
+{
+  "task_id": "7673f4e2-9daa-4979-a369-2bbf8542aba4",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_4c0ecb44-4772-4fc2-8931-fa58368da518.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Determine the statistical relationship between the intensity of urban land use and population distribution patterns for the developed coastal zone south of Trat, Thailand, during May 2021.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "analyze_population_density",
+    "assess_land_use_efficiency",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

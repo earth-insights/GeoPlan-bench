@@ -1,0 +1,19 @@
+{
+  "task_id": "9de69ead-e805-4584-a79f-d7c60fe39c51",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_ba5d6d14-72ad-4101-9396-c1927f42a0b8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Pinpoint the precise agricultural plots within the Mara region of Kenya that showed signs of disease-related stress, such as yellowing or spotting, during March 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

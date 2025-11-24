@@ -1,0 +1,18 @@
+{
+  "task_id": "fda28090-2429-46a1-ae4c-68b0da2e361f",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_3fa711a6-1ab3-49b2-b913-471fb84b565f.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the development of new illicit transit corridors within a 50-kilometer radius of the border point at 32°N, -106°W by identifying anomalous traffic patterns and unusual gatherings during January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_roads",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

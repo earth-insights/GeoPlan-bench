@@ -1,0 +1,21 @@
+{
+  "task_id": "3a74466c-ecef-432a-a33a-be41175e98a8",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_6aec4a55-ac52-4dc9-a075-ae21c9035934.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Analyze the spatial patterns of urban expansion in the high desert communities north of Los Angeles between 2010 and 2023, and assess the subsequent impact on regional air quality, water resources, and biodiversity.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "task_id": "a02486e1-3411-46b9-9f08-8b15d0e04dea",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_599ee286-bdbd-4f48-8118-cc0718826738.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Within the Amazonian region defined by the coordinates [-75.0, 4.0], [-75.0, 5.0], [-74.0, 5.0], [-74.0, 4.0], pinpoint the hotspots of recurring, small-scale forest clearings that emerged throughout 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "calculate_time_difference",
+    "monitor_deforestation",
+    "detect_illegal_logging"
+  ]
+}

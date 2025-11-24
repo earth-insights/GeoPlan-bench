@@ -1,0 +1,16 @@
+{
+  "task_id": "49d18b10-67a4-46f9-9d22-27bf4693e1e9",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_80de54a3-90a8-42cb-b4b3-dbff20c98376.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify and characterize the distinct patterns of new agricultural encroachment into forested areas of the Amazon rainforest during 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "classify_land_cover",
+    "segment_vegetation"
+  ]
+}

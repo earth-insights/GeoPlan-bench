@@ -1,0 +1,26 @@
+{
+  "task_id": "23791f3e-e2c4-42ff-b957-6099ff4bab6e",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_d50f3400-3a42-41ef-a897-ab971854f479.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Pinpoint viable, shallow gold and copper deposits linked to fault systems near San Francisco and assess the environmental risks to water quality and habitat integrity posed by a potential extraction operation.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_environmental_impact",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

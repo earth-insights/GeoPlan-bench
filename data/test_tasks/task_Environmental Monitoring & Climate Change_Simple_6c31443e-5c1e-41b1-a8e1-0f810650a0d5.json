@@ -1,0 +1,13 @@
+{
+  "task_id": "6c31443e-5c1e-41b1-a8e1-0f810650a0d5",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_291f6c5d-822c-42ed-ae1a-a9420b40f12b.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "How did San Francisco's 2023 weather trends influence the health of its urban vegetation, and what were the resulting downstream effects on the city's overall environmental quality?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "correlation_analysis",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

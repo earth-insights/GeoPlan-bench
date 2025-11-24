@@ -1,0 +1,29 @@
+{
+  "task_id": "86141fa6-2c1d-4561-b31a-3545f1dfdd1b",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_67aba428-b28f-45eb-964b-8c41bb832ddd.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Analyze the structural controls on gold and copper mineralization within a targeted Sahara Desert region from 2023 to delineate the most promising exploration zones.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "convert_coordinates",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "statistical_analysis",
+    "linear_regression",
+    "format_data",
+    "generate_analysis_reports",
+    "provide_technical_guidance"
+  ]
+}

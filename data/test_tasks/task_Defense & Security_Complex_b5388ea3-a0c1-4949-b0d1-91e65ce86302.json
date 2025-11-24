@@ -1,0 +1,20 @@
+{
+  "task_id": "b5388ea3-a0c1-4949-b0d1-91e65ce86302",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_1db7d2f6-da26-43fa-a643-428c16304995.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Identify anomalous vehicle concentrations in the Minneapolis-St. Paul urban area during September 2023 that indicate a potential strategic force realignment.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

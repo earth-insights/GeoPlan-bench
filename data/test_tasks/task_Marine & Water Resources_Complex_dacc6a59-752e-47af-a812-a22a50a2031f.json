@@ -1,0 +1,25 @@
+{
+  "task_id": "dacc6a59-752e-47af-a812-a22a50a2031f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_62acb221-9ef4-48d8-9b67-8ee879de7803.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the impact of the 2023 drought on water availability and vegetation vitality in the urban core of Los Angeles.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "enhance_image_resolution",
+    "segment_water_bodies",
+    "evaluate_groundwater_resources",
+    "monitor_drought_conditions",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "extract_keywords"
+  ]
+}

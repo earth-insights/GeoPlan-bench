@@ -1,0 +1,20 @@
+{
+  "task_id": "35aef28b-bb81-4972-a275-243d61fdc047",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_33604cd7-902a-49ed-872b-0e98010ba7bd.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on agricultural conditions in May 2023, which specific farm fields between southern Vancouver Island and the Lower Mainland are predicted to have the most significant yield variations?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "assess_soil_moisture",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

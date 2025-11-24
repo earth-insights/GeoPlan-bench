@@ -1,0 +1,23 @@
+{
+  "task_id": "3b43a830-2db3-45b3-a2f8-f1cf1d72e80d",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_4953ce3e-0451-4658-a103-155268509d99.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Evaluate how urban development between January and June 2022 has influenced the strategic posture and operational security of air bases and ammunition depots in the coastal region southeast of the Persian Gulf.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

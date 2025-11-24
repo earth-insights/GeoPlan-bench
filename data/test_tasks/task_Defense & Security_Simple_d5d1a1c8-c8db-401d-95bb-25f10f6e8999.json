@@ -1,0 +1,19 @@
+{
+  "task_id": "d5d1a1c8-c8db-401d-95bb-25f10f6e8999",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_f5c16b61-d7c6-4ada-9814-07a5df8ca0e5.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Characterize the spatio-temporal patterns of anomalous vehicle congregations within the Southern California border zone over the past 30 days, identifying key hotspots of activity.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

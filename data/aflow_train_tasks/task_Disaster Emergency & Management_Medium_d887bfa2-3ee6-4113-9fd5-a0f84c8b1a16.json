@@ -1,0 +1,24 @@
+{
+  "task_id": "d887bfa2-3ee6-4113-9fd5-a0f84c8b1a16",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_30e57432-0748-4387-8a31-6463e21211e8.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the early February 2023 earthquake in Los Angeles, what percentage of damaged buildings in the city center showed signs of reconstruction or repair by the beginning of April 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

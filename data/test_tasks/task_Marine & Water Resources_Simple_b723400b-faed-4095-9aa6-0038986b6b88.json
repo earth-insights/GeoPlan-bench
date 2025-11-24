@@ -1,0 +1,17 @@
+{
+  "task_id": "b723400b-faed-4095-9aa6-0038986b6b88",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_414ff4b6-555b-4221-b758-7d458bc89545.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Provide a statistical breakdown of the coastal shoreline change rates along the California coast, comparing its position in June 2023 to its baseline from 2018.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "736c5cd6-5094-42ef-9fa7-3291eeb8b019",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_aedbca2f-912e-4ff2-8306-2c0e289a434d.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "For San Bernardino officials, produce a drought impact report explaining how the severe lack of precipitation in September 2023 led to the wildfire that prompted evacuations via Route 38 on September 15th.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_drought_conditions",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "52c994ad-77b2-49a1-94f2-5cd7c9cf5aa0",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_900e8472-91a3-40ff-9ce3-b79668db036c.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Determine if the sea surface temperatures in the waters west of Ireland during January 2023 represent a significant deviation from historical patterns for that region.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_sea_surface_temperature",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

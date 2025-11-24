@@ -1,0 +1,19 @@
+{
+  "task_id": "509215cd-45b1-4366-959f-7272cad1a789",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_90820a34-b95e-42f8-b936-c901e68ffeec.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate the environmental health of Tokyo Bay in January 2023 by correlating its water conditions with the land use patterns of the adjacent 5km urban core.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "assess_water_quality",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

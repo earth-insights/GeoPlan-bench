@@ -1,0 +1,24 @@
+{
+  "task_id": "f3eb456f-5c49-45e4-985e-8d54717bfbbb",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_01de4467-413e-40eb-86ae-912b82ed0be5.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Quantify the extent of structural damage to individual buildings within the downtown Los Angeles metropolitan area following the severe flooding in the first week of August 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "calculate_time_difference",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

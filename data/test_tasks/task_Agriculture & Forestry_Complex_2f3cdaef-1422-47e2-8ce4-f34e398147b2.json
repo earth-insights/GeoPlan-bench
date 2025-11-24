@@ -1,0 +1,20 @@
+{
+  "task_id": "2f3cdaef-1422-47e2-8ce4-f34e398147b2",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_bf9109a0-21f1-47ed-84a5-aa9e310da563.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Following the major river overflow in the Sunbridge Valley agricultural district during June 2023, delineate the total area of inundated farmland and propose a prioritized environmental recovery plan to address habitat loss and water contamination.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_environmental_impact"
+  ]
+}

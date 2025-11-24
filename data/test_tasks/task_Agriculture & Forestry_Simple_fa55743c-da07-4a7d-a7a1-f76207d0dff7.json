@@ -1,0 +1,19 @@
+{
+  "task_id": "fa55743c-da07-4a7d-a7a1-f76207d0dff7",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_316ea283-64b9-44e3-b65f-ad0c5104094b.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Estimate the theoretical corn yield for January 2023 from the vegetated parcels in the core civic center of downtown Los Angeles.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "435ea6dc-836a-42b2-977b-6a7d26ef3e89",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_f5373fe0-f064-4768-a312-1f88b76c1b00.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "For the greater Los Angeles metropolitan area, determine the extent to which urban sprawl between the beginning of 2020 and the end of 2022 has encroached upon and displaced pre-existing vegetation and water features.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

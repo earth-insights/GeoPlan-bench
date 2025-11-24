@@ -1,0 +1,23 @@
+{
+  "task_id": "8bdf0d5c-5a01-42f1-9268-d01b5ed1e8fd",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_f38822a7-3c98-4098-9836-1dec3325f830.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Evaluate the significant land use changes in the San Fernando Valley during 2023, detailing the patterns of new development and their consequential impact on the area's ecological health.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "task_id": "09ef3efd-b48f-41ae-a138-daf7c2384259",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_54941071-7cf7-4fc1-96c7-db304f9b27cf.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the influence of subsurface geological structures on surface soil moisture distribution across California for the year 2022, summarizing the correlation for distinct geological units.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "provide_technical_guidance",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

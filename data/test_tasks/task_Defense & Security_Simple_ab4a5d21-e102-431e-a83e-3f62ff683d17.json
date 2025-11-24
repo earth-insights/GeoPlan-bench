@@ -1,0 +1,19 @@
+{
+  "task_id": "ab4a5d21-e102-431e-a83e-3f62ff683d17",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_a90b0b48-68bc-4895-bbc0-2af16e6acf11.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Identify critical military installations near Los Angeles based on observations from the first half of January 2023 and assess if their strategic threat posture has changed over the past year.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

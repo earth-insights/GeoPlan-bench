@@ -1,0 +1,19 @@
+{
+  "task_id": "a718dbcd-cf6f-469a-b135-a6ed258022e5",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_c54f9e22-3994-4882-9543-546104d5fc74.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the spatial distribution and statistical rate of urban expansion within the San Francisco-East Bay corridor between 2010 and 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

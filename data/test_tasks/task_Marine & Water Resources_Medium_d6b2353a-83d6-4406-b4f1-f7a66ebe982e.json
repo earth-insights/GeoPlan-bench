@@ -1,0 +1,16 @@
+{
+  "task_id": "d6b2353a-83d6-4406-b4f1-f7a66ebe982e",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_4d1a0bba-c9c8-4939-8f6c-a091f28f00f9.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "What were the peak concentrations and seasonal trends of suspended sediment and algal blooms within the coastal waters directly off Los Angeles (from 34.0°N to 34.1°N) over the course of 2023?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "get_weather_data",
+    "atmospheric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_marine_pollution"
+  ]
+}

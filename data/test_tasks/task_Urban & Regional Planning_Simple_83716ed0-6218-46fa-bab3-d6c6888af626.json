@@ -1,0 +1,18 @@
+{
+  "task_id": "83716ed0-6218-46fa-bab3-d6c6888af626",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_cd7617fb-3759-4b2e-8c93-ace4678621fb.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Evaluate whether agricultural, urban, or natural land parcels demonstrated a statistically significant difference in utilization efficiency within the eastern Bay Area's urban-agricultural transition zone throughout 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "assess_land_use_efficiency",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

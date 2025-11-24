@@ -1,0 +1,27 @@
+{
+  "task_id": "b02fdad9-b64e-492e-8133-ef9ce494d05c",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_c0649458-87c1-4fcf-afe2-5a22287b21c6.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Generate a feasibility report for stakeholders on developing a new copper and gold mining operation just northwest of downtown Los Angeles, assessing both the geological potential and the environmental risks, such as water contamination and deforestation, observed in early 2023.",
+  "ground_truth_tool_flow": [
+    "provide_technical_guidance",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "convert_coordinates",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "summarize_text",
+    "format_data"
+  ]
+}

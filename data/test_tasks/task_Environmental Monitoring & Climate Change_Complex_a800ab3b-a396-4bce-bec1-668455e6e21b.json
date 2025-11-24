@@ -1,0 +1,23 @@
+{
+  "task_id": "a800ab3b-a396-4bce-bec1-668455e6e21b",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Complex_25b58dd3-315f-48d0-8f86-2d85c2241140.json",
+  "complexity": "Complex",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the change in ecosystem service value and overall environmental vulnerability for the coastal forests south of San Francisco between early 2022 and early 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_forest_health",
+    "assess_carbon_sequestration",
+    "evaluate_ecosystem_services",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "summarize_text",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

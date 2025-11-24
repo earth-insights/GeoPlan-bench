@@ -1,0 +1,24 @@
+{
+  "task_id": "896205b3-925e-4f08-ab98-3a1a4fb33139",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_d5cfe4d0-2bef-4842-bf05-0aff92f98ed4.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Quantify the structural damage to buildings in downtown Los Angeles following the early 2023 seismic event, providing a detailed breakdown by property type.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

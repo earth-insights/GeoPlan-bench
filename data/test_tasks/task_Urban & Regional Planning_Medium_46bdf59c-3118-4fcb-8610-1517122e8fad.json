@@ -1,0 +1,18 @@
+{
+  "task_id": "46bdf59c-3118-4fcb-8610-1517122e8fad",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_e9878b21-4039-458c-b460-2a1a868bf23a.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Identify key traffic congestion hotspots within the Los Angeles Civic Center for the period of September 15-20, 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_roads",
+    "monitor_traffic_congestion"
+  ]
+}

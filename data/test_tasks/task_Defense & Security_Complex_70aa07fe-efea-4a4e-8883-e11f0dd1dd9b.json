@@ -1,0 +1,21 @@
+{
+  "task_id": "70aa07fe-efea-4a4e-8883-e11f0dd1dd9b",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_2c69caba-851b-45f6-bef5-4cc92813dbd0.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Based on the 2023 urban and topographical layout of downtown Los Angeles, determine the most effective deployment strategy for air and ground-based disaster response units to serve the most densely populated areas.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "classify_terrain_type",
+    "assess_force_deployment",
+    "correlation_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

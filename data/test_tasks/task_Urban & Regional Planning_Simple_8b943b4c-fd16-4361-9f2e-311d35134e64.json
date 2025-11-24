@@ -1,0 +1,19 @@
+{
+  "task_id": "8b943b4c-fd16-4361-9f2e-311d35134e64",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_4441c007-e19d-49d0-8f26-af05e69cc36f.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Quantify the severity of traffic congestion in northwestern Los Angeles for the period of January 10-20, 2023, and identify the primary arterial roads that were most consistently affected.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_roads",
+    "monitor_traffic_congestion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

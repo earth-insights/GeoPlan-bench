@@ -1,0 +1,15 @@
+{
+  "task_id": "68cfab93-a1ad-406c-9f5e-6f2e2b94ecc2",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_dc0bdfe9-1552-4f07-90e9-4741dacee821.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess how preceding severe environmental conditions in California influenced the destructive impact of the mid-October 2023 wildfire and the subsequent state of recovery by the end of the month.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_drought_conditions",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

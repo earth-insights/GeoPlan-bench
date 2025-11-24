@@ -1,0 +1,23 @@
+{
+  "task_id": "74ec6eb5-18f5-4ff9-9a1e-71588190e1db",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_5efc1b4a-9cd1-4f84-b65e-d904d1bb6af3.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify the most promising, undeveloped sites for gold exploration within Nevada's Battle Mountain-Eureka trend by analyzing last year's surface expressions of favorable geological structures and associated mineral alteration patterns.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_mining_safety"
+  ]
+}

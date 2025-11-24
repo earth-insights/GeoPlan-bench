@@ -1,0 +1,18 @@
+{
+  "task_id": "d5cc771f-6f2a-4e6c-a257-46d7122b6ab1",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_172f464f-06d8-486b-9079-88c7041db87c.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Prepare a detailed assessment of the current urbanization level within a 10km radius of downtown Los Angeles, contextualizing the findings against development patterns observed since 2000.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "statistical_analysis",
+    "assess_urbanization_level",
+    "generate_analysis_reports"
+  ]
+}

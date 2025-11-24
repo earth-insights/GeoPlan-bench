@@ -1,0 +1,26 @@
+{
+  "task_id": "6a5711dd-33a3-42c1-92ef-70ced6386b2f",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_a5ac4283-ce39-4dc8-b1f7-0d8ee5d1393d.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent major earthquake in Miami, what is the safest vehicle route from the residential block at 25.762°N, 80.122°W to the nearest clear highway entrance, considering potential building collapses and road blockages?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

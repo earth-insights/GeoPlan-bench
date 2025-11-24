@@ -1,0 +1,15 @@
+{
+  "task_id": "4f388595-27d3-41b4-a6de-47306c88f2b0",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_4c0ecb44-4772-4fc2-8931-fa58368da518.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Generate a true-to-life color image showing the extent of landscape greening across the Los Angeles metropolitan area in mid-March 2023 following the significant winter rainfall.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination"
+  ]
+}

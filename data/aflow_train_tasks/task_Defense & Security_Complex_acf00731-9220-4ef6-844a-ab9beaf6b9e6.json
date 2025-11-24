@@ -1,0 +1,25 @@
+{
+  "task_id": "acf00731-9220-4ef6-844a-ab9beaf6b9e6",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_18e4c6dd-9913-4baa-a215-61c7c1aca8e8.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Evaluate our maritime operational readiness in the Pacific by identifying and analyzing anomalous vessel activity patterns from the first three quarters of 2023, considering environmental factors.",
+  "ground_truth_tool_flow": [
+    "read_database",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "resize_image",
+    "crop_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "correlation_analysis",
+    "analyze_threat_patterns",
+    "evaluate_operational_readiness",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

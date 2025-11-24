@@ -1,0 +1,16 @@
+{
+  "task_id": "bb7ca697-6ea6-428b-9dc6-94080a77ce9a",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_5bacdea1-5419-4c8c-af42-898f487554e5.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Quantify the total acreage of forest cleared during 2023 within the mountainous conservation area located between the Carrizo Plain and the southern end of the San Joaquin Valley.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "generate_analysis_reports"
+  ]
+}

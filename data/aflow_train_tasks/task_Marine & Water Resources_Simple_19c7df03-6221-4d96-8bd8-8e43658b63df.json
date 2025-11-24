@@ -1,0 +1,16 @@
+{
+  "task_id": "19c7df03-6221-4d96-8bd8-8e43658b63df",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_1287e873-af5a-46f3-af7b-b0d57eb9e326.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Given the surface water changes observed throughout 2022, what is the estimated groundwater resource capacity for a potential agricultural development on the sandy loam terrain west of San Francisco International Airport?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "evaluate_groundwater_resources"
+  ]
+}

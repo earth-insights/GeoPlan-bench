@@ -1,0 +1,19 @@
+{
+  "task_id": "96bcddef-3a4f-4c68-8e00-d2d712cd6332",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_cba3d86e-fd1f-4b61-8a9f-59fab4b75554.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "For a proposed infrastructure project in the Titiwangsa mountain range, identify which areas along the planned route in 2022 had the highest landslide susceptibility due to the combination of steep terrain and existing vegetation cover.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "band_combination",
+    "segment_vegetation",
+    "assess_slope_stability",
+    "predict_landslide_risk"
+  ]
+}

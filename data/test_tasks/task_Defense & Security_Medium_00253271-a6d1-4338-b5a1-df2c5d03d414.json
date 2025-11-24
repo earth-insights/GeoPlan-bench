@@ -1,0 +1,24 @@
+{
+  "task_id": "00253271-a6d1-4338-b5a1-df2c5d03d414",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_eae67a08-8f52-41cf-8ad8-49946b07302e.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Assess land cover transformations along the Trincomalee coastal border region over the past nine months to identify patterns of emergent, unauthorized logistical activity.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "evaluate_operational_readiness",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

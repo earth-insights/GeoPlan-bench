@@ -1,0 +1,21 @@
+{
+  "task_id": "7ea9b846-5cea-41e8-ad3f-39c738450deb",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_3bdfa838-24d2-4b30-9913-6e50c7fad66c.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Determine the extent of Powdery Mildew, Leaf Spot, and Blight across urban agricultural plots in central Los Angeles during 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "classify_land_cover",
+    "monitor_crop_health",
+    "detect_plant_diseases"
+  ]
+}

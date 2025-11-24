@@ -1,0 +1,25 @@
+{
+  "task_id": "a6538a88-c34d-4372-9deb-d6b6d8d93529",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_65f50b69-1178-4d95-97d2-9e83a942b897.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Identify new, environmentally sustainable targets for gold and copper mining in the rugged Calico Mountains, considering potential impacts on local water tables and air quality.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "band_combination",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

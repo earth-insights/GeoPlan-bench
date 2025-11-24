@@ -1,0 +1,18 @@
+{
+  "task_id": "186515b6-14f4-4662-abca-7feb822b4d39",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_8f36fd83-432b-4da3-a5af-94490ca78b2a.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Evaluate the intensity and spatial distribution of soil moisture deficits across the agricultural lands of the Goleta Valley corridor during June 2023 to identify areas experiencing incipient drought stress.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_soil_moisture",
+    "monitor_drought_conditions"
+  ]
+}

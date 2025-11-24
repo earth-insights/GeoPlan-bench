@@ -1,0 +1,16 @@
+{
+  "task_id": "1c11153b-72ab-4c4b-a34a-ffb628205aab",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_fc7f083a-5819-4b12-bf5e-7ade94a473d8.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "How did offshore marine thermal conditions along the central California coast in October 2023 correspond with the surface area of nearby coastal lagoons and estuaries?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "monitor_sea_surface_temperature",
+    "generate_analysis_reports"
+  ]
+}

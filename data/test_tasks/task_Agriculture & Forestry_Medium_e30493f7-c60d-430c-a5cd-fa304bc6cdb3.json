@@ -1,0 +1,18 @@
+{
+  "task_id": "e30493f7-c60d-430c-a5cd-fa304bc6cdb3",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_51e9e785-e573-42db-92a1-94f7a61130a8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the monthly progression of vegetation stress throughout 2023 for the forested lands within the management block defined by latitudes 44.5 to 45.5 and longitudes -120.5 to -119.5.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_forest_health"
+  ]
+}

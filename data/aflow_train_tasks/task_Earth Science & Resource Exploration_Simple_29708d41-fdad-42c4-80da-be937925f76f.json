@@ -1,0 +1,21 @@
+{
+  "task_id": "29708d41-fdad-42c4-80da-be937925f76f",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_dd205997-dabe-461b-897a-0ec145211be8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the groundwater resource potential within Tokyo's western urban core by investigating how deep-seated geological lineaments, based on observations from the first three quarters of 2023, control subsurface water accumulation.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

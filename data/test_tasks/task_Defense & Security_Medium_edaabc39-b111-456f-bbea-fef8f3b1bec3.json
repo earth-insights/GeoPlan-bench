@@ -1,0 +1,23 @@
+{
+  "task_id": "edaabc39-b111-456f-bbea-fef8f3b1bec3",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_a3301101-3666-4c7a-a86d-53b70a9606e2.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Evaluate the operational readiness of critical infrastructure—specifically schools, hospitals, and transportation hubs—in central San Francisco, assessing their capacity, safety, and accessibility for a new civil contingency plan.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "evaluate_operational_readiness",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

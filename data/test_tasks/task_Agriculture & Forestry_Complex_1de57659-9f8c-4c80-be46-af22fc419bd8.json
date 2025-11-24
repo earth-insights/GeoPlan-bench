@@ -1,0 +1,23 @@
+{
+  "task_id": "1de57659-9f8c-4c80-be46-af22fc419bd8",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_3bdfa838-24d2-4b30-9913-6e50c7fad66c.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Determine the ecological vitality and carbon sequestration impact of the primary forested areas on the western peninsula of San Francisco during the past year.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "classify_land_cover",
+    "monitor_forest_health",
+    "assess_carbon_sequestration",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

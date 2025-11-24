@@ -1,0 +1,19 @@
+{
+  "task_id": "968c4a48-cd23-4284-b2c8-7a9047ecf60b",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_9302ad4d-f67c-46d1-ac47-1b620cf20343.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "How did maritime traffic congestion patterns and their primary density hotspots evolve monthly across the Mediterranean Sea and English Channel from the beginning of January through October 2023?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "detect_ships",
+    "track_ship_movements",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "25ad2d23-3136-44f8-8a8b-00fdcdceadff",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_c771c47e-198c-491e-a8fc-239082689e0f.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "What was the impact of the 'Seaside Estates' construction and 2023's rainfall patterns on the eutrophication and sediment load within the adjacent coastal lagoons?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "correlation_analysis",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

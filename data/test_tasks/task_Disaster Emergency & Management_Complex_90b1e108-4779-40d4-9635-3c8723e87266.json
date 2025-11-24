@@ -1,0 +1,22 @@
+{
+  "task_id": "90b1e108-4779-40d4-9635-3c8723e87266",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_fe41e187-287b-4a36-ba88-e87803fbf568.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Quantify the recovery of inundated urban areas in Los Angeles throughout September 2023 following the initial storm impact at the start of the month.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

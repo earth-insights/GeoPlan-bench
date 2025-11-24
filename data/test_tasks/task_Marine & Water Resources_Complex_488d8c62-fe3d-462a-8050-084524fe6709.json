@@ -1,0 +1,20 @@
+{
+  "task_id": "488d8c62-fe3d-462a-8050-084524fe6709",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_3720d735-2f0b-4106-843c-023b15f58aab.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the number of vessels exhibiting irregular navigation patterns indicative of potential smuggling within the maritime zone of 120.0-121.5E, 30.0-31.5N throughout September 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

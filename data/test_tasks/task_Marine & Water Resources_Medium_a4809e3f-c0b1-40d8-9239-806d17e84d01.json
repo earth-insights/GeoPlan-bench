@@ -1,0 +1,18 @@
+{
+  "task_id": "a4809e3f-c0b1-40d8-9239-806d17e84d01",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_1018b46e-fe3d-49b7-911d-3d7b376a22ea.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the impact of California's recent atmospheric rivers on the Lake Cachuma reservoir by quantifying the change in its surface water extent between the height of the 2020-2022 drought and mid-summer 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "track_land_reclamation"
+  ]
+}

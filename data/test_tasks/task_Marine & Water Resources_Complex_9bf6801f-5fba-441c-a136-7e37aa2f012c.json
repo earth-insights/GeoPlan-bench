@@ -1,0 +1,19 @@
+{
+  "task_id": "9bf6801f-5fba-441c-a136-7e37aa2f012c",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_cef19cfb-8fb6-44e5-bf9d-3e0c158ff1cb.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the vegetative health of the wetland ecosystems located within the region bounded by [-123.45, 44.67] and [-123.25, 44.85] during 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "classify_land_cover",
+    "assess_wetland_conditions"
+  ]
+}

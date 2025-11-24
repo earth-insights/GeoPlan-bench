@@ -1,0 +1,14 @@
+{
+  "task_id": "0aa2bcdc-98b2-42bb-89af-f7d54522ee60",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_5f138bb3-2f97-469b-9d9c-c59f59a86b24.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "How has the urban footprint of the capital's northern sector evolved over the last three years, and what are the dominant spatial patterns of this growth?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "generate_analysis_reports"
+  ]
+}

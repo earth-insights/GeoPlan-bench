@@ -1,0 +1,21 @@
+{
+  "task_id": "fdcfde49-aa09-4e52-8586-a736607e5b30",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_069d406d-ee6c-4893-8418-e7e6c4c2ad6b.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Pinpoint and map previously unexploited, high-potential iron oxide and hydrothermally altered clay deposits in Northern California, assessing their resource grade based on geological and surface composition indicators.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "provide_technical_guidance",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "convert_coordinates",
+    "band_combination",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "evaluate_ore_quality"
+  ]
+}

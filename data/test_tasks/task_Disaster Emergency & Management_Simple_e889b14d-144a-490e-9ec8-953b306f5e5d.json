@@ -1,0 +1,18 @@
+{
+  "task_id": "e889b14d-144a-490e-9ec8-953b306f5e5d",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_54ba08e1-2a80-47d0-b7c1-860288e00e2f.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the early September 2023 earthquake in the Cuyama Valley, produce a complete disaster response plan that identifies all damaged buildings and infrastructure and maps out the safest evacuation routes.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

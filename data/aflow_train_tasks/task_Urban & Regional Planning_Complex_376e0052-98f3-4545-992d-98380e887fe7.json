@@ -1,0 +1,25 @@
+{
+  "task_id": "376e0052-98f3-4545-992d-98380e887fe7",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_44cb39c4-bd6c-4392-9e69-34858d57c858.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Evaluate the impact on water resources and biodiversity caused by urban expansion across eastern Australia from the beginning of 2020 to mid-2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "resize_image",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "summarize_text",
+    "format_data"
+  ]
+}

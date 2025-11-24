@@ -1,0 +1,14 @@
+{
+  "task_id": "32d17bf6-5972-455b-a0ea-ce95a00ae783",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_53fe5335-5adc-4197-bc58-e03284487e95.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Prepare a summary report for stakeholders on the overall health of Lake Victoria's water during August 2023, assessing the interplay between key water chemistry indicators and prevailing environmental conditions.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_water_quality",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

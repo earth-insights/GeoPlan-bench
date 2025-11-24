@@ -1,0 +1,20 @@
+{
+  "task_id": "e430aedb-fe39-4373-a41d-680186e97c28",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_03cd7609-8fb0-4df4-a2e6-d8a2780ffe1f.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Analyze the relationship between San Francisco's strike-slip fault network and groundwater potential, assessing its response to precipitation levels from the 2020-2022 period.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

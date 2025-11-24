@@ -1,0 +1,17 @@
+{
+  "task_id": "3b34476a-746a-4d73-8d8f-28472957bc1d",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_ac937685-dac5-4ff4-8bf3-dcd78fa03519.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Quantify the total carbon stock, broken down by vegetation type, for a proposed conservation area west of Salem, Oregon, as of mid-June 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "assess_carbon_sequestration",
+    "generate_analysis_reports"
+  ]
+}

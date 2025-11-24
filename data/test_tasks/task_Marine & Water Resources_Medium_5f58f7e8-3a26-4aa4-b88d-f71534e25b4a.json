@@ -1,0 +1,15 @@
+{
+  "task_id": "5f58f7e8-3a26-4aa4-b88d-f71534e25b4a",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_609cfd08-50bb-4979-a455-9cebfb7bb394.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Based on the shoreline dynamics of the last five years, what is the projected annual rate of land loss for the most critically affected areas of the Bayside Peninsula, and what is the confidence level of this erosion trend?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

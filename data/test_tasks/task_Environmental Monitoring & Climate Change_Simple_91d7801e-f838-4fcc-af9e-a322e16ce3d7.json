@@ -1,0 +1,21 @@
+{
+  "task_id": "91d7801e-f838-4fcc-af9e-a322e16ce3d7",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_80fc8e40-8b50-42a7-a464-06ce88a7987c.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "What is the carbon sequestration performance of San Francisco's urban green spaces as of October 2023, and which local environmental factors are most influential in driving this performance and its associated ecological co-benefits?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_vegetation",
+    "assess_carbon_sequestration",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "a1586c1b-d0c4-47b3-b1a7-b21975b7f9b2",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_16435682-19e9-4990-b3e9-a21a06d5485e.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Which specific plots across the five primary fields within this farming cooperative's land showed severe stress indicative of a disease outbreak during the peak growing month of July last year?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_agricultural_fields",
+    "detect_plant_diseases"
+  ]
+}

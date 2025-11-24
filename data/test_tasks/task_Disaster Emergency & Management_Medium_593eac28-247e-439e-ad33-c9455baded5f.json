@@ -1,0 +1,19 @@
+{
+  "task_id": "593eac28-247e-439e-ad33-c9455baded5f",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_1ad89200-c2b4-4d47-9160-609120b61c2f.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Evaluate the full impact of the early January 2023 atmospheric river on the Sacramento-San Joaquin Delta, from the initial flood extent to the state of agricultural land recovery by mid-March.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

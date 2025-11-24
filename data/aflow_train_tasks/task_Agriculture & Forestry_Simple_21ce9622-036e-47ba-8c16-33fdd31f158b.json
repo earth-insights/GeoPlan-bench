@@ -1,0 +1,18 @@
+{
+  "task_id": "21ce9622-036e-47ba-8c16-33fdd31f158b",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_b39bc6c3-7fa2-4927-bb4e-3379067e534c.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Predict the total 2023 crop yield from all identified urban agriculture plots within a four-square-kilometer area centered on San Francisco's Civic Center.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "statistical_analysis",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

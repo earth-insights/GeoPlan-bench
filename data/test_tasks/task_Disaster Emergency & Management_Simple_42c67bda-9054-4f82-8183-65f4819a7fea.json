@@ -1,0 +1,17 @@
+{
+  "task_id": "42c67bda-9054-4f82-8183-65f4819a7fea",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_7833f966-0dd4-409d-8fcb-cf82463bd3ca.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a damage assessment for the greater Los Angeles area by quantifying urban impact and mapping new landslide scars resulting from the mid-January 2023 atmospheric river event.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "assess_disaster_damage",
+    "generate_analysis_reports"
+  ]
+}

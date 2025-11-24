@@ -1,0 +1,20 @@
+{
+  "task_id": "ba8c7e5b-07a6-4a72-ae75-a136518041b6",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_3720d735-2f0b-4106-843c-023b15f58aab.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate how the health and biodiversity of coastal wetlands between Santa Barbara and Los Angeles influenced their water regulation services during 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_wetland_conditions",
+    "track_biodiversity_changes",
+    "evaluate_ecosystem_services",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

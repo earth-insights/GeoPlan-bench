@@ -1,0 +1,19 @@
+{
+  "task_id": "645e4ee0-c960-4d24-bfb5-6769463d3efe",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_502daaf3-8148-4dbc-833e-d7a186dc11d8.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the monthly evolution of maritime traffic in 2023 to pinpoint periods of anomalous vessel congestion within the primary access channels of the Port of Long Beach.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

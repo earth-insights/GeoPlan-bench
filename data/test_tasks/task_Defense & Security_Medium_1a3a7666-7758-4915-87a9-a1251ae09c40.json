@@ -1,0 +1,14 @@
+{
+  "task_id": "1a3a7666-7758-4915-87a9-a1251ae09c40",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_a599667b-0909-45e0-a345-4c3b4b678fc5.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Produce a wildfire threat analysis report for California emergency responders, detailing the most critical fire hotspots between October 1-10, 2023, and explaining how weather conditions contributed to the situation.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "analyze_threat_patterns",
+    "summarize_text",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

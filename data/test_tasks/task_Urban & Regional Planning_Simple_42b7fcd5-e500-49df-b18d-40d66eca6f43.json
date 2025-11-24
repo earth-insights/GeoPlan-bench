@@ -1,0 +1,16 @@
+{
+  "task_id": "42b7fcd5-e500-49df-b18d-40d66eca6f43",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_fc3ef8fe-dd99-43a8-90cd-09c0fd1f45f5.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the severity of the urban heat island effect across New York City during 2023 by creating a comparative analysis of surface temperatures between its urbanized zones and natural landscapes.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "classify_land_cover",
+    "evaluate_urban_heat_island",
+    "generate_analysis_reports"
+  ]
+}

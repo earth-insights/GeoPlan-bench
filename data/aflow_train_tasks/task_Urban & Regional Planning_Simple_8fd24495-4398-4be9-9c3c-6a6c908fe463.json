@@ -1,0 +1,18 @@
+{
+  "task_id": "8fd24495-4398-4be9-9c3c-6a6c908fe463",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_cd7617fb-3759-4b2e-8c93-ace4678621fb.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "What are the primary statistical characteristics of urban expansion that occurred along California's central coast between 2019 and 2022?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

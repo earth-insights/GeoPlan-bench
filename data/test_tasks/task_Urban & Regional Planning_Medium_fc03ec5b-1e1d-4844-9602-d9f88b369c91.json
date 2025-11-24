@@ -1,0 +1,23 @@
+{
+  "task_id": "fc03ec5b-1e1d-4844-9602-d9f88b369c91",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_e9878b21-4039-458c-b460-2a1a868bf23a.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Determine the extent to which individual building footprints within a targeted lower Manhattan neighborhood influenced localized surface temperature anomalies during 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "evaluate_urban_heat_island",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

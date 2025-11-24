@@ -1,0 +1,19 @@
+{
+  "task_id": "b4726f9e-1daa-486d-a54f-180e8f942db4",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_7cfbf655-3ee6-463e-a6fa-32678479a45e.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Determine if anomalous vehicle deployment patterns in downtown Los Angeles during the first half of November 2023 constitute a credible hostile force deployment based on prevailing threat intelligence.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

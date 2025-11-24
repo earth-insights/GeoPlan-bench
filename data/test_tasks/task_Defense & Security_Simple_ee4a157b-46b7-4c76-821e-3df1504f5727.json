@@ -1,0 +1,13 @@
+{
+  "task_id": "ee4a157b-46b7-4c76-821e-3df1504f5727",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_5088f974-b2c8-43e8-a250-f44c69795399.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Which specific watersheds in Northern California are exhibiting the most critical patterns of escalating wildfire risk based on the cumulative environmental stressors observed over the last year?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "task_id": "b46001e5-0319-4b26-be5d-e2d3af783705",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_ea13551c-3959-4c7b-8f6b-ad720f5a6477.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent seismic event in the Los Angeles area, identify the specific structural typologies of buildings in the San Fernando Valley that were most susceptible to damage.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

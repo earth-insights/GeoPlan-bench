@@ -1,0 +1,18 @@
+{
+  "task_id": "e3bc88c3-c2bf-4eba-bb29-fce457ee4789",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_0f737841-a2a2-4e6c-b4f3-9f2890112962.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Delineate the intersecting fault systems within Iran's Dezful Embayment and produce a map characterizing the region's dominant tectonic stress.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "e0dcb5b4-f8be-4d54-8a7c-79120b854ab5",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_e0bb8790-c705-4264-a052-c2372fd76cf0.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "What are the distinct size and shape characteristics for parcels dedicated to different primary agricultural uses at the start of 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

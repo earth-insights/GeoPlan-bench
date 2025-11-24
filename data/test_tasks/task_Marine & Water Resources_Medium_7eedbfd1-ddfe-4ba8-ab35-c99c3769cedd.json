@@ -1,0 +1,17 @@
+{
+  "task_id": "7eedbfd1-ddfe-4ba8-ab35-c99c3769cedd",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_0d416146-42d1-4642-af8b-22ed5b043358.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Investigate the primary near-shore current patterns influencing shoreline erosion and sandbar migration off the coast of Cape Hatteras between January and October 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "track_ocean_currents"
+  ]
+}

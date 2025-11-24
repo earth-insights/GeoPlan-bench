@@ -1,0 +1,20 @@
+{
+  "task_id": "3b68b4a4-272e-4817-a5f7-109df331d494",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_dd8fa262-c9cd-4a74-a310-af302d07e889.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "What is the current environmental vulnerability of the hillside communities north of downtown Los Angeles, considering the damage from the major fire three months ago and the risk of cascading geological hazards?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_terrain_type",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

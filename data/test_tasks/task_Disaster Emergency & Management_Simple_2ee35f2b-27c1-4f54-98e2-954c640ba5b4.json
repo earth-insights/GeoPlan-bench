@@ -1,0 +1,14 @@
+{
+  "task_id": "2ee35f2b-27c1-4f54-98e2-954c640ba5b4",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_54ba08e1-2a80-47d0-b7c1-860288e00e2f.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Given the significant ground instability at Machu Picchu during the first week of October 2023, what is the definitive safest evacuation route to Aguas Calientes after fully accounting for all resulting damage and obstructions?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

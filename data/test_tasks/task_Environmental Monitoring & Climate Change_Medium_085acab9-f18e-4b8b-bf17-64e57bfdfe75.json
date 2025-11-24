@@ -1,0 +1,17 @@
+{
+  "task_id": "085acab9-f18e-4b8b-bf17-64e57bfdfe75",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_bb88ff4a-b3d2-4cda-b4a1-ec8e91c70f86.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Quantify the impact of deforestation on the Amazon's carbon storage capacity from the start of 2022 to the present, accounting for significant regional climatic shifts during this period.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "monitor_deforestation",
+    "assess_carbon_sequestration",
+    "linear_regression",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

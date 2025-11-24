@@ -1,0 +1,22 @@
+{
+  "task_id": "34a65501-6c8a-4501-9e2f-2e503a246439",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_069d406d-ee6c-4893-8418-e7e6c4c2ad6b.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Following recent tectonic tremors, identify the specific zones of highest slope instability risk for the open-pit copper mining operations within Tanzania's Singida Region.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "provide_technical_guidance",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "convert_coordinates",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_mining_safety"
+  ]
+}

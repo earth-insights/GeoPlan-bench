@@ -1,0 +1,22 @@
+{
+  "task_id": "569804a8-e092-43cd-8a14-1e8a8f6a7134",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_8739ea03-ff98-4ebd-a58a-f002d9c94499.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "To guide a new high-density housing initiative, assess the population concentration and land use efficiency within the core of downtown Los Angeles for the year 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "analyze_population_density",
+    "assess_land_use_efficiency",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

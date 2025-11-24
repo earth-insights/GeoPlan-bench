@@ -1,0 +1,19 @@
+{
+  "task_id": "74105f49-5703-443b-853b-c38c65b05d85",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_a90b0b48-68bc-4895-bbc0-2af16e6acf11.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Considering emerging threat patterns from January 2023, identify the most vulnerable hospitals, schools, and bridges in California by assessing their capacity and proximity to main roads.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

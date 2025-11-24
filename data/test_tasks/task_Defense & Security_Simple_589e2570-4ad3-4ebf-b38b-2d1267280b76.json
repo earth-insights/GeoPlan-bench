@@ -1,0 +1,18 @@
+{
+  "task_id": "589e2570-4ad3-4ebf-b38b-2d1267280b76",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_1f0d4c39-2da5-4997-88ef-9fbb0272dfe7.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Produce the 2023 annual assessment report detailing the operational status of all bridges, highways, and railroads within a 50km radius of central Manhattan.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_roads",
+    "assess_strategic_infrastructure",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

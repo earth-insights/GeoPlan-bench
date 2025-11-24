@@ -1,0 +1,25 @@
+{
+  "task_id": "e2fef602-6f99-4e16-ae6e-f65d5fb90884",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_fba470e1-6a97-4df4-b4bd-806e777285a3.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Assess the operational readiness and potential threat level of the force deployment in Central Park on October 6th, 2023, considering recent activity patterns in the area.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "evaluate_operational_readiness",
+    "analyze_threat_patterns",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

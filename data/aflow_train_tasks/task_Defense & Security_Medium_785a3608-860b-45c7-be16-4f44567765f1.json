@@ -1,0 +1,21 @@
+{
+  "task_id": "785a3608-860b-45c7-be16-4f44567765f1",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_a3ab6b7a-1615-4b84-adc8-68fc2bc62bf7.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Produce a threat analysis of vessels exhibiting suspicious loitering or anchoring patterns within restricted maritime zones off the coast of Los Angeles for January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "extract_image_metadata",
+    "calculate_time_difference",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "analyze_threat_patterns",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

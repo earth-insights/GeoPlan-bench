@@ -1,0 +1,18 @@
+{
+  "task_id": "74a8dfe3-e7e0-48b5-a207-3ac031835fd4",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_19c33a32-4570-41bc-af5c-5658942b95a3.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Based on the development of clandestine vehicle routes over the past six months, what are the highest-risk corridors for smuggling and illegal immigration in the Northern Border Sector?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_roads",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

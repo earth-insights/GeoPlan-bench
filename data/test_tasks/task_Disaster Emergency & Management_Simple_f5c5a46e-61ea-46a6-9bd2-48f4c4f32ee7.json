@@ -1,0 +1,15 @@
+{
+  "task_id": "f5c5a46e-61ea-46a6-9bd2-48f4c4f32ee7",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_381c378a-19d6-4fbc-9e11-6aa5948aed38.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Considering the record precipitation in Southern California during the first half of 2023, produce a high-resolution assessment identifying the specific hillsides around Los Angeles that now pose the most critical landslide risk.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "predict_landslide_risk"
+  ]
+}

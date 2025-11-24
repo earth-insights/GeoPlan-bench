@@ -1,0 +1,24 @@
+{
+  "task_id": "3bb88bd6-8cb9-47a5-895a-1020fe557975",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_0eb3c4e3-6206-4c1f-8542-0030022889a0.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Assess the impact on building structural integrity and public accessibility within the downtown Los Angeles corridor following the seismic event reported last month.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

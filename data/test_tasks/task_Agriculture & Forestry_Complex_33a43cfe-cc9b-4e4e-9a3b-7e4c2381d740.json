@@ -1,0 +1,23 @@
+{
+  "task_id": "33a43cfe-cc9b-4e4e-9a3b-7e4c2381d740",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_bc6e2249-a70d-4e95-8399-4d28d8d36cda.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on agricultural conditions in California's Central Valley in May 2023, what is the predicted deviation in crop yield compared to historical performance?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

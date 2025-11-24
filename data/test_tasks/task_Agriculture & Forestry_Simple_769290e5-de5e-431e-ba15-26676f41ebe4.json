@@ -1,0 +1,17 @@
+{
+  "task_id": "769290e5-de5e-431e-ba15-26676f41ebe4",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_12ef9b23-12b4-446d-9d19-c3dbd846aae7.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a detailed report forecasting the field-level wheat yield across our central California agricultural zone for the May 2023 growing season.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

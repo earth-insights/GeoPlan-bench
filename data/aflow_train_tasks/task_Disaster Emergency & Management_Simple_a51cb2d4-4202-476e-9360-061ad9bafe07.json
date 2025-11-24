@@ -1,0 +1,21 @@
+{
+  "task_id": "a51cb2d4-4202-476e-9360-061ad9bafe07",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_6c69d604-4d8c-4170-892a-e556ebc005dd.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Analyze the structural damage and subsequent recovery progress for buildings and key infrastructure in downtown Los Angeles following the earthquake in early September 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "task_id": "2f25931f-4ba1-40c6-8057-a64001621e58",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_fba470e1-6a97-4df4-b4bd-806e777285a3.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Analyze the correlation between building density and hostile incident patterns in downtown Los Angeles to re-evaluate our operational readiness in the sector.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "translate_text",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_force_deployment",
+    "evaluate_operational_readiness",
+    "analyze_threat_patterns",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

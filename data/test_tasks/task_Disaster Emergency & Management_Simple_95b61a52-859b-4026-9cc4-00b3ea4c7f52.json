@@ -1,0 +1,22 @@
+{
+  "task_id": "95b61a52-859b-4026-9cc4-00b3ea4c7f52",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_b045b9c3-0abe-4b7b-b1a4-9b9cdb4e7ff2.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "For emergency response planning after the late August 2023 Los Angeles earthquake, map out all viable evacuation corridors from the densely populated district just southwest of the city center.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

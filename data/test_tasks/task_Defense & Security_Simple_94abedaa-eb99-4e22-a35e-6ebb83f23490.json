@@ -1,0 +1,19 @@
+{
+  "task_id": "94abedaa-eb99-4e22-a35e-6ebb83f23490",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_61240d46-c402-4ea5-8633-7fef2cd71753.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Generate a threat assessment report identifying any maritime vessels that deviated from standard shipping lanes to exhibit loitering behavior near critical port infrastructure within the San Pedro Bay throughout January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

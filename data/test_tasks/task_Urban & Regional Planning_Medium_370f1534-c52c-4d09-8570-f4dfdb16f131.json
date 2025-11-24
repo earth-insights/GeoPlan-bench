@@ -1,0 +1,15 @@
+{
+  "task_id": "370f1534-c52c-4d09-8570-f4dfdb16f131",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_a5200252-5f1f-4a22-81c4-f86ee9f932d3.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Identify all commercial buildings within the South Park district of Los Angeles that have not implemented cool roofing materials as of the end of 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

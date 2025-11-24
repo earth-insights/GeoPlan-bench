@@ -1,0 +1,25 @@
+{
+  "task_id": "b69f0303-a729-4dc0-ae04-fe5735d4d577",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_fba470e1-6a97-4df4-b4bd-806e777285a3.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Given the observed ground force posture in the San Francisco area during January 2023, determine its level of operational readiness and analyze how this deployment aligns with regional threat patterns over the last two years.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "enhance_image_resolution",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "evaluate_operational_readiness",
+    "analyze_threat_patterns",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

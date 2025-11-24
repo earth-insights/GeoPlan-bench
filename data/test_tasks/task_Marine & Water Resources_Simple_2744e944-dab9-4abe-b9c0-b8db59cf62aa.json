@@ -1,0 +1,18 @@
+{
+  "task_id": "2744e944-dab9-4abe-b9c0-b8db59cf62aa",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_edbb588d-482c-4a84-be2f-236e95be679e.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Generate a statistical report on algal bloom intensity and water turbidity for the main basin of Lake Champlain during July 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

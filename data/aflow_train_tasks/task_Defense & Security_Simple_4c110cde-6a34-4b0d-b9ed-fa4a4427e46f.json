@@ -1,0 +1,18 @@
+{
+  "task_id": "4c110cde-6a34-4b0d-b9ed-fa4a4427e46f",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_7cfbf655-3ee6-463e-a6fa-32678479a45e.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Based on intelligence from the first half of the year, evaluate how land use modifications in a specific Los Angeles neighborhood during June may indicate an evolution in cross-border smuggling operations throughout Southern California.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

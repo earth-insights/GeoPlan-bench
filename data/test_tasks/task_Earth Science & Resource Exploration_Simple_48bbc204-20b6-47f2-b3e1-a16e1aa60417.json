@@ -1,0 +1,19 @@
+{
+  "task_id": "48bbc204-20b6-47f2-b3e1-a16e1aa60417",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_06fe497f-ef31-44dc-af09-5666c5c462f4.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on last year's observations, identify and map potential surface deposits of gold, silver, and copper near 45°N, 120°W, and evaluate how strongly these prospects correlate with the region's known geological structures.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

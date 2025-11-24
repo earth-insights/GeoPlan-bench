@@ -1,0 +1,17 @@
+{
+  "task_id": "f16ae869-f426-499d-b120-c9962a1c930d",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_25a0bdcb-00e6-459a-9c55-1b1002cf519c.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the total area of water surfaces in downtown Los Angeles that have been converted to land for urban development since the beginning of 2018.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "track_land_reclamation"
+  ]
+}

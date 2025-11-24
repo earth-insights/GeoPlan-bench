@@ -1,0 +1,14 @@
+{
+  "task_id": "248bb675-405e-41de-ab3a-cf40499e5e8d",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_4953ce3e-0451-4658-a103-155268509d99.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Given the suspicious activities of vessel VSL67890, should its two-and-a-half-hour rendezvous with VSL12345 in the North Atlantic on October 1st be classified as a high-threat event based on our recent security analysis?",
+  "ground_truth_tool_flow": [
+    "calculate_time_difference",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

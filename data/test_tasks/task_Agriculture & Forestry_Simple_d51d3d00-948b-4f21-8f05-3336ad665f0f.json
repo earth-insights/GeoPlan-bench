@@ -1,0 +1,19 @@
+{
+  "task_id": "d51d3d00-948b-4f21-8f05-3336ad665f0f",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_3bacf3b9-87e2-4d3b-812f-dfa2b21295fb.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Determine if there were statistically significant variations in projected crop yields across different agricultural zones within the region defined by 42.5°N - 43.0°N and 23.5°E - 24.0°E during June 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "classify_land_cover",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

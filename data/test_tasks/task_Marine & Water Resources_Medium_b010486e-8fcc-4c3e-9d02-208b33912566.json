@@ -1,0 +1,17 @@
+{
+  "task_id": "b010486e-8fcc-4c3e-9d02-208b33912566",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_25a0bdcb-00e6-459a-9c55-1b1002cf519c.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Identify and calculate the total area of new land created by filling in coastal and inland water bodies around Los Angeles between January 2022 and January 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "track_land_reclamation"
+  ]
+}

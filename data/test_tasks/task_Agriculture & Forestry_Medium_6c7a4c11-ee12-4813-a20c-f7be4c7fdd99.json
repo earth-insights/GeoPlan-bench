@@ -1,0 +1,16 @@
+{
+  "task_id": "6c7a4c11-ee12-4813-a20c-f7be4c7fdd99",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_22704768-02f9-4fa4-bea9-c2cef2631d56.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Characterize the seasonal growth cycle and peak vitality of urban agricultural plots across the Los Angeles basin for the year 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "346d0521-fb97-475f-81ef-31d2958ca554",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d939acae-c9f0-44ca-96ec-f1a61f571bb6.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate an immediate evacuation plan for downtown Los Angeles that assesses and routes around flood-damaged areas caused by the early October 2023 storm.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

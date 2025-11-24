@@ -1,0 +1,19 @@
+{
+  "task_id": "fe90b4c3-0b5c-4266-8c22-a0b9d8a4aaeb",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_f1e3fc78-25e4-4840-80e2-fea67de918e8.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on the complete 2023 growing season, what is the final yield prediction for corn within a key agricultural block in California's southern Central Valley, and what were the primary environmental factors that determined this outcome?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

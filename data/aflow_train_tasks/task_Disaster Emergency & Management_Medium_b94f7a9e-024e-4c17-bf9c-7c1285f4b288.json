@@ -1,0 +1,25 @@
+{
+  "task_id": "b94f7a9e-024e-4c17-bf9c-7c1285f4b288",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_b77d1c60-2dec-4539-87d0-cdada3a2e995.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the mid-September 2023 earthquake in downtown Los Angeles, produce a detailed building-by-building damage assessment and evaluate the area's reconstruction and recovery progress one year later.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

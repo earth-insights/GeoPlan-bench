@@ -1,0 +1,21 @@
+{
+  "task_id": "6517a459-d1a1-4709-a7d6-10791b0f9831",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_d5cfe4d0-2bef-4842-bf05-0aff92f98ed4.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent Los Angeles earthquake, determine the most viable evacuation route from the downtown Financial District to the primary shelter at Dodger Stadium, accounting for damage to buildings, bridges, and roadways.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes"
+  ]
+}

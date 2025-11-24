@@ -1,0 +1,18 @@
+{
+  "task_id": "f051e188-3b32-4e3f-95f6-ccd2b71de8d7",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_bc661105-3ae0-4cfb-a9d6-8073310b54a9.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess whether the new urban developments across the metropolitan region from 2020 to 2023 are clustering into dense hubs or spreading out in a more fragmented, sprawling pattern.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

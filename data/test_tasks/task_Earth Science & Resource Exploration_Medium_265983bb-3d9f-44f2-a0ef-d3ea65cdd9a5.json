@@ -1,0 +1,13 @@
+{
+  "task_id": "265983bb-3d9f-44f2-a0ef-d3ea65cdd9a5",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_8a9b2fd6-f4d3-4596-a633-2120f8ac85b9.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "To what extent did 2023's historic rainfall trigger anomalous greening in the typically arid, undeveloped hills and basins surrounding metropolitan Los Angeles?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata"
+  ]
+}

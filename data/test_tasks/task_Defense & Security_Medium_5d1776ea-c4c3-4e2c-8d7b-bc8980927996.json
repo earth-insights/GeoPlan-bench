@@ -1,0 +1,24 @@
+{
+  "task_id": "5d1776ea-c4c3-4e2c-8d7b-bc8980927996",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_75a3c09a-eebe-4bd7-8b31-7fe73f405142.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Assess the operational readiness of strategic infrastructure in downtown Los Angeles following the recent security incident near the civic center.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "evaluate_infrastructure_damage",
+    "evaluate_operational_readiness",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

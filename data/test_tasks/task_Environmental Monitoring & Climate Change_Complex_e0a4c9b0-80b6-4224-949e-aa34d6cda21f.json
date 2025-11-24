@@ -1,0 +1,23 @@
+{
+  "task_id": "e0a4c9b0-80b6-4224-949e-aa34d6cda21f",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Complex_9671d118-fe9d-441d-8293-fc3471104444.json",
+  "complexity": "Complex",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "How has the carbon sequestration performance of the Victoria West urban forest evolved between 2020 and 2023, and what is the statistical relationship between its changing health and its capacity to store carbon?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "classify_land_cover",
+    "monitor_forest_health",
+    "assess_carbon_sequestration",
+    "evaluate_ecosystem_services",
+    "statistical_analysis",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

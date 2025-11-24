@@ -1,0 +1,22 @@
+{
+  "task_id": "cde66f03-094c-45d6-85e3-9529ca06541e",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_258b5487-8b0f-4f2c-beb9-87192bb8eff9.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a strategic response plan for the Santa Cruz Mountains following the 2023 winter storm landslides, detailing critical infrastructure damage and outlining optimal evacuation routes from high-risk zones.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_terrain_type",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

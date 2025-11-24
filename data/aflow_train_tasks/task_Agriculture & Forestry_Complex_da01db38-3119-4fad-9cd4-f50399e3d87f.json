@@ -1,0 +1,21 @@
+{
+  "task_id": "da01db38-3119-4fad-9cd4-f50399e3d87f",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_5ef5ae5d-0577-4adc-a7e2-8c25c99e02e2.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Analyze the late-season vegetation health in August 2023 for key agricultural parcels in California's Central Valley to forecast the final crop yield and determine how it deviates from historical norms.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "correlation_analysis"
+  ]
+}

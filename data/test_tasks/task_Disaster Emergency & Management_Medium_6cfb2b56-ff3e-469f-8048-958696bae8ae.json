@@ -1,0 +1,15 @@
+{
+  "task_id": "6cfb2b56-ff3e-469f-8048-958696bae8ae",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_363cbb93-3e3f-441f-8ad4-afd767c34d8f.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a prioritized risk assessment for a major US metropolitan area impacted by the September 15th, 2023 flooding event, identifying the most vulnerable neighborhoods for emergency aid distribution.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "calculate_time_difference",
+    "monitor_flood_extent",
+    "assess_flood_risk_zones"
+  ]
+}

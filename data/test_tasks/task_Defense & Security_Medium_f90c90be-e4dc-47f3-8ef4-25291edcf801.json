@@ -1,0 +1,25 @@
+{
+  "task_id": "f90c90be-e4dc-47f3-8ef4-25291edcf801",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_1709182b-d9f9-4df3-916d-00e53cda84d6.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Produce a threat assessment that identifies vessel traffic patterns within restricted marine zones off the Los Angeles coast that strongly correlate with security incidents recorded between January and October 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "convert_coordinates",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "monitor_border_security",
+    "correlation_analysis",
+    "analyze_threat_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

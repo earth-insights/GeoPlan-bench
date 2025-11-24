@@ -1,0 +1,20 @@
+{
+  "task_id": "0cfa1cd0-f427-42fd-b99d-e22ae1b91f9b",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_1335d1ac-9012-4c56-9559-7d88f0d13022.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Evaluate the evolution of force deployment and logistical infrastructure within California's central coastal region throughout 2023 to determine shifts in strategic readiness and identify emergent threats.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

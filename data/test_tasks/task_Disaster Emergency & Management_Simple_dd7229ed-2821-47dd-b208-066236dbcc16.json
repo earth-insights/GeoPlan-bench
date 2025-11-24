@@ -1,0 +1,21 @@
+{
+  "task_id": "dd7229ed-2821-47dd-b208-066236dbcc16",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_258b5487-8b0f-4f2c-beb9-87192bb8eff9.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate a comprehensive damage assessment and an optimized evacuation plan for the communities impacted by the early October 2023 flooding event in the Sepulveda Basin area.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

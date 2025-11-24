@@ -1,0 +1,20 @@
+{
+  "task_id": "a0edb49a-34aa-4adb-98c8-c4d7e16c933c",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_4fdb00ab-6d48-4c21-909c-f3aaac7a368e.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the evolution of New York City's urban footprint by quantifying the acceleration and density of its growth in recent years (2015-2022) relative to its land consumption rate since 2000.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

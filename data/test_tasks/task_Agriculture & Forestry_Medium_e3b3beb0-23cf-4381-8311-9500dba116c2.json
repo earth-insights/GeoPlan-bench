@@ -1,0 +1,16 @@
+{
+  "task_id": "e3b3beb0-23cf-4381-8311-9500dba116c2",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_22704768-02f9-4fa4-bea9-c2cef2631d56.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Characterize the patterns of vegetation stress across the urban-to-wildland gradient in the Los Angeles metropolitan area for mid-October 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

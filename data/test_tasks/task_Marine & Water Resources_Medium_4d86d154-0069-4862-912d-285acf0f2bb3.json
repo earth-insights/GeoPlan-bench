@@ -1,0 +1,21 @@
+{
+  "task_id": "4d86d154-0069-4862-912d-285acf0f2bb3",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_a54120c7-2aac-4be0-98d2-3f8b528b0f4f.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the coastal land loss that occurred near the urbanized Sunshine Coast during the first half of 2023 and assess the resulting impact on the adjacent marine life habitats.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "calculate_time_difference",
+    "assess_coastal_erosion",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

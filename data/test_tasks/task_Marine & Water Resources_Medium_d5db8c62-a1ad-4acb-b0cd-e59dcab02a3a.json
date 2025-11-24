@@ -1,0 +1,22 @@
+{
+  "task_id": "d5db8c62-a1ad-4acb-b0cd-e59dcab02a3a",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_f24e87f0-f67d-41c2-ab8f-1fe13828e99f.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Characterize the primary shipping routes and identify any anomalous vessel movements, such as significant deviations or potential unauthorized activities, within the coastal waters between Long Beach and Santa Barbara throughout 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

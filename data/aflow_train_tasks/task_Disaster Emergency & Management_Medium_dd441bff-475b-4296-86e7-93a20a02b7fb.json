@@ -1,0 +1,19 @@
+{
+  "task_id": "dd441bff-475b-4296-86e7-93a20a02b7fb",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_24b508b6-a541-4caa-8b0c-d634e2baac3d.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Given a sudden emergency at 37.0°N, 121.0°W in a developed area of California, what is the optimal pedestrian evacuation route that circumvents all building structures?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "plan_evacuation_routes"
+  ]
+}

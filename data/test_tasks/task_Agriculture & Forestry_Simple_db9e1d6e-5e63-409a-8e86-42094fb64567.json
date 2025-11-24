@@ -1,0 +1,17 @@
+{
+  "task_id": "db9e1d6e-5e63-409a-8e86-42094fb64567",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_5bacdea1-5419-4c8c-af42-898f487554e5.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Given the pronounced dry spell in the San Joaquin Valley during April 2023, what was the projected final yield for that year's corn harvest?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "assess_soil_moisture",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

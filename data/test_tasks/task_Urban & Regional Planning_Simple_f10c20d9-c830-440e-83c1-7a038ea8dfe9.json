@@ -1,0 +1,18 @@
+{
+  "task_id": "f10c20d9-c830-440e-83c1-7a038ea8dfe9",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_4441c007-e19d-49d0-8f26-af05e69cc36f.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Evaluate the effectiveness of the 'Emerald Basin' regional plan by assessing its 2023 land resource allocation against the established strategic development targets.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "assess_land_use_efficiency",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

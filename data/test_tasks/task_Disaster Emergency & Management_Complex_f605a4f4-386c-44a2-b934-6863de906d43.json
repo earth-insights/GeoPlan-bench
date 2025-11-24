@@ -1,0 +1,24 @@
+{
+  "task_id": "f605a4f4-386c-44a2-b934-6863de906d43",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_77abbb46-2f69-41d5-8a6c-e0ee7147239b.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the hypothetical \"Diablo Range Quake\" in early August 2023, provide a quantitative assessment of structural damage to buildings within a specific corridor of central California, categorizing the affected structures by severity level.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

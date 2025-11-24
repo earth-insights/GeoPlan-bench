@@ -1,0 +1,19 @@
+{
+  "task_id": "1a7a5aa0-7839-4245-a2bc-0e251e3b0b17",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_e170a215-d26b-4359-8cbe-c1a41a9d21c2.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Determine the optimal evacuation routes from Derna's densely populated, flood-affected coastal neighborhoods to pre-established inland safe zones.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

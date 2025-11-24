@@ -1,0 +1,16 @@
+{
+  "task_id": "b81dd43a-78c0-48f0-a827-757c91d06760",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_0ecdbdd1-23a3-43d6-b593-86e329426f90.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the impact of the early January 2023 atmospheric river on vegetation health by pinpointing the precise areas of significant stress within the central meadows of San Francisco's Golden Gate Park.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination"
+  ]
+}

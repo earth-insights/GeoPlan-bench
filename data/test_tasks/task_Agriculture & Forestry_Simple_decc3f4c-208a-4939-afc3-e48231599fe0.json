@@ -1,0 +1,18 @@
+{
+  "task_id": "decc3f4c-208a-4939-afc3-e48231599fe0",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_e0bb8790-c705-4264-a052-c2372fd76cf0.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a comprehensive agricultural outlook for California, identifying and assessing the health of individual fields in January 2023 to forecast the region's upcoming crop yield.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

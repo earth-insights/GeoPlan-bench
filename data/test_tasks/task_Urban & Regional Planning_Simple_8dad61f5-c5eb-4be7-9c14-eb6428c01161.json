@@ -1,0 +1,18 @@
+{
+  "task_id": "8dad61f5-c5eb-4be7-9c14-eb6428c01161",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_a121db34-953b-490a-9157-47e2aa5f8e40.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Prepare a detailed assessment of urban development patterns and their rate of expansion into the natural landscapes surrounding Glendale and the Verdugo Mountains from 2010 through the end of 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "generate_analysis_reports"
+  ]
+}

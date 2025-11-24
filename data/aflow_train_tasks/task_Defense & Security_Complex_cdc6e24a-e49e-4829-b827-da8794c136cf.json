@@ -1,0 +1,19 @@
+{
+  "task_id": "cdc6e24a-e49e-4829-b827-da8794c136cf",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_c93f73bb-c592-4fc2-bc8d-7843ee617d89.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Assess the operational readiness of the force contingent deployed in January 2023 by analyzing the staging of their equipment and logistical assets within a 5km radius of their command post at Los Angeles City Hall.",
+  "ground_truth_tool_flow": [
+    "convert_coordinates",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "evaluate_operational_readiness"
+  ]
+}

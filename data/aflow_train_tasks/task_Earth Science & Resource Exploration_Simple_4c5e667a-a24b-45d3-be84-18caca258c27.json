@@ -1,0 +1,22 @@
+{
+  "task_id": "4c5e667a-a24b-45d3-be84-18caca258c27",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_7ae67a10-bf61-4ed0-a4ad-fb685a1cc485.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Investigate the Zagros Mountains' main recent fault system to map the primary strike-slip structures and identify promising locations for shallow copper, gold, and silver exploration.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "identify_mineral_deposits",
+    "generate_analysis_reports"
+  ]
+}

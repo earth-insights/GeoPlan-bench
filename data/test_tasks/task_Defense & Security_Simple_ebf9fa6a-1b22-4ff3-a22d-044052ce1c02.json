@@ -1,0 +1,20 @@
+{
+  "task_id": "ebf9fa6a-1b22-4ff3-a22d-044052ce1c02",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_1335d1ac-9012-4c56-9559-7d88f0d13022.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Identify the most significant strategic vulnerabilities for military installations near Los Angeles by analyzing their supporting infrastructure and correlating their locations with regional threat patterns from the past year.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_roads",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

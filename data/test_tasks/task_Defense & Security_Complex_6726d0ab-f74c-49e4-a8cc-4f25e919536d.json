@@ -1,0 +1,25 @@
+{
+  "task_id": "6726d0ab-f74c-49e4-a8cc-4f25e919536d",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_364330dc-9ae8-46af-9b12-e6b3ee880112.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Determine the operational status of key hospitals in the vicinity of Beverly Hills, factoring in the current condition of primary and secondary access routes post-incident.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "evaluate_operational_readiness",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

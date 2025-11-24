@@ -1,0 +1,21 @@
+{
+  "task_id": "a4c9d059-c2ac-4550-ba8f-d296f3bace6e",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_b87adb2e-afa3-4f47-bc3e-2e35a61a2bf1.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate the extent and severity of eutrophication in the waters adjacent to San Francisco's urban core throughout the first ten months of 2023, and determine the likely impact of surrounding land use on the observed water conditions.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "assess_environmental_impact",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

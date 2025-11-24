@@ -1,0 +1,22 @@
+{
+  "task_id": "061018e9-f845-4dac-be25-5b6016eb39a4",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_3b75aaf1-844f-4144-889d-49a2d36f56cc.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Create a detailed report quantifying the structural damage to buildings within the Port of Los Angeles area following the seismic activity in early January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

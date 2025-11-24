@@ -1,0 +1,18 @@
+{
+  "task_id": "0ee67d77-6702-485f-a4d1-88d0558dba4d",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_dbf8238d-732b-4b73-a31a-e45250baf956.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the strategic shift in military presence within the metropolitan area by analyzing infrastructure modifications from the past six months, culminating in mid-October 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "generate_analysis_reports"
+  ]
+}

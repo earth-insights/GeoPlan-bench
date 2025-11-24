@@ -1,0 +1,15 @@
+{
+  "task_id": "591f1a33-e102-4925-b91e-dea14e1eefd6",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_c54f9e22-3994-4882-9543-546104d5fc74.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Generate a precise building footprint map for the Los Angeles Civic Center area to update the urban planning database for early 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_buildings"
+  ]
+}

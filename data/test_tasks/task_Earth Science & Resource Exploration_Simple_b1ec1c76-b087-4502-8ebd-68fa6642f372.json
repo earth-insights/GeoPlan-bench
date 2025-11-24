@@ -1,0 +1,20 @@
+{
+  "task_id": "b1ec1c76-b087-4502-8ebd-68fa6642f372",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_ab0c913d-6f84-421b-92c0-33c00879b918.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Pinpoint the most promising locations for gold, copper, and silver exploration within the tectonically active Transverse Ranges of Southern California, prioritizing sites where mineralization appears to be controlled by geological structures.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "identify_mineral_deposits",
+    "generate_analysis_reports"
+  ]
+}

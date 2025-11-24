@@ -1,0 +1,20 @@
+{
+  "task_id": "1cbf38c1-2f8a-47c8-8de5-15d44148a6a8",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_1d9aa03c-3d05-4cc6-be99-33f11e1b8818.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "How severe was the damage to the agricultural lowlands of Kerala from the September 2023 flooding event, and what is the current status of the region's recovery?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

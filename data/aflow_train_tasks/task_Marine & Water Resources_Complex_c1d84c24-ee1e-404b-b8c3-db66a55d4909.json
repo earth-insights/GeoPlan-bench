@@ -1,0 +1,21 @@
+{
+  "task_id": "c1d84c24-ee1e-404b-b8c3-db66a55d4909",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_cef19cfb-8fb6-44e5-bf9d-3e0c158ff1cb.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Evaluate the vulnerability of wetland ecosystems in California's Central Valley to encroachment from surrounding agricultural and urban developments during 2023.",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "classify_land_cover",
+    "assess_wetland_conditions"
+  ]
+}

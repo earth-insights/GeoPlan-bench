@@ -1,0 +1,20 @@
+{
+  "task_id": "b2735b3e-1038-4d7f-bc2a-a1774fad2574",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_1335d1ac-9012-4c56-9559-7d88f0d13022.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the strategic posture and operational vulnerabilities of military infrastructure within the Caspian corridor for January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

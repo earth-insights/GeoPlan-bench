@@ -1,0 +1,14 @@
+{
+  "task_id": "0a7478ec-57b3-4197-8ab8-49720df9a430",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_c771c47e-198c-491e-a8fc-239082689e0f.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the extent and intensity of nitrogen dioxide hotspots along major transportation corridors in Los Angeles throughout April 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "geometric_correction",
+    "monitor_air_pollution"
+  ]
+}

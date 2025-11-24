@@ -1,0 +1,21 @@
+{
+  "task_id": "7c93e35b-1ef3-41fe-be76-e63746493d63",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_8deae43e-97bf-4066-86d8-3e51527905d7.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "What were the temporal trends of recurring anomalous vessel activity in the South China Sea from the beginning of January to the end of September 2023?",
+  "ground_truth_tool_flow": [
+    "explain_remote_sensing_concepts",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

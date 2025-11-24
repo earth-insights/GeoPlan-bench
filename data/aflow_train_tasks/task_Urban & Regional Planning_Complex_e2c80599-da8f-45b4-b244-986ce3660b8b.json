@@ -1,0 +1,23 @@
+{
+  "task_id": "e2c80599-da8f-45b4-b244-986ce3660b8b",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_64eb08a4-1c3e-4f3d-8771-a053488545f7.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "For our city's metropolitan area, how did the patterns of urban expansion between 2010 and 2021 relate to the final measured intensity of urbanization at the end of that decade?",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "statistical_analysis",
+    "correlation_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

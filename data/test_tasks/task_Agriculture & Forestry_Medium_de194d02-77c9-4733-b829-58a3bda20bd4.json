@@ -1,0 +1,23 @@
+{
+  "task_id": "de194d02-77c9-4733-b829-58a3bda20bd4",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_5748b30f-cff3-42da-8f16-44bc7b7abaa3.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "How did seasonal water stress conditions throughout 2023 impact the final agricultural yield predictions for the primary farming areas within Riverside County, California?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "monitor_drought_conditions",
+    "assess_soil_moisture",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

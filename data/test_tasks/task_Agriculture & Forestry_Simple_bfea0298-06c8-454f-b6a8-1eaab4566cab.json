@@ -1,0 +1,18 @@
+{
+  "task_id": "bfea0298-06c8-454f-b6a8-1eaab4566cab",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_ac937685-dac5-4ff4-8bf3-dcd78fa03519.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "What was the average size of cultivated land parcels, broken down by primary crop type, within the agricultural plains west of Los Angeles for the 2023 growing season?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

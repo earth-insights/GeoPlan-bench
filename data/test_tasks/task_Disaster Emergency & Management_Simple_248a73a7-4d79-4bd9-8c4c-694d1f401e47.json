@@ -1,0 +1,18 @@
+{
+  "task_id": "248a73a7-4d79-4bd9-8c4c-694d1f401e47",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_551468b0-993b-424c-9f75-5e14d0c627d9.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate an immediate post-earthquake impact assessment for San Francisco in January 2023, identifying damaged buildings and providing optimal vehicle evacuation routes from the downtown core to designated safety areas.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

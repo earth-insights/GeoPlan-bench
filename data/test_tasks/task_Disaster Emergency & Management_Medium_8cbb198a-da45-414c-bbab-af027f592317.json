@@ -1,0 +1,23 @@
+{
+  "task_id": "8cbb198a-da45-414c-bbab-af027f592317",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_7a1467a6-7218-41a9-b0cf-b24f8cef9486.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "What is the extent of structural damage to individual buildings in downtown Los Angeles following the seismic event in September 2023?",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

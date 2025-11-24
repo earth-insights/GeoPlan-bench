@@ -1,0 +1,24 @@
+{
+  "task_id": "1d56dda8-8e9b-4343-923f-c6e158535feb",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_7d91d434-4f02-42be-8fca-1417fd37f4e8.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Quantify the destruction of key infrastructure in Lower Manhattan and its impact on the local population following the significant flooding event of September 2023.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "27e35f42-8ced-43ff-8a35-39bd4c48eec7",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_bb1ed3e1-2fc2-4afc-987d-917494163fc7.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess whether the major summer heatwaves of 2023 caused a statistically significant degradation in the ecological condition of the water in San Francisco's Civic Center Plaza fountain compared to the spring and fall seasons.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

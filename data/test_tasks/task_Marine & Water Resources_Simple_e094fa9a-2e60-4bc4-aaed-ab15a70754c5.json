@@ -1,0 +1,19 @@
+{
+  "task_id": "e094fa9a-2e60-4bc4-aaed-ab15a70754c5",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_c709fdc5-1649-4769-80bc-f689860fa8f4.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the average shoreline retreat along the urbanized coast of Mykonos, Greece, by comparing the waterfront position of January 2022 to that of January 2021.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "calculate_time_difference",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

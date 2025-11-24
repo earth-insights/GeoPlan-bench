@@ -1,0 +1,22 @@
+{
+  "task_id": "cec35a54-8feb-4beb-9cfd-7ffc8ab3af2b",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_7ae67a10-bf61-4ed0-a4ad-fb685a1cc485.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "How do the dominant structural geological controls in the region southeast of Parkfield, California, influence the distribution and potential of local groundwater aquifers?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "generate_analysis_reports"
+  ]
+}

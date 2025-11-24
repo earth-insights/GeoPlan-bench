@@ -1,0 +1,25 @@
+{
+  "task_id": "f12e81ef-e96f-48e1-8e25-e473ba99733d",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_a1cc6ba3-4e7a-4504-847e-34065f4f7af1.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Evaluate the groundwater potential within a targeted agricultural zone by analyzing the influence of subsurface geological formations and predicting the system's response to variations in annual precipitation.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "convert_coordinates",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "statistical_analysis",
+    "linear_regression",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

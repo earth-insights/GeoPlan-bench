@@ -1,0 +1,25 @@
+{
+  "task_id": "6e2971ed-f525-42b0-8bf0-aee4aca5508b",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_c6c15427-b84f-4f1c-b9e4-eaca91c9cc3f.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Assess the operational readiness of strategic facilities in northwest San Francisco for a major civil emergency and recommend optimal deployment plans for medical and logistical support units.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "assess_force_deployment",
+    "evaluate_operational_readiness",
+    "statistical_analysis",
+    "correlation_analysis",
+    "generate_analysis_reports",
+    "extract_keywords"
+  ]
+}

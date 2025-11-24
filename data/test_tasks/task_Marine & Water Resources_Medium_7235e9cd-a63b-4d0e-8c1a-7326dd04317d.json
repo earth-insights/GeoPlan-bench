@@ -1,0 +1,24 @@
+{
+  "task_id": "7235e9cd-a63b-4d0e-8c1a-7326dd04317d",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_55cb5b0e-fe4d-4d4d-b71f-784062f3eb7d.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Characterize the significance of water quality variations between the main body and tributary arms of the reservoir system near 35°N, -95°W for the entirety of 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "segment_water_bodies",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

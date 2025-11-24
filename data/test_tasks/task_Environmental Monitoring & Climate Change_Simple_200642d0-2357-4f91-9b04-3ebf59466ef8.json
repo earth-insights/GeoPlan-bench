@@ -1,0 +1,19 @@
+{
+  "task_id": "200642d0-2357-4f91-9b04-3ebf59466ef8",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_f62b69a9-e6b3-4deb-a9ee-1596109fb82e.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Determine the environmental impact on pollution and biodiversity within the Lake Livingston watershed during 2023, based on a comprehensive analysis of its surface water health.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

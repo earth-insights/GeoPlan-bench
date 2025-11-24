@@ -1,0 +1,18 @@
+{
+  "task_id": "6a84e93b-dcc3-4f6a-adf1-838641d2b748",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_3378e19c-8693-4f59-aabd-a59b6970279a.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on the health of my 50-acre agricultural field near Riverside, California, during June 2023, what is its projected final yield, and to what extent can this outcome be explained by fertilizer usage and local weather patterns since its mid-March planting?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

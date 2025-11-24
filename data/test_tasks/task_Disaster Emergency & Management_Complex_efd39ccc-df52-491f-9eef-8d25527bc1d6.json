@@ -1,0 +1,24 @@
+{
+  "task_id": "efd39ccc-df52-491f-9eef-8d25527bc1d6",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_ff03d6ec-b3e6-4c2a-8904-fcbaf66bca2d.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent seismic event in northern Syria, provide a building-level damage assessment for the city of Aleppo and generate a technical guide for local response agencies on how to integrate this analysis into their immediate recovery and aid distribution strategies.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "segment_urban_areas",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports",
+    "provide_technical_guidance"
+  ]
+}

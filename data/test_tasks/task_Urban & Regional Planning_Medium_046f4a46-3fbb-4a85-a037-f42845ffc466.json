@@ -1,0 +1,16 @@
+{
+  "task_id": "046f4a46-3fbb-4a85-a037-f42845ffc466",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_c8aee1a7-ee63-42a4-a9a1-3c4ce5d012af.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the current condition of the urban canopy and public-facing ground surfaces in the core of Downtown Los Angeles as of mid-August 2023 to evaluate the visual impact of recent urban renewal projects.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

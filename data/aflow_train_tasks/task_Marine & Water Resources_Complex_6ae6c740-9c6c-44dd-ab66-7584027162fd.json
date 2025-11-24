@@ -1,0 +1,22 @@
+{
+  "task_id": "6ae6c740-9c6c-44dd-ab66-7584027162fd",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_4bee967b-0cf7-49e9-9a06-6c480ce6b375.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Analyze maritime traffic patterns within the sea corridor between Tunisia and Sicily for the year 2023 to identify and map the primary hotspots of anomalous vessel congregations.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

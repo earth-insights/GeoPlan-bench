@@ -1,0 +1,22 @@
+{
+  "task_id": "4262ca73-72fc-4366-ad65-bcf2338f0e5a",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_2321bcf4-5172-4b72-9b61-85c32011c4e8.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on vegetation vitality from May to September 2023, predict the final harvest yield for the experimental urban farming plots within Tokyo's Imperial Palace East Garden.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "correlation_analysis",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

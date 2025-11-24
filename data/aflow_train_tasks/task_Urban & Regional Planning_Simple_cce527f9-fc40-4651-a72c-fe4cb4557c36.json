@@ -1,0 +1,18 @@
+{
+  "task_id": "cce527f9-fc40-4651-a72c-fe4cb4557c36",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_36c1c1e8-6211-4ce9-9ed6-161d6962eab1.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the traffic flow and estimate vehicle density along the Interstate 10 corridor in downtown Los Angeles for October 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_roads",
+    "monitor_traffic_congestion",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

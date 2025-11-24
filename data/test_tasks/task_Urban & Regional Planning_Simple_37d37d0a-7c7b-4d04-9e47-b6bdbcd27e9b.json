@@ -1,0 +1,17 @@
+{
+  "task_id": "37d37d0a-7c7b-4d04-9e47-b6bdbcd27e9b",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_52d7a27e-ec81-4983-a20b-1c0e43f69e55.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "How has the urban fabric surrounding downtown Los Angeles expanded and densified between 2010 and 2023?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "task_id": "2e02ff4b-c396-4b6d-ab35-a21b17c9377c",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_fd2042a9-5088-40a7-89c9-c3fb5ba922b2.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the relationship between subtle surface deformations and the geological fault network in the San Francisco region during early 2023.",
+  "ground_truth_tool_flow": [
+    "provide_technical_guidance",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "e6aa5d8b-04ed-438a-a881-4e52b7b715ee",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_a9661b83-d8f8-445f-8e4c-3016bb2939d0.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Did the urban expansion and population density shifts within the Inland Empire during 2023 represent a significant departure from the development trends observed over the 2010-2022 period?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_urban_areas",
+    "assess_urbanization_level"
+  ]
+}

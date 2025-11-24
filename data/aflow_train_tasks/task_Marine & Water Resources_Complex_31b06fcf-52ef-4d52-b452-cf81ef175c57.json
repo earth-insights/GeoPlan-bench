@@ -1,0 +1,25 @@
+{
+  "task_id": "31b06fcf-52ef-4d52-b452-cf81ef175c57",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_97126bcb-22eb-493d-87c1-96459ede2e6a.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the operational patterns of suspicious vessel activities in the coastal waters off Port Alani during January 2023 to identify and characterize the most significant undocumented fishing grounds.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "resize_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "evaluate_fishing_grounds",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

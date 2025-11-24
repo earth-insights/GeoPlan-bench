@@ -1,0 +1,24 @@
+{
+  "task_id": "9f7d3b53-f0a7-4daf-8d14-875d52db8e17",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_fe41e187-287b-4a36-ba88-e87803fbf568.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the major earthquake in central California last September, quantify the resulting building damage in the affected urban zones and assess the recovery progress one year later.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "segment_urban_areas",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

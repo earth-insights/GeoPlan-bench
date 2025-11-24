@@ -1,0 +1,24 @@
+{
+  "task_id": "bbb68896-95d5-4484-af61-04dd5c495a83",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_7b6a71a7-4956-45dc-9fd3-d36e7661821e.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess how the geological fault network underlying the northern Los Angeles area impacts groundwater recharge potential in the Los Angeles Basin and San Fernando Valley.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "summarize_text",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

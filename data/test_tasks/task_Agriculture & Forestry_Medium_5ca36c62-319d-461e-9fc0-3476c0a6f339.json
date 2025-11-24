@@ -1,0 +1,18 @@
+{
+  "task_id": "5ca36c62-319d-461e-9fc0-3476c0a6f339",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_8f36fd83-432b-4da3-a5af-94490ca78b2a.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Identify the specific agricultural fields near Vaughn, New Mexico, that experienced the most severe combined stress from poor vegetation health and drought conditions throughout June 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_crop_health",
+    "monitor_drought_conditions"
+  ]
+}

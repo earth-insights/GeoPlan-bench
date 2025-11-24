@@ -1,0 +1,22 @@
+{
+  "task_id": "3ac22653-b230-4906-ad93-16b08b94d4d4",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Complex_ba6ab9b0-a1b9-41d9-8d2d-97cf1cdbc7c4.json",
+  "complexity": "Complex",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Evaluate the net change in key ecosystem services—specifically carbon storage, water regulation, and soil retention—resulting from land cover shifts within the mountainous region northeast of Los Angeles since 2020, and identify the principal landscape factors influencing these ecological shifts.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "assess_carbon_sequestration",
+    "evaluate_ecosystem_services",
+    "statistical_analysis",
+    "summarize_text",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

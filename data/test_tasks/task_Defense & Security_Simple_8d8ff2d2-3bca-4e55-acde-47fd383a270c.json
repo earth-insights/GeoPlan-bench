@@ -1,0 +1,20 @@
+{
+  "task_id": "8d8ff2d2-3bca-4e55-acde-47fd383a270c",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_b960db22-fdc1-420d-8b8f-b5ae7a1a0e12.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the military force deployment and associated threat patterns in Kenya's Masai Mara region during January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "classify_land_cover",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

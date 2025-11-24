@@ -1,0 +1,21 @@
+{
+  "task_id": "b430b5e0-8d11-427f-bb4b-e60774bddd80",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Complex_db538c77-28d3-4bb6-88ba-67ddc545deae.json",
+  "complexity": "Complex",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following a major seismic event in the Kanto region in late 2022, evaluate the damage to Tokyo's primary transportation corridors and its correlation with observed geological surface displacements.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "analyze_geological_structures",
+    "assess_earthquake_damage",
+    "assess_disaster_damage",
+    "assess_strategic_infrastructure"
+  ]
+}

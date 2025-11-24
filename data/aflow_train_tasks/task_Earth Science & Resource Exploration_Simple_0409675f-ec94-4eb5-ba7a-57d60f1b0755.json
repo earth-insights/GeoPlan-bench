@@ -1,0 +1,19 @@
+{
+  "task_id": "0409675f-ec94-4eb5-ba7a-57d60f1b0755",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_03cd7609-8fb0-4df4-a2e6-d8a2780ffe1f.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "How well do the dominant geological lineaments in the coastal region north of San Francisco Bay, as observed in early 2023, correspond with the area's underlying tectonic fault network?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

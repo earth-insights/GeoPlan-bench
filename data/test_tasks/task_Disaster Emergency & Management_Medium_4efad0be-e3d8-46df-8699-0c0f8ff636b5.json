@@ -1,0 +1,18 @@
+{
+  "task_id": "4efad0be-e3d8-46df-8699-0c0f8ff636b5",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_696e2522-eec0-4d54-b8ec-8fc358bbba17.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Evaluate which specific agricultural areas in the Salinas Valley region experienced emergency-level drought stress between April and September of 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_soil_moisture",
+    "monitor_drought_conditions"
+  ]
+}

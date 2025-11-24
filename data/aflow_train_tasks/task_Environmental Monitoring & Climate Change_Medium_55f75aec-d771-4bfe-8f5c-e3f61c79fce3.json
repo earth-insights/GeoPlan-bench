@@ -1,0 +1,14 @@
+{
+  "task_id": "55f75aec-d771-4bfe-8f5c-e3f61c79fce3",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_1dbe8669-6c79-46a3-86e7-d11b275e6665.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the visual impact, including potential waterlogging and turf stress, on the main lawn of a major New York park on October 5th, 2023, following the weather patterns from the first week of that month.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "5fcfc8c6-d9d6-4196-ad29-50a52f5cec2f",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_aedbca2f-912e-4ff2-8306-2c0e289a434d.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "In response to the critical incident at Mount Rainier on October 15, 2023, determine the safest and most viable evacuation route from the Paradise Visitor Center to Longmire.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

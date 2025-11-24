@@ -1,0 +1,14 @@
+{
+  "task_id": "33f3734a-5474-45f6-b591-1471f2e0fe9b",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_544d6aa6-b991-477d-80ae-26a95cbf4c23.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Based on the severe weather event in New Orleans during the first half of October 2023, what is the most viable evacuation route from Flood Zone A to the primary emergency shelter, considering the full extent of flood damage to roadways and critical infrastructure?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

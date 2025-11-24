@@ -1,0 +1,17 @@
+{
+  "task_id": "f5ba8980-6bbf-4b3b-9fd2-6284a36b76f6",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_4d1a0bba-c9c8-4939-8f6c-a091f28f00f9.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Based on reports of industrial runoff and heavy shipping activity, provide a detailed assessment of potential oil, plastic, and chemical pollution events within the coastal waters at the mouth of the Delaware Bay for the year 2022.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_marine_pollution"
+  ]
+}

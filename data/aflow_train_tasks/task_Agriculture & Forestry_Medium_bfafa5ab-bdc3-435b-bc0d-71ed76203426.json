@@ -1,0 +1,14 @@
+{
+  "task_id": "bfafa5ab-bdc3-435b-bc0d-71ed76203426",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_a4d008fd-2f5a-4ec6-a35e-00ec4d83d263.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "How much potential for atmospheric carbon removal was lost from forest clearing events across the Amazon Basin in 2022?",
+  "ground_truth_tool_flow": [
+    "read_database",
+    "crop_image",
+    "calculate_time_difference",
+    "monitor_deforestation",
+    "assess_carbon_sequestration"
+  ]
+}

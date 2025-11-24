@@ -1,0 +1,20 @@
+{
+  "task_id": "1c14cc8d-0984-425b-a54f-9d728e39e59f",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_2452b67e-ab80-46e6-a60d-8e27085c6fb3.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the spatial patterns and quantify the rate of urban growth encroaching on agricultural lands in the region northwest of Los Angeles from the start of 2020 to mid-April 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

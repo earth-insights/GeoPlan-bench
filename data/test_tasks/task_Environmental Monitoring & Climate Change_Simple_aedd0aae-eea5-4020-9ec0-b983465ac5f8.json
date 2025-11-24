@@ -1,0 +1,19 @@
+{
+  "task_id": "aedd0aae-eea5-4020-9ec0-b983465ac5f8",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_c6a50675-b0db-4ac2-a40a-6d120cec36fe.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Investigate the extent to which anomalous water temperature fluctuations in March 2023 have driven changes in biological productivity within the lower Tapajós River tributary.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "segment_water_bodies",
+    "assess_water_quality",
+    "correlation_analysis",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

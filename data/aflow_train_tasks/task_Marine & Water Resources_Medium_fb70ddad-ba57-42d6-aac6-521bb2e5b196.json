@@ -1,0 +1,16 @@
+{
+  "task_id": "fb70ddad-ba57-42d6-aac6-521bb2e5b196",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_0b8b12f5-25f9-434c-ac1e-d9bd905107ca.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the total area of new land created from former marine water bodies for the coastal development project near Port Hueneme, California, comparing conditions from 2010 to January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "track_land_reclamation"
+  ]
+}

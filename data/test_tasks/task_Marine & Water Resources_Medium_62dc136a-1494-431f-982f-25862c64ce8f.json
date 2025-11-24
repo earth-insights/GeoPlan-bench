@@ -1,0 +1,23 @@
+{
+  "task_id": "62dc136a-1494-431f-982f-25862c64ce8f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_f0addcfb-7be3-4d4c-abd0-6416cde1bec0.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the ecological integrity and biodiversity status of the coastal wetlands in Marin County as of January 2023, evaluating their contribution to regional environmental regulation.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "classify_land_cover",
+    "segment_vegetation",
+    "assess_wetland_conditions",
+    "track_biodiversity_changes",
+    "evaluate_ecosystem_services",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

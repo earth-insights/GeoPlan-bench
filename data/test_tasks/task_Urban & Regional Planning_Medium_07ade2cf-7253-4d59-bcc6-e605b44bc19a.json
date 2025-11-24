@@ -1,0 +1,23 @@
+{
+  "task_id": "07ade2cf-7253-4d59-bcc6-e605b44bc19a",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_b624e5fa-12ca-485c-99e3-47416704891f.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Determine the spatial relationship between the development of new major infrastructure corridors and the resulting urban expansion patterns in the City of Atlantis between 2010 and 2023.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "correlation_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

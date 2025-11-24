@@ -1,0 +1,25 @@
+{
+  "task_id": "aef90046-1eda-465d-8dc2-ac547fec810e",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_65f50b69-1178-4d95-97d2-9e83a942b897.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Assess the potential for expanding gold and copper mining operations in the area west of downtown San Francisco by identifying new deposits from last year and evaluating ground stability risks at the primary existing extraction site.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "band_combination",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_mining_safety",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

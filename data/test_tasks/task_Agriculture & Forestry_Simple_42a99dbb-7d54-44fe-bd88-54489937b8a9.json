@@ -1,0 +1,17 @@
+{
+  "task_id": "42a99dbb-7d54-44fe-bd88-54489937b8a9",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_3bacf3b9-87e2-4d3b-812f-dfa2b21295fb.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the 2022 carbon sequestration capacity of the varied ecosystems within the California region stretching from the Central Valley floor to the high elevations of the southern Sierra Nevada.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "classify_land_cover",
+    "assess_carbon_sequestration"
+  ]
+}

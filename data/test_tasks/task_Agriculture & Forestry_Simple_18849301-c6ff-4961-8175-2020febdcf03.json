@@ -1,0 +1,19 @@
+{
+  "task_id": "18849301-c6ff-4961-8175-2020febdcf03",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_33604cd7-902a-49ed-872b-0e98010ba7bd.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on the 2022 growing season in the Cuyama Valley, was there a statistically significant difference in predicted crop yield between fields using a novel water conservation strategy versus those under traditional irrigation management?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "classify_land_cover",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

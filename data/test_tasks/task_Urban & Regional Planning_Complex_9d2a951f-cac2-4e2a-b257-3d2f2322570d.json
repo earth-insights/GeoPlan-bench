@@ -1,0 +1,24 @@
+{
+  "task_id": "9d2a951f-cac2-4e2a-b257-3d2f2322570d",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_228016cf-78e5-4f2e-82c0-5abc74fc307a.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "To what extent do building footprint area and proximity to the urban core explain the variation in residential population density across downtown Los Angeles during 2023?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "analyze_population_density",
+    "linear_regression",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

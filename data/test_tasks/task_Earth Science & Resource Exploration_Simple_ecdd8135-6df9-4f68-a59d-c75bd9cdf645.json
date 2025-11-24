@@ -1,0 +1,22 @@
+{
+  "task_id": "ecdd8135-6df9-4f68-a59d-c75bd9cdf645",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_54494664-a0e7-46a1-959a-583ca1145516.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Evaluate the potential for sustainable groundwater extraction in the northern Adelaide Plains by determining how the region's primary structural geology controlled water resource distribution throughout 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "evaluate_groundwater_resources",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

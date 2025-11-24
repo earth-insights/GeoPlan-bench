@@ -1,0 +1,23 @@
+{
+  "task_id": "7f6c984d-12ec-4e54-b2ee-ac856c625664",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_fa30baca-756e-4d06-80b4-05faa178086c.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Identify the vessel responsible for the marine pollution incident discovered near 73°E, 31°S last September and evaluate the resulting impact on the local marine ecosystem.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "convert_coordinates",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_ships",
+    "track_ship_movments",
+    "track_vessel_activities",
+    "assess_marine_pollution",
+    "assess_environmental_impact",
+    "generate_analysis_reports"
+  ]
+}

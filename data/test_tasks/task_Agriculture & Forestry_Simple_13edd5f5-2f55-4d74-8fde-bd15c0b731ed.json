@@ -1,0 +1,14 @@
+{
+  "task_id": "13edd5f5-2f55-4d74-8fde-bd15c0b731ed",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_ceb571b3-1383-4a7b-b549-908320d78cb2.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Considering the 2023 growing season in the Central Valley, what is the final projected yield for corn, and which environmental variables most significantly influenced this outcome?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_drought_conditions",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

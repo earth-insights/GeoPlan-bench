@@ -1,0 +1,17 @@
+{
+  "task_id": "7d5b4f7f-f032-487f-93c3-78f091a5de71",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_3b75aaf1-844f-4144-889d-49a2d36f56cc.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Identify the most vulnerable populated centers and agricultural zones within the specified maritime sub-region following the major flood event of October 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_flood_risk_zones"
+  ]
+}

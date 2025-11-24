@@ -1,0 +1,21 @@
+{
+  "task_id": "66a99848-ef20-468a-95fb-f08c8ed388fa",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_9bc27474-e975-473d-97f4-4feb337a2311.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Characterize the extent of recent forest loss within the Amazonian region at [-3.0, -60.0, -2.0, -59.0] and assess the influence of annual precipitation on these deforestation trends.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "linear_regression",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

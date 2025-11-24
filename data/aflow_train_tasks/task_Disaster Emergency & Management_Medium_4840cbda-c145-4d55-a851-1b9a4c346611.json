@@ -1,0 +1,20 @@
+{
+  "task_id": "4840cbda-c145-4d55-a851-1b9a4c346611",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_3b75aaf1-844f-4144-889d-49a2d36f56cc.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the early 2023 wildfire in our agricultural zone, to what extent did the initial burn severity and the subsequent seasonal drought influence the ultimate crop recovery by year's end?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_crop_health",
+    "monitor_drought_conditions",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "assess_recovery_progress"
+  ]
+}

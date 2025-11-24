@@ -1,0 +1,15 @@
+{
+  "task_id": "f1f68125-27ab-472e-a953-d94d389e0697",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_c7460210-f2e6-4bd8-9c6e-065639c86f98.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Map the forested areas within the Transverse Ranges east of San Luis Obispo that showed the most significant signs of vegetation stress throughout 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_vegetation",
+    "monitor_forest_health"
+  ]
+}

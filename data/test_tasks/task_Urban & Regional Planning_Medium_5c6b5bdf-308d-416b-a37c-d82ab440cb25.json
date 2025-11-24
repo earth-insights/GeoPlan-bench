@@ -1,0 +1,17 @@
+{
+  "task_id": "5c6b5bdf-308d-416b-a37c-d82ab440cb25",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_000b4c3c-6556-4440-8d55-f3d7ce67d31d.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Considering our city's recent demographic shifts, determine if the new urban development over the past year has been characterized by efficient, dense construction or by low-density sprawl.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_land_use_efficiency",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

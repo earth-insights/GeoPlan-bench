@@ -1,0 +1,25 @@
+{
+  "task_id": "082ae583-4100-4e58-aa8b-82507371a949",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_fb4cf04c-d044-4fed-81fa-58d4fda3442b.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Assess the operational viability of structures within San Francisco's Richmond District to serve as strategic support sites for emergency services deployment, focusing on accessibility and structural suitability.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "enhance_image_resolution",
+    "segment_urban_areas",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "evaluate_operational_readiness",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

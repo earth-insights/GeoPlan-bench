@@ -1,0 +1,19 @@
+{
+  "task_id": "9b181270-1527-42e3-bb65-218a68099f01",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_5088f974-b2c8-43e8-a250-f44c69795399.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "What is the evolving strategic threat landscape around Los Angeles for the first half of 2023, based on the posture of military facilities identified in January?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "classify_land_cover",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "160b0111-caad-4e44-a2fc-25bc476ce6bb",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_4a1b58b7-baa7-4018-8573-daa3bc1cb6b8.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate optimal evacuation routes for a 10km radius around downtown Los Angeles, accounting for all road network damage caused by the seismic event of early October 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "detect_roads",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

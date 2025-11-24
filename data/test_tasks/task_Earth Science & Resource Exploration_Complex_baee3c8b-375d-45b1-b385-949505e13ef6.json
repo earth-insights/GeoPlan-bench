@@ -1,0 +1,20 @@
+{
+  "task_id": "baee3c8b-375d-45b1-b385-949505e13ef6",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_7b6a71a7-4956-45dc-9fd3-d36e7661821e.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Produce a detailed risk assessment for the eastern Los Angeles area based on the influence of previously unmapped fault lines on the magnitude of recent seismic events.",
+  "ground_truth_tool_flow": [
+    "read_database",
+    "convert_coordinates",
+    "crop_image",
+    "enhance_image_resolution",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "5be8f24d-eafd-4a8b-bd69-96ceaaf9c553",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_1018b46e-fe3d-49b7-911d-3d7b376a22ea.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Quantify the total new land area created from reclamation activities along the South San Francisco Bay shoreline near Foster City by tracking changes between the start of 2022 and the start of 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "track_land_reclamation"
+  ]
+}

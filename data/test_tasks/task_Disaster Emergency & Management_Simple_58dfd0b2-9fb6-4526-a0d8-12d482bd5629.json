@@ -1,0 +1,19 @@
+{
+  "task_id": "58dfd0b2-9fb6-4526-a0d8-12d482bd5629",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_caa137c1-d9b3-46a9-9974-66b3aca9fbd7.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the recent earthquake, what is the safest traversable route for an emergency convoy between the Loma Linda medical campus and the Redlands airport, considering all building and infrastructure damage?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

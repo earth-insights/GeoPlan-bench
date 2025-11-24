@@ -1,0 +1,22 @@
+{
+  "task_id": "3a6421b8-0c3c-4cf4-b9ce-37e8bfc70c3b",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_b045b9c3-0abe-4b7b-b1a4-9b9cdb4e7ff2.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate an optimized evacuation plan for the communities most impacted by the early October 2023 flooding in the Bahrima coastal plain (10-20°N, 30-40°E), delivering the final analysis in a structured data format.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "analyze_population_density",
+    "plan_evacuation_routes",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

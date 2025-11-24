@@ -1,0 +1,17 @@
+{
+  "task_id": "bcec8d49-058d-46d6-aaae-c35d17a4ed6f",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_a54120c7-2aac-4be0-98d2-3f8b528b0f4f.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the groundwater recharge potential within the planned northern development zone of Jitra, Malaysia, by analyzing the area's surface characteristics from 2023.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "evaluate_groundwater_resources"
+  ]
+}

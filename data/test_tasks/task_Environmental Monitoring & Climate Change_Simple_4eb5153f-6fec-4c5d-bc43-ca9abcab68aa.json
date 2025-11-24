@@ -1,0 +1,18 @@
+{
+  "task_id": "4eb5153f-6fec-4c5d-bc43-ca9abcab68aa",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_02f66e32-c40b-4193-86da-0c80f1a9ed2a.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Quantify the total carbon stock contributed by vegetated spaces versus developed areas within the downtown Los Angeles urban core for the 2023 growing season.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "assess_carbon_sequestration",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

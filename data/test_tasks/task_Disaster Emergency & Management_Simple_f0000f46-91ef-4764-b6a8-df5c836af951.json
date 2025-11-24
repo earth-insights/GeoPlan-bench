@@ -1,0 +1,18 @@
+{
+  "task_id": "f0000f46-91ef-4764-b6a8-df5c836af951",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_ebd33fd0-33da-4aea-b338-380375e49ced.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Evaluate the complete impact of the dam failure on the Sobek Delta in July 2023, from mapping the initial inundation zone to quantifying the destruction of urban areas and tracking the subsequent restoration of the affected landscape.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

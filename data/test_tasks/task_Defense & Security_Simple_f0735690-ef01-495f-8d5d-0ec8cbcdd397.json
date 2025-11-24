@@ -1,0 +1,19 @@
+{
+  "task_id": "f0735690-ef01-495f-8d5d-0ec8cbcdd397",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_9f00877b-54a8-42c7-a341-a3f00ee3e209.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the anomalous vehicle activity in downtown Denver on June 15, 2023, and determine its significance as a potential force deployment.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "assess_force_deployment",
+    "analyze_threat_patterns",
+    "summarize_text",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "21375c2a-6828-4fa2-ac2b-caa4a2ee929a",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_a1266ca8-9246-45a1-9d9a-cd02038a3d05.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Analyze the complete impact of the January 2023 flooding on the coastal area centered around 34.5°N, -119.5°W, detailing the maximum flood extent, assessing the resulting damage, and evaluating the recovery progress after six months.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "generate_analysis_reports"
+  ]
+}

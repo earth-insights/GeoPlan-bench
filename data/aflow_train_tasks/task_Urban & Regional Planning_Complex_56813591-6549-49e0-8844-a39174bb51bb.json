@@ -1,0 +1,23 @@
+{
+  "task_id": "56813591-6549-49e0-8844-a39174bb51bb",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_914eb4ae-0c44-490f-b6fc-ebcb9a70f843.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Generate a list of hospitals and schools in New York City that sustained damage following the major storm event of late 2023, prioritizing the assessment of facilities with compromised accessibility or those located near inundated areas.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "evaluate_infrastructure_damage",
+    "generate_analysis_reports",
+    "convert_coordinates",
+    "format_data"
+  ]
+}

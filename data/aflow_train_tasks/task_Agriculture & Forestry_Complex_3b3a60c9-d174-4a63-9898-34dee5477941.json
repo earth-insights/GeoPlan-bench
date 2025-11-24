@@ -1,0 +1,24 @@
+{
+  "task_id": "3b3a60c9-d174-4a63-9898-34dee5477941",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_5c635188-e995-473f-9414-71e4edd4d0d7.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Determine if there was a significant difference in the forecasted crop yields among the distinct agricultural plots near central Tokyo for the summer 2023 growing season.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "linear_regression",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

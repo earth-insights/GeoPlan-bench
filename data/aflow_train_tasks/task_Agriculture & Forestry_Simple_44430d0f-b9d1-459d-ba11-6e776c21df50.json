@@ -1,0 +1,19 @@
+{
+  "task_id": "44430d0f-b9d1-459d-ba11-6e776c21df50",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_de86fc4b-4f38-4c4f-b32a-2bf169948afe.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on an analysis of urban agricultural plots in downtown Los Angeles, what is the predicted corn yield for the 2023 season using observations from June?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "statistical_analysis",
+    "predict_crop_yield",
+    "generate_analysis_reports"
+  ]
+}

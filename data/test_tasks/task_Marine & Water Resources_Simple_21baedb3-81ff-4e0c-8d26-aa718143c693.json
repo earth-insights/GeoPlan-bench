@@ -1,0 +1,20 @@
+{
+  "task_id": "21baedb3-81ff-4e0c-8d26-aa718143c693",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_c9fca789-23a5-4e1b-8f7e-b53b94884a8a.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "How did changing water surface temperatures throughout 2023 affect the severity of algal bloom occurrences within a critical habitat zone of the Chesapeake Bay?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_sea_surface_temperature",
+    "monitor_algae_blooms",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

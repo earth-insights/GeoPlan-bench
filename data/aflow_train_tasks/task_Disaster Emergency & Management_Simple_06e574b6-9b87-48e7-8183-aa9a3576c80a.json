@@ -1,0 +1,20 @@
+{
+  "task_id": "06e574b6-9b87-48e7-8183-aa9a3576c80a",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_dc0bdfe9-1552-4f07-90e9-4741dacee821.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Generate the safest and most efficient evacuation routes for high-risk residential areas in the Binhai Coastal District, considering the full extent of the early October 2023 flood and its impact on surrounding agricultural lands.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

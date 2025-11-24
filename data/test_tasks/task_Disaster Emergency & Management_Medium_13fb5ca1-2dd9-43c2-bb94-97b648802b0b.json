@@ -1,0 +1,23 @@
+{
+  "task_id": "13fb5ca1-2dd9-43c2-bb94-97b648802b0b",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_80a9a66b-f9c5-46f1-b735-181b4c3c4a50.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the seismic event in early January 2023, produce a comprehensive analysis of the initial impact and subsequent recovery of buildings and infrastructure in the Ventura area up to October.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_earthquake_damage",
+    "evaluate_infrastructure_damage",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

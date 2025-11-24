@@ -1,0 +1,15 @@
+{
+  "task_id": "a0f567b3-1af1-4ba0-b710-4f5910aa9104",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_ca8727d2-a9f4-42a8-86ac-dc6e4697d40e.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "How did meteorological fluctuations in San Francisco throughout 2023 influence air pollutant concentrations and subsequently affect the ecological health of its urban zones?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_air_quality_patterns",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

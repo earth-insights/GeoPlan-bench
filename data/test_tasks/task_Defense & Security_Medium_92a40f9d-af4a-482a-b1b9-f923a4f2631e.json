@@ -1,0 +1,24 @@
+{
+  "task_id": "92a40f9d-af4a-482a-b1b9-f923a4f2631e",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_46895652-030a-4453-b731-c1976bb85710.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Evaluate the operational capacity of hospitals and schools in downtown Los Angeles to respond effectively to a significant regional crisis.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "assess_strategic_infrastructure",
+    "evaluate_operational_readiness",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

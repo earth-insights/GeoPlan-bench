@@ -1,0 +1,22 @@
+{
+  "task_id": "d2d928c8-7b1a-4bbb-91bb-47fc8ede6c67",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Complex_efaf8551-54b1-4766-af34-89cfc01cc4d1.json",
+  "complexity": "Complex",
+  "domain": "Marine & Water Resources",
+  "question": "Analyze the monthly frequency and differing movement patterns of fishing versus transport vessels in the coastal waters near San Francisco during the first nine months of 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

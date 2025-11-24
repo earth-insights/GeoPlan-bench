@@ -1,0 +1,17 @@
+{
+  "task_id": "5433d51e-1b58-420c-89d1-27482169b644",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_12ef9b23-12b4-446d-9d19-c3dbd846aae7.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Determine if a predictable spatial relationship exists between the scale of new forest clearings from this past year and their distance to established agricultural lands in the central equatorial rainforest.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

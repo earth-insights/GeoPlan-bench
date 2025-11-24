@@ -1,0 +1,18 @@
+{
+  "task_id": "37d3b70d-bece-4179-b59c-87789450990a",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_c709fdc5-1649-4769-80bc-f689860fa8f4.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the ecological significance of the reported water discoloration event in the northern bay of Cascade Lake during January 2023 by quantifying the statistical variations in key water health indicators.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_algae_blooms",
+    "assess_water_quality",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

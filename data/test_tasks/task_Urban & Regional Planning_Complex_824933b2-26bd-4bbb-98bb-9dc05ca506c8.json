@@ -1,0 +1,28 @@
+{
+  "task_id": "824933b2-26bd-4bbb-98bb-9dc05ca506c8",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Complex_b3c4ecdb-3feb-4611-93b8-13ea5579f600.json",
+  "complexity": "Complex",
+  "domain": "Urban & Regional Planning",
+  "question": "Assess the relationship between New York City's urban expansion patterns from 2015 to 2023 and the corresponding decline in local vegetation and air quality.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "convert_coordinates",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "resize_image",
+    "calculate_time_difference",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_environmental_impact",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports",
+    "summarize_text"
+  ]
+}

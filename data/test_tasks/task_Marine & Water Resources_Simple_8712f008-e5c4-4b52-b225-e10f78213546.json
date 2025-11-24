@@ -1,0 +1,14 @@
+{
+  "task_id": "8712f008-e5c4-4b52-b225-e10f78213546",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_8e8e921d-c33a-4b71-91a4-8a9f959f42ea.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "A fishing vessel went silent in a storm system over the central Pacific on October 1st, 2023; chart the most probable drift path and potential location of the vessel by October 7th.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "segment_water_bodies",
+    "track_ocean_currents"
+  ]
+}

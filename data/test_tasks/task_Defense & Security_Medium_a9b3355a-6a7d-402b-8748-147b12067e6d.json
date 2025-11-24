@@ -1,0 +1,25 @@
+{
+  "task_id": "a9b3355a-6a7d-402b-8748-147b12067e6d",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_eae67a08-8f52-41cf-8ad8-49946b07302e.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Assess our current operational readiness to intercept potential smuggling threats within the maritime zone from 30°N to 35°N latitude off the Pacific coast, by analyzing last month's vessel activity against the past five years of traffic data.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "analyze_threat_patterns",
+    "evaluate_operational_readiness",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

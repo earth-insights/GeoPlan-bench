@@ -1,0 +1,17 @@
+{
+  "task_id": "b2ed5fb2-0c28-4256-a6ce-7c7cb00dc68b",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Simple_6b4ce7b5-653d-4454-8dc1-5a8e26bcdb74.json",
+  "complexity": "Simple",
+  "domain": "Urban & Regional Planning",
+  "question": "To inform a new public health outreach strategy in downtown Los Angeles, generate a high-resolution map of the 2023 residential population distribution derived from the area's building structures.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "detect_buildings",
+    "segment_individual_buildings",
+    "analyze_population_density",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "9bc58ea1-0436-496f-a464-1ec1d686adad",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_dbf8238d-732b-4b73-a31a-e45250baf956.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Based on key infrastructure observed in the first quarter of 2023, assess the logistical readiness for force deployment within the military exclusion zone in Region A.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "detect_roads",
+    "detect_military_facilities",
+    "assess_force_deployment",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "task_id": "de9b15c2-79e1-4f95-8bcf-6a3c466000a6",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_5c4f2ec8-a017-441c-bb32-97bb711fffaf.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Characterize the ecological health of freshwater marshlands in California's Central Valley in May 2023 by evaluating the extent of surface water and the vitality of surrounding vegetation following the heavy winter rains.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "assess_wetland_conditions"
+  ]
+}

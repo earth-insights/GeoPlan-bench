@@ -1,0 +1,22 @@
+{
+  "task_id": "5dc0bd73-ab0c-4f5e-bc70-1485fcbe2c3b",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Simple_dd205997-dabe-461b-897a-0ec145211be8.json",
+  "complexity": "Simple",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Pinpoint promising near-surface locations for gold, silver, and copper exploration within a 50km radius of central Los Angeles, considering the area's underlying geological structures and their relationship to existing land cover.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_terrain_type",
+    "analyze_geological_structures",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "generate_analysis_reports"
+  ]
+}

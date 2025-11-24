@@ -1,0 +1,15 @@
+{
+  "task_id": "b80ce5ae-4eb8-4d7c-8364-04c7321e3382",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_a20c98b0-648b-41ff-a743-6155e3badae3.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "What were the specific geological and climatic triggers for the mid-September 2023 landslide near 55.123, -123.456, and what is the full extent of the resulting damage to local infrastructure and vegetation?",
+  "ground_truth_tool_flow": [
+    "analyze_geological_structures",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

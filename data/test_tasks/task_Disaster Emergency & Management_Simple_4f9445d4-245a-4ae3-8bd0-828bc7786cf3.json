@@ -1,0 +1,18 @@
+{
+  "task_id": "4f9445d4-245a-4ae3-8bd0-828bc7786cf3",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_1c32449c-7c1c-4c64-bcbc-0c7ce443fa8b.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Considering the wildfire that occurred in the Tejon Pass area during the first half of August 2023, what is the optimal evacuation strategy for affected communities that accounts for structural damage to guide residents to the emergency center at 34.8°N, -118.25°W?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "crop_image",
+    "detect_buildings",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

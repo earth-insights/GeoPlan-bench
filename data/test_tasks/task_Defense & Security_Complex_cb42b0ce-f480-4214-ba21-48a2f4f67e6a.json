@@ -1,0 +1,23 @@
+{
+  "task_id": "cb42b0ce-f480-4214-ba21-48a2f4f67e6a",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_0fcfb371-27cc-4428-afdd-b964f50a1cf8.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Based on vessel movements throughout January 2023, generate a threat analysis report on ships exhibiting anomalous activity patterns within the maritime jurisdiction surrounding the Port of Los Angeles and Long Beach.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

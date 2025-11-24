@@ -1,0 +1,17 @@
+{
+  "task_id": "adb5bfcf-068e-45de-bf26-befd9dd4a8fb",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_900e8472-91a3-40ff-9ce3-b79668db036c.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the impact of 2023's precipitation and temperature patterns on groundwater recharge for the coastal basins within California's Los Padres National Forest region.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "evaluate_groundwater_resources",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

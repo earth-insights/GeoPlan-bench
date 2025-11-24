@@ -1,0 +1,24 @@
+{
+  "task_id": "f37e2043-5d61-4c4a-a42f-459d9128e213",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_023fa7a7-9b06-489d-bf62-57b133537d63.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "In the dense urban neighborhood centered at 34.0°N, -118.0°W, what was the quantitative relationship between green cover, population density, and localized surface temperature variations during 2022?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "convert_coordinates",
+    "geometric_correction",
+    "atmospheric_correction",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_individual_buildings",
+    "evaluate_urban_heat_island",
+    "correlation_analysis",
+    "linear_regression",
+    "generate_analysis_reports",
+    "summarize_text"
+  ]
+}

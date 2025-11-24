@@ -1,0 +1,22 @@
+{
+  "task_id": "641082d2-1bc7-4c48-98a0-340510ef97fb",
+  "dag_template_filename": "dag_template_Defense & Security_Medium_1d7c213e-4c16-40b1-b06f-2f4c6a367279.json",
+  "complexity": "Medium",
+  "domain": "Defense & Security",
+  "question": "Following up on intelligence regarding potential smuggling operations, produce a security brief identifying and summarizing any anomalous vessel behavior observed off the coast of Los Angeles on October 1st, 2023, that might pose a threat to maritime border integrity.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "enhance_image_resolution",
+    "detect_ships",
+    "track_ship_movements",
+    "track_vessel_activities",
+    "monitor_border_security",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

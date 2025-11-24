@@ -1,0 +1,18 @@
+{
+  "task_id": "2852da91-1ed9-4358-ba90-5f2d1ef4de4e",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_8f36fd83-432b-4da3-a5af-94490ca78b2a.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the progression of drought severity around California's northern Channel Islands from early 2023 through October by analyzing underlying soil moisture dynamics.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "assess_soil_moisture",
+    "monitor_drought_conditions"
+  ]
+}

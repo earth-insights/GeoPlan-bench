@@ -1,0 +1,25 @@
+{
+  "task_id": "73661ab5-65ef-4227-831a-c508f3128d14",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Complex_fd5fdf19-733b-4163-a906-682d8b82979d.json",
+  "complexity": "Complex",
+  "domain": "Agriculture & Forestry",
+  "question": "Determine the projected end-of-season yield for specific urban farms in the downtown Los Angeles area by evaluating their health and growth patterns during the summer of 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

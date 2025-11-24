@@ -1,0 +1,15 @@
+{
+  "task_id": "e667d108-3f01-4b31-bfc4-bcae51c51d82",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_dc0bdfe9-1552-4f07-90e9-4741dacee821.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Following the mid-September wildfire in Siskiyou County, provide a comprehensive post-disaster analysis for local authorities detailing the extent of infrastructure and ecological damage to guide immediate recovery and refine emergency evacuation plans for the region.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "monitor_drought_conditions",
+    "assess_disaster_damage",
+    "plan_evacuation_routes",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

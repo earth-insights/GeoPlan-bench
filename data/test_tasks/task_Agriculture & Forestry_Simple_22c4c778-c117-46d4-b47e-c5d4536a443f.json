@@ -1,0 +1,20 @@
+{
+  "task_id": "22c4c778-c117-46d4-b47e-c5d4536a443f",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_3bacf3b9-87e2-4d3b-812f-dfa2b21295fb.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Based on conditions in January 2023, what is the forecasted yield and overall stress level for agricultural fields in the region west of Fresno, California?",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "monitor_crop_health",
+    "predict_crop_yield",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}

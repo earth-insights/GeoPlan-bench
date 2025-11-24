@@ -1,0 +1,22 @@
+{
+  "task_id": "6e79b172-55e6-4542-a65d-e89e88030eff",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Medium_e595b763-6c46-4b63-b340-e84e1a7d82fd.json",
+  "complexity": "Medium",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "Assess the impact on local biodiversity and carbon emissions resulting from forest cover changes within a specific parcel of the Sierra Nevada foothills during 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "convert_coordinates",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "statistical_analysis",
+    "assess_environmental_impact",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "task_id": "7136406c-e93b-40ff-a349-a3f01eb3cfd0",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_fc00cd10-a6fc-465f-a09b-e8ab2f852b81.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Based on vessel movements throughout 2023, identify the primary offshore anchorage and loitering hotspots for maritime traffic within a 50 km radius of Los Angeles.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "detect_ships",
+    "track_ship_movements",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "6c3892c0-2791-4441-98de-692803cd4b5e",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_6a5644c8-be16-49a1-86c0-c8abf960455b.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "Evaluate the full impact of the early 2023 atmospheric river events on the Sepulveda Basin, quantifying the extent of water inundation and tracking the area's environmental and infrastructural recovery through the end of the year.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "monitor_flood_extent",
+    "assess_disaster_damage",
+    "assess_recovery_progress",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

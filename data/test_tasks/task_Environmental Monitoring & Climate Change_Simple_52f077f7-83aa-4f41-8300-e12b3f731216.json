@@ -1,0 +1,14 @@
+{
+  "task_id": "52f077f7-83aa-4f41-8300-e12b3f731216",
+  "dag_template_filename": "dag_template_Environmental Monitoring & Climate Change_Simple_f39112bd-16e9-4c02-92f9-db3bbf03e01c.json",
+  "complexity": "Simple",
+  "domain": "Environmental Monitoring & Climate Change",
+  "question": "What was the difference in soil moisture retention between vegetated parks and barren lots in downtown Los Angeles following the precipitation events of September 2023?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "atmospheric_correction",
+    "crop_image",
+    "classify_land_cover",
+    "assess_soil_moisture"
+  ]
+}

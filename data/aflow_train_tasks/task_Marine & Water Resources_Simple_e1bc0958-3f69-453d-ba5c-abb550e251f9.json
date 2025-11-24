@@ -1,0 +1,20 @@
+{
+  "task_id": "e1bc0958-3f69-453d-ba5c-abb550e251f9",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_90820a34-b95e-42f8-b936-c901e68ffeec.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Generate a detailed report quantifying the net shoreline retreat and identifying the most critically eroded sections along California's Big Sur coast by comparing conditions between the start and end of 2022.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "calculate_time_difference",
+    "assess_coastal_erosion",
+    "statistical_analysis",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

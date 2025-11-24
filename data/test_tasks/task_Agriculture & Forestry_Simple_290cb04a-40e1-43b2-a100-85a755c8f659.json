@@ -1,0 +1,16 @@
+{
+  "task_id": "290cb04a-40e1-43b2-a100-85a755c8f659",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_41859c73-3c62-4e52-8314-e26f669f3e47.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the extent of forest vigor decline during 2023 in the agricultural-forest interface east of Abbotsford, comparing it to the average conditions of the preceding three years.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "segment_vegetation",
+    "monitor_forest_health"
+  ]
+}

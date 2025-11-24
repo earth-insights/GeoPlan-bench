@@ -1,0 +1,13 @@
+{
+  "task_id": "7f9c6c7a-df06-4955-b845-487dafc5079d",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Simple_53fe5335-5adc-4197-bc58-e03284487e95.json",
+  "complexity": "Simple",
+  "domain": "Marine & Water Resources",
+  "question": "Assess the concentrations and distribution of heavy metals, microplastics, and nutrients in the San Francisco Bay following the first significant rainfall during the first week of October 2023.",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "assess_marine_pollution",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

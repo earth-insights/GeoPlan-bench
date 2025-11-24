@@ -1,0 +1,19 @@
+{
+  "task_id": "2b5cf753-98f6-4bce-8235-2219f184c759",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_136af8dc-fbe6-4700-b8a0-469c2a5bffa8.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess the exposure of strategic infrastructure, including bridges and tunnels, within central Manhattan to long-term urban sprawl pressures, using the most current high-resolution view of the road network from January 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "crop_image",
+    "detect_roads",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

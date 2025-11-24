@@ -1,0 +1,19 @@
+{
+  "task_id": "ee81e9ff-f538-4189-97da-760e019a70dd",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_c2c2edbb-b7bd-48b4-aa9f-9dcfc2fc3d77.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Assess if the pattern of new, unpermitted construction within the restricted Los Angeles hills development zone during November 2023 indicates an emerging security threat.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "crop_image",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "monitor_border_security",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "82c660a9-385e-46ed-a62e-b8d8ec927d6e",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_177546e0-211a-4d4b-b084-4009784351bb.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "To support our sustainable supply chain initiative, quantify the precise area of forest converted to new agricultural plots within a 50km radius of Pucallpa, Peru, from the start of 2022 to the end of 2023, and report on the associated reduction in carbon storage.",
+  "ground_truth_tool_flow": [
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_vegetation",
+    "segment_agricultural_fields",
+    "classify_land_cover",
+    "monitor_deforestation",
+    "assess_carbon_sequestration",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

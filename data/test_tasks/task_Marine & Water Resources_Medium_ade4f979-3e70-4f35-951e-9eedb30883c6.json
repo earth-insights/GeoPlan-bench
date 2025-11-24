@@ -1,0 +1,20 @@
+{
+  "task_id": "ade4f979-3e70-4f35-951e-9eedb30883c6",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_e836a1ef-bf89-4b7a-bef3-8ce8ccaaf701.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "What is the total new land area, in square kilometers, created within the designated offshore development zone west of Monterey Bay during the 2023 calendar year?",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "calculate_time_difference",
+    "track_land_reclamation"
+  ]
+}

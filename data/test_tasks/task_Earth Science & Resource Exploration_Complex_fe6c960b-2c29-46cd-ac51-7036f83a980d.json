@@ -1,0 +1,27 @@
+{
+  "task_id": "fe6c960b-2c29-46cd-ac51-7036f83a980d",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Complex_6c954ca6-bd7e-4438-8f54-332d9f821569.json",
+  "complexity": "Complex",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Within a 500 km² geologically active region, identify potential copper and zinc deposits based on 2022 surveys and generate a final report assessing the water quality impacts of their theoretical extraction.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "convert_coordinates",
+    "band_combination",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_environmental_impact",
+    "assess_water_quality",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

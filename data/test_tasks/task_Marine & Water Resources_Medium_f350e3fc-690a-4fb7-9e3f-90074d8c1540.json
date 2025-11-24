@@ -1,0 +1,17 @@
+{
+  "task_id": "f350e3fc-690a-4fb7-9e3f-90074d8c1540",
+  "dag_template_filename": "dag_template_Marine & Water Resources_Medium_336a9297-b293-4eb7-810d-b3f80fef52e9.json",
+  "complexity": "Medium",
+  "domain": "Marine & Water Resources",
+  "question": "Calculate the total new land area created by shoreline infilling within the Kyela coastal development zone by the end of 2023, referencing the coastline from 2020 as the baseline.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "segment_water_bodies",
+    "track_land_reclamation"
+  ]
+}

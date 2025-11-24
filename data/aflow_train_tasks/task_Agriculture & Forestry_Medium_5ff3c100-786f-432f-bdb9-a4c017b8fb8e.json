@@ -1,0 +1,22 @@
+{
+  "task_id": "5ff3c100-786f-432f-bdb9-a4c017b8fb8e",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Medium_b63f5aa5-47a8-4571-9c3f-0c8ac121dc21.json",
+  "complexity": "Medium",
+  "domain": "Agriculture & Forestry",
+  "question": "Generate a comprehensive yield forecast report for our 1000-hectare corn farm, analyzing its early-season growth from last June and identifying the key environmental variables that determined the outcome.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "monitor_crop_health",
+    "correlation_analysis",
+    "linear_regression",
+    "predict_crop_yield",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "b8db162e-e96b-4aaf-99c1-37bf67fae99a",
+  "dag_template_filename": "dag_template_Agriculture & Forestry_Simple_a072d716-b19b-4549-acf2-f230ba9af921.json",
+  "complexity": "Simple",
+  "domain": "Agriculture & Forestry",
+  "question": "Assess the vegetative stress and change in canopy density for the forested parks between Long Island City and the East Village from 2022 to early 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "monitor_forest_health"
+  ]
+}

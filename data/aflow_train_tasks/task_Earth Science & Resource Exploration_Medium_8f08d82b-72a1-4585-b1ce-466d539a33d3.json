@@ -1,0 +1,24 @@
+{
+  "task_id": "8f08d82b-72a1-4585-b1ce-466d539a33d3",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_910849e8-d61c-4bdf-86ba-42a55c2c67cc.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Evaluate the primary structural orientations and spatial density of fault lines underlying central Los Angeles from the first half of 2023 to determine their potential influence on regional tectonic strain.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "map_fault_systems",
+    "analyze_geological_structures",
+    "correlation_analysis",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "summarize_text"
+  ]
+}

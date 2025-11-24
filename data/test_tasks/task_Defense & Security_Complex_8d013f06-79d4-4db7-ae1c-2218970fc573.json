@@ -1,0 +1,23 @@
+{
+  "task_id": "8d013f06-79d4-4db7-ae1c-2218970fc573",
+  "dag_template_filename": "dag_template_Defense & Security_Complex_5a2e9813-d2ab-4aa0-9b35-528bd50f3f7c.json",
+  "complexity": "Complex",
+  "domain": "Defense & Security",
+  "question": "Generate an operational readiness report for deploying forces into the 'Eastern Shield' zone, assessing terrain suitability and logistical feasibility based on conditions in January 2023.",
+  "ground_truth_tool_flow": [
+    "get_current_time",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "resize_image",
+    "enhance_image_resolution",
+    "band_combination",
+    "classify_terrain_type",
+    "assess_force_deployment",
+    "evaluate_operational_readiness",
+    "format_data",
+    "generate_analysis_reports"
+  ]
+}

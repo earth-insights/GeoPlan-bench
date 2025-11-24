@@ -1,0 +1,24 @@
+{
+  "task_id": "78eaec37-6ac8-4f81-bbbb-63787fdb46b4",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_b624e5fa-12ca-485c-99e3-47416704891f.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Characterize the patterns and quantify the magnitude of urban expansion that occurred between early 2020 and early 2023 within the specific Los Angeles suburban zone bounded by 34.15°N to 34.25°N latitude and -118.0°W to -117.9°W longitude.",
+  "ground_truth_tool_flow": [
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "extract_image_metadata",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "detect_urban_expansion",
+    "analyze_urban_growth_patterns",
+    "assess_urbanization_level",
+    "statistical_analysis",
+    "generate_analysis_reports",
+    "format_data"
+  ]
+}

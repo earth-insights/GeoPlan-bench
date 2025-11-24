@@ -1,0 +1,19 @@
+{
+  "task_id": "100e0243-5c7f-4069-8e37-6c5b4b7f5224",
+  "dag_template_filename": "dag_template_Defense & Security_Simple_66703207-14dc-4e50-8f81-effe81335d9a.json",
+  "complexity": "Simple",
+  "domain": "Defense & Security",
+  "question": "Evaluate the strategic implications of any new construction that occurred near key military and logistical assets in Southern California during the first half of 2023.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "atmospheric_correction",
+    "geometric_correction",
+    "cloud_mask_removal",
+    "enhance_image_resolution",
+    "detect_buildings",
+    "detect_military_facilities",
+    "assess_strategic_infrastructure",
+    "analyze_threat_patterns",
+    "generate_analysis_reports"
+  ]
+}

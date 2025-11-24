@@ -1,0 +1,25 @@
+{
+  "task_id": "7796ec42-408b-4f35-bd68-b896addb217b",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_e01622ed-b04b-4d9f-9b59-909797923b93.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Pinpoint the top three priority drill targets for potential new gold and copper deposits within the northern extension of our mining claim, based on geological similarities to our currently operating high-grade zones.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "analyze_geological_structures",
+    "map_fault_systems",
+    "correlation_analysis",
+    "identify_mineral_deposits",
+    "monitor_mining_operations",
+    "assess_environmental_impact",
+    "generate_analysis_reports",
+    "provide_technical_guidance"
+  ]
+}

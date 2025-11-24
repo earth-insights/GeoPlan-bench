@@ -1,0 +1,15 @@
+{
+  "task_id": "a3d8af4a-5d3e-4eff-a134-78b2df1b79fa",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Simple_d9b8d823-6e96-46e7-b9d1-a90953804383.json",
+  "complexity": "Simple",
+  "domain": "Disaster Emergency & Management",
+  "question": "What is the optimal emergency response plan for Los Angeles and San Bernardino counties, considering critical infrastructure damage from landslides caused by the early October storm?",
+  "ground_truth_tool_flow": [
+    "get_weather_data",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "evaluate_infrastructure_damage",
+    "plan_evacuation_routes",
+    "generate_analysis_reports"
+  ]
+}

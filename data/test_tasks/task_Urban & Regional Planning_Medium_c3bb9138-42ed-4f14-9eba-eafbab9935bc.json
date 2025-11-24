@@ -1,0 +1,19 @@
+{
+  "task_id": "c3bb9138-42ed-4f14-9eba-eafbab9935bc",
+  "dag_template_filename": "dag_template_Urban & Regional Planning_Medium_e9878b21-4039-458c-b460-2a1a868bf23a.json",
+  "complexity": "Medium",
+  "domain": "Urban & Regional Planning",
+  "question": "Quantify the shift in morning rush hour traffic congestion on the freeways adjacent to Los Angeles's new Sixth Street Viaduct throughout the first three quarters of 2023.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "enhance_image_resolution",
+    "detect_vehicles",
+    "monitor_traffic_congestion"
+  ]
+}

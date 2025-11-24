@@ -1,0 +1,14 @@
+{
+  "task_id": "c588088c-07ac-4126-ac22-20a4a25232cf",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_b354da0b-56fd-44eb-9f4d-8781665a9f41.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "Considering the recent Northern California landslide on September 15, 2023, and the subsequent reconstruction efforts, what is the precise risk of another major slope failure in this geologically unstable region over the next 90 days?",
+  "ground_truth_tool_flow": [
+    "analyze_geological_structures",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

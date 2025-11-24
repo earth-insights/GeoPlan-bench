@@ -1,0 +1,19 @@
+{
+  "task_id": "5aa481a7-0825-4a5e-b47c-597f11f1eb00",
+  "dag_template_filename": "dag_template_Disaster Emergency & Management_Medium_e741101e-cd88-4327-a7e1-c035b8b3fedd.json",
+  "complexity": "Medium",
+  "domain": "Disaster Emergency & Management",
+  "question": "For the hills surrounding Los Angeles, identify the areas that were at greatest risk of landslides from the early 2023 winter storms, then quantify the resulting structural damage and evaluate the recovery of the affected communities one year later.",
+  "ground_truth_tool_flow": [
+    "download_satellite_imagery",
+    "cloud_mask_removal",
+    "atmospheric_correction",
+    "geometric_correction",
+    "crop_image",
+    "classify_terrain_type",
+    "assess_slope_stability",
+    "predict_landslide_risk",
+    "assess_disaster_damage",
+    "assess_recovery_progress"
+  ]
+}

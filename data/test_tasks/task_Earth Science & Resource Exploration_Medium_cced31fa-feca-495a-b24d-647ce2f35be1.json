@@ -1,0 +1,24 @@
+{
+  "task_id": "cced31fa-feca-495a-b24d-647ce2f35be1",
+  "dag_template_filename": "dag_template_Earth Science & Resource Exploration_Medium_d7a9c796-f749-4653-960f-24a1a763f839.json",
+  "complexity": "Medium",
+  "domain": "Earth Science & Resource Exploration",
+  "question": "Based on a recent comprehensive survey of the southern Appalachian region, identify the most viable, previously unexploited sites for high-grade gold, silver, and copper deposits.",
+  "ground_truth_tool_flow": [
+    "web_search",
+    "suggest_processing_workflows",
+    "recommend_satellite_platforms",
+    "download_satellite_imagery",
+    "geometric_correction",
+    "atmospheric_correction",
+    "cloud_mask_removal",
+    "crop_image",
+    "classify_land_cover",
+    "explore_mineral_resources",
+    "identify_mineral_deposits",
+    "correlation_analysis",
+    "evaluate_ore_quality",
+    "statistical_analysis",
+    "generate_analysis_reports"
+  ]
+}
