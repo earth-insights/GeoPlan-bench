@@ -176,7 +176,7 @@ examples/               # Example code and data
 
 docs/                   # Documentation
 
-author_data/            # Author data files
+data/                   # Our data files
 ├── aflow_train_tasks/  # Training set for AFlow
 └── test_tasks/         # Test set
 ```
