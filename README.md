@@ -216,5 +216,10 @@ See LICENSE file for details.
 If you use GeoPlan Benchmark, please cite:
 
 ```bibtex
-
+@article{li2025designing,
+  title={Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism},
+  author={Li, Kaiyu and Wang, Jiayu and Wang, Zhi and Qiao, Hui and Zhang, Weizhan and Meng, Deyu and Cao, Xiangyong},
+  journal={arXiv preprint arXiv:2511.17198},
+  year={2025}
+}
 ```
