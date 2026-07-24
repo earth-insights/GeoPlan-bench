@@ -87,7 +87,7 @@ class CorrectnessEvaluator:
         """evaluate correctness of the agent's tool flow"""
         key_steps = self.generate_key_steps(question, ground_truth_tool_flow)
         key_tools = self.generate_key_tools(question, agent_tool_flow)
-        key_step_recall = len(set(key_steps) & set(ground_truth_tool_flow)) / len(key_steps)
+        key_step_recall = len(set(key_steps) & set(agent_tool_flow)) / len(key_steps)
         key_tool_precision = len(set(key_tools) & set(ground_truth_tool_flow)) / len(key_tools)
         F1_score = 2 * (key_tool_precision * key_step_recall) / (key_tool_precision + key_step_recall)
         return key_steps, key_tools, key_step_recall, key_tool_precision, F1_score
